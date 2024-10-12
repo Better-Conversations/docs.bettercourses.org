@@ -117,7 +117,7 @@ html_theme_options = {
     # "navbar_end": ["navbar-icon-links"],
     # "navbar_persistent": ["search-button"],
     # "content_footer_items": ["last-updated"],
-    "github_url": "https://github.com/Better-Conversations/bcf-website",
+    "github_url": "https://github.com/Better-Conversations/betterconversations.foundation",
     # "use_edit_page_button": True,
     "show_nav_level": 2,
     "header_links_before_dropdown": 4,
