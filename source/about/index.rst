@@ -48,6 +48,7 @@ Our current Faculty includes:
     .. grid-item:: `Kathryn Vere <https://www.linkedin.com/in/kathrynvere/>`_
 
 .. toctree::
+    :hidden:
     our-mission.md
     appreciation.rst
     governance/index.rst
