@@ -1,0 +1,24 @@
+# The top level files listed here will be displayes as menu items on the header.
+# Sidebar section navigation items are generated from the subtrees under these,
+# and can also be included locally as toc entries in the index files.
+
+root: index
+defaults:
+  titlesonly: True
+options:
+  hidden: True
+  maxdepth: 1
+  numbered: True
+  reversed: False
+subtrees:
+  - entries:
+    - file: about/index
+    - file: course/index
+    - file: work-with-us/index
+    - file: documentation/index
+    - file: blog/index.rst
+    # - file: about/our-mission.md
+    # - file: about/appreciation.rst
+    # - file: about/governance/index.rst
+    # - file: about/commercial.rst
+    

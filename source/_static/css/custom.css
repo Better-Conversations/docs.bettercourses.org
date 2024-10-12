@@ -1,0 +1,99 @@
+/* Custom CSS for the Sphinx theme */
+
+/* Remove bold from footnote backrefs and labels */
+
+aside.footnote span.backrefs,
+aside.footnote span.label {
+    font-weight: normal;
+}
+
+/* Decrease heading font sizes (1rem is base) */
+
+html {
+    --pst-font-size-h1: 1.8rem;
+    --pst-font-size-h2: 1.6rem;
+    --pst-font-size-h3: 1.4rem;
+    --pst-font-size-h4: 1.3rem;
+    --pst-font-size-h5: 1.2rem;
+    --pst-font-size-h6: 1.1rem;
+}
+
+/* Decrease figure caption font size and align left */
+
+figure figcaption {
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+/* Horizontal rule is a darker grey */
+
+hr {
+    border-color: #333;
+}
+
+/* Custom settings for class cards. Note that the box-shadow property doesn't
+seem to work here. Set in the markup file */
+
+.class-card-1 {
+    background-color: #a8d381;
+    color : black;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.class-card-2 {
+    background-color: #8fd18e;
+    color: black;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.class-card-3 {
+    background-color: #77ce9d;
+    color: black;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.class-card-4 {
+    background-color: #63c9aa;
+    color: black;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.class-card-5 {
+    background-color: #54c4b6;
+    color: black;    
+    width: 90%;
+    margin: 0 auto;
+}
+
+.class-grid-card-1 {
+    margin: 0.2rem auto;
+/*    box-shadow: none; */
+}
+
+/* Colour buttons for call to action */
+
+a.class-button-1 {
+    background-color: #1c8d7f;
+    color: white;
+    border-radius: 0.4rem;
+}
+
+/* add a divider between posts in the blog post list and align the expander
+text to the right */
+
+
+.ablog-post {
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.ablog-post-expand{
+    padding-top: 0rem;
+    margin-bottom: 2rem;
+    text-align: right;
+}

@@ -1,0 +1,17 @@
+setuptools 
+pyyaml
+sphinx
+docutils
+requests
+rstcheck
+doc8
+sphinx_sitemap 
+sphinx-last-updated-by-git 
+sphinx-autobuild
+sphinx-external-toc
+sphinx-design
+pylint
+myst-parser
+pydata-sphinx-theme
+# sphinxcontrib-bibtex
+ablog

@@ -1,0 +1,21 @@
+{
+    "editor.autoSave": "on",
+    "restructuredtext.updateOnTextChanged"    : "no",
+    "restructuredtext.updateDelay"            : 1000,
+    "restructuredtext.sphinxBuildPath"        : "/usr/local/bin/sphinx-build",
+    "restructuredtext.languageServer.disabled": false,
+    "rewrap.wrappingColumn": 75,
+    "editor.wrappingColumn": 0,
+
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.wordBasedSuggestions": "off",
+    "restructuredtext.preview.name": "sphinx",
+    "files.autoSave": "afterDelay",
+    "esbonio.sphinx.confDir": "${workspaceFolder}",
+    "editor.tabCompletion": "on",
+    "diffEditor.codeLens": true,
+}
