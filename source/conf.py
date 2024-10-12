@@ -35,6 +35,7 @@ extensions = [
      'sphinx.ext.intersphinx',
      'sphinx_external_toc',
      'sphinx_design',
+     'sphinx_sitemap',
      ]
 myst_enable_extensions = ["colon_fence"]
 
