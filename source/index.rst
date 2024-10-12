@@ -2,7 +2,7 @@
 The Better Conversations Foundation
 ===================================
 
-.. image:: _static/images/getty-people-collaborating.jpg
+.. image:: _static/images/getty-people-collaborating@0.3x.png
     :alt: people collaborating
     :align: center
 
