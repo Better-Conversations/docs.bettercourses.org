@@ -44,7 +44,7 @@ making it available under a `Creative Commons license (Attribution-ShareAlike
 this material and build their own work on top of it.
 
 The Foundation undertakes a number of activities to support people in
-delivering the course that are outlined in the `Work with Us <work-with-us>`_ section.
+delivering the course that are outlined in the `Work with Us </work-with-us/index.html>`_ section.
 
 Note that accessing the course content requires you to log in with your email
 address.
