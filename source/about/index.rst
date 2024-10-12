@@ -56,6 +56,7 @@ Our current Faculty includes:
     governance/index.rst
     commercial.rst
     contact.rst
+    behind-the-scenes/index.rst
 
 .. todo:: 
     - TODO Simon to review his bio
