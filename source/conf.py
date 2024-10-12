@@ -120,7 +120,6 @@ html_theme_options = {
     "github_url": "https://github.com/Better-Conversations/betterconversations.foundation",
     # "use_edit_page_button": True,
     "show_nav_level": 2,
-    "header_links_before_dropdown": 4,
     "show_prev_next": True,
     # "logo": {
     #    "alt_text": "Better Conversations Foundation",
