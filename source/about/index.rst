@@ -48,13 +48,14 @@ Our current Faculty includes:
     .. grid-item:: `Kathryn Vere <https://www.linkedin.com/in/kathrynvere/>`_
 
 .. toctree::
-    
+
     :hidden:
 
     our-mission.md
     appreciation.rst
     governance/index.rst
     commercial.rst
+    contact.rst
 
 .. todo:: 
     - TODO Simon to review his bio
