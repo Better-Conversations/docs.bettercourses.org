@@ -17,9 +17,9 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
-project = 'The BCF'
-copyright = '2020-2024, Amphora Solutions Ltd'
-author = 'Amphora Solutions'
+project = 'The Better Conversations Foundation'
+copyright = '2020-2024, The Better Conversations Foundation'
+author = 'The Better Conversations Foundation'
 
 
 # -- General configuration ---------------------------------------------------

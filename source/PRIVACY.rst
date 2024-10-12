@@ -10,7 +10,7 @@ This privacy notice explains how we collect and process your personal data on th
 
 We don’t share or use your data except as described in this Privacy Notice.
 
-The Data Controller for GDPR purposes is `Amphora Solutions Ltd <https://amphora.solutions>`_.
+The Data Controller for GDPR purposes is The Better Conversations Foundation Ltd.
 
 
 Summary
@@ -74,7 +74,7 @@ Your Legal Rights
 .. todo::
     contact form needs updating
 
-You can contact us `here <https://amphora.solutions/contact/>`_ to request what data we have about you, to ask us to erase applicable data, correct mistakes etc. When you make a Data Subject Access Request we will ask you for additional information to confirm your identity.
+You can contact us `here </contact/>`_ to request what data we have about you, to ask us to erase applicable data, correct mistakes etc. When you make a Data Subject Access Request we will ask you for additional information to confirm your identity.
 
 
 Third Party Links
