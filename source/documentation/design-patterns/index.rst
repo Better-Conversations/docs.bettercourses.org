@@ -18,10 +18,6 @@ We continue to improve the course; if you have any suggestions for changes or
 additional patterns, please let us know.
 
 
-.. toctree::
-   :hidden:
-
-   flight-plan-pattern.rst
 
 .. todo:: Add the following patterns to the toctree above.
    Exercises.rst

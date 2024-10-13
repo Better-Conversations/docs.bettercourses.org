@@ -27,11 +27,3 @@ These stable links will need authentication, but will always point to the most r
    - email-templates
    - online meeting guidelines
 
-.. toctree::
-   :hidden:
-
-   handbook.rst
-   course_overview.rst
-   flight_plans.rst
-   email_templates.rst
-   
