@@ -1,0 +1,15 @@
+/bc/*  /bc/:splat.html  200
+
+# Other existing redirects
+/l/license https://betterconversations.foundation/COPYRIGHT.html 302
+/l/attribution https://betterconversations.foundation/work-with-us/crediting.html 302
+/l/masters https://betterconversations.foundation/documentation/course-materials/flight_plans.html 302
+/l/flightplans https://betterconversations.foundation/documentation/course-materials/flight_plans.html 302
+/l/support https://betterconversations.foundation/documentation/course-materials/support.html 302
+/l/zoombor https://betterconversations.foundation/documentation/design-patterns/Breakout-Rooms.html 302
+/documentation/200-the_course.index.html https://betterconversations.foundation/course/index.html 302
+/l/handbook https://betterconversations.foundation/downloads/BC%20Course%20Handbook.pdf 302
+/documentation/800-resources/email-templates.html https://betterconversations.foundation/documentation/course-materials/email_templates.html 302
+/l/overview https://betterconversations.foundation/documentation/downloads/v2.0/BCF%20BCO%20Course%20Overview%20v2.0.pdf 302
+/2023/05/02/modelling-sales.html https://betterconversations.foundation/blog/2023-05-02-modelling-sales.html 302        
+/thanks/index.html https://betterconversations.foundation/about/appreciation.html 302
