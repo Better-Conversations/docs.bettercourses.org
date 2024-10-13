@@ -3,7 +3,7 @@ blogpost: true
 date: 2023-05-03
 author: Simon Coles
 # location: World
-category: Manual
+# category: Manual
 # language: English
 tags: experiment, delivery, faculty
 ---

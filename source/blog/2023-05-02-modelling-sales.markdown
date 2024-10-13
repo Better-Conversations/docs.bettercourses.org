@@ -3,7 +3,7 @@ blogpost: true
 date: 2023-05-02
 author: Simon Coles
 # location: World
-category: Manual
+# category: Manual
 # language: English
 tags: sales, modelling, clean-language
 ---

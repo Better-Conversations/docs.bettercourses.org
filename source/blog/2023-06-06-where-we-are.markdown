@@ -3,7 +3,7 @@ blogpost: true
 date: 2023-06-06
 author: Chandima Dutton
 # location: World
-category: Manual
+# category: Manual
 # language: English
 tags: history, foundation
 ---

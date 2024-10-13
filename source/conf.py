@@ -54,7 +54,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.git',
                     'serve.sh', 'pyproject.toml', '_ignore', 'requirements.txt']
 
 # Make the sitemap work see https://pypi.org/project/sphinx-sitemap/
-# html_extra_path = ['robots.txt']
+html_extra_path = ['robots.txt']
 
 # Note everything in this folder will be copied to the root of the build
 # Which is why there's another folder downloads in the extra-files folder
@@ -157,14 +157,6 @@ linkcheck_ignore = [r'http://localhost:\d+/']
 
 html_last_updated_fmt = ""
 
-# rst_prolog = """
-
-# .. warning::
-   
-#    You are very welcome here but we are still writing this site and it's all very much draft. 
-
-# """
-
 # Define the current version document links to be added at the start of every rst file
 # Use this to quickly update the current versions
 # Changelogs will need to be constructed in the document tree as well
@@ -177,33 +169,13 @@ rst_prolog = """
 
 """
 
-OLD_rst_epilog = """
-.. raw:: html
+# rst_epilog = """
+# .. raw:: html
+#    <div>__GDPR__</div>
 
-   <details>
-    <summary></summary>
-  
-     <!--Comments-html-->
-     <div>__INVITE_LINK__</div>
-     <div>__PAGE_VIEWS__</div>
-    
-   </details>
+#    <p></p>
 
-   <p></p>
-   
-   <div>__GDPR__</div>
-
-   <p></p>
-
-"""
-
-rst_epilog = """
-.. raw:: html
-   <div>__GDPR__</div>
-
-   <p></p>
-
-"""
+# """
 
 
 # html_js_files = [
