@@ -47,17 +47,6 @@ Our current Faculty includes:
     .. grid-item:: `Christine Stief <https://www.linkedin.com/in/christine-stief-hausch-669965ab/>`_
     .. grid-item:: `Kathryn Vere <https://www.linkedin.com/in/kathrynvere/>`_
 
-.. toctree::
-
-    :hidden:
-
-    our-mission.md
-    appreciation.rst
-    governance/index.rst
-    commercial.rst
-    contact.rst
-    behind-the-scenes/index.rst
-
 .. todo:: 
     - TODO Simon to review his bio
     - TODO Who Am I? Stories. The “About Us” page could be expanded to provide more detail about the people behind the foundation. This could include profiles of the founders, staff, or volunteers, along with personal stories and anecdotes that showcase their passion and expertise in creating better conversations. Add the following pages over time:

@@ -48,18 +48,6 @@ delivering the course that are outlined in the `Work with Us </work-with-us/inde
 
 Note that accessing the course content requires you to log in with your email
 address.
-
-.. toctree::
-    :hidden:
-
-    05-High-Level-Overview.rst
-    10-Module1-State.rst
-    20-Module2-Assumptions.rst
-    30-Module3-Context.rst
-    40-Module4-Listening.rst
-    50-Module5-Feedback.rst
-    60-Handbook-and-emails.rst
-    70-Versioning.rst
     
 .. todo:: 
     Link to faq/licenses

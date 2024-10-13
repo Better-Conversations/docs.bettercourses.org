@@ -21,11 +21,4 @@ available under the most permissive terms possible.
 .. [#f1] "Creative Commons" is appropriate for works that are copyrighted but where we want to allow people 
    to use our work under certain conditions. "Open Source" is appropriate for code.
 
-.. toctree::
-    :hidden:
-
-    structure.rst
-    members.rst
-    board.rst
-    articles/index.rst
     
