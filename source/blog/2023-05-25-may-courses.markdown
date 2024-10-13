@@ -3,7 +3,7 @@ blogpost: true
 date: 2023-05-23
 author: Chandima Dutton
 # location: World
-category: Manual
+# category: Manual
 # language: English
 ---
 
