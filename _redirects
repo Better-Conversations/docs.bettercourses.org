@@ -2,23 +2,23 @@
 # website.
 # Documentation is https://developers.cloudflare.com/pages/configuration/redirects/
 
-l/license https://betterconversations.foundation/COPYRIGHT.html
-l/attribution https://betterconversations.foundation/work-with-us/crediting.html
-l/masters https://betterconversations.foundation/documentation/course-materials/flight_plans.html
-l/flightplans https://betterconversations.foundation/documentation/course-materials/flight_plans.html
-l/support https://betterconversations.foundation/documentation/course-materials/support.html
-l/zoombor https://betterconversations.foundation/documentation/design-patterns/Breakout-Rooms.html
-documentation/200-the_course.index.html https://betterconversations.foundation/course/index.html
-l/handbook https://betterconversations.foundation/downloads/BC%20Course%20Handbook.pdf
-documentation/800-resources/email-templates.html https://betterconversations.foundation/documentation/course-materials/email_templates.html
-l/overview https://betterconversations.foundation/documentation/downloads/v2.0/BCF%20BCO%20Course%20Overview%20v2.0.pdf
-2023/05/02/modelling-sales.html https://betterconversations.foundation/blog/2023-05-02-modelling-sales.html        
-thanks/index.html https://betterconversations.foundation/about/appreciation.html
+/l/license https://betterconversations.foundation/COPYRIGHT.html
+/l/attribution https://betterconversations.foundation/work-with-us/crediting.html
+/l/masters https://betterconversations.foundation/documentation/course-materials/flight_plans.html
+/l/flightplans https://betterconversations.foundation/documentation/course-materials/flight_plans.html
+/l/support https://betterconversations.foundation/documentation/course-materials/support.html
+/l/zoombor https://betterconversations.foundation/documentation/design-patterns/Breakout-Rooms.html
+/documentation/200-the_course.index.html https://betterconversations.foundation/course/index.html
+/l/handbook https://betterconversations.foundation/downloads/BC%20Course%20Handbook.pdf
+/documentation/800-resources/email-templates.html https://betterconversations.foundation/documentation/course-materials/email_templates.html
+/l/overview https://betterconversations.foundation/documentation/downloads/v2.0/BCF%20BCO%20Course%20Overview%20v2.0.pdf
+/2023/05/02/modelling-sales.html https://betterconversations.foundation/blog/2023-05-02-modelling-sales.html        
+/thanks/index.html https://betterconversations.foundation/about/appreciation.html
 
-bc/alexc https://bettercourses.org/r/bc-alexc
-bc/joshuac https://bettercourses.org/r/bc-joshuac
-bc/shivanip https://bettercourses.org/r/bc-shivanip
-bc/saram https://bettercourses.org/r/bc-saram
-bc/simonc https://bettercourses.org/r/bc-simonc
-bc/chandimad https://bettercourses.org/r/bc-chandimad
-bc/danp https://bettercourses.org/r/bc-danp
+/bc/alexc https://bettercourses.org/r/bc-alexc
+/bc/joshuac https://bettercourses.org/r/bc-joshuac
+/bc/shivanip https://bettercourses.org/r/bc-shivanip
+/bc/saram https://bettercourses.org/r/bc-saram
+/bc/simonc https://bettercourses.org/r/bc-simonc
+/bc/chandimad https://bettercourses.org/r/bc-chandimad
+/bc/danp https://bettercourses.org/r/bc-danp
