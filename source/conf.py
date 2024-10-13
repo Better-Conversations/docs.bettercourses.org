@@ -36,6 +36,7 @@ extensions = [
      'sphinx_external_toc',
      'sphinx_design',
      'sphinx_sitemap',
+     'sphinx_reredirects',
      ]
 myst_enable_extensions = ["colon_fence"]
 
@@ -181,3 +182,13 @@ rst_prolog = """
 # html_js_files = [
 #     '_static/load_fathom.js',
 # ]
+
+
+# -- Redirects ----------------------------------------------------------------
+
+redirects = {
+    "https://betterconversations.foundation/documentation/200-the_course.index.html": "https://betterconversations.foundation/course/index.html",
+    "https://betterconversations.foundation/documentation/800-resources/email-templates.html": "https://betterconversations.foundation/documentation/course-materials/email_templates.html",
+    "https://betterconversations.foundation/2023/05/02/modelling-sales.html": "https://betterconversations.foundation/blog/2023-05-02-modelling-sales.html",
+    "https://betterconversations.foundation/thanks/index.html": "https://betterconversations.foundation/about/appreciation.html",
+}
