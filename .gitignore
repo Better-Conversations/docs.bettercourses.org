@@ -2,4 +2,10 @@
 .DS_Store
 _build
 _site/
-build
+build/
+
+# Ignore node stuff from Wrangler installation
+node_modules/
+.wrangler/
+package-lock.json
+package.json

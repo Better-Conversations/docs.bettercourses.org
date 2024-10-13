@@ -1,6 +1,7 @@
-/bc/*  /bc/:splat.html  200
+# These are redirects which map stable published URLs to the actual URLs on the
+# website.
+# Documentation is https://developers.cloudflare.com/pages/configuration/redirects/
 
-# Other existing redirects
 /l/license https://betterconversations.foundation/COPYRIGHT.html 302
 /l/attribution https://betterconversations.foundation/work-with-us/crediting.html 302
 /l/masters https://betterconversations.foundation/documentation/course-materials/flight_plans.html 302
