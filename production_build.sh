@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # So that conf.py is set correctly to show TODO items
-export BUILD_TYPE="Development"
+export BUILD_TYPE="Production"
 
 make html 
 
