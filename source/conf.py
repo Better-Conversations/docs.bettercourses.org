@@ -58,7 +58,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.git',
 # Ensure that PDFs are copied to the site by specifying the directories containing PDFs in the html_extra_path.
 # This will copy the contents of the 'downloads' directory to the root of the build.
 
-html_extra_path = ['source/downloads','source/documentation/downloads', 'source/documentation/downloads/handbook', 'source/robots.txt']
+html_extra_path = ['source/robots.txt']
 
 
 # Note everything in this folder will be copied to the root of the build
