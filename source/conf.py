@@ -127,6 +127,7 @@ html_theme_options = {
     "show_nav_level": 2,
     "header_links_before_dropdown": 5,
     "show_prev_next": True,
+    "secondary_sidebar_items": [],
     # "logo": {
     #    "alt_text": "Better Conversations Foundation",
     #    "image_light": "_static/images/BCF-logo-light-non-border.png",
