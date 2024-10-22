@@ -14,7 +14,7 @@ RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requ
    && rm -rf /tmp/pip-tmp
 
 # For developing Cloudflare Pages Functions
-RUN npm install wrangler --save-dev
+# RUN npm install wrangler --save-dev
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
