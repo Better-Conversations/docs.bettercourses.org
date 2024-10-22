@@ -8,11 +8,11 @@ author: Chandima Dutton
 tags: clean-language, complexity
 ---
 
-# What links Bulls and Better Conversations?[^Picasso]
+# What links Bulls and Better Conversations?
+
+We’ve been working on Better Conversations for a while now. We've iterated and improved the course and learned a lot along the way. We’ve had to make some tough decisions about what to include and what to leave out, which we are often asked about. This article is an attempt to explain our thinking by framing it in the context of Picasso’s Bull Series[^Picasso].
 
 [^Picasso]: Revised from an original post on the Better Conversations [community](https://community.betterconversations.foundation/t/what-links-bulls-and-better-conversations/516) on 6 February 2024.
-
-We’ve been working on Better Conversations for a while now. We've iterated and improved the course and learned a lot along the way. We’ve had to make some tough decisions about what to include and what to leave out, which we are often asked about. This article is an attempt to explain our thinking by framing it in the context of Picasso’s Bull Series.
 
 In this work, Picasso was experimenting with new media and taking an unconventional approach. He created a series of prints that show progression towards the essence of a bull. Over a period of time he found a representation that was enough to evoke the idea of a bull with just 12 lines[^artsy].
 
