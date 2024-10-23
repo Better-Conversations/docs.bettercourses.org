@@ -57,7 +57,7 @@ The short answer is that we tried these concepts and models, and they were less 
 
 After years of research, testing, and implementing feedback, we now have a framework that allows people to use Clean Language informally, without needing formal contracts as in a coaching or therapeutic relationship. 
 
-For example, we’ve considered carefully how we introduce Clean Language to people, and decided not to cover the question that elicits metaphor (“…that’s like what?”). This question requires advanced trainings and framing in a professional coaching and therapeutic context. We’ve also moved away from Systemic Modelling as some of the underlying models are problematic and lack robust research.
+For example, we’ve considered carefully how we introduce Clean Language to people, and decided not to cover the question that elicits metaphor (“…that’s like what?”). This question requires advanced trainings and framing in a professional coaching and therapeutic context. We’ve also moved away from Systemic Modelling as some of the underlying models are problematic in a work context and lack robust research.
 
 ## What’s the impact of these choices?
 
