@@ -1,5 +1,5 @@
 ===============
-News & Articles
+News and Articles
 ===============
 
 .. postlist:: 10
