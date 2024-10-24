@@ -38,7 +38,10 @@ extensions = [
      'sphinx_sitemap',
      'sphinx_reredirects',
      ]
-myst_enable_extensions = ["colon_fence"]
+myst_enable_extensions = [
+     "colon_fence",
+     "html_image"
+    ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -154,6 +157,7 @@ html_copy_source = False
 blog_title = "News and Articles from the BCF"
 blog_baseurl = "https://betterconversations.foundation/blog"
 post_date_format_short = "%b %d, %Y"
+post_auto_image = 0 # Don't automatically add images, set to 1 to return the first image in the post
 
 # -- Link Checking -----------------------------------------------------------
 
