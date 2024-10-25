@@ -16,6 +16,18 @@ The articles are structured into 5 parts:
 
 1. `Interpretation and defining the liabilities of members <part1.html>`_
 2. `How the Directors - their role, powers and responsibilities, as well as how they are appointed and meetings are run <part2.html>`_
-3. `Members - how meetings are run and how members can participate (note for our purposes, there's one "Member", our holding company Pithos) <part3.html>`_
+3. `Members - how meetings are run and how members can participate <part3.html>`_  (note for our purposes, there's one "Member", our holding company Pithos)
 4. `Various administrative arrangements <part4.html>`_
 5. `The B-Corp requirements for what Directors must consider when making decisions <part5.html>`_
+
+.. only:: latexpdf
+
+    .. toctree::
+        :maxdepth: 2
+        :captions:
+
+        part1
+        part2
+        part3
+        part4
+        part5
