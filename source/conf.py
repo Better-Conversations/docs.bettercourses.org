@@ -197,3 +197,31 @@ redirects = {
     "https://betterconversations.foundation/2023/05/02/modelling-sales.html": "https://betterconversations.foundation/blog/2023-05-02-modelling-sales.html",
     "https://betterconversations.foundation/thanks/index.html": "https://betterconversations.foundation/about/appreciation.html",
 }
+
+# -- LaTeX ----------------------------------------------------------------
+# For exporting to PDF
+
+latex_elements = {
+    # The paper size ('letterpaper' or 'a4paper').
+    'papersize': 'a4paper',
+
+    # The font size ('10pt', '11pt' or '12pt').
+    'pointsize': '10pt',
+
+    # Additional stuff for the LaTeX preamble.
+    'preamble': r'''
+\setcounter{secnumdepth}{0}
+''',
+
+    # Figure alignment
+    'figure_align': 'htbp',
+}
+
+
+latex_documents = [
+    ('about/governance/articles/index',  # Source start file (without .rst extension)
+     'articles.tex',  # Output .tex file name
+     'Articles of Association',  # Document title
+     'The Better Conversations Foundation',    # Author name
+     'report'),        # Document type (manual, howto, etc.)
+]
