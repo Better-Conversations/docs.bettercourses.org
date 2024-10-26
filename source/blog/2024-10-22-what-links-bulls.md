@@ -22,7 +22,7 @@ In this work, Picasso was experimenting with new media and taking an unconventio
 
 
 <p align="center">
-    <img src="../../_static/images/picasso-bull-series.png" alt="Picasso's Bull Series" width="75%">
+    <img src="/_static/images/picasso-bull-series.png" alt="Picasso's Bull Series" width="75%">
 </p>
 
 
