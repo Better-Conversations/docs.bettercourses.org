@@ -47,6 +47,13 @@ entries:
   - file: course/50-Module5-Feedback
   - file: course/60-Handbook-and-emails
   - file: course/70-Versioning
+  # TODO the handbook needs completing as it isn't all here
+  # - file: course/handbook/index
+  #   entries:
+  #   - file: course/handbook/introduction
+  #   - file: course/handbook/state
+  #   - file: course/handbook/assumption
+
 - file: documentation/index
   entries:
   - file: documentation/assumptions
