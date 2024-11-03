@@ -18,7 +18,7 @@ Currently we issue two badges:
 The Attendee badge is issued to participants who have completed the course with the Foundation or an approved partner.
 
 The Faculty badge is issued to facilitators who have completed the course with the Foundation and have delivered
-the course on behalf of the Foundation in the past 12 months. 
+the course on behalf of the Foundation in the past 6 months. 
 
 ## Who can issue badges
 
@@ -30,9 +30,23 @@ Attendee badges can be issued by:
 
 Note that the Foundation reserves the right to withdraw approval for any of the above at any time.
 
+Whilst we don't mind what you call your course, you must give "Better Conversations" as defined 
+[here](/work-with-us/course-definition) which 
+includes following the flight plans, and delivering at least modules 1-5.
+
+
 ## Badge Issuance
 
-We have automated the issuance of badges to attendees and facilitators. If you are an approved issuer, you can issue badges via the Badge Issuance System in the coordinator.
+We have automated the issuance of badges to attendees and facilitators. If you are an approved issuer, you can issue badges via the Badge Issuance System in the coordinator. You will get a URL which you can share with participants:
+
+- They will be asked to confirm that they have completed the course
+- They will be asked to complete a brief survey
+- They will be asked to provide their name and email address (preferably the same as their LinkedIn profile)
+- And finally they agree to the terms of use (which is basically they give us their permission to issue the badge)
+
+
+The proposer will then get a confirmation email, once they've confirmed they've attended the course, we'll issue the badge. They will then get an email from Open Badge Factory with instrucctions on how to claim their badge.
+
 
 ## PDF Certificates
 
