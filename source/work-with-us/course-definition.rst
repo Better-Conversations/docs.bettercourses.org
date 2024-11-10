@@ -57,6 +57,14 @@ interpreted as described in RFC 2119 which we've referenced below.
   aiming for the same outcomes as the original course. We know that effective
   training means you need to use your own voice.
 
+- You MUST NOT record the sessions. 
+
+  - Better Conversations is an experiential course and we want to encourage people
+    to experience it for themselves, whilst also protecting participants' privacy.
+
+  - If people miss a session, they are welcome to attend that module with the
+    Foundation if they are unable to catch up with you, but you MUST NOT record
+    sessions under any circumstances.
 
 ---------------
 Further reading
