@@ -18,7 +18,7 @@ Currently we issue two badges:
 The Attendee badge is issued to participants who have completed the course with the Foundation or an approved partner.
 
 The Faculty badge is issued to facilitators who have completed the course with the Foundation and have delivered
-the course on behalf of the Foundation in the past 6 months. 
+the course to an acceptable standard on behalf of the Foundation in the past 6 months. 
 
 ## Who can issue badges
 
