@@ -5,7 +5,8 @@ author: Chandima Dutton
 # location: World
 # category: Manual
 # language: English
-tags: clean-language, complexity
+tags: clean-language, complexity, better-conversations
+# image: 1
 ---
 
 # What links Bulls and Better Conversations?
@@ -20,11 +21,7 @@ In this work, Picasso was experimenting with new media and taking an unconventio
 
 [^artsy]: See [Picasso's Drawings of Bulls](https://www.artsy.net/article/artsy-editorial-picassos-drawings-bulls-inspired-apples-famously-simple-designs) on Artsy.
 
-
-<p align="center">
-    <img src="/_static/images/picasso-bull-series.png" alt="Picasso's Bull Series" width="75%">
-</p>
-
+<img src="../../_static/images/picasso-bull-series.png" alt="Picasso's Bull Series" width="75%" align=center >
 
 It’s a wonderful insight into the creative process. First, the representation gets more complicated as more ideas/features are added. Then it is stripped down, deliberately focused on what matters in this context.
 

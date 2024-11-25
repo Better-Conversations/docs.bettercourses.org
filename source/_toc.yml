@@ -66,12 +66,12 @@ entries:
   #   - file: documentation/booking/simon-friends
   #   - file: documentation/booking/zoom-check
   - file: documentation/course-design/index
-    entries:
-    - file: documentation/course-design/information-learning
-    - file: documentation/course-design/magic-conversations
-    - file: documentation/course-design/simplicity
-    - file: documentation/course-design/systematic-approach
-    - file: documentation/course-design/systemic-outlook
+    # entries:
+    # - file: documentation/course-design/information-learning
+    # - file: documentation/course-design/magic-conversations
+    # - file: documentation/course-design/simplicity
+    # - file: documentation/course-design/systematic-approach
+    # - file: documentation/course-design/systemic-outlook
   # - file: documentation/course-improvement/index
   - file: documentation/course-materials/index
     entries:
