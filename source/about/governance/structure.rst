@@ -15,5 +15,3 @@ here <https://www.gov.uk/government/publications/incorporation-and-names/annex-a
 
   In the case of a business name, the articles or relevant governance document should include similar clauses and you should provide a copy when you submit your application.
 
-It is governed by its Articles of Association, which are the rules by which the company is run. You can read them here - they're 
-just the model articles from Companies House, with a few tweaks to make them more relevant to us.

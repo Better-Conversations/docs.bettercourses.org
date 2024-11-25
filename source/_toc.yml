@@ -8,7 +8,7 @@ defaults:
 options:
   hidden: True
   maxdepth: 1
-  numbered: True
+  numbered: 3
   reversed: False
 entries:
 # - file: COPYRIGHT
@@ -34,6 +34,8 @@ entries:
       - file: about/governance/articles/part2
       - file: about/governance/articles/part3
       - file: about/governance/articles/part4
+      - file: about/governance/articles/part5
+      
 # - file: booking/get-to-know-you
 - file: course/index
   entries:
@@ -45,10 +47,18 @@ entries:
   - file: course/50-Module5-Feedback
   - file: course/60-Handbook-and-emails
   - file: course/70-Versioning
+  # TODO the handbook needs completing as it isn't all here
+  # - file: course/handbook/index
+  #   entries:
+  #   - file: course/handbook/introduction
+  #   - file: course/handbook/state
+  #   - file: course/handbook/assumption
+
 - file: documentation/index
   entries:
   - file: documentation/assumptions
   - file: documentation/quick-reference
+  - file: documentation/badges
   - file: documentation/stable-links
   # - file: documentation/booking/index
   #   entries:
@@ -101,6 +111,6 @@ entries:
   # - file: work-with-us/how-to-work-with-us
   # - file: work-with-us/membership
   # - file: work-with-us/tos
-  - file: work-with-us/using-our-materials
+  - file: work-with-us/course-definition
   # - file: work-with-us/why-work-with-us
 - file: blog/index
