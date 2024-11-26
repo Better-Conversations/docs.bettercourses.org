@@ -37,6 +37,8 @@ extensions = [
      'sphinx_design',
      'sphinx_sitemap',
      'sphinx_reredirects',
+     "sphinx_design",
+     "sphinx_design_elements",
      ]
 myst_enable_extensions = ["colon_fence"]
 
@@ -162,6 +164,7 @@ linkcheck_ignore = [r'http://localhost:\d+/']
 
 
 html_last_updated_fmt = ""
+templates_path = ['_templates']
 
 # Define the current version document links to be added at the start of every rst file
 # Use this to quickly update the current versions

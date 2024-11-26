@@ -97,3 +97,32 @@ text to the right */
     margin-bottom: 2rem;
     text-align: right;
 }
+/* Grid container for the post list */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-meta {
+    font-size: 0.9em;
+    color: #888888;
+    margin-bottom: 15px;
+}
+
+.card-excerpt {
+    font-size: 1em;
+    color: #555555;
+}
