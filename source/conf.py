@@ -152,10 +152,12 @@ html_copy_source = False
 
 # -- Ablog -----------------------------------------------------------
 # See here https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html
+skip_injecting_base_ablog_templates = False
 
 blog_title = "News and Articles from the BCF"
 blog_baseurl = "https://betterconversations.foundation/blog"
 post_date_format_short = "%b %d, %Y"
+templates_path = ['_templates']
 
 # -- Link Checking -----------------------------------------------------------
 
@@ -164,7 +166,7 @@ linkcheck_ignore = [r'http://localhost:\d+/']
 
 
 html_last_updated_fmt = ""
-templates_path = ['_templates']
+
 
 # Define the current version document links to be added at the start of every rst file
 # Use this to quickly update the current versions
