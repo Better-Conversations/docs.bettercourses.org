@@ -154,7 +154,7 @@ html_copy_source = False
 # See here https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html
 skip_injecting_base_ablog_templates = False
 
-blog_title = "News and Articles from the BCF"
+blog_title = "News from the BCF"
 blog_baseurl = "https://betterconversations.foundation/blog"
 post_date_format_short = "%b %d, %Y"
 templates_path = ['_templates']
