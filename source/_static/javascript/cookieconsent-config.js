@@ -1,6 +1,4 @@
-// var script = document.createElement('script');
-// script.src = 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js';
-// document.head.appendChild(script);
+// import 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js';
 
 // Enable dark mode
 document.documentElement.classList.add('cc--darkmode');
@@ -25,7 +23,6 @@ CookieConsent.run({
             readOnly: true
         },
         analytics: {},
-        marketing: {}
     },
     language: {
         default: "en",
@@ -33,12 +30,12 @@ CookieConsent.run({
         translations: {
             en: {
                 consentModal: {
-                    title: "Hello traveller, it's cookie time!",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+                    title: "We use cookies to enhance your experience",
+                    description: "We use cookies to analyze our traffic. By clicking 'Accept all', you consent to our use of cookies.",
                     acceptAllBtn: "Accept all",
                     acceptNecessaryBtn: "Reject all",
                     showPreferencesBtn: "Manage preferences",
-                    footer: "<a href=\"#link\">Privacy Policy</a>\n<a href=\"#link\">Terms and conditions</a>"
+                    footer: "<a href=\"/PRIVACY.html">Privacy Policy</a>\n<a href=\"#link\">Terms and conditions</a>"
                 },
                 preferencesModal: {
                     title: "Consent Preferences Center",
@@ -59,17 +56,12 @@ CookieConsent.run({
                         },
                         {
                             title: "Analytics Cookies",
-                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                            description: "We use cookies to analyze our traffic. By clicking 'Accept all', you consent to our use of cookies.",
                             linkedCategory: "analytics"
                         },
                         {
-                            title: "Advertisement Cookies",
-                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                            linkedCategory: "marketing"
-                        },
-                        {
                             title: "More information",
-                            description: "For any query in relation to my policy on cookies and your choices, please <a class=\"cc__link\" href=\"#yourdomain.com\">contact me</a>."
+                            description: "For any query in relation to my policy on cookies and your choices, please <a class=\"cc__link\" href=\"/about/contact.html\">contact me</a>."
                         }
                     ]
                 }

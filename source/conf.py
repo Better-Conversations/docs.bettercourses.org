@@ -107,10 +107,7 @@ html_css_files = [
 ]
 
 html_js_files = [
-    # 'javascript/cookieconsent-core.umd.js', 
-    # 'javascript/cookieconsent-setup.js',
     'javascript/cookieconsent.umd.js',
-    'javascript/cookieconsent-config.js',
 ]
 
 if 'BUILD_TYPE' in os.environ:
