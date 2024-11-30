@@ -97,3 +97,61 @@ text to the right */
     margin-bottom: 2rem;
     text-align: right;
 }
+/* Grid container for the post list */
+.postlist-style-card {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 20px 0;
+    transition: box-shadow 0.3s ease;
+
+    @media (min-width: 600px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.ablog-post {
+    padding: 1rem;
+    background-color: 
+}
+.card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-meta {
+    font-size: 0.9em;
+    color: #888888;
+    margin-bottom: 15px;
+}
+
+.card-excerpt {
+    font-size: 1em;
+    color: #555555;
+}
+
+.postlist .card {
+  margin-bottom: 1.5rem;
+}
+
+.postlist .card-title {
+  margin-bottom: 0.5rem;
+}
+
+.postlist .card-subtitle {
+  font-size: 0.9rem;
+}
+
+.postlist .card-text {
+  margin-top: 1rem;
+}
+
+.postlist .read-more {
+  margin-top: 0.5rem;
+}

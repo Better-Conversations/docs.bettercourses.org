@@ -37,6 +37,8 @@ extensions = [
      'sphinx_design',
      'sphinx_sitemap',
      'sphinx_reredirects',
+     "sphinx_design",
+     "sphinx_design_elements",
      ]
 myst_enable_extensions = [
      "colon_fence",
@@ -153,11 +155,13 @@ html_copy_source = False
 
 # -- Ablog -----------------------------------------------------------
 # See here https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html
+skip_injecting_base_ablog_templates = False
 
-blog_title = "News and Articles from the BCF"
+blog_title = "News from the BCF"
 blog_baseurl = "https://betterconversations.foundation/blog"
 post_date_format_short = "%b %d, %Y"
-post_auto_image = 0 # Don't automatically add images, set to 1 to return the first image in the post
+post_auto_image = 1 # Don't automatically add images, set to 1 to return the first image in the post
+templates_path = ['_templates']
 
 # -- Link Checking -----------------------------------------------------------
 
@@ -166,6 +170,7 @@ linkcheck_ignore = [r'http://localhost:\d+/']
 
 
 html_last_updated_fmt = ""
+
 
 # Define the current version document links to be added at the start of every rst file
 # Use this to quickly update the current versions
