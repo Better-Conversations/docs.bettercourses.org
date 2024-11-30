@@ -103,6 +103,14 @@ html_logo = "_static/images/BCF-logo-light-no-border.png"
 # See https://docs.readthedocs.io/en/latest/guides/adding-custom-css.html
 html_css_files = [
     'css/custom.css',
+    'css/cookieconsent.css',
+]
+
+html_js_files = [
+    # 'javascript/cookieconsent-core.umd.js', 
+    # 'javascript/cookieconsent-setup.js',
+    'javascript/cookieconsent.umd.js',
+    'javascript/cookieconsent-config.js',
 ]
 
 if 'BUILD_TYPE' in os.environ:
