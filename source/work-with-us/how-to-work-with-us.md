@@ -24,3 +24,6 @@ Talk about what we hope the community aspect might work
 ## Use the course to deliver the course
 
 What we hope is that you bring the course to life through your own unique personality and by modelling the skills we train
+
+
+

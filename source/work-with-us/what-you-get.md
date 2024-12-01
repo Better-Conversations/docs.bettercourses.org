@@ -62,3 +62,7 @@ Our intention is to enable others. You can find detailed documentation, guidance
 section of this site.
 
 Please note that for some of the content you'll need to sign in with your email address.
+
+
+```{dropdown} Controlled Document Details
+```{qms_header}

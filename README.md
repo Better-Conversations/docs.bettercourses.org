@@ -21,3 +21,16 @@ To build the PDF, run `make latexpdf` in the root of the repository.
 This requires a local installation of LaTeX. 
 
 
+## Controlled Document Details
+
+In Markdown files, you can add a dropdown with the controlled document details like this:
+
+```{dropdown} Controlled Document Details
+```{qms_header}
+
+In RST files, you can add a dropdown with the controlled document details like this:
+
+.. dropdown::
+    Controlled Document Details
+
+    .. qms_header::
