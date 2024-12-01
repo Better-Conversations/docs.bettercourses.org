@@ -27,4 +27,7 @@ and for you to trust we have the rights to do so is crucial to the
 success of the whole project. 
 
 
-.. qms_header::
+.. dropdown::
+    Controlled Document Details
+
+    .. qms_header::
