@@ -38,3 +38,7 @@ We expect you to:
 - Respect the conditions of the license under which make this available 
   (easy to comply with, as it's a very liberal license)
 - Be responsible in the way you market and use this material. 
+
+
+
+.. qms_header::
