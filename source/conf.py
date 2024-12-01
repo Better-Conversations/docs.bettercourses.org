@@ -39,6 +39,7 @@ extensions = [
      'sphinx_reredirects',
      "sphinx_design",
      "sphinx_design_elements",
+     "sphinx.ext.intersphinx",
      ]
 myst_enable_extensions = [
      "colon_fence",
@@ -239,3 +240,4 @@ latex_documents = [
      'The Better Conversations Foundation',    # Author name
      'report'),        # Document type (manual, howto, etc.)
 ]
+
