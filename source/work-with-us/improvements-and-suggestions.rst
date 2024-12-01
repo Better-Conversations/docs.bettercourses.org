@@ -2,6 +2,7 @@
 Improvements and Suggestions
 ============================
 
+
 It is inevitable on a project this size that there are "bugs" in the
 content. If you spot one, we'd be grateful if you'd let us know.
 
@@ -24,3 +25,6 @@ isn't a problem but we can't accept material taken from elsewhere
 without a copyright assignment. Our ability to give this stuff away
 and for you to trust we have the rights to do so is crucial to the 
 success of the whole project. 
+
+
+.. qms_header::

@@ -13,7 +13,7 @@
 import os
 import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+sys.path.insert(0, os.path.abspath('./_ext'))
 
 # -- Project information -----------------------------------------------------
 
@@ -40,6 +40,7 @@ extensions = [
      "sphinx_design",
      "sphinx_design_elements",
      "sphinx.ext.intersphinx",
+     "qms_header",
      ]
 myst_enable_extensions = [
      "colon_fence",
