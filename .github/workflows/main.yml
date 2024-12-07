@@ -48,6 +48,7 @@ jobs:
       # Build the documentation and then check the links
       - name: Build Sphinx site
         run: |
+          ls 
           sh ./production-build.sh
 
       - name: Deploy Site
