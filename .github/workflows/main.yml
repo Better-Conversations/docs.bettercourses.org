@@ -48,8 +48,7 @@ jobs:
       # Build the documentation and then check the links
       - name: Build Sphinx site
         run: |
-          export BUILD_TYPE="Production"
-          sh production-build.sh
+          sh ./production-build.sh
 
       - name: Deploy Site
         if: github.ref == 'refs/heads/main'
