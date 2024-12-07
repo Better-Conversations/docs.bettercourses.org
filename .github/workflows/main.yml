@@ -49,7 +49,7 @@ jobs:
       - name: Build Sphinx site
         run: |
           ls 
-          sh ./production-build.sh
+          sh ./production_build.sh
 
       - name: Deploy Site
         if: github.ref == 'refs/heads/main'
