@@ -35,6 +35,9 @@ Precision matters in these things, so the key words "MUST", "MUST NOT", "REQUIRE
 "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this are to be
 interpreted as described in RFC 2119 which we've referenced below.
 
+- Everyone facilitating the course MUST have completed the full course themselves with
+  the Foundation, or one of our Ambassadors. It is RECOMMENDED they have also
+  attended an Experience Course as an Observer.
 
 - You MUST follow a flight plan. This is the core of the course and the
   foundation of everything we do. It's what we can support, along with the Handbook.
