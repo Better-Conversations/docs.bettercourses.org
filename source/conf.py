@@ -140,7 +140,8 @@ html_theme_options = {
     "header_links_before_dropdown": 5,
     "show_prev_next": True,
     "secondary_sidebar_items": [],
-    # "logo": {
+    "content_footer_items": ["last-updated", "utterances"]   
+   # "logo": {
     #    "alt_text": "Better Conversations Foundation",
     #    "image_light": "_static/images/BCF-logo-light-non-border.png",
     #    "image_dark": "_static/images/BCF-logo-dark-no-border.png",
