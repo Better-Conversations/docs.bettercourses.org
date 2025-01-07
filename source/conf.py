@@ -186,7 +186,7 @@ html_last_updated_fmt = ""
 
 rst_prolog = """
 
-.. _current-overview: https://betterconversations.foundation/documentation/downloads/v2.0/BCF%20BCO%20Course%20Overview%20v2.0.pdf
+.. _current-overview: https://betterconversations.foundation/downloads/BC%20Course%20Overview.pdf
 
 .. _current-handbook: https://betterconversations.foundation/downloads/BC%20Course%20Handbook.pdf
 
