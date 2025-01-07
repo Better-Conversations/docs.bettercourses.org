@@ -15,7 +15,7 @@ as a PDF `here <current-overview_>`_.
       - Download
     * - 07 January 2025
       - Update for new Module 5
-      - `v3.0 </documentation/downloads/overview/BC%20Course%20Overview%20v3.0.pdf>`_
+      - `v3.0 <current-overview_>`_
     * - 24 March 2024
       - Add Module 6
       - v2.0

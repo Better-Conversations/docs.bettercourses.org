@@ -25,10 +25,10 @@ can do this for you.
       - Download
     * - 07 January 2025
       - Update to state, assumptions and context models
-      - `3.1.0 </documentation/downloads/handbook/BC%20Course%20Handbook%20v3.1.0.pdf>`_
+      - `3.1.0  <current-handbook_>`_
     * - 11 September 2024
       - Major update to match the version 3 course.
-      - `3.0.0 </documentation/downloads/handbook/BC%20Course%20Handbook%20v3.0.0.pdf>`_
+      - 3.0.0
     * - 13 Feburary 2023
       - Improved clarity and wording. References added.
       - 1.1.1
