@@ -68,7 +68,7 @@ Module 3 (Context)
   - What impact does that have on the conversation?"
 
 Module 4 (Listening with Curiosity)
-  - Try out some of the questions on page 20 of the handbook in your conversations. 
+  - Try out some of the questions in Section 4 of the handbook in your conversations. 
   - What kind of listening do you do in a conversation?
   - What impact does that have on the conversation?"
   
