@@ -2,8 +2,9 @@
 Course Overview
 ===============
 
-We're prepared a detailed overview of the course which you can download
-as a PDF. 
+We're prepared a detailed overview of the course to explain some of the 
+patterns we use to design the course. You can download the latest version 
+as a PDF `here <current-overview_>`_. 
 
 .. list-table::
     :widths: 40, 80, 20
@@ -12,11 +13,14 @@ as a PDF.
     * - Date Released
       - Changes
       - Download
+    * - 07 January 2025
+      - Update for new Module 5
+      - `v3.0 </documentation/downloads/overview/BC%20Course%20Overview%20v3.0.pdf>`_
     * - 24 March 2024
       - Add Module 6
-      - `v2.0 </documentation/downloads/v2.0/BCF%20BCO%20Course%20Overview%20v2.0.pdf>`_
+      - v2.0
     * - 28 October 2022
       - Initial release
-      - `v1.0 </documentation/downloads/v1.0/BCO%20Overview%20v1.0.1.pdf>`_
+      - v1.0
 
 
