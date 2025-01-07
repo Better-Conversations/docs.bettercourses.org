@@ -23,22 +23,25 @@ can do this for you.
     * - Date Released
       - Changes
       - Download
+    * - 07 January 2025
+      - Update to state, assumptions and context models
+      - `3.1.0 </documentation/downloads/handbook/BC%20Course%20Handbook%20v3.1.0.pdf>`_
     * - 11 September 2024
       - Major update to match the version 3 course.
       - `3.0.0 </documentation/downloads/handbook/BC%20Course%20Handbook%20v3.0.0.pdf>`_
     * - 13 Feburary 2023
       - Improved clarity and wording. References added.
-      - `1.1.1 </documentation/downloads/handbook/BC%20Course%20Handbook%20v1.1.1.pdf>`_
+      - 1.1.1
     * - 10 January 2023
       - Private client release
       - 1.1.0a
     * - 10 January 2023
       - Moved source to Word, realigned some of the diagrams
-      - `1.1.0 </documentation/downloads/handbook/BCO%20Course%20Handbook%20v1.1.0.pdf>`_
+      - 1.1.0
     * - 18 November 2022
       - Updated branding
-      - `1.0.1 </documentation/downloads/handbook/BCO%20Course%20Handbook%20v1.0.1.pdf>`_
+      - 1.0.1
     * - 16 Sept 2022
       - Intial release
-      - `1.0.0 </documentation/downloads/handbook/BCO%20Course%20Handbook%20v1.0.pdf>`_
+      - 1.0.0
       
