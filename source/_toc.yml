@@ -57,7 +57,7 @@ entries:
 - file: documentation/index
   entries:
   - file: documentation/assumptions
-  - file: documentation/quick-reference
+  # - file: documentation/quick-reference
   - file: documentation/badges
   - file: documentation/stable-links
   # - file: documentation/booking/index

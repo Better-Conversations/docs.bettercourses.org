@@ -10,7 +10,7 @@ export async function onRequest(context) {
         "support": "https://betterconversations.foundation/documentation/course-materials/support.html",
         "zoombor": "https://betterconversations.foundation/documentation/design-patterns/Breakout-Rooms.html",
         "handbook": "https://betterconversations.foundation/downloads/BC%20Course%20Handbook.pdf",
-        "overview": "https://betterconversations.foundation/documentation/downloads/v2.0/BCF%20BCO%20Course%20Overview%20v2.0.pdf",
+        "overview": "https://betterconversations.foundation/downloads/BC%20Course%20Overview.pdf",
     }
     return Response.redirect(redirects[id], 302);
 }
