@@ -1,0 +1,136 @@
+# Better Conversations Foundation
+
+> Helping people connect on a human level
+
+The Better Conversations Foundation helps people around the world have better conversations in their professional and private lives through training, resources and community.
+
+## About
+- [Appreciation](/about/appreciation.html)
+- [Commercial](/about/commercial.html)
+- [Contact](/about/contact.html)
+- [Index](/about/index.html)
+- [Our Mission](/about/our-mission.html)
+- [Our Story](/about/our-story.html)
+
+## About - Behind-The-Scenes
+- [Index](/about/behind-the-scenes/index.html)
+
+## About - Governance
+- [Board](/about/governance/board.html)
+- [Index](/about/governance/index.html)
+- [Members](/about/governance/members.html)
+- [Structure](/about/governance/structure.html)
+
+## About - Governance - Articles
+- [Index](/about/governance/articles/index.html)
+- [Part1](/about/governance/articles/part1.html)
+- [Part2](/about/governance/articles/part2.html)
+- [Part3](/about/governance/articles/part3.html)
+- [Part4](/about/governance/articles/part4.html)
+- [Part5](/about/governance/articles/part5.html)
+
+## Blog
+- [2024 09 04 Chandima Podcast](/blog/2024-09-04-chandima-podcast.html)
+- [2024 09 20 Ou Promotion](/blog/2024-09-20-ou-promotion.html)
+- [2024 10 22 What Links Bulls](/blog/2024-10-22-what-links-bulls.html)
+- [Index](/blog/index.html)
+
+## Booking
+- [Get To Know You](/booking/get-to-know-you.html)
+
+## Course
+- [05 High Level Overview](/course/05-High-Level-Overview.html)
+- [10 Module1 State](/course/10-Module1-State.html)
+- [20 Module2 Assumptions](/course/20-Module2-Assumptions.html)
+- [30 Module3 Context](/course/30-Module3-Context.html)
+- [40 Module4 Listening](/course/40-Module4-Listening.html)
+- [50 Module5 Intentional Conversations](/course/50-Module5-Intentional-Conversations.html)
+- [60 Handbook And Emails](/course/60-Handbook-and-emails.html)
+- [70 Versioning](/course/70-Versioning.html)
+- [Index](/course/index.html)
+
+## Course - Handbook
+- [Readme](/course/handbook/README.html)
+- [Assumption](/course/handbook/assumption.html)
+- [Copyright](/course/handbook/copyright.html)
+- [Index](/course/handbook/index.html)
+- [Introduction](/course/handbook/introduction.html)
+- [State](/course/handbook/state.html)
+
+## Documentation
+- [Assumptions](/documentation/assumptions.html)
+- [Badges](/documentation/badges.html)
+- [Index](/documentation/index.html)
+- [Quick Reference](/documentation/quick-reference.html)
+- [Stable Links](/documentation/stable-links.html)
+
+## Documentation - Booking
+- [Bcf 30M Rr](/documentation/booking/bcf-30m-rr.html)
+- [Index](/documentation/booking/index.html): :     This is a summary of what this page contains. It will appear in llms.txt but not in the HTML.
+- [Simon Friends](/documentation/booking/simon-friends.html)
+- [Zoom Check](/documentation/booking/zoom-check.html)
+
+## Documentation - Course-Design
+- [Index](/documentation/course-design/index.html)
+- [Information Learning](/documentation/course-design/information-learning.html)
+- [Magic Conversations](/documentation/course-design/magic-conversations.html)
+- [Simplicity](/documentation/course-design/simplicity.html)
+- [Systematic Approach](/documentation/course-design/systematic-approach.html)
+- [Systemic Outlook](/documentation/course-design/systemic-outlook.html)
+
+## Documentation - Course-Improvement
+- [Index](/documentation/course-improvement/index.html)
+
+## Documentation - Course-Materials
+- [Course Overview](/documentation/course-materials/course_overview.html)
+- [Email Templates](/documentation/course-materials/email_templates.html)
+- [Flight Plans](/documentation/course-materials/flight_plans.html)
+- [Handbook](/documentation/course-materials/handbook.html)
+- [Index](/documentation/course-materials/index.html)
+
+## Documentation - Design-Patterns
+- [Breakout Rooms](/documentation/design-patterns/Breakout-Rooms.html)
+- [Breaks](/documentation/design-patterns/Breaks.html)
+- [Exercises](/documentation/design-patterns/Exercises.html)
+- [Flipcharts](/documentation/design-patterns/Flipcharts.html)
+- [Group Size](/documentation/design-patterns/Group-Size.html)
+- [Flight Plan Pattern](/documentation/design-patterns/flight-plan-pattern.html)
+- [Index](/documentation/design-patterns/index.html)
+- [Template Pattern](/documentation/design-patterns/template-pattern.html)
+
+## Documentation - Guides
+- [Delivery Team](/documentation/guides/Delivery-Team.html)
+- [Timing](/documentation/guides/Timing.html)
+- [Facilitator Guide](/documentation/guides/facilitator-guide.html)
+- [Index](/documentation/guides/index.html)
+- [Producer Guide](/documentation/guides/producer-guide.html)
+
+## Documentation - Our-Processes
+- [Index](/documentation/our-processes/index.html)
+
+## Documentation - Tips
+- [Google Calendar](/documentation/tips/Google-Calendar.html)
+- [Recording](/documentation/tips/Recording.html)
+- [Zoom Captions](/documentation/tips/Zoom-Captions.html)
+- [Index](/documentation/tips/index.html)
+
+## Main
+- [Copyright](/COPYRIGHT.html)
+- [Privacy](/PRIVACY.html)
+- [Download Agreement](/download-agreement.html)
+- [Faqs](/faqs.html): : This is a summary of what this page contains
+- [Index](/index.html)
+
+## Work-With-Us
+- [Changes](/work-with-us/changes.html)
+- [Course Definition](/work-with-us/course-definition.html)
+- [Crediting](/work-with-us/crediting.html)
+- [Expectations](/work-with-us/expectations.html)
+- [How To Work With Us](/work-with-us/how-to-work-with-us.html)
+- [Improvements And Suggestions](/work-with-us/improvements-and-suggestions.html)
+- [Index](/work-with-us/index.html)
+- [Membership](/work-with-us/membership.html)
+- [Service Levels](/work-with-us/service-levels.html)
+- [Tos](/work-with-us/tos.html)
+- [What You Get](/work-with-us/what-you-get.html)
+- [Why Work With Us](/work-with-us/why-work-with-us.html)

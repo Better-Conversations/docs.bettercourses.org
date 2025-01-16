@@ -41,6 +41,7 @@ extensions = [
      "sphinx_design_elements",
      "sphinx.ext.intersphinx",
      "qms_header",
+     "llms",
      ]
 myst_enable_extensions = [
      "colon_fence",
