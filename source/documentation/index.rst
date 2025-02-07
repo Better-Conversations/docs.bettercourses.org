@@ -58,3 +58,20 @@ looking for, please ask us or post a question in the Community.
     - Add glossary
     - Add community
     - Add acknowledgements for course documentation
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
+   :hidden:
+
+   assumptions
+   badges
+   stable-links
+   course-design/index  
+   course-materials/index
+   course-improvement/index
+   design-patterns/index
+   delivery-guidance/index
+   delivery-patterns/index
+   
+   

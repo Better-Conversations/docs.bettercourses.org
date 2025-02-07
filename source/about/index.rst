@@ -47,6 +47,8 @@ Our current Faculty includes:
     .. grid-item:: `Christine Stief <https://www.linkedin.com/in/christine-stief-hausch-669965ab/>`_
     .. grid-item:: `Kathryn Vere <https://www.linkedin.com/in/kathrynvere/>`_
 
+
+    
 .. todo:: 
     - TODO Simon to review his bio
     - TODO Who Am I? Stories. The “About Us” page could be expanded to provide more detail about the people behind the foundation. This could include profiles of the founders, staff, or volunteers, along with personal stories and anecdotes that showcase their passion and expertise in creating better conversations. Add the following pages over time:
@@ -57,3 +59,17 @@ Our current Faculty includes:
         - Our Impact (key indicators, stories, case studies)
 
     - TODO Add bio and photos in faculty-list, which might mean converting grid-items to grid-item-cards
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
+   :hidden:
+   
+   appreciation
+   commercial
+   contact
+   our-mission
+   our-story
+   behind-the-scenes/index
+   governance/index

@@ -29,3 +29,11 @@ additional patterns, please let us know.
    Flipcharts.rst
    Google-Calendar.rst
    Zoom-Captions.rst
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
+   :hidden:
+
+   flight-plan-patterns
+   

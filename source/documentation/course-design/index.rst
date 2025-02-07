@@ -137,3 +137,9 @@ their circumstances.
     - Add link to handbook?
     - do we need separate sections?
 
+   
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
+   :hidden:

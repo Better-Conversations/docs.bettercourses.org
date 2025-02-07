@@ -16,3 +16,15 @@ We'd especially like to hear from you if you are a non-profit, charity or social
   - link to CC license
   - Add customisation (changes.rst)
   - Let us know
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
+   :hidden:
+
+    what-you-get
+    expectations
+    service-levels
+    improvements-and-suggestions
+    crediting
+    course-definition
