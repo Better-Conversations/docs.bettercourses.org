@@ -84,10 +84,28 @@ entries:
     # - file: documentation/design-patterns/Breakout-Rooms
     # - file: documentation/design-patterns/Breaks
     # - file: documentation/design-patterns/Exercises
-    - file: documentation/design-patterns/flight-plan-pattern
     # - file: documentation/design-patterns/Flipcharts
     # - file: documentation/design-patterns/Group-Size
     # - file: documentation/design-patterns/template-pattern
+    - file: documentation/design-patterns/flight-plan-pattern
+    - file: documentation/design-patterns/collecting-observations
+    - file: documentation/design-patterns/facilitator-producer-roles
+    - file: documentation/design-patterns/pre-session-preparation
+  - file: documentation/delivery-patterns/index
+    entries:
+    - file: documentation/delivery-patterns/effective-chat-usage
+    - file: documentation/delivery-patterns/effective-demo-delivery
+    - file: documentation/delivery-patterns/facilitator-state-awareness
+    - file: documentation/delivery-patterns/flipchart-management
+    - file: documentation/delivery-patterns/guiding-breakouts
+    - file: documentation/delivery-patterns/guiding-discussions
+    - file: documentation/delivery-patterns/promoting-early-engagement
+    - file: documentation/delivery-patterns/single-attendee-sessions
+    - file: documentation/delivery-patterns/setting-up-breakout-rooms
+    - file: documentation/delivery-patterns/welcoming-latecomers # TODO: this is a duplicate of the course/flight_plans.html file
+  - file: documentation/delivery-guidance/index
+    entries:
+    - file: documentation/delivery-guidance/handing-over-for-support
   # - file: documentation/guides/index
   #   entries:
   #   - file: documentation/guides/Delivery-Team
