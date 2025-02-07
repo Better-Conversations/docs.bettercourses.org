@@ -17,3 +17,4 @@ pydata-sphinx-theme
 ablog
 sphinx-reredirects
 sphinx_design_elements
+sphinx-tags

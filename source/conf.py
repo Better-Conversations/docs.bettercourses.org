@@ -40,6 +40,7 @@ extensions = [
      "sphinx_design",
      "sphinx_design_elements",
      "sphinx.ext.intersphinx",
+     "sphinx_tags",
      "qms_header",
      ]
 myst_enable_extensions = [
