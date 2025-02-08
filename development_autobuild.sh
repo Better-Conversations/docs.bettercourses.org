@@ -12,4 +12,7 @@ if [ -d "/workspace" ]; then
   git config --global --add safe.directory /workspaces/bcf-website
 fi
 
+# Install requirements just in case they have changed
+pip install -r requirements.txt
+
 sphinx-autobuild source build/html/
