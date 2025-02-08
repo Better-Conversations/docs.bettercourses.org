@@ -11,3 +11,4 @@ package-lock.json
 package.json
 *.pyc
 source/_ext/__pycache__/
+/source/_tags
