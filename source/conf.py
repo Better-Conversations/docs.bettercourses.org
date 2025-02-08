@@ -245,3 +245,8 @@ latex_documents = [
      'report'),        # Document type (manual, howto, etc.)
 ]
 
+# Make tags work
+tags_create_tags = True
+tags_intro_text = "Tags"
+tags_page_title = "Tag"
+tags_create_badges = True

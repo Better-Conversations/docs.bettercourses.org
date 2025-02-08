@@ -15,4 +15,5 @@ fi
 # Install requirements just in case they have changed
 pip install -r requirements.txt
 
-sphinx-autobuild source build/html/
+# Build the site, ignoring the _tags directory so it doesn't get stuck in a loop
+sphinx-autobuild source build/html/ --ignore '**/_tags/*'
