@@ -4,9 +4,10 @@
 Designing Flipcharts
 ====================
 
-Design patterns are core, reusable solutions to common problems in the design of the 
-Better Conversations course, concerned mainly with course structure, content, and 
-learning activities.
+.. tags:: flipcharts, facilitation, production, visibility, engagement, visual aids, online delivery, participant experience
+
+.. warning:: 
+    This page is under construction
 
 Flipcharts are a core tool in Better Conversations course design. They provide a 
 structured way to support learning objectives while maintaining engagement and 
@@ -17,119 +18,162 @@ learning outcomes and why they are integral to our course design.
 :material-outlined:`construction;1.8rem` Using this pattern
 -----------------------------------------------------------
 
-Using a flipchart:
+This pattern addresses these learning challenges:
 
-- Supports visual and kinesthetic learning styles
-- Enables dynamic capture of emerging insights
-- Creates shared visual understanding
-- Reinforces key learning points
-- Provides flexibility in content presentation
+- How to make information visible and memorable
+- When to capture and display key learning points
+- How to structure information visually
+- Ways to maintain participant focus
+- Methods for group memory creation
 
 Alternative approaches might include slides or digital whiteboards, but these lack 
 the immediacy and engagement that physical flipcharts provide.
 
-----------------------------------------------
-:material-regular:`dashboard;1.8rem` Structure
-----------------------------------------------
+-----------------------------------------------------  
+:material-outlined:`architecture;1.8rem` Architecture
+-----------------------------------------------------
 
-Flipcharts serve several key learning functions within the course structure:
+Core components:
 
-- **Visual Learning**: Supporting visual learners through real-time capture
-- **Group Memory**: Creating lasting learning artifacts
-- **Emergent Capture**: Allowing for dynamic content creation
-- **Learning Reinforcement**: Making key points visible
-- **Engagement Support**: Enabling active participation
+**Visual Structure:**
 
-This pattern integrates with other design patterns such as breakout rooms and 
-exercises to create a comprehensive learning experience.
+- Title and context
+- Clear sections
+- Key points hierarchy
+- White space usage
+- Colour system
 
--------------------------------------------------------------
-:material-outlined:`groups;1.8rem` Roles and responsibilities
--------------------------------------------------------------
+**Information Types:**
+
+- Learning objectives
+- Key concepts
+- Group discussions
+- Action items
+- Reference information
+
+**Layout Principles:**
+
+- Reading flow (left to right, top to bottom)
+- Information grouping
+- Emphasis hierarchy
+- Space allocation
+- Visibility requirements
+
+-----------------------------------------------
+:material-outlined:`groups;1.8rem` Design Roles
+-----------------------------------------------
+
+These roles may be held by the same person or split across a team.
 
 **Course Designer:**
 
-- Plans key visual frameworks for learning objectives
-- Identifies critical capture points in content flow
-- Designs for visual learning integration
-- Creates templates for consistent learning capture
-- Determines placement within learning journey
+- Determines when flipcharts are needed
+- Plans information hierarchy
+- Defines visual structure standards
+- Sets readability requirements
+- Ensures learning point capture
+- Specifies retention strategies
+- Reviews and improves based on feedback
+- Maintains visual standards
 
-**Participants:**
+**Content Developer:**
 
-- Engage with visual content actively
-- Build shared understanding through visual aids
-- Create collective memory through documentation
-- Reference learning points throughout course
-- Demonstrate learning through visual synthesis
+- Creates flipchart templates
+- Writes standard headers/sections
+- Develops visual guidelines
+- Ensures consistency across materials
+- Implements layout standards
+- Maintains template library
+- Reviews practical usage
+- Tests visibility and readability
+- Coordinates with course materials
 
---------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Examples
---------------------------------------------------
+---------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Design Examples
+---------------------------------------------------------
 
-Course design applications:
+**Basic Implementation:**
 
-- Key frameworks captured visually
-- Important concepts illustrated
-- Group insights documented
-- Learning progress tracked
-- Session structure visualization
+- Standard title and date
+- Three-section layout
+- Bullet point structure
+- Basic colour coding
+- Essential headers
 
-Learning activity examples:
+**Common Variations:**
 
-- Session outlines visible
-- Learning objectives displayed
-- Key questions captured
-- Group agreements recorded
-- Concept mapping exercises
+- Timeline layouts
+- Matrix structures
+- Mind map formats
+- Process flows
+- Comparison layouts
 
--------------------------------------------
-:material-outlined:`science;1.8rem` Testing
--------------------------------------------
+**Integration Examples:**
 
-Evaluate effectiveness through:
+- With group discussions
+- During concept explanation
+- For activity instructions
+- As reference points
+- For summary creation
 
-- Learning retention rates
-- Knowledge transfer success
-- Course effectiveness metrics
-- Design quality validation
-- Participant feedback analysis
+**Success Stories:**
 
-----------------------------------------------------
-:material-outlined:`touch_app;1.8rem` Implementation
-----------------------------------------------------
+- Complex concept visualization
+- Group decision capture
+- Process documentation
+- Learning point emphasis
+- Participant engagement
 
-**Learning Design:**
+**Implementation Tips:**
 
-- Align flipchart use with learning objectives
-- Sequence visual elements in content flow
-- Design capture points for key concepts
-- Plan for visual learning integration
+- Use consistent colors
+- Leave adequate white space
+- Plan for visibility distance
+- Consider room layout
+- Allow for additions
 
-**Content Development:**
+--------------------------------------------------------------
+:material-outlined:`co_present;1.8rem` Delivery considerations
+--------------------------------------------------------------
 
-- Create visual frameworks
-- Design consistent layouts
-- Develop capture templates
-- Structure visual progression
+Key factors for successful delivery:
+
+- Writing visibility requirements
+- Space for spontaneous capture
+- Material quality needs
+- Setup requirements
+- Display considerations
 
 -------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Anything else
+:material-outlined:`sync;1.8rem` Continuous improvement
 -------------------------------------------------------
 
-Additional design considerations:
+How to improve the pattern over time:
 
-- Accessibility needs for visual learning
-- Learning style variations
-- Integration with other visual aids
-- Enhancement opportunities through digital capture
+- Collecting readability feedback
+- Learning from space constraints
+- Incorporating successful layouts
+- Documenting effective structures
+- Planning template improvements
+
+---------------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Design considerations
+---------------------------------------------------------------
+
+Additional design factors for in-person delivery:
+
+- Room size impact
+- Lighting conditions
+- Group size limits
+- Material durability
+- Storage needs
 
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
 
-- Better Conversations Course Design Guide
-- :ref:`flipchart-delivery`
-- Learning Styles Research
-- Visual Learning Theory
+- Visual Learning Patterns
+- Information Design Patterns
+- Group Memory Patterns
+- Visual Facilitation Guides
         

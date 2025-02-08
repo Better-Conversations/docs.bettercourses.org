@@ -4,6 +4,11 @@
 Using Flight Plans
 ==================
 
+.. tags:: flight plans, facilitation, production, learning, continuous improvement
+
+.. warning:: 
+    This page is under construction
+
 Flight plans are a structured approach to course delivery that ensures consistent, 
 high-quality learning experiences. This pattern describes how we deliver the course 
 using flight plans to support learning objectives, manage state, and enable 

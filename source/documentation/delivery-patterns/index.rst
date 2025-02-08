@@ -22,6 +22,6 @@ additional patterns, please let us know.
 
    flight-plan-delivery-pattern
    flipchart-delivery-pattern
-   # collecting-observations
+   observations-delivery-pattern
    delivery-pattern-template
 

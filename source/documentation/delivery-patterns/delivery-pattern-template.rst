@@ -36,7 +36,7 @@ Describe the delivery process:
 - Success indicators
 
 -------------------------------------------------
-:material-outlined:`groups;1.8rem` Delivery Roles
+:material-outlined:`groups;1.8rem` Delivery roles
 -------------------------------------------------
 
 **Facilitators:**
@@ -61,7 +61,7 @@ Describe the delivery process:
 - Common challenges
 
 ------------------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Practical Examples
+:material-outlined:`content_paste;1.8rem` Practical examples
 ------------------------------------------------------------
 
 Provide specific examples of:
@@ -104,7 +104,7 @@ Practical delivery guidelines:
 - Quality management
 
 -------------------------------------------------------
-:material-outlined:`architecture;1.8rem` Design Context
+:material-outlined:`architecture;1.8rem` Design context
 -------------------------------------------------------
 
 Understanding the design:
@@ -116,7 +116,7 @@ Understanding the design:
 - Pattern relationships
 
 -----------------------------------------------------
-:material-outlined:`sync;1.8rem` Improvement Feedback
+:material-outlined:`sync;1.8rem` Improvement feedback
 -----------------------------------------------------
 
 Contributing to pattern evolution:
@@ -128,7 +128,7 @@ Contributing to pattern evolution:
 - Lesson learned
 
 -------------------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Additional Considerations
+:material-outlined:`sticky_note_2;1.8rem` Additional considerations
 -------------------------------------------------------------------  
 
 Other delivery factors:

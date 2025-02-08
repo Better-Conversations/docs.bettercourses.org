@@ -6,173 +6,213 @@ Using Flipcharts in Online Sessions
 
 .. tags:: flipcharts, facilitation, production, visibility, legibility, cognitive load, engagement, online course, visual aids
 
-Flipchart management is key to delivering Better Conversations online. We've refined our 
-approach through extensive practice and feedback, ensuring that visual aids enhance rather 
-than detract from the learning experience. This pattern helps maintain engagement and 
-clarity in virtual environments where traditional in-person techniques need adaptation.
+.. warning:: 
+    This page is under construction
+
+.. todo::
+
+    Note that the facilitator standing up and writing on the flipchart means
+
+    - They can put more energy into the group just by standing up and moving
+    - They can control the pace of the group by writing slowly or quickly
+    - They can let someone know their contribution has been heard by writing it down, and it is time to stop by turning around and putting the cap on their pen
+
+Flipchart management is key to delivering Better Conversations online. This pattern provides 
+practical guidance for using flipcharts effectively in virtual environments where traditional 
+in-person techniques need adaptation.
 
 -----------------------------------------------------------
-:material-outlined:`construction;1.8rem` Using this Pattern
+:material-outlined:`construction;1.8rem` Using this pattern
 -----------------------------------------------------------
 
-Effective flipchart management is essential for:
+This pattern helps facilitators:
 
-- Maintaining participant engagement through clear visual aids
-- Ensuring content visibility for all participants regardless of their setup
-- Managing cognitive load in virtual environments
-- Creating dynamic, interactive learning spaces online
-- Supporting neurodiverse participants through clear, structured visual aids
-- Reducing cognitive load through consistent presentation
+- Maintain participant engagement through clear visual aids
+- Ensure content visibility for all participants
+- Manage cognitive load in virtual environments
+- Create dynamic, interactive learning spaces online
+- Support neurodiverse participants effectively
+- Capture emergent discussions visually
 
-Use this pattern when:
+Essential for:
 
-- Running any Better Conversations module that requires visual aids
-- Facilitating group discussions that need visual capture
-- Presenting complex concepts that benefit from visual representation
+- All Better Conversations modules requiring visual aids
+- Group discussions needing visual capture
+- Complex concept explanations
+- Collaborative learning activities
 
-The drawbacks are that it requires careful preparation and technical setup, and
-can be challenging to maintain consistency across different environments and
-setups.
+--------------------------------------
+:material-outlined:`route;1.8rem` Flow
+--------------------------------------
 
-The alternative is to rely solely on digital slides or no visual aids, which
-can reduce engagement and make it harder to capture emergent discussions and
-ideas effectively.
+**Before Your Session:**
 
------------------------------------------------
-:material-regular:`dashboard;1.8rem` Structure
------------------------------------------------
+1. Test camera angle and lighting
+2. Prepare key headers/frameworks
+3. Verify technical setup with producer
+4. Check visibility at different zoom levels
+5. Practice writing size and spacing
 
-The pattern consists of three main components:
+**During Your Session:**
 
-- **Physical Setup**: Camera positioning, lighting, writing materials
-- **Technical Integration**: Virtual platform features (spotlighting, chat)
-- **Content Strategy**: Organization and presentation of visual information
+1. Coordinate spotlight timing with producer
+2. Write clearly and verbalize content
+3. Monitor chat for visibility issues
+4. Check participant engagement
+5. Maintain consistent positioning
 
-Each component needs careful consideration and regular testing to ensure
-effectiveness. This is particularly important for neurodiverse participants who
-may have different visual processing needs or preferences.
+**After Your Session:**
 
--------------------------------------------------------------
-:material-outlined:`groups;1.8rem` Roles and Responsibilities
--------------------------------------------------------------
+1. Debrief with producer
+2. Document any issues
+3. Consider improvements
+4. Share learnings
 
-**Facilitator(s):**
+-------------------------------------------------
+:material-outlined:`groups;1.8rem` Delivery Roles
+-------------------------------------------------
 
-- Prepares and manages flipchart content
-- Writes clearly and concisely
-- Maintains engagement through visual aids
+**Facilitators:**
 
-**Producer:**
+- Write clearly and concisely
+- Maintain group energy through movement
+- Control session pace through writing
+- Signal listening through documentation
+- Manage group flow with pen gestures
 
-- Manages technical aspects (spotlighting, zoom features)
-- Monitors chat for visibility issues
-- Coordinates with facilitator on timing
+**Producers:**
+
+- Manage technical aspects
+- Monitor chat for visibility issues
+- Coordinate timing with facilitator
+- Support accessibility needs
+- Handle technical difficulties
+
+Note that we do not recommend using the Zoom spotlight feature 
+as the facilitator will not be able to see all participants. 
+Advise participants to pin the facilitator's video so that they 
+can see them (this is covered in the Module 1 flight plan).
 
 **Participants:**
 
-- Provide feedback on visibility
-- Engage with visual content
-- Contribute to collaborative documentation
+- Contribute to discussions
+- Use chat for accessibility
+- Adjust views as needed
 
---------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Examples
---------------------------------------------------
+Note that we advise the particopants it is not necessary to be 
+able to read all of the  text on the flipchart, but they should be 
+able to see the facilitator writing. This is because the writing is 
+what engages people and shows that they are being listened to.
 
-**Example 1: Pre-session Setup**
+------------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Practical Examples
+------------------------------------------------------------
 
-- Test camera angle showing full flipchart
-- Verify lighting eliminates glare
-- Practice writing size and spacing
-- Prepare key headers/frameworks in advance
+**Physical Setup:**
 
-**Example 2: During Session**
+- Flipchart at slight angle to camera where possible (common for most flipchart stands)
+- Consistent lighting setup
+- Thick markers (chisel tip)
+- Clear camera view
+- Stable positioning
 
-- Producer spotlights facilitator during flipchart use
-- Facilitator verbalizes written content
-- Chat used for accessibility support
-- Regular checks for visibility
+**Writing Techniques:**
+
+- Large, clear text
+- Fewer, impactful words using the words of the participants
+- Adequate white space
+- Consistent symbols
+- Clear structure (examples are provided)
+
+**Common Challenges & Solutions:**
+
+- Glare issues → Adjust lighting angle
+- Writing size → Use fewer, bigger words
+- Technical issues → Have backup plans
+- Visibility problems → Regular checks
+- Engagement drops → Use movement/energy
+
+Note that we do not recommend using a physical whiteboard due to glare issues.
 
 -------------------------------------------
 :material-outlined:`science;1.8rem` Testing
 -------------------------------------------
 
-We test effectiveness through:
+Check effectiveness through:
 
 - Pre-session technical checks
 - Participant feedback on visibility
-- Engagement metrics during sessions
-- Post-session review of recordings
-- Regular producer-facilitator debriefs
-
-This allows us to continuously improve our approach and adapt to different
-situations and participant needs.
+- Montioring engagement monitoring
+- Producer-facilitator debriefs
 
 ----------------------------------------------------
 :material-outlined:`touch_app;1.8rem` Implementation
 ----------------------------------------------------
 
-1. **Physical Setup:**
+**Technical Setup:**
 
-- Position flipchart 45° to camera
-- Use thick, dark markers (Note: "Beth needs thicker flipchart pens")
-- Ensure consistent lighting
-- Test visibility at different zoom levels
-- Consider color contrast for visibility (avoid red/green combinations)
-- Maintain consistent positioning to reduce visual tracking effort
+- Test camera angles
+- Set up lighting
+- Prepare backup options
 
-2. **Content Management:**
+**Facilitation Techniques:**
 
-- Plan key visual frameworks
-- Use clear headers and structure
-- Write large, clear text with fewer words (Based on feedback: "writing might be enhanced by being bigger and fewer words")
-- Leave adequate white space
-- Use flipchart to structure session flow and track progress
-- Use consistent symbols and layouts across sessions
-- Break information into clear, manageable chunks
-- Avoid visual clutter or overwhelming patterns
-- Consider offering digital copies of flipchart content after sessions
-
-3. **Technical Integration:**
-
-- Configure spotlight settings
-- Set up backup capture methods
-- Prepare alternative sharing options
-- Test producer handoffs
-- Provide alternative text-based formats in chat
-- Allow participants to adjust their view as needed
-- Consider recording key points in multiple formats (visual and text)
+- Stand up for energy
+- Use writing pace deliberately
+- Signal through pen gestures
+- Balance detail vs visibility
+- Regular eye contact with participants from time to time
 
 -------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Anything else
+:material-outlined:`architecture;1.8rem` Design Context
 -------------------------------------------------------
 
-Common challenges we've encountered:
+Key design principles:
 
-- Managing glare and lighting changes
-- Balancing detail vs. visibility
-- Coordinating with producer for timing
-- Handling technical difficulties
-- Supporting participants with varying setups
-- Supporting participants with different visual processing needs
-- Balancing the needs of different learning styles
-- Ensuring accessibility while maintaining engagement
+- Clear visual hierarchies
+- Consistent layouts
+- Color contrast guidelines
+- Space management rules
+- Accessibility requirements
+
+-----------------------------------------------------
+:material-outlined:`sync;1.8rem` Improvement Feedback
+-----------------------------------------------------
+
+Share with the community:
+
+- Technical setup improvements
+- Visibility solutions
+- Engagement techniques
+- Producer coordination tips
+- Accessibility insights
+
+-------------------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Additional Considerations
+-------------------------------------------------------------------  
+
+**Accessibility Focus:**
+
+- Support neurodiverse participants
+- Provide alternative formats
+- Consider visual processing needs
+- Balance learning styles
+- Enable individual adjustments
+
+**Technical Needs:**
+
+- Reliable camera setup
+- Good lighting
+- Quality markers
+- Stable mounting
+- Backup systems
 
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
 
 - Better Conversations Facilitator Guide
-- :ref:`flipchart-design`
-- :ref:`facilitator-producer-roles`
-- :ref:`active-listening-techniques`
+- Flipchart Design Pattern
+- Facilitator-Producer Roles Pattern
+- Active Listening Techniques
 - Online Facilitation Best Practices
-
-
-.. todo::
-
-Note that the facilitator standing up and writing on the flipchart means
-
-- They can put more energy into the group just by standing up and moving
-- They can control the pace of the group by writing slowly or quickly
-- They can let someone know their contribution has been heard by writing it down, 
-and it is time to stop by turning around and putting the cap on their pen

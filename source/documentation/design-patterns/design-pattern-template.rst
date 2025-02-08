@@ -36,12 +36,13 @@ Describe the core structure and components:
 - How does it integrate with other patterns?
 
 -----------------------------------------------
-:material-outlined:`groups;1.8rem` Design Roles
+:material-outlined:`groups;1.8rem` Design roles
 -----------------------------------------------
 
 These roles may be held by the same person or split across a team. The key is ensuring all these responsibilities are covered.
 
 **Course Designer:**
+
 - Defines learning objectives and outcomes
 - Selects and sequences patterns
 - Plans assessment strategy
@@ -58,6 +59,7 @@ These roles may be held by the same person or split across a team. The key is en
 - Maintains design standards
 
 **Content Developer:**
+
 - Creates learning materials and activities
 - Writes instructions and guides
 - Develops supporting resources
@@ -69,44 +71,49 @@ These roles may be held by the same person or split across a team. The key is en
 - Coordinates with other courses
 
 ---------------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Design Examples
+:material-outlined:`content_paste;1.8rem` Design examples
 ---------------------------------------------------------
 
 Show how this pattern can be implemented:
 
 **Basic Implementation:**
+
 - Simplest way to use the pattern
 - Minimum requirements
 - Core components in action
 - Example materials needed
 
 **Common Variations:**
+
 - Different ways to adapt the pattern
 - Examples for different contexts
 - Time/resource variations
 - Group size adaptations
 
 **Integration Examples:**
+
 - How it works with other patterns
 - Sequencing examples
 - Transition approaches
 - Combined effects
 
 **Success Stories:**
+
 - Real examples of pattern use
 - Problems it solved
 - Lessons learned
 - Measured benefits
 
 **Implementation Tips:**
+
 - Common pitfalls to avoid
 - Setup requirements
 - Resource suggestions
 - Time considerations
 
-------------------------------------------------------------------
-:material-outlined:`local_shipping;1.8rem` Delivery Considerations
-------------------------------------------------------------------
+--------------------------------------------------------------
+:material-outlined:`co_present;1.8rem` Delivery considerations
+--------------------------------------------------------------
 
 Key factors for successful delivery:
 
@@ -117,7 +124,7 @@ Key factors for successful delivery:
 - Support needs
 
 -------------------------------------------------------
-:material-outlined:`sync;1.8rem` Continuous Improvement
+:material-outlined:`sync;1.8rem` Continuous improvement
 -------------------------------------------------------
 
 How to improve the pattern over time:
@@ -129,7 +136,7 @@ How to improve the pattern over time:
 - Planning future improvements
 
 ---------------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Design Considerations
+:material-outlined:`sticky_note_2;1.8rem` Design considerations
 ---------------------------------------------------------------
 
 Additional design factors:

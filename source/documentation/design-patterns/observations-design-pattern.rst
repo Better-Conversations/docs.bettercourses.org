@@ -9,9 +9,6 @@ Updating Course Content from Observations
 .. warning:: 
     This page is under construction.
 
-.. todo:: 
-    Split this into collecting observations and analyzing observations/course updates 
-
 The Collecting Observations pattern establishes a systematic approach for 
 continuous improvement through structured feedback collection and analysis. 
 It creates a data-driven framework for iterative enhancement of course delivery and design.
@@ -36,9 +33,9 @@ The pattern is particularly valuable when:
 - Identifying areas for improvement
 - Validating learning effectiveness
 
-----------------------------------------------  
-:material-regular:`dashboard;1.8rem` Structure
-----------------------------------------------
+-----------------------------------------------------  
+:material-outlined:`architecture;1.8rem` Architecture
+-----------------------------------------------------
 
 The observation pattern follows a streamlined four-phase cycle based on the OODA Loop:
 
@@ -74,9 +71,9 @@ The observation pattern follows a streamlined four-phase cycle based on the OODA
    - Gather feedback
    - Adjust as needed
 
--------------------------------------------------------------
-:material-outlined:`groups;1.8rem` Roles and responsibilities
--------------------------------------------------------------
+-----------------------------------------------
+:material-outlined:`groups;1.8rem` Design roles
+-----------------------------------------------
 
 **Delivery Team:**
 
@@ -109,9 +106,9 @@ The observation pattern follows a streamlined four-phase cycle based on the OODA
 - Gather feedback
 - Report outcomes
 
---------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Examples
---------------------------------------------------
+---------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Design examples
+---------------------------------------------------------
 
 **Recording Examples:**
 
@@ -133,57 +130,33 @@ The observation pattern follows a streamlined four-phase cycle based on the OODA
 - Video session reviews
 - Peer observation notes
 
--------------------------------------------
-:material-outlined:`science;1.8rem` Testing
--------------------------------------------
+--------------------------------------------------------------
+:material-outlined:`co_present;1.8rem` Delivery considerations
+--------------------------------------------------------------
 
-Evaluate effectiveness through:
+Key factors for successful delivery:
 
-- Participant feedback scores
-- Learning outcome achievement rates
-- Facilitator confidence levels
-- Course completion rates
-- Knowledge retention metrics
-- Implementation success rates
-- Community engagement levels
-
-----------------------------------------------------
-:material-outlined:`touch_app;1.8rem` Implementation
-----------------------------------------------------
-
-**Phase-Specific Guidelines:**
-
-1. **Recording Phase**
-
-   - Use standardized templates
-   - Ensure complete context
-   - Include supporting evidence
-   - Apply consistent tagging
-
-2. **Review Phase**
-
-   - Schedule regular reviews
-   - Use systematic analysis
-   - Document relationships
-   - Map broader context
-
-3. **Planning Phase**
-
-   - Apply priority criteria
-   - Design comprehensive solutions
-   - Create detailed plans
-   - Set clear metrics
-
-4. **Implementation Phase**
-
-   - Follow change protocols
-   - Conduct thorough testing
-   - Document all outcomes
-   - Collect structured feedback
+- How to collect observations during live sessions
+- Ways to capture feedback effectively
+- Methods for real-time documentation
+- Support needed for observation process
+- Resource requirements for delivery teams
 
 -------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Anything else
+:material-outlined:`sync;1.8rem` Continuous improvement
 -------------------------------------------------------
+
+How to improve the pattern over time:
+
+- Refining observation templates
+- Improving collection methods
+- Enhancing analysis processes
+- Streamlining implementation
+- Evolving based on feedback
+
+---------------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Design considerations
+---------------------------------------------------------------
 
 **Critical Elements:**
 
@@ -212,6 +185,7 @@ Evaluate effectiveness through:
 Related Patterns: All
 
 Learning Theory Foundation:
+
 - Kolb's Experiential Learning Cycle
 - Action Research
 - Continuous Improvement (Kaizen)

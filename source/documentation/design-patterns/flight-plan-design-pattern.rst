@@ -4,6 +4,11 @@
 Designing Flight Plans
 ======================
 
+.. tags:: flight plans, facilitation, production, learning, continuous improvement
+
+.. warning:: 
+    This page is under construction
+
 Flight plans are a structured approach to course design that ensures consistent, 
 high-quality learning experiences. This pattern describes how we design and structure 
 our flight plans to support learning objectives, manage state, and enable continuous 
@@ -28,9 +33,9 @@ improving over time. Our Experience Courses run to the flight plans we publish
 or are in the process of testing - which means you know what to expect when you
 partner with us.
 
------------------------------------------------------------
-:material-outlined:`construction;1.8rem` Using this pattern
------------------------------------------------------------
+------------------------------------------------------------------
+:material-outlined:`co_present;1.8rem` Delivery Considerations
+------------------------------------------------------------------
 
 Flight plans are used to deliver a consistent Better Conversations experience
 for all involved. They ensure:
@@ -52,15 +57,28 @@ makes the faciltator and producer roles much harder. It also makes it harder to
 bring new people into the team. All these things can significantly degrade the
 participant experience.
 
------------------------------------------------
-:material-regular:`dashboard;1.8rem` Structure
------------------------------------------------
+-----------------------------------------------------------
+:material-outlined:`construction;1.8rem` Using this pattern
+-----------------------------------------------------------
 
-Flight plans contain:
+This pattern addresses these learning challenges:
 
-- All the logistical information for the session, such as date and time, the 
-Zoom link, who is faciliating, who is producing, who is observing, who is 
-sponsoring, and who is attending.
+- How to ensure consistent delivery quality
+- When to use structured vs flexible approaches
+- How to support delivery team coordination
+- Ways to manage session state effectively
+- Methods for scaling course delivery
+
+Alternative approaches might include unstructured facilitation or rigid scripts, but 
+these lack the balance of consistency and flexibility that flight plans provide.
+
+-----------------------------------------------------
+:material-outlined:`architecture;1.8rem` Architecture
+-----------------------------------------------------
+
+Core Components:
+
+**Session Framework:**
 
 - Brief notes for the faciliator and producer on how to run the session
 - Checklists of the key things to prepare and discuss, individually and as a team
@@ -79,9 +97,9 @@ This means that we can improve the flight plan by improving the design
 patterns, and we can use the design patterns in other contexts - which means
 you can do the same!
 
--------------------------------------------------------------
-:material-outlined:`groups;1.8rem` Roles and responsibilities
--------------------------------------------------------------
+-----------------------------------------------
+:material-outlined:`groups;1.8rem` Design roles
+-----------------------------------------------
 
 Currently, there are a number of roles described in the flight plans:
 
@@ -114,31 +132,88 @@ group, you may not need two facilitators. If you are using the flight plans to
 coach someone one-to-one, you will not need a producer. If you are delivering a
 session to a very large group, you may need more than one producer.
 
-
---------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Examples
---------------------------------------------------
+---------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Design examples
+---------------------------------------------------------
 
 You can find the latest published flight plans `here
 <https://betterconversations.foundation/documentation/course-materials/flight_plans.html>`_.
 
+**Common Variations:**
 
--------------------------------------------
-:material-outlined:`science;1.8rem` Testing
--------------------------------------------
+- Single vs dual facilitator formats
+- Different session lengths
+- Group size adaptations
+- Technical setup options
+- Complexity levels
 
-We are on a continual learning and improvement loop every time we run a
-session. We gather observations and feedback from the delivery team and the
-participants, and we use this to improve the flight plans. 
+**Integration Examples:**
 
-We test updated flight plans by running live sessions, documenting the results
-and any feedback from the delivery team. We might run test a completely new
-module with a small group of participants, one faciliator and one producer and
-one or two observers.
+- With observation patterns
+- During facilitator development
+- For quality assurance
+- As training tools
+- With client customization
 
-----------------------------------------------------
-:material-outlined:`touch_app;1.8rem` Implementation
-----------------------------------------------------
+**Success Stories:**
+
+- Consistent delivery quality
+- Successful team scaling
+- Knowledge transfer
+- Quality maintenance
+- Client adaptations
+
+--------------------------------------------------------------
+:material-outlined:`co_present;1.8rem` Delivery considerations
+--------------------------------------------------------------
+
+Key factors for successful delivery:
+
+**Team Preparation:**
+
+- Review and preparation time
+- Team coordination needs
+- Role clarity requirements
+- Technical setup needs
+- Backup planning
+
+**Quality Control:**
+
+- Testing procedures
+- Feedback mechanisms
+- Observation methods
+- Adaptation guidelines
+- Success metrics
+
+**Implementation Support:**
+
+- Documentation needs
+- Training requirements
+- Resource access
+- Team communication
+- Client coordination
+
+-------------------------------------------------------
+:material-outlined:`sync;1.8rem` Continuous improvement
+-------------------------------------------------------
+
+How we evolve the pattern:
+
+**Pattern Development:**
+
+- Gathering delivery feedback
+- Testing improvements
+- Documenting variations
+- Sharing learnings
+- Planning enhancements
+
+**Version Management:**
+
+- Master template control
+- Change documentation
+- Version tracking
+- Distribution methods
+- Access management
 
 We keep master versions of the flight plans, which only the Foundation team
 have access to. We make a copy of the master flight plan for each live session.
@@ -154,9 +229,33 @@ different delivery teams, running a lot of sessions and trying to improve the
 flight plans over time. It also helps when working with different clients, as
 we can tailor the session to their needs.
 
--------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Anything else
-------------------------------------------------------- 
+---------------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Design considerations
+---------------------------------------------------------------
+
+**Design Trade-offs:**
+
+- Consistency vs flexibility
+- Detail vs adaptability
+- Structure vs creativity
+- Standardization vs customization
+- Complexity vs usability
+
+**Key Constraints:**
+
+- Time limitations
+- Resource requirements
+- Team capabilities
+- Technical dependencies
+- Client needs
+
+**Future Opportunities:**
+
+- Pattern libraries
+- Team development
+- Quality scaling
+- Knowledge sharing
+- Community building
 
 We used to include the following sections, but have moved these to other
 documents and tools. Some of these features have been removed for data
@@ -167,3 +266,13 @@ protection reasons, as we are now working with external clients:
 - Copies of the breakout room groups
 - Copies of the chat messages
 - Observations we made during the session
+
+-------------------------------------------
+:material-outlined:`book;1.8rem` References
+-------------------------------------------
+
+- Published flight plans
+- Related design patterns
+- Facilitation guides
+- Quality standards
+- Learning frameworks
