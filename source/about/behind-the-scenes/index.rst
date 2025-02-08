@@ -12,3 +12,7 @@ If you're interested in the technical details of how this website and the Founda
 - Our community is run on Discourse, https://community.betterconversations.foundation with authentication via bettercourses.org
 - Our support is run on Zammad, https://support.betterconversations.foundation with authentication via bettercourses.org
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
+   :hidden:

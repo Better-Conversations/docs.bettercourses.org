@@ -26,7 +26,7 @@ Articles of Association
 
     .. toctree::
         :maxdepth: 2
-        :captions:
+        :caption: Contents
 
         part1
         part2

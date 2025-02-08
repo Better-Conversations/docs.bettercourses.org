@@ -70,4 +70,17 @@ If you want to know more, or if you want to get involved, please get in touch wi
 
     Get in touch
 
- 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
+   :hidden:
+   :numbered:
+
+   about/index
+   course/index
+   documentation/index
+   work-with-us/index
+   blog/index
+
+

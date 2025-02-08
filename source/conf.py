@@ -33,7 +33,7 @@ extensions = [
      'sphinx_last_updated_by_git', 
      'ablog',
      'sphinx.ext.intersphinx',
-     'sphinx_external_toc',
+     # 'sphinx_external_toc',
      'sphinx_design',
      'sphinx_sitemap',
      'sphinx_reredirects',
@@ -52,8 +52,8 @@ myst_enable_extensions = [
 templates_path = ['_templates']
 
 # Add toc path
-external_toc_path = "_toc.yml"
-external_toc_exclude_missing = False  # If True, excludes files not in external toc file
+# external_toc_path = "_toc.yml"
+#external_toc_exclude_missing = False  # If True, excludes files not in external toc file
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
