@@ -22,8 +22,7 @@ Email Templates
 ---------------
 
 We have prepared a set of email templates that you can use to invite
-participants and followup after each module `here
-</documentation/800-resources/email_templates.html>`_
+participants and followup after each module `here </documentation/course-materials/email_templates.html>`_
 
 We recognise that people want to customise the handbook, with their own
 branding, contact information, etc. People have also taken individual sections
