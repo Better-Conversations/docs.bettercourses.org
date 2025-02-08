@@ -1,8 +1,21 @@
-.. _why-flight-plans:
+.. _flight-plan-design-pattern:
 
-=========================
-Working with Flight Plans
-========================= 
+==================
+Flight Plan Design
+==================
+
+Flight plans are a structured approach to course design that ensures consistent, 
+high-quality learning experiences. This pattern describes how we design and structure 
+our flight plans to support learning objectives, manage state, and enable continuous 
+improvement.
+
+A flight plan:
+
+- Provides a detailed framework for session delivery
+- Ensures learning objectives are systematically addressed
+- Enables quality control across multiple deliveries
+- Supports facilitator and producer development
+- Creates a foundation for continuous improvement
 
 Flight plans are the key to delivering Better Conversations. We've crystallized
 both the contents and the structure of these over the years, and they reliably
@@ -16,7 +29,7 @@ or are in the process of testing - which means you know what to expect when you
 partner with us.
 
 -----------------------------------------------------------
-:material-outlined:`construction;1.8rem` Using this Pattern
+:material-outlined:`construction;1.8rem` Using this pattern
 -----------------------------------------------------------
 
 Flight plans are used to deliver a consistent Better Conversations experience
@@ -40,7 +53,7 @@ bring new people into the team. All these things can significantly degrade the
 participant experience.
 
 -----------------------------------------------
-:material-outlined:`dashboard;1.8rem` Structure
+:material-regular:`dashboard;1.8rem` Structure
 -----------------------------------------------
 
 Flight plans contain:
@@ -67,23 +80,30 @@ patterns, and we can use the design patterns in other contexts - which means
 you can do the same!
 
 -------------------------------------------------------------
-:material-outlined:`groups;1.8rem` Roles and Responsibilities
+:material-outlined:`groups;1.8rem` Roles and responsibilities
 -------------------------------------------------------------
 
 Currently, there are a number of roles described in the flight plans:
 
-- **Facilitator 1 and 2**: The people who are co-leading the session. Facilitator 2 is a role we can use to develop new facilitators.
+**Facilitators**: The people leading the session. We often have two 
+facilitators to provide cover for each other, and to allow for the development
+of new facilitators.
 
-- **Producer**: The person who is running the Zoom session, and who is responsible for the technical aspects of the session.
+**Producers**: The people running the Zoom session, and who are 
+responsible for the technical aspects of the session. If we have two producers, 
+it is generally one lead and one trainee.
 
-- **Observer**: The person who is observing the session, usually in preparation for delivering the course, and/or training as a facilitator or producer.
+**Observers**: The people observing the session, usually in preparation for 
+delivering the course, and/or training as a facilitator or producer.
 
-- **Participants**: The people who are attending the session. Also referred as "attendees".
+**Participants**: The people who are attending the session.
 
-- **Sponsor**: Responsible for the outcomes of the session, in terms of "Why are we doing this?" and "What are we trying to achieve?". 
+**Sponsor**: Responsible for the outcomes of the session, in terms of 
+"Why are we doing this?" and "What are we trying to achieve?". 
 
-  - For the Foundation, this is generally one of the directors or a Foundation Ambassador. 
-  - When a course is delivered in a company it will be the person who comissioned the course, or their delegate. 
+For the Foundation, the Sponsor is generally one of the directors or a 
+Foundation Ambassador. When a course is delivered in a company it will 
+be the person who comissioned the course, or their delegate. 
 
 One thing we have learned is to be very aware of the role(s) we are in, and to
 be clear about what we are doing in each moment and why. 
@@ -147,9 +167,3 @@ protection reasons, as we are now working with external clients:
 - Copies of the breakout room groups
 - Copies of the chat messages
 - Observations we made during the session
-
-.. todo::
-
-   - as we do this more and more, we realise it doesn't matter what happened in the session
-   - follow the patterns and it'll be fine 
-   - we don't need to document every single thing that happens in the session 

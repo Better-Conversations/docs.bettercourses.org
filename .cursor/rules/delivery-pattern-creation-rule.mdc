@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+---
+
+# Your rule content
+
+- - use this file [delivery-pattern-template.rst](mdc:source/documentation/delivery-patterns/delivery-pattern-template.rst)-pattern-template.rst as a template when creating or updating design pattern files in the source/documentation/delivery-patterns directory

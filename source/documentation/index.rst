@@ -54,5 +54,7 @@ Please note that:
    course-design/index  
    course-materials/index
    design-patterns/index
+   delivery-patterns/index
+   delivery-guidance/index
    
    

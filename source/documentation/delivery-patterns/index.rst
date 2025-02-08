@@ -14,3 +14,13 @@ make better informed decisions about what suits your audience and your context.
 
 We continue to improve the course; if you have any suggestions for changes or
 additional patterns, please let us know.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
+   :hidden:
+
+   flight-plan-delivery
+   flipchart-delivery
+   # delivery-pattern-template
+   

@@ -1,20 +1,18 @@
 .. _delivery-pattern-template:
 
-Template Delivery Pattern Name
-============================
-
-Delivery patterns are core, reusable solutions to common problems in the delivery 
-of the Better Conversations course, concerned mainly with facilitation, producer 
-actions, and managing flow.
+=====================
+Delivery Pattern Name
+=====================
 
 Add an introduction to the pattern here. This should explain:
+
 - What the pattern is
 - Why it matters in course delivery
 - How it supports facilitation
 - Any alternative names for the pattern
 
 -----------------------------------------------------------
-:material-outlined:`construction;1.8rem` Using this Pattern
+:material-outlined:`construction;1.8rem` Using this pattern
 -----------------------------------------------------------
 
 Explain when and why to use this pattern in course delivery:
@@ -25,6 +23,7 @@ Explain when and why to use this pattern in course delivery:
 - What are the drawbacks or limitations?
 - What alternatives might be considered?
 
+----------------------------------------------
 :material-regular:`dashboard;1.8rem` Structure
 ----------------------------------------------
 
@@ -35,16 +34,17 @@ Describe the key components of this pattern:
 - How do the components work together?
 - What variations are possible?
 
-:material-outlined:`groups;1.8rem` Roles and Responsibilities
--------------------------------------------------------------
+----------------------------------------
+:material-outlined:`groups;1.8rem` Roles
+----------------------------------------  
 
-**Facilitator:**
+**Facilitators:**
 
 - Key actions and decisions
 - Timing considerations
 - Interaction with other roles
 
-**Producer:**
+**Producers:**
 
 - Technical requirements
 - Support actions
@@ -56,6 +56,7 @@ Describe the key components of this pattern:
 - Support needed
 - Success indicators
 
+--------------------------------------------------
 :material-outlined:`content_paste;1.8rem` Examples
 --------------------------------------------------
 
@@ -66,6 +67,7 @@ Provide specific examples of:
 - Success stories
 - Common variations
 
+-------------------------------------------
 :material-outlined:`science;1.8rem` Testing
 -------------------------------------------
 
@@ -76,29 +78,35 @@ How to evaluate the pattern's effectiveness:
 - Technical success metrics
 - Quality checks
 
+----------------------------------------------------
 :material-outlined:`touch_app;1.8rem` Implementation
 ----------------------------------------------------
 
 Delivery considerations:
 
-1. **Setup:**
+**Setup:**
+
    - Technical requirements
    - Preparation steps
    - Pre-session checks
 
-2. **Execution:**
+**Execution:**
+
    - Key actions
    - Timing considerations
    - Troubleshooting steps
 
+-------------------------------------------------------
 :material-outlined:`sticky_note_2;1.8rem` Anything else
 -------------------------------------------------------
 
 Additional considerations:
+
 - Special cases
 - Common challenges
 - Enhancement opportunities
 
+-------------------------------------------
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
 

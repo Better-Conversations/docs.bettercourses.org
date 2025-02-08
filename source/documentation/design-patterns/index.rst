@@ -18,19 +18,21 @@ We continue to improve the course; if you have any suggestions for changes or
 additional patterns, please let us know.
 
 .. todo:: Add the following patterns to the toctree above.
-   Exercises.rst
-   Breakout-Rooms.rst
-   Breaks.rst
-   Timing.rst
-   Group-Size.rst
-   Delivery-Team.rst
-   Flipcharts.rst
-   Google-Calendar.rst
-   Zoom-Captions.rst
+   exercises-design-pattern
+   breakout-rooms-design-pattern
+   breaks-design-pattern
+   timing-design-pattern
+   group-size-design-pattern
+   delivery-team-design-pattern
+   flipcharts-design-pattern
+   google-calendar-design-pattern
+   zoom-captions-design-pattern
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents
    :hidden:
 
-   flight-plan-pattern
+   flight-plan-design-pattern
+   flipchart-design-pattern
+   # design-pattern-template
