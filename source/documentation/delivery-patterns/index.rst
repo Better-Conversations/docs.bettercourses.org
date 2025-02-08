@@ -20,8 +20,8 @@ additional patterns, please let us know.
    :caption: Contents
    :hidden:
 
-   flight-plan-delivery
-   flipchart-delivery
+   flight-plan-delivery-pattern
+   flipchart-delivery-pattern
    # collecting-observations
-   # delivery-pattern-template
+   delivery-pattern-template
 

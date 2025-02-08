@@ -1,8 +1,8 @@
 .. _design-pattern-template:
 
-===================
-Design Pattern Name
-=================== 
+=========================
+Design Pattern Template 
+========================= 
 
 Add an introduction to the pattern here. This should explain:
 
@@ -23,95 +23,129 @@ Explain when and why to use this pattern in course design:
 - What are the pedagogical considerations?
 - What alternative approaches might be considered?
 
-----------------------------------------------  
-:material-regular:`dashboard;1.8rem` Structure
-----------------------------------------------
+-----------------------------------------------------  
+:material-outlined:`architecture;1.8rem` Architecture
+-----------------------------------------------------
 
-Describe how this pattern fits into the course structure:
+Describe the core structure and components:
 
-- Where does it fit in the learning journey?
-- What are the essential learning components?
-- How does it build on other patterns?
-- What variations support different learning styles?
+- What are the essential elements?
+- How do components relate?
+- What variations are possible?
+- What are the key design principles?
+- How does it integrate with other patterns?
 
--------------------------------------------------------------
-:material-outlined:`groups;1.8rem` Roles and responsibilities
--------------------------------------------------------------
+-----------------------------------------------
+:material-outlined:`groups;1.8rem` Design Roles
+-----------------------------------------------
+
+These roles may be held by the same person or split across a team. The key is ensuring all these responsibilities are covered.
 
 **Course Designer:**
+- Defines learning objectives and outcomes
+- Selects and sequences patterns
+- Plans assessment strategy
+- Determines success criteria
+- Makes high-level structure decisions
+- Ensures alignment with learning goals
+- Ensures effective learning approaches:
+  - Active participation
+  - Clear instructions
+  - Appropriate pacing
+  - Knowledge checks
+  - Practice opportunities
+- Reviews and improves the pattern based on feedback
+- Maintains design standards
 
-- Which learning objectives need consideration?
-- How to sequence with other patterns?
-- What materials or resources are needed?
-- How to adapt for different contexts?
+**Content Developer:**
+- Creates learning materials and activities
+- Writes instructions and guides
+- Develops supporting resources
+- Ensures consistency across materials
+- Implements quality standards
+- Maintains content accuracy
+- Reviews pattern implementations
+- Validates learning approaches
+- Coordinates with other courses
 
-**Participants:**
+---------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Design Examples
+---------------------------------------------------------
 
-- What will they learn from this pattern?
-- How will they engage with the content?
-- What outcomes should they achieve?
-- How will they demonstrate learning?
+Show how this pattern can be implemented:
 
---------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Examples
---------------------------------------------------
+**Basic Implementation:**
+- Simplest way to use the pattern
+- Minimum requirements
+- Core components in action
+- Example materials needed
 
-Provide specific examples of:
+**Common Variations:**
+- Different ways to adapt the pattern
+- Examples for different contexts
+- Time/resource variations
+- Group size adaptations
 
-- Course design applications
-- Learning activity examples
-- Content structure examples
-- Integration with other patterns
-- Adaptations for different contexts
+**Integration Examples:**
+- How it works with other patterns
+- Sequencing examples
+- Transition approaches
+- Combined effects
 
--------------------------------------------
-:material-outlined:`science;1.8rem` Testing
--------------------------------------------
+**Success Stories:**
+- Real examples of pattern use
+- Problems it solved
+- Lessons learned
+- Measured benefits
 
-How to evaluate the pattern's effectiveness:
+**Implementation Tips:**
+- Common pitfalls to avoid
+- Setup requirements
+- Resource suggestions
+- Time considerations
 
-- Learning outcome measures
-- Knowledge retention indicators
-- Course effectiveness metrics
-- Design quality validation
-- Participant feedback analysis
+------------------------------------------------------------------
+:material-outlined:`local_shipping;1.8rem` Delivery Considerations
+------------------------------------------------------------------
 
-----------------------------------------------------
-:material-outlined:`touch_app;1.8rem` Implementation
-----------------------------------------------------
+Key factors for successful delivery:
 
-Course design considerations:
-
-**Learning Design:**
-
-- Learning objective alignment
-- Content sequencing
-- Activity design
-- Resource planning
-
-**Content Development:**
-
-- Materials creation
-- Learning flow structure
-- Assessment methods
-- Support resources
+- Critical success factors
+- Common challenges
+- Adaptation guidelines
+- Resource requirements
+- Support needs
 
 -------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Anything else
+:material-outlined:`sync;1.8rem` Continuous Improvement
 -------------------------------------------------------
 
-Additional design considerations:
+How to improve the pattern over time:
 
-- Accessibility needs
-- Learning style variations
-- Common design challenges
-- Enhancement opportunities
+- Using delivery feedback
+- Learning from implementation challenges
+- Incorporating successful adaptations
+- Documenting what works and what doesn't
+- Planning future improvements
+
+---------------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Design Considerations
+---------------------------------------------------------------
+
+Additional design factors:
+
+- Trade-offs
+- Constraints
+- Dependencies
+- Risks
+- Opportunities
 
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
 
 - Related design patterns
-- Learning theory basis
-- Research foundation
+- Related delivery patterns
+- Learning theory foundations
+- Research basis
 - Further reading
