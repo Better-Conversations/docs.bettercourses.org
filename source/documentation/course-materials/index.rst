@@ -32,7 +32,7 @@ These stable links will need authentication, but will always point to the most r
    :caption: Contents
    :hidden:
 
-   overview
-   flight-plans
+   course_overview
+   flight_plans
    handbook
-   email-templates
+   email_templates

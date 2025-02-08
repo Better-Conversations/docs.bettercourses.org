@@ -35,5 +35,4 @@ additional patterns, please let us know.
    :caption: Contents
    :hidden:
 
-   flight-plan-patterns
-   
+   flight-plan-pattern
