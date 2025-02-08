@@ -197,7 +197,6 @@ Share with the community:
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
 
-- Observations Design Pattern
-- Session Documentation Pattern
-- Continuous Improvement Pattern
-- Team Communication Pattern 
+Related Patterns:
+
+- :ref:`observations-design-pattern`

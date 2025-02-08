@@ -271,8 +271,9 @@ protection reasons, as we are now working with external clients:
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
 
+Related Patterns:
+
+- :ref:`observations-design-pattern`
+- :ref:`flipchart-design-pattern`
+
 - Published flight plans
-- Related design patterns
-- Facilitation guides
-- Quality standards
-- Learning frameworks

@@ -182,13 +182,8 @@ How to improve the pattern over time:
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
 
-Related Patterns: All
+Related Patterns:
 
-Learning Theory Foundation:
-
-- Kolb's Experiential Learning Cycle
-- Action Research
-- Continuous Improvement (Kaizen)
-- Reflective Practice Models
-
+- :ref:`observations-delivery-pattern`
+- :ref:`flight-plan-design-pattern`
 

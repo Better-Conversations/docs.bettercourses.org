@@ -211,8 +211,9 @@ Share with the community:
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
 
-- Better Conversations Facilitator Guide
-- Flipchart Design Pattern
-- Facilitator-Producer Roles Pattern
-- Active Listening Techniques
-- Online Facilitation Best Practices
+Related Patterns:
+
+- :ref:`flipchart-design-pattern`
+- :ref:`facilitator-producer-roles`
+
+

@@ -172,8 +172,8 @@ Additional design factors for in-person delivery:
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
 
-- Visual Learning Patterns
-- Information Design Patterns
-- Group Memory Patterns
-- Visual Facilitation Guides
-        
+Related Patterns:
+
+- :ref:`flipchart-delivery-pattern`
+- :ref:`flight-plan-design-pattern`
+
