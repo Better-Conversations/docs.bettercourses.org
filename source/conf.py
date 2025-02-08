@@ -120,7 +120,7 @@ if 'BUILD_TYPE' in os.environ:
     else:
         print("Allowing TODO warnings and content as this is not Production")
         todo_include_todos = True
-        todo_emit_warnings = False
+        todo_emit_warnings = True
 else:
         print("Allowing TODO warnings and content as there's no environment setting")
         todo_include_todos = True
