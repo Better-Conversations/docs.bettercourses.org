@@ -23,5 +23,15 @@ additional patterns, please let us know.
    flight-plan-delivery-pattern
    flipchart-delivery-pattern
    observations-delivery-pattern
+   # breakout-rooms-delivery-pattern
+   # chat-delivery-pattern
+   # demo-delivery-pattern
+   # discussions-delivery-pattern
+   # discussions-delivery-pattern
+   # breakouts-delivery-pattern
+   # single-attendee-delivery-pattern
+   # early-engagement-delivery-pattern
+   # facilitator-state-delivery-pattern
+   # latecomers-delivery-pattern
    delivery-pattern-template
 
