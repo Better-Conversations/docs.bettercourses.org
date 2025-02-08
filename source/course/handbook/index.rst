@@ -6,7 +6,7 @@ Better Conversations Course Handbook
 
     .. toctree::
         :maxdepth: 2
-        :captions:
+        :caption: Contents
 
         introduction   
         state
