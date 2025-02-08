@@ -10,7 +10,7 @@ tags: sales, modelling, clean-language
 
 # Clean in Sales
 
-In this video, James Lawley interviews/models me about what he
+In this video, James Lawley interviews/models Simon about what he
 does in a first Sales call, developing a metaphor to help draw
 out more detail.
 
