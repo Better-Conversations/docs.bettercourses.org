@@ -1,6 +1,8 @@
-============
-Flight Plans
-============
+.. _why-flight-plans:
+
+=========================
+Working with Flight Plans
+========================= 
 
 Flight plans are the key to delivering Better Conversations. We've crystallized
 both the contents and the structure of these over the years, and they reliably
@@ -43,8 +45,9 @@ participant experience.
 
 Flight plans contain:
 
-- All the logistical information for the session, such as date and time, the
-Zoom link, who is faciliating, who is producing
+- All the logistical information for the session, such as date and time, the 
+Zoom link, who is faciliating, who is producing, who is observing, who is 
+sponsoring, and who is attending.
 
 - Brief notes for the faciliator and producer on how to run the session
 - Checklists of the key things to prepare and discuss, individually and as a team
