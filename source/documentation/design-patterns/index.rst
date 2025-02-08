@@ -18,14 +18,11 @@ can reuse these patterns, or adapt them to your own needs.
 We continue to improve the course; if you have any suggestions for changes or
 additional patterns, please let us know.
 
-.. todo:: Add the following patterns to the toctree above.
-   exercises-design-pattern
-   breakout-rooms-design-pattern
+.. todo:: Potential patterns
+
    breaks-design-pattern
    timing-design-pattern
-   group-size-design-pattern
    delivery-team-design-pattern
-   flipcharts-design-pattern
    google-calendar-design-pattern
    zoom-captions-design-pattern
 
@@ -37,4 +34,10 @@ additional patterns, please let us know.
    flight-plan-design-pattern
    flipchart-design-pattern
    observations-design-pattern
+   # accessibility-design-pattern
+   # breakout-design-pattern
+   # checklist-design-pattern
+   # exercises-design-pattern
+   # group-size-design-pattern
+   # role-design-pattern
    design-pattern-template
