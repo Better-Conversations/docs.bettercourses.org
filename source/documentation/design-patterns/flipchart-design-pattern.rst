@@ -1,8 +1,8 @@
 .. _flipchart-design-pattern:
 
-================
-Flipchart Design
-================
+====================
+Designing Flipcharts
+====================
 
 Design patterns are core, reusable solutions to common problems in the design of the 
 Better Conversations course, concerned mainly with course structure, content, and 

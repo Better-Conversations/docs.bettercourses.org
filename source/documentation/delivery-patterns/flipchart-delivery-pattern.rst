@@ -1,4 +1,4 @@
-.. _flipchart-delivery:
+.. _flipchart-delivery-pattern:
 
 ===================================
 Using Flipcharts in Online Sessions

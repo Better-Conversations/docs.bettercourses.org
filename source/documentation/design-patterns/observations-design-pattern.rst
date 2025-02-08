@@ -1,63 +1,220 @@
-.. _collecting-observations:
+.. _observations-design-pattern:
 
-Collecting Observations
-=======================
+=========================================
+Updating Course Content from Observations
+=========================================
 
-.. tags:: flight plan, training, iterative, planning, documentation, communication
+.. tags:: continuous improvement, feedback, data, iterative, enhancement
 
-Short Description
------------------
-Establishing a reliable system for continuous improvement of Better Conversations course delivery.
+.. warning:: 
+    This page is under construction.
 
-Also Known As
----------------
-Continuous Improvement Cycle, Reflective Practice Loop, The Kaizen Model for Better Conversations
+.. todo:: 
+    Split this into collecting observations and analyzing observations/course updates 
 
-Context
--------
-This pattern applies to all facilitators and producers at all times. It’s the principle of how to continuously improve your work.
+The Collecting Observations pattern establishes a systematic approach for 
+continuous improvement through structured feedback collection and analysis. 
+It creates a data-driven framework for iterative enhancement of course delivery and design.
 
-Problem
--------
-How to ensure flight plans stay relevant and effective over time.
 
-Solution
---------
-Embrace an iterative approach to flight plan development, using feedback and observations to continuously refine and improve the delivery process.
+-----------------------------------------------------------
+:material-outlined:`construction;1.8rem` Using this pattern
+-----------------------------------------------------------
 
-Forces
-------
+This pattern addresses several key learning challenges:
 
-*   Evolving Needs: The needs and preferences of participants can change over time.
-*   Facilitator Growth: Facilitators gain experience and develop their own styles.
-*   Unexpected Challenges: Unforeseen issues can arise during sessions.
+- How to systematically capture and analyze course delivery effectiveness
+- When to implement improvements based on collected feedback
+- How to ensure consistent quality across different facilitators
+- Ways to maintain course relevance over time
 
-Implementation
-----------------
-1.  **Test**. Create a flight plan.
-2.  **Deliver**. Use the flight plan to deliver the module.
-3.  **Debrief**. In a safe space consider what has gone well, and not so well with the plan
-4.  **Adapt**. Update the flight plan, and document the changes.
-5.  **Community Sharing:** share your learnings with other facilitators.
+The pattern is particularly valuable when:
 
-Examples
---------
+- Launching new course content
+- Training new facilitators
+- Adapting content for different audiences
+- Identifying areas for improvement
+- Validating learning effectiveness
 
-*   Numerous observations from the data show an always improving flight plan.
-*   Pilots have pre flight checks, complete a flight, and complete a debrief afterwards.
+----------------------------------------------  
+:material-regular:`dashboard;1.8rem` Structure
+----------------------------------------------
 
-Rationale
----------
-By continually improving the flight plans, that will improve session delivery. This will improve session delivery and value to the participants, and allows continuous integration.
+The observation pattern follows a streamlined four-phase cycle based on the OODA Loop:
 
-Related Patterns
-----------------
-*   :ref:`all`
+1. **Record** (Observe)
+   
+   - Capture observations in structured format
+   - Use consistent templates
+   - Include context and impact
+   - Tag for categorization
+   - Document evidence and metrics
 
-Consequences
-------------
+2. **Review** (Orient)
 
-*   **Positive:** Increased facilitator confidence, more engaging delivery experience.
-*   **Negative:** Requires dedication to documentation.
+   - Conduct periodic reviews
+   - Analyze patterns and trends
+   - Synthesize related observations
+   - Consider broader context
+   - Map dependencies
+
+3. **Prioritize & Plan** (Decide)
+
+   - Evaluate impact and effort
+   - Set implementation priorities
+   - Synthesize related issues
+   - Design comprehensive solutions
+   - Create action plans
+
+4. **Implement & Validate** (Act)
+
+   - Execute planned changes
+   - Test effectiveness
+   - Document outcomes
+   - Gather feedback
+   - Adjust as needed
+
+-------------------------------------------------------------
+:material-outlined:`groups;1.8rem` Roles and responsibilities
+-------------------------------------------------------------
+
+**Delivery Team:**
+
+- Use structured templates for recording
+- Provide clear context and evidence
+- Tag and categorize observations
+- Document metrics and impact
+
+**Course Designers:**
+
+- Conduct regular review sessions
+- Analyze observation patterns
+- Identify related issues
+- Map contextual factors
+- Synthesize findings
+
+**Decision Makers:**
+
+- Evaluate priorities
+- Design solutions
+- Plan implementation
+- Allocate resources
+- Set success criteria
+
+**Implementers:**
+
+- Execute changes
+- Conduct testing
+- Document results
+- Gather feedback
+- Report outcomes
+
+--------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Examples
+--------------------------------------------------
+
+**Recording Examples:**
+
+- Participant engagement levels
+- Time management effectiveness
+- Activity completion rates
+- Learning outcome achievement
+- Technical challenges
+- Group dynamics
+- Question patterns
+- Energy levels
+
+**Documentation Examples:**
+
+- Session debrief forms
+- Participant feedback surveys
+- Facilitator reflection logs
+- Time-stamped observations
+- Video session reviews
+- Peer observation notes
+
+-------------------------------------------
+:material-outlined:`science;1.8rem` Testing
+-------------------------------------------
+
+Evaluate effectiveness through:
+
+- Participant feedback scores
+- Learning outcome achievement rates
+- Facilitator confidence levels
+- Course completion rates
+- Knowledge retention metrics
+- Implementation success rates
+- Community engagement levels
+
+----------------------------------------------------
+:material-outlined:`touch_app;1.8rem` Implementation
+----------------------------------------------------
+
+**Phase-Specific Guidelines:**
+
+1. **Recording Phase**
+
+   - Use standardized templates
+   - Ensure complete context
+   - Include supporting evidence
+   - Apply consistent tagging
+
+2. **Review Phase**
+
+   - Schedule regular reviews
+   - Use systematic analysis
+   - Document relationships
+   - Map broader context
+
+3. **Planning Phase**
+
+   - Apply priority criteria
+   - Design comprehensive solutions
+   - Create detailed plans
+   - Set clear metrics
+
+4. **Implementation Phase**
+
+   - Follow change protocols
+   - Conduct thorough testing
+   - Document all outcomes
+   - Collect structured feedback
+
+-------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Anything else
+-------------------------------------------------------
+
+**Critical Elements:**
+
+- Consistent template usage
+- Regular review cycles
+- Clear priority criteria
+- Thorough testing
+- Structured feedback
+- Documentation discipline
+- Continuous learning
+
+**Common Challenges:**
+
+- Template adherence
+- Review scheduling
+- Priority conflicts
+- Resource constraints
+- Testing thoroughness
+- Feedback collection
+- Documentation gaps
+
+-------------------------------------------
+:material-outlined:`book;1.8rem` References
+-------------------------------------------
+
+Related Patterns: All
+
+Learning Theory Foundation:
+- Kolb's Experiential Learning Cycle
+- Action Research
+- Continuous Improvement (Kaizen)
+- Reflective Practice Models
 
 

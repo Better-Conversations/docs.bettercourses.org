@@ -1,4 +1,4 @@
-.. _flight-plan-delivery:
+.. _flight-plan-delivery-pattern:
 
 ==================
 Using Flight Plans

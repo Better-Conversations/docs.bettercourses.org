@@ -35,4 +35,5 @@ additional patterns, please let us know.
 
    flight-plan-design-pattern
    flipchart-design-pattern
+   # observations-design-pattern
    # design-pattern-template

@@ -1,8 +1,8 @@
 .. _flight-plan-design-pattern:
 
-==================
-Flight Plan Design
-==================
+======================
+Designing Flight Plans
+======================
 
 Flight plans are a structured approach to course design that ensures consistent, 
 high-quality learning experiences. This pattern describes how we design and structure 
