@@ -51,8 +51,8 @@ Please note that:
    assumptions
    badges
    stable-links
-   course-design/index  
    course-materials/index
+   course-design/index  
    design-patterns/index
    delivery-patterns/index
    delivery-guidance/index

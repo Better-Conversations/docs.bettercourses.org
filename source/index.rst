@@ -75,7 +75,7 @@ If you want to know more, or if you want to get involved, please get in touch wi
    :maxdepth: 2
    :caption: Contents
    :hidden:
-   :numbered:
+   :numbered: 3
 
    about/index
    course/index

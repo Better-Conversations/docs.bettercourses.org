@@ -34,10 +34,10 @@ additional patterns, please let us know.
    flight-plan-design-pattern
    flipchart-design-pattern
    observations-design-pattern
-   # accessibility-design-pattern
-   # breakout-design-pattern
-   # checklist-design-pattern
-   # exercises-design-pattern
-   # group-size-design-pattern
-   # role-design-pattern
+   accessibility-design-pattern
+   breakout-design-pattern
+   checklist-design-pattern
+   exercises-design-pattern
+   group-size-design-pattern
+   role-design-pattern
    design-pattern-template
