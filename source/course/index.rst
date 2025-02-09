@@ -2,7 +2,7 @@
 The Course
 ==========
 
-`Better Conversations <https://betterconversations.courses>`_ is at its heart, a
+`Better Conversations <https://marketing.betterconversations.foundation>`_ is at its heart, a
 course to teach people to have better conversations in everyday contexts using
 Clean Language.
 

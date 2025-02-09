@@ -43,7 +43,7 @@ If you don’t have any prior experience as a trainer or facilitator and would s
 
 When we ask people who might deliver the course for us what support and resources they need to do that, we often hear that sales and marketing are the most difficult aspects for people. We are currently evolving the way we deliver marketing and sales support to trainers. Our current thinking is along the lines of providing:
 
-**Course listings** If you are delivering public courses, we can list them on our websites - for example this one, that describes the course: https://betterconversations.courses
+**Course listings** If you are delivering public courses, we can list them on our websites - for example this one, that describes the course: https://marketing.betterconversations.foundation
 
 **Marketing engine** We can raise the profile of the course through working with our Marketing partners to create generic campaigns for the course. Since we have a global reach, we can help drive potential participants your way by helping them find a course running in their locality and language through a central site of course listings.
 
