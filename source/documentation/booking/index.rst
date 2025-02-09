@@ -2,6 +2,9 @@
 Book a Meeting with Us
 =======================
 
+.. summary::
+    This is a summary of what this page contains. It will appear in llms.txt but not in the HTML.
+
 If you would like to book a meeting with us, please use the links below to book a time that suits you.
 
 A 30 minute call with either Chandima or Simon to talk about the Foundation and how we can help you.

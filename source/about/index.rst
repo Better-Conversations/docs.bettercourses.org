@@ -29,24 +29,6 @@ The Foundation is a not-for-profit organisation, founded by Simon Coles and Chan
         ^^^
         Chandima is Head of People at Simon's company, supporting people to be their unique selves at work. With a  background in STEM, and extensive corporate experience, Chandima is passionate about enabling resilient teams, and sparking creativity and innovation through the power of human connection.
 
-We could never have achieved what we have without the support of our Faculty, who have generously given their time and expertise to help us create our content. We are grateful for their support and are proud to work with them in our community.
-
-
-Our current Faculty includes:
-
-.. grid:: 1 2 3 3
-
-    .. grid-item:: `Lyndsay Conklin <https://www.linkedin.com/in/lyndsay-conklin-00670b290/>`_
-    .. grid-item:: `Evelina De Lain <https://www.linkedin.com/in/evelina-de-lain/>`_
-    .. grid-item:: `Steve McCann <https://www.linkedin.com/in/steve-mccann-improving-the-quality-of-understanding-in-human-discourse/>`_
-    .. grid-item:: `Christian Mejer Knudsen <https://www.linkedin.com/in/christianmejerknudsen/>`_
-    .. grid-item:: `Matthew Michaelsen <https://www.linkedin.com/in/matt-michaelsen/>`_
-    .. grid-item:: `Johan Nordin <https://www.linkedin.com/in/johanhnordin/>`_
-    .. grid-item:: `Dr Robyn Odegaard <https://www.linkedin.com/in/robynodegaard/>`_
-    .. grid-item:: `Judy Rees <https://www.linkedin.com/in/judyrees/>`_
-    .. grid-item:: `Christine Stief <https://www.linkedin.com/in/christine-stief-hausch-669965ab/>`_
-    .. grid-item:: `Kathryn Vere <https://www.linkedin.com/in/kathrynvere/>`_
-
 
     
 .. todo:: 
@@ -67,6 +49,7 @@ Our current Faculty includes:
    :hidden:
    
    appreciation
+   faculty_ambassadors
    commercial
    contact
    our-mission

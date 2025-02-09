@@ -9,4 +9,4 @@ author: Chandima Dutton
 
 # New Dates Announced
 
-We've released new course dates which you can see on our [course dates page](https://betterconversations.foundation/booking/experience-pass.html)
+We've released new course dates which you can see on our course dates page.
