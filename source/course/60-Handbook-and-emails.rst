@@ -12,7 +12,7 @@ Course Handbook
 ---------------
 
 We have prepared a handbook for participants which you can download
-as a PDF `here </documentation/800-resources/handbook.html>`_ 
+as a PDF `here </documentation/course-materials/handbook.html>`_ 
 It contains information about the course and also the material that's
 taught. 
 

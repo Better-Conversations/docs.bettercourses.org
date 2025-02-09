@@ -47,3 +47,12 @@ We've worked really hard on this, not only developing it but then documenting
 it in a way that others can build on. On a human level it's always nice to hear
 from people how they've used our work. You can send us fan mail and feedback
 `here <../about/contact.html#contact-us>`_.
+
+
+------------------
+Commercial Support
+------------------
+
+We offer commercial support for our courses `via our commercial arm </about/commercial.html>`_. 
+Please `contact us </about/contact.html>`_ to discuss your needs.
+
