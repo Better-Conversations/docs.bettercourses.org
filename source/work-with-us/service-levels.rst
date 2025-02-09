@@ -47,3 +47,12 @@ We've worked really hard on this, not only developing it but then documenting
 it in a way that others can build on. On a human level it's always nice to hear
 from people how they've used our work. You can send us fan mail and feedback
 here.
+
+
+------------------
+Commercial Support
+------------------
+
+We offer commercial support for our courses `via our commercial arm <https://www.betterconversations.foundation/about/commercial.html>`_. 
+Please `contact us <https://www.betterconversations.foundation/about/contact.html>`_ to discuss your needs.
+
