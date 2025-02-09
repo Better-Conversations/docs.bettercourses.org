@@ -53,6 +53,6 @@ here.
 Commercial Support
 ------------------
 
-We offer commercial support for our courses `via our commercial arm <https://www.betterconversations.foundation/about/commercial.html>`_. 
-Please `contact us <https://www.betterconversations.foundation/about/contact.html>`_ to discuss your needs.
+We offer commercial support for our courses `via our commercial arm </about/commercial.html>`_. 
+Please `contact us </about/contact.html>`_ to discuss your needs.
 
