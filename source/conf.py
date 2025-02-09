@@ -165,13 +165,13 @@ html_baseurl = "https://betterconversations.foundation/"
 html_copy_source = False
 
 # -- Ablog -----------------------------------------------------------
-# See here https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html
+# See here https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html
 skip_injecting_base_ablog_templates = False
 
 blog_title = "News from the BCF"
 blog_baseurl = "https://betterconversations.foundation/blog"
 post_date_format_short = "%b %d, %Y"
-post_auto_image = 1 # Don't automatically add images, set to 1 to return the first image in the post
+post_auto_image = 1 # Don't automatically add images, set to 1 to return the first image in the post
 templates_path = ['_templates']
 
 # -- Link Checking -----------------------------------------------------------
@@ -198,9 +198,7 @@ rst_prolog = """
 # rst_epilog = """
 # .. raw:: html
 #    <div>__GDPR__</div>
-
 #    <p></p>
-
 # """
 
 
@@ -230,18 +228,25 @@ latex_elements = {
         % Add page numbers
         \usepackage{fancyhdr}
         \pagestyle{fancy}
+        % For UK date format
+        \usepackage{datetime}
+        \renewcommand{\dateseparator}{~}  % Space between day and month
+        \newcommand{\uktoday}{\the\day~\monthname[\month]~\the\year}
+        \renewcommand{\familydefault}{\sfdefault}
     ''',
 
-    # Simple title page
     'maketitle': r'''
+        \makeatletter
         \begin{titlepage}
             \centering
             \vspace*{40mm}
-            {\Huge\textbf{Better Conversations Design Patterns}}
-            \vspace{10mm}
-            {\large \today}
+            {\huge\textbf{\@title}} 
+            \vspace{15mm}\par
+            {\Large \textit{\@author}}
+            \vspace{15mm}\par
+            {\large \uktoday}
         \end{titlepage}
-        \tableofcontents
+        \makeatother
     ''',
 }
 
@@ -250,18 +255,42 @@ latex_documents = [
      'articles.tex',  # Output .tex file name
      'Articles of Association',  # Document title
      'The Better Conversations Foundation',    # Author name
-     'report'),        # Document type (manual, howto, etc.)
+     'report',     # Document type (simple article format)
+     True),          # Generate TOC
     ('documentation/design-patterns/index',  # Source start file for design patterns
      'design-patterns.tex',  # Output filename 
      'Better Conversations Design Patterns',  # Document title
      'The Better Conversations Foundation',  # Author
-     'manual')         # Document type
+     'report',     # Document type (full report format)
+     True),         # Generate TOC
+    ('documentation/delivery-patterns/index',  # Source start file for delivery patterns
+     'delivery-patterns.tex',  # Output filename
+     'Better Conversations Delivery Patterns',  # Document title
+     'The Better Conversations Foundation',  # Author
+     'report',      # Document type
+     True),        # Generate TOC
+    ('documentation/delivery-guidance/index',  # Source start file for delivery guidance
+     'delivery-guidance.tex',  # Output filename
+     'Better Conversations Delivery Guidance',  # Document title
+     'The Better Conversations Foundation',  # Author
+     'report',     # Document type
+     True)        # Generate TOC
 ]
 
 # Document class options
 latex_docclass = {
     'manual': 'report',
+    'article': 'article'  # Use article class for Articles of Association
 }
+
+# Add specific article settings
+latex_elements.update({
+    'extraclassoptions': 'openany',
+    'papersize': 'a4paper',
+    'pointsize': '10pt',  # Smaller text for legal documents
+    'babel': '\\usepackage[english]{babel}',
+    'figure_align': 'htbp',
+})
 
 # Make tags work
 tags_create_tags = True
