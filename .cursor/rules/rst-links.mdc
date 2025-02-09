@@ -1,0 +1,8 @@
+---
+description: Make links properly in RST files
+globs: *.rst
+---
+
+# Your rule content
+
+Create links in RST files in RST syntac
