@@ -35,4 +35,14 @@ additional patterns, please let us know.
    :caption: Contents
    :hidden:
 
+   mayas-fingymajig
+   accessibilty-design-pattern
+   breakout-design-pattern
+   checklist-design-pattern
+   exercises-design-pattern
+   flipchart-design-pattern
+   flight-plan-design-pattern
+   group-size-design-pattern
+   observations-design-pattern
+   role-design-pattern
    flight-plan-pattern
