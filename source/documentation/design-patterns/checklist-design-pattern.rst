@@ -1,10 +1,148 @@
-.. _pre-session-preparation:
+.. _checklist-design-pattern:
 
-Pre-Session Preparation Checklist
-=================================
+======================
+Pre-Session Checklist
+======================
 
 .. tags:: preparation, checklist, facilitation, production, logistics, planning, quality, teamwork
-    
+
+.. warning::
+    This page is under construction
+
+A systematic approach to pre-session preparation that ensures consistent, high-quality 
+delivery of Better Conversations sessions. This pattern describes how we structure and 
+use checklists to support delivery teams and maintain quality.
+
+-----------------------------------------------------------
+:material-outlined:`construction;1.8rem` Using this pattern
+-----------------------------------------------------------
+
+This pattern addresses these learning challenges:
+
+- How to ensure consistent session preparation
+- When to complete key preparation steps
+- How to coordinate delivery teams
+- Ways to maintain quality standards
+- Methods for risk mitigation
+
+The pattern is particularly valuable when:
+- Training new team members
+- Running complex sessions
+- Coordinating multiple roles
+- Managing technical setups
+- Ensuring quality delivery
+
+-----------------------------------------------------  
+:material-outlined:`architecture;1.8rem` Architecture
+-----------------------------------------------------
+
+Core components:
+
+**Technical Preparation:**
+- System testing
+- Software verification
+- Connection checks
+- Tool readiness
+- Backup planning
+
+**Team Coordination:**
+- Role clarification
+- Communication setup
+- Handoff planning
+- Support arrangements
+- Emergency procedures
+
+**Content Review:**
+- Material preparation
+- Script familiarity
+- Activity planning
+- Time management
+- Customization needs
+
+-----------------------------------------------
+:material-outlined:`groups;1.8rem` Design roles
+-----------------------------------------------
+
+**Course Designer:**
+- Creates checklist structure
+- Defines quality standards
+- Sets preparation timelines
+- Reviews completion needs
+- Updates requirements
+
+**Delivery Team:**
+- Completes checklist items
+- Verifies preparations
+- Documents readiness
+- Coordinates actions
+- Reports issues
+
+---------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Design examples
+---------------------------------------------------------
+
+**Basic Implementation:**
+- Standard checklist format
+- Core preparation items
+- Essential verifications
+- Team coordination steps
+- Quality checks
+
+**Common Variations:**
+- Role-specific lists
+- Session-type adaptations
+- Complexity levels
+- Time requirements
+- Support needs
+
+--------------------------------------------------------------
+:material-outlined:`co_present;1.8rem` Delivery considerations
+--------------------------------------------------------------
+
+Key factors for successful delivery:
+
+- Completion timing
+- Team coordination
+- Issue resolution
+- Quality verification
+- Support access
+
+-------------------------------------------------------
+:material-outlined:`sync;1.8rem` Continuous improvement
+-------------------------------------------------------
+
+How to improve the pattern over time:
+
+- Gathering team feedback
+- Updating requirements
+- Streamlining processes
+- Enhancing clarity
+- Evolving standards
+
+---------------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Design considerations
+---------------------------------------------------------------
+
+**Critical Factors:**
+- Time constraints
+- Team capacity
+- Technical requirements
+- Quality standards
+- Risk management
+
+-------------------------------------------
+:material-outlined:`book;1.8rem` References
+-------------------------------------------
+
+Related Patterns:
+- :ref:`facilitator-producer-roles`
+- :ref:`handling-latecomers`
+- :ref:`breakout-room-timing`
+
+.. note:: Legacy Content Below
+
+The following content is from the previous version of this pattern and is kept for reference:
+
 Short Description
 -----------------
 A detailed checklist for facilitators and producers to ensure all key elements are in place for a successful Better Conversations session.

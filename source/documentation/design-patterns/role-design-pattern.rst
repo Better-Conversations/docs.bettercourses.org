@@ -1,9 +1,140 @@
-.. _facilitator-producer-roles:
+.. _role-design-pattern:
 
-Clarifying Facilitator and Producer Roles
-=========================================
+==========================
+Delivery Team Roles
+==========================
 
-.. tags:: check list, communication, training, team, trust, responsibility
+.. tags:: roles, facilitation, production, team coordination, responsibilities
+
+.. warning::
+    This page is under construction
+
+Clear role definition is essential for effective Better Conversations delivery. This pattern 
+describes how we structure and coordinate delivery team roles to ensure smooth session 
+flow and quality outcomes.
+
+-----------------------------------------------------------
+:material-outlined:`construction;1.8rem` Using this pattern
+-----------------------------------------------------------
+
+This pattern addresses these learning challenges:
+
+- How to coordinate delivery team members
+- When to transition between roles
+- How to maintain session flow
+- Ways to support each other
+- Methods for quality assurance
+
+The pattern is particularly valuable when:
+- Training new team members
+- Running complex sessions
+- Managing larger groups
+- Coordinating multiple roles
+- Ensuring quality delivery
+
+-----------------------------------------------------  
+:material-outlined:`architecture;1.8rem` Architecture
+-----------------------------------------------------
+
+Core components:
+
+**Role Definitions:**
+- Facilitator responsibilities
+- Producer duties
+- Support functions
+- Handover points
+- Communication protocols
+
+**Team Coordination:**
+- Pre-session planning
+- In-session coordination
+- Support mechanisms
+- Issue handling
+- Quality maintenance
+
+-----------------------------------------------
+:material-outlined:`groups;1.8rem` Design roles
+-----------------------------------------------
+
+**Course Designer:**
+- Defines role requirements
+- Plans coordination points
+- Sets quality standards
+- Creates support frameworks
+- Documents procedures
+
+**Delivery Team:**
+- Understands responsibilities
+- Coordinates effectively
+- Provides mutual support
+- Maintains quality
+- Handles issues
+
+---------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Design examples
+---------------------------------------------------------
+
+**Basic Implementation:**
+- Standard role definitions
+- Core coordination points
+- Essential handovers
+- Support protocols
+- Quality checks
+
+**Common Variations:**
+- Different team sizes
+- Role combinations
+- Support models
+- Communication approaches
+- Handover methods
+
+--------------------------------------------------------------
+:material-outlined:`co_present;1.8rem` Delivery considerations
+--------------------------------------------------------------
+
+Key factors for successful delivery:
+
+- Clear communication
+- Role clarity
+- Support availability
+- Issue resolution
+- Quality maintenance
+
+-------------------------------------------------------
+:material-outlined:`sync;1.8rem` Continuous improvement
+-------------------------------------------------------
+
+How to improve the pattern over time:
+
+- Gathering team feedback
+- Refining role definitions
+- Enhancing coordination
+- Improving support
+- Evolving procedures
+
+---------------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Design considerations
+---------------------------------------------------------------
+
+**Critical Factors:**
+- Team experience
+- Session complexity
+- Support needs
+- Communication requirements
+- Quality standards
+
+-------------------------------------------
+:material-outlined:`book;1.8rem` References
+-------------------------------------------
+
+Related Patterns:
+- :ref:`flight-plan-design-pattern`
+- :ref:`observations-design-pattern`
+- :ref:`group-size-design-pattern`
+
+.. note:: Legacy Content Below
+
+The following content is from the previous version of this pattern and is kept for reference:
 
 Short Description
 -----------------
