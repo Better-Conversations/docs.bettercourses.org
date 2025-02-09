@@ -221,21 +221,28 @@ redirects = {
 # For exporting to PDF
 
 latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
     'papersize': 'a4paper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
+    'pointsize': '11pt',
+    'geometry': r'\usepackage[margin=1in]{geometry}',
+    
     'preamble': r'''
-\setcounter{secnumdepth}{0}
-''',
+        % Add page numbers
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+    ''',
 
-    # Figure alignment
-    'figure_align': 'htbp',
+    # Simple title page
+    'maketitle': r'''
+        \begin{titlepage}
+            \centering
+            \vspace*{40mm}
+            {\Huge\textbf{Better Conversations Design Patterns}}
+            \vspace{10mm}
+            {\large \today}
+        \end{titlepage}
+        \tableofcontents
+    ''',
 }
-
 
 latex_documents = [
     ('about/governance/articles/index',  # Source start file (without .rst extension)
@@ -243,7 +250,17 @@ latex_documents = [
      'Articles of Association',  # Document title
      'The Better Conversations Foundation',    # Author name
      'report'),        # Document type (manual, howto, etc.)
+    ('documentation/design-patterns/index',  # Source start file for design patterns
+     'design-patterns.tex',  # Output filename 
+     'Better Conversations Design Patterns',  # Document title
+     'The Better Conversations Foundation',  # Author
+     'manual')         # Document type
 ]
+
+# Document class options
+latex_docclass = {
+    'manual': 'report',
+}
 
 # Make tags work
 tags_create_tags = True

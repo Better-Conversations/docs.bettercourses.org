@@ -29,15 +29,13 @@ additional patterns, please let us know.
 .. toctree::
    :maxdepth: 2
    :caption: Contents
-   :hidden:
 
-   flight-plan-design-pattern
-   flipchart-design-pattern
-   observations-design-pattern
-   accessibility-design-pattern
+   accessibilty-design-pattern
    breakout-design-pattern
    checklist-design-pattern
    exercises-design-pattern
+   flipchart-design-pattern
+   flight-plan-design-pattern
    group-size-design-pattern
+   observations-design-pattern
    role-design-pattern
-   design-pattern-template
