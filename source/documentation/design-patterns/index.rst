@@ -29,7 +29,9 @@ additional patterns, please let us know.
 .. toctree::
    :maxdepth: 2
    :caption: Contents
+   :hidden:
 
+   mayas-fingymajig
    accessibilty-design-pattern
    breakout-design-pattern
    checklist-design-pattern
