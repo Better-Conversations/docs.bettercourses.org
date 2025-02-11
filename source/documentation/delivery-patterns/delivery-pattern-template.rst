@@ -1,8 +1,8 @@
 .. _delivery-pattern-template:
 
-=========================
-Delivery Pattern Template
-=========================
+==========================
+Writing a Delivery Pattern
+==========================
 .. note::
     Delivery patterns are core, reusable solutions to common problems in the delivery of the Better Conversations course concerned mainly with facilitation, production, and managing session flow.
 
@@ -24,36 +24,37 @@ Explain the pattern's purpose and value in course delivery:
 
 Describe the delivery process:
 
-- Key steps and sequence
-- Timing considerations
-- Decision points
-- Adaptation options
-- Success indicators
+- What are the key steps and sequence?
+- What are the timing considerations?
+- What are the decision points?
+- What are the adaptation options?
+- What are the success indicators?
 
 -------------------------------------------------
 :material-outlined:`groups;1.8rem` Delivery roles
 -------------------------------------------------
 
+    
 **Facilitators:**
 
-- Key actions and decisions
-- Timing considerations
-- Adaptation responsibilities
-- Quality management
+- What are the key actions and decisions?
+- What are the timing considerations?
+- What are the adaptation responsibilities?
+- What are the quality management responsibilities?
 
 **Producers:**
 
-- Technical requirements
-- Support actions
-- Coordination points
-- Resource management
+- What are the technical requirements?
+- What are the support actions?
+- What are the coordination points?
+- What are the resource management responsibilities?
 
 **Participants:**
 
-- Expected engagement
-- Support needed
-- Success indicators
-- Common challenges
+- What is expected of participants?
+- What support is needed?
+- What are the success indicators?
+- What are the common challenges?
 
 --------------------------------------------------------------
 :material-outlined:`content_paste;1.8rem` Examples & Resources
@@ -61,22 +62,22 @@ Describe the delivery process:
 
 **Practical Examples:**
 
-- Real-world applications
-- Case studies
-- Lessons learned
+- What are some real-world applications?
+- What are some case studies?
+- What are some lessons learned?
 
 **Delivery Materials:**
 
-- Session templates
-- Facilitation guides
-- Production checklists
-- Participant materials
+- What are some session templates?
+- What are some facilitation guides?
+- What are some production checklists?
+- What are some participant materials?
 
 **Reference Materials:**
 
-- Example session plans
-- Video demonstrations
-- Troubleshooting guides
+- What are some example session plans?
+- What are some video demonstrations?
+- What are some troubleshooting guides?
 
 ----------------------------------------------------
 :material-outlined:`touch_app;1.8rem` Implementation
@@ -84,25 +85,25 @@ Describe the delivery process:
 
 **Setup & Requirements:**
 
-- Technical requirements
-- Preparation steps
-- Pre-session checks
-- Resource needs
+- What are the technical requirements?
+- What are the preparation steps?
+- What are the pre-session checks?
+- What are the resource needs?
 
 **Execution:**
 
-- Key actions
-- Timing considerations
-- Troubleshooting steps
-- Quality management
+- What are the key actions?
+- What are the timing considerations?
+- What are the troubleshooting steps?
+- What are the quality management responsibilities?
 
 **Evaluation:**
 
-- Session flow indicators
-- Participant engagement measures
-- Technical success metrics
-- Quality checks
-- Feedback collection
+- What are the session flow indicators?
+- What are the participant engagement measures?
+- What are the technical success metrics?
+- What are the quality checks?
+- What are the feedback collection mechanisms?
 
 ---------------------------------------------------------------------
 :material-outlined:`sticky_note_2;1.8rem` Additional Delivery Factors
@@ -110,18 +111,18 @@ Describe the delivery process:
 
 **Delivery Considerations:**
 
-- Special cases
-- Common challenges
-- Enhancement opportunities
-- Risk management
-- Support needs
+- What are some special cases?
+- What are some common challenges?
+- What are some enhancement opportunities?
+- What are some risk management considerations?
+- What are some support needs?
 
 **Process Evolution:**
 
-- Adaptation strategies
-- Scaling approaches
-- Integration methods
-- Support requirements
+- What are some adaptation strategies?
+- What are some scaling approaches?
+- What are some integration methods?
+- What are some support requirements?
 
 ----------------------------------------------------
 :material-outlined:`sync;1.8rem` Improvement Process
@@ -131,9 +132,9 @@ Describe the delivery process:
 
 1. **Collect & Analyze**
 
-   - Session observations
-   - Participant feedback
-   - Technical metrics
+   - Collect session observations
+   - Collect participant feedback
+   - Collect technical metrics
    - Identify patterns
 
 2. **Plan & Prioritize**

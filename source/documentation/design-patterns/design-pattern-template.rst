@@ -29,9 +29,9 @@ Explain the pattern's purpose and value:
 
 Describe the pattern's structure:
 
-- Key components and their relationships
-- Variations and adaptations
-- Integration with other patterns
+- What are the key components and their relationships?
+- What are the variations and adaptations?
+- What are the integration with other patterns?
 
 -----------------------------------------------
 :material-outlined:`groups;1.8rem` Design roles
@@ -39,8 +39,8 @@ Describe the pattern's structure:
 
 Outline the key roles involved in the design process:
 
-- Responsibilities for each role
-- Collaboration points
+- What are the responsibilities for each role?
+- What are the collaboration points?
 
 Note that the design process is iterative and that the roles may overlap.
 
@@ -52,21 +52,21 @@ Provide concrete examples, including what has been learned from applying it with
 
 **Practical Examples:**
 
-- Real-world applications
-- Case studies
-- Lessons learned
+- What are some real-world applications?
+- What are some case studies?
+- What are some lessons learned?
 
 **Templates & Materials:**
 
-- Implementation checklists
-- Observation forms
-- Feedback collection tools
+- What are some implementation checklists?
+- What are some observation forms?
+- What are some feedback collection tools?
 
 **Reference Materials:**
 
-- Sample completed patterns
-- Best practice guides
-- Design process documentation
+- What are some sample completed patterns?
+- What are some best practice guides?
+- What are some design process documentation?
 
 ----------------------------------------------------
 :material-outlined:`touch_app;1.8rem` Implementation
@@ -74,21 +74,21 @@ Provide concrete examples, including what has been learned from applying it with
 
 **Setup & Requirements:**
 
-- Minimum requirements
-- Preparation steps
-- Resource needs
+- What are the minimum requirements?
+- What are the preparation steps?
+- What are the resource needs?
 
 **Execution:**
 
-- Key actions
-- Timing considerations
-- Troubleshooting
+- What are the key actions?
+- What are the timing considerations?
+- What are the troubleshooting steps?
 
 **Evaluation:**
 
-- Success indicators
-- Common challenges and pitfalls
-- Feedback mechanisms
+- What are the success indicators?
+- What are some common challenges and pitfalls?
+- What are some feedback mechanisms?
 
 -------------------------------------------------------------------
 :material-outlined:`sticky_note_2;1.8rem` Additional Design Factors
@@ -96,19 +96,19 @@ Provide concrete examples, including what has been learned from applying it with
 
 **Implementation Considerations:**
 
-- Trade-offs and compromises
-- Constraints and limitations
-- Dependencies and requirements
-- Risks and mitigation strategies
-- Opportunities for enhancement
+- What are the trade-offs and compromises?
+- What are the constraints and limitations?
+- What are the dependencies and requirements?
+- What are the risks and mitigation strategies?
+- What are the opportunities for enhancement?
 
 **Design Evolution:**
 
-- Potential future developments
-- Scalability considerations
-- Adaptation possibilities
-- Integration opportunities
-- Maintenance requirements
+- What are the potential future developments?
+- What are the scalability considerations?
+- What are the adaptation possibilities?
+- What are the integration opportunities?
+- What are the maintenance requirements?
 
 -----------------------------------------------------
 :material-outlined:`sync;1.8rem` Improvement Process
