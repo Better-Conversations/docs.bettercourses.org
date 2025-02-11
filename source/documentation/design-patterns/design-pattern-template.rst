@@ -44,9 +44,9 @@ Outline the key roles involved in the design process:
 
 Note that the design process is iterative and that the roles may overlap.
 
-------------------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Examples & Resources
-------------------------------------------------------------
+----------------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Examples and resources
+----------------------------------------------------------------
 
 Provide concrete examples, including what has been learned from applying it within different contexts.
 
@@ -91,7 +91,7 @@ Provide concrete examples, including what has been learned from applying it with
 - What are some feedback mechanisms?
 
 -------------------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Additional Design Factors
+:material-outlined:`sticky_note_2;1.8rem` Additional design factors
 -------------------------------------------------------------------  
 
 **Implementation Considerations:**
@@ -111,7 +111,7 @@ Provide concrete examples, including what has been learned from applying it with
 - What are the maintenance requirements?
 
 -----------------------------------------------------
-:material-outlined:`sync;1.8rem` Improvement Process
+:material-outlined:`sync;1.8rem` Improvement process
 -----------------------------------------------------
 
 **Continuous Improvement Cycle:**

@@ -61,9 +61,9 @@ Describe the delivery process:
 - What are the success indicators?
 - What are the common challenges?
 
---------------------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Examples & Resources
---------------------------------------------------------------
+----------------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Examples and resources
+----------------------------------------------------------------
 
 **Practical Examples:**
 
@@ -111,7 +111,7 @@ Describe the delivery process:
 - What are the feedback collection mechanisms?
 
 ---------------------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Additional Delivery Factors
+:material-outlined:`sticky_note_2;1.8rem` Additional delivery factors
 ---------------------------------------------------------------------
 
 **Delivery Considerations:**
@@ -130,7 +130,7 @@ Describe the delivery process:
 - What are some support requirements?
 
 ----------------------------------------------------
-:material-outlined:`sync;1.8rem` Improvement Process
+:material-outlined:`sync;1.8rem` Improvement process
 ----------------------------------------------------
 
 **Continuous Improvement Cycle:**
