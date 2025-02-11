@@ -36,6 +36,7 @@ additional patterns, please let us know.
    flipchart-design-pattern
    flight-plan-design-pattern
    group-size-design-pattern
+   continuous-improvement-pattern
    observations-design-pattern
    role-design-pattern
    design-pattern-template

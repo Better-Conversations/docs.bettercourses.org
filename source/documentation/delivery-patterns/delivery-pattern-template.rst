@@ -4,7 +4,12 @@
 Writing a Delivery Pattern
 ==========================
 .. note::
+
     Delivery patterns are core, reusable solutions to common problems in the delivery of the Better Conversations course concerned mainly with facilitation, production, and managing session flow.
+
+    This section gives some guidance on how to write a delivery pattern for this site. It is not intended to be a comprehensive guide to delivery patterns, but will give you a starting point. In each section below, choose what is relevant to your pattern and replace the text. You don't have to use all the suggested sections, but it is important that you include all the sections that are relevant to your pattern. 
+    
+    Name the pattern with a short title (verb-noun format is useful)
 
 -----------------------------------------------------------
 :material-outlined:`construction;1.8rem` Using this pattern

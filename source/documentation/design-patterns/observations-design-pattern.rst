@@ -7,7 +7,7 @@ Updating Course Content from Observations
 .. tags:: continuous improvement, feedback, data, iterative, enhancement
 
 .. warning:: 
-    This page is under construction.
+    This page is under development.
 
 The Collecting Observations pattern establishes a systematic approach for 
 continuous improvement through structured feedback collection and analysis. 
@@ -130,6 +130,23 @@ The observation pattern follows a streamlined four-phase cycle based on the OODA
 - Video session reviews
 - Peer observation notes
 
+---------------------------------------------------------
+:material-outlined:`folder;1.8rem` Observation Resources
+---------------------------------------------------------
+
+**Templates:**
+
+- Standard observation forms
+- Feedback collection templates
+- Analysis frameworks
+
+**Tools:**
+
+- Digital observation platforms
+- Time tracking tools
+- Data visualization templates
+- Reporting frameworks
+
 --------------------------------------------------------------
 :material-outlined:`co_present;1.8rem` Delivery considerations
 --------------------------------------------------------------
@@ -153,6 +170,27 @@ How to improve the pattern over time:
 - Enhancing analysis processes
 - Streamlining implementation
 - Evolving based on feedback
+
++-------------------------------------------------------
+:material-outlined:`timeline;1.8rem` Improvement Timeline
++-------------------------------------------------------
+
+**Short-term (0-3 months):**
+
+- Standardize observation templates
+- Train teams on new processes
+- Establish regular review cycles
+
+**Medium-term (3-6 months):**
+
+- Implement feedback integration system
+- Develop metrics dashboard
+- Create knowledge sharing platform
+
+**Long-term (6+ months):**
+- Automate data collection where possible
+- Establish predictive analytics
+- Create self-improving feedback loops
 
 ---------------------------------------------------------------
 :material-outlined:`sticky_note_2;1.8rem` Design considerations

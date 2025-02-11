@@ -7,7 +7,7 @@ Collecting Observations
 .. tags:: continuous improvement, feedback, observations, delivery quality, documentation
 
 .. warning:: 
-    This page is under construction
+    This page is under development.
     
 A practical guide for collecting and documenting observations during Better Conversations 
 sessions to support continuous improvement and enhance learning effectiveness.
@@ -27,6 +27,7 @@ This pattern helps facilitators:
 - Adapt delivery in real-time
 
 Essential for:
+
 - Session debriefs
 - Facilitator development
 - Producer development
@@ -39,12 +40,14 @@ Essential for:
 --------------------------------------
 
 **Before Session:**
+
 1. Review observation templates
 3. Identify focus areas if conducting small scale experiments
 4. Prepare documentation tools
 5. Brief delivery team
 
 **During Session:**
+
 1. Record key moments and learning progress
 2. Note timing issues
 3. Capture participant responses and engagement
@@ -114,6 +117,24 @@ Essential for:
 - Following up effectively
 - Maintaining focus
 
+------------------------------------------------------------
+:material-outlined:`folder;1.8rem` Delivery Resources
+------------------------------------------------------------
+
+**Essential Materials:**
+
+- Observation templates
+- Facilitation guides
+- Production checklists
+- Participant materials
+
+**Supporting Resources:**
+
+- Example session plans
+- Video demonstrations
+- Troubleshooting guides
+- Quality assurance checklists
+
 -------------------------------------------
 :material-outlined:`science;1.8rem` Testing
 -------------------------------------------
@@ -172,6 +193,26 @@ Share with the community:
 - Focus area suggestions
 - Tool recommendations
 - Process enhancements
+
+-----------------------------------------------------
+:material-outlined:`analytics;1.8rem` Metrics Tracking
+-----------------------------------------------------
+
+**Key Performance Indicators:**
+
+- Observation completion rate
+- Feedback response rate
+- Improvement implementation rate
+- Time to implement changes
+- Participant satisfaction scores
+
+**Tracking Methods:**
+
+- Automated dashboards
+- Regular progress reports
+- Version control documentation
+- Success story repository
+- Lessons learned database
 
 -------------------------------------------------------------------
 :material-outlined:`sticky_note_2;1.8rem` Additional considerations
