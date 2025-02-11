@@ -42,9 +42,9 @@ Essential for:
 **Before Session:**
 
 1. Review observation templates
-3. Identify focus areas if conducting small scale experiments
-4. Prepare documentation tools
-5. Brief delivery team
+2. Identify focus areas
+3. Prepare documentation tools
+4. Brief delivery team
 
 **During Session:**
 
@@ -56,10 +56,10 @@ Essential for:
 
 **After Session:**
 
-2. Share key insights
-3. Identify improvements
-4. Document clearly
-5. Follow up on actions
+1. Share key insights
+2. Identify improvements
+3. Document clearly
+4. Follow up on actions
 
 -------------------------------------------------
 :material-outlined:`groups;1.8rem` Delivery roles
@@ -85,11 +85,11 @@ Essential for:
 - Support activities
 - Document progress
 
-------------------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Practical examples
-------------------------------------------------------------
+----------------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Examples and resources
+----------------------------------------------------------------
 
-**Common Observations:**
+**Practical Examples:**
 
 - Session timing variances
 - Learning progress
@@ -101,61 +101,25 @@ Essential for:
 - Content effectiveness
 - Delivery improvements
 
-**Documentation Methods:**
-
-- Structured templates
-- Quick notes
-- Time stamps
-- Chat logs
-- Session recordings
-
-**Handling Challenges:**
-
-- Balancing observation and support
-- Managing multiple observers
-- Capturing everything important
-- Following up effectively
-- Maintaining focus
-
-------------------------------------------------------------
-:material-outlined:`folder;1.8rem` Delivery Resources
-------------------------------------------------------------
-
-**Essential Materials:**
+**Delivery Materials:**
 
 - Observation templates
 - Facilitation guides
 - Production checklists
 - Participant materials
 
-**Supporting Resources:**
+**Reference Materials:**
 
 - Example session plans
 - Video demonstrations
 - Troubleshooting guides
 - Quality assurance checklists
 
--------------------------------------------
-:material-outlined:`science;1.8rem` Testing
--------------------------------------------
-
-Check effectiveness through:
-
-- Learning checks
-- Exercise completion
-- Template completion rates
-- Observation quality
-- Follow-up actions
-- Improvement implementation
-- Participant feedback
-- Engagement levels
-- Knowledge application
-
 ----------------------------------------------------
 :material-outlined:`touch_app;1.8rem` Implementation
 ----------------------------------------------------
 
-**Setup:**
+**Setup & Requirements:**
 
 - Prepare templates
 - Brief observers
@@ -163,7 +127,7 @@ Check effectiveness through:
 - Assign focus areas
 - Plan documentation
 
-**During Delivery:**
+**Execution:**
 
 - Use structured approach
 - Stay focused
@@ -171,54 +135,19 @@ Check effectiveness through:
 - Track timing
 - Document clearly
 
--------------------------------------------------------
-:material-outlined:`architecture;1.8rem` Design context
--------------------------------------------------------
+**Evaluation:**
 
-Remember these principles:
-
-- Use standard templates
-- Focus on improvement
-- Document evidence
-- Be specific
-- Stay objective
-
------------------------------------------------------
-:material-outlined:`sync;1.8rem` Improvement feedback
------------------------------------------------------
-
-Share with the community:
-- Template improvements
-- Documentation methods
-- Focus area suggestions
-- Tool recommendations
-- Process enhancements
-
------------------------------------------------------
-:material-outlined:`analytics;1.8rem` Metrics Tracking
------------------------------------------------------
-
-**Key Performance Indicators:**
-
-- Observation completion rate
-- Feedback response rate
-- Improvement implementation rate
-- Time to implement changes
-- Participant satisfaction scores
-
-**Tracking Methods:**
-
-- Automated dashboards
-- Regular progress reports
-- Version control documentation
-- Success story repository
-- Lessons learned database
+- Learning checks
+- Exercise completion
+- Template completion rates
+- Observation quality
+- Follow-up actions
 
 -------------------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Additional considerations
+:material-outlined:`sticky_note_2;1.8rem` Additional delivery factors
 -------------------------------------------------------------------  
 
-**Process Factors:**
+**Delivery Considerations:**
 
 - Observer capacity
 - Documentation load
@@ -226,13 +155,22 @@ Share with the community:
 - Team coordination
 - Information sharing
 
-**Support Needs:**
+**Process Evolution:**
 
-- Template access
-- Documentation tools
-- Sharing methods
-- Storage systems
-- Follow-up processes
+- Adaptation strategies
+- Scaling approaches
+- Integration methods
+- Support requirements
+
+-----------------------------------------------------
+:material-outlined:`sync;1.8rem` Improvement process
+-----------------------------------------------------
+
+See :ref:`continuous-improvement-pattern` for details on:
+- How observations feed into improvements
+- How changes are implemented
+- How effectiveness is measured
+- How learnings are shared
 
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
@@ -241,3 +179,4 @@ Share with the community:
 Related Patterns:
 
 - :ref:`observations-design-pattern`
+- :ref:`continuous-improvement-pattern`

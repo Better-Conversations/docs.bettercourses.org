@@ -33,9 +33,9 @@ The pattern is particularly valuable when:
 - Identifying areas for improvement
 - Validating learning effectiveness
 
------------------------------------------------------  
-:material-outlined:`architecture;1.8rem` Architecture
------------------------------------------------------
+------------------------------------------------
+:material-outlined:`design_services;1.8rem` Form
+------------------------------------------------
 
 The observation pattern follows a streamlined four-phase cycle based on the OODA Loop:
 
@@ -106,11 +106,11 @@ The observation pattern follows a streamlined four-phase cycle based on the OODA
 - Gather feedback
 - Report outcomes
 
----------------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Design examples
----------------------------------------------------------
+----------------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Examples and resources
+----------------------------------------------------------------
 
-**Recording Examples:**
+**Practical Examples:**
 
 - Participant engagement levels
 - Time management effectiveness
@@ -121,92 +121,45 @@ The observation pattern follows a streamlined four-phase cycle based on the OODA
 - Question patterns
 - Energy levels
 
-**Documentation Examples:**
-
-- Session debrief forms
-- Participant feedback surveys
-- Facilitator reflection logs
-- Time-stamped observations
-- Video session reviews
-- Peer observation notes
-
----------------------------------------------------------
-:material-outlined:`folder;1.8rem` Observation Resources
----------------------------------------------------------
-
-**Templates:**
+**Templates & Materials:**
 
 - Standard observation forms
 - Feedback collection templates
 - Analysis frameworks
 
-**Tools:**
+**Reference Materials:**
 
-- Digital observation platforms
-- Time tracking tools
-- Data visualization templates
-- Reporting frameworks
+- Sample completed patterns
+- Best practice guides
+- Design process documentation
 
---------------------------------------------------------------
-:material-outlined:`co_present;1.8rem` Delivery considerations
---------------------------------------------------------------
+----------------------------------------------------
+:material-outlined:`touch_app;1.8rem` Implementation
+----------------------------------------------------
 
-Key factors for successful delivery:
+**Setup & Requirements:**
 
-- How to collect observations during live sessions
-- Ways to capture feedback effectively
-- Methods for real-time documentation
-- Support needed for observation process
-- Resource requirements for delivery teams
+- Template preparation
+- Documentation tools setup
+- Review cycle establishment
 
--------------------------------------------------------
-:material-outlined:`sync;1.8rem` Continuous improvement
--------------------------------------------------------
+**Execution:**
 
-How to improve the pattern over time:
+- Observation collection process
+- Documentation methods
+- Analysis procedures
 
-- Refining observation templates
-- Improving collection methods
-- Enhancing analysis processes
-- Streamlining implementation
-- Evolving based on feedback
+**Evaluation:**
 
-+-------------------------------------------------------
-:material-outlined:`timeline;1.8rem` Improvement Timeline
-+-------------------------------------------------------
+- Template effectiveness
+- Documentation quality
+- Pattern identification success
 
-**Short-term (0-3 months):**
+-------------------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Additional design factors
+-------------------------------------------------------------------  
 
-- Standardize observation templates
-- Train teams on new processes
-- Establish regular review cycles
-
-**Medium-term (3-6 months):**
-
-- Implement feedback integration system
-- Develop metrics dashboard
-- Create knowledge sharing platform
-
-**Long-term (6+ months):**
-- Automate data collection where possible
-- Establish predictive analytics
-- Create self-improving feedback loops
-
----------------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Design considerations
----------------------------------------------------------------
-
-**Critical Elements:**
-
-- Consistent template usage
-- Regular review cycles
-- Clear priority criteria
-- Thorough testing
-- Structured feedback
-- Documentation discipline
-- Continuous learning
-
-**Common Challenges:**
+**Implementation Considerations:**
 
 - Template adherence
 - Review scheduling
@@ -215,6 +168,23 @@ How to improve the pattern over time:
 - Testing thoroughness
 - Feedback collection
 - Documentation gaps
+
+**Design Evolution:**
+
+- Pattern refinement process
+- Template evolution
+- Documentation improvements
+
+-----------------------------------------------------
+:material-outlined:`sync;1.8rem` Improvement process
+-----------------------------------------------------
+
+See :ref:`continuous-improvement-pattern` for details on:
+
+- How observations feed into improvements
+- How changes are implemented
+- How effectiveness is measured
+- How learnings are shared
 
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
