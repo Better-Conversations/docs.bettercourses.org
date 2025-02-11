@@ -31,7 +31,6 @@ additional patterns, please let us know.
    :caption: Contents
    :hidden:
 
-   mayas-fingymajig
    accessibilty-design-pattern
    breakout-design-pattern
    checklist-design-pattern
