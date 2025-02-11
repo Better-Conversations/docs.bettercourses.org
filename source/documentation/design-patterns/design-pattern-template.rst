@@ -1,158 +1,145 @@
 .. _design-pattern-template:
 
-=========================
-Design Pattern Template 
-========================= 
+========================
+Writing a Design Pattern
+========================
 
-Add an introduction to the pattern here. This should explain:
+.. note::
+   Design patterns are core, reusable solutions to common problems in the design of the Better Conversations course concerned mainly with course structure, content, and learning activities.
+   
+   This section gives some guidance on how to write a design pattern for this site. It is not intended to be a comprehensive guide to design patterns, but will give you a starting point. In each section below, choose what is relevant to your pattern and replace the text. You don't have to use all the suggested sections, but it is important that you include all the sections that are relevant to your pattern.
 
-- What this pattern contributes to course design
-- How it enhances learning outcomes
-- Which learning objectives it supports
-- Any alternative names for the pattern
+   Name the pattern with a short title (verb-noun format is useful)
 
 -----------------------------------------------------------
 :material-outlined:`construction;1.8rem` Using this pattern
 -----------------------------------------------------------
 
-Explain when and why to use this pattern in course design:
+Explain the pattern's purpose and value:
 
-- Which learning challenges does it address?
-- How does it support specific course objectives?
-- What learning outcomes does it enable?
-- What are the pedagogical considerations?
-- What alternative approaches might be considered?
+- What does it contribute to course design?
+- When should it be used?
+- What challenges does it address?
+- What are the key benefits?
+- What alternatives might be considered?
 
------------------------------------------------------  
-:material-outlined:`architecture;1.8rem` Architecture
------------------------------------------------------
+--------------------------------------
+:material-outlined:`design_services;1.8rem` Form
+--------------------------------------
 
-Describe the core structure and components:
+Describe the pattern's structure:
 
-- What are the essential elements?
-- How do components relate?
-- What variations are possible?
-- What are the key design principles?
-- How does it integrate with other patterns?
+- Key components and their relationships
+- Variations and adaptations
+- Integration with other patterns
 
 -----------------------------------------------
 :material-outlined:`groups;1.8rem` Design roles
 -----------------------------------------------
 
-These roles may be held by the same person or split across a team. The key is ensuring all these responsibilities are covered.
+Outline the key roles involved in the design process:
 
-**Course Designer:**
+- Responsibilities for each role
+- Collaboration points
 
-- Defines learning objectives and outcomes
-- Selects and sequences patterns
-- Plans assessment strategy
-- Determines success criteria
-- Makes high-level structure decisions
-- Ensures alignment with learning goals
-- Ensures effective learning approaches:
-  - Active participation
-  - Clear instructions
-  - Appropriate pacing
-  - Knowledge checks
-  - Practice opportunities
-- Reviews and improves the pattern based on feedback
-- Maintains design standards
+Note that the design process is iterative and that the roles may overlap.
 
-**Content Developer:**
+------------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Examples & Resources
+------------------------------------------------------------
 
-- Creates learning materials and activities
-- Writes instructions and guides
-- Develops supporting resources
-- Ensures consistency across materials
-- Implements quality standards
-- Maintains content accuracy
-- Reviews pattern implementations
-- Validates learning approaches
-- Coordinates with other courses
+Provide concrete examples, including what has been learned from applying it within different contexts.
 
----------------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Design examples
----------------------------------------------------------
+**Practical Examples:**
 
-Show how this pattern can be implemented:
-
-**Basic Implementation:**
-
-- Simplest way to use the pattern
-- Minimum requirements
-- Core components in action
-- Example materials needed
-
-**Common Variations:**
-
-- Different ways to adapt the pattern
-- Examples for different contexts
-- Time/resource variations
-- Group size adaptations
-
-**Integration Examples:**
-
-- How it works with other patterns
-- Sequencing examples
-- Transition approaches
-- Combined effects
-
-**Success Stories:**
-
-- Real examples of pattern use
-- Problems it solved
+- Real-world applications
+- Case studies
 - Lessons learned
-- Measured benefits
 
-**Implementation Tips:**
+**Templates & Materials:**
 
-- Common pitfalls to avoid
-- Setup requirements
-- Resource suggestions
-- Time considerations
+- Implementation checklists
+- Observation forms
+- Feedback collection tools
 
---------------------------------------------------------------
-:material-outlined:`co_present;1.8rem` Delivery considerations
---------------------------------------------------------------
+**Reference Materials:**
 
-Key factors for successful delivery:
+- Sample completed patterns
+- Best practice guides
+- Design process documentation
 
-- Critical success factors
-- Common challenges
-- Adaptation guidelines
-- Resource requirements
-- Support needs
+----------------------------------------------------
+:material-outlined:`touch_app;1.8rem` Implementation
+----------------------------------------------------
 
--------------------------------------------------------
-:material-outlined:`sync;1.8rem` Continuous improvement
--------------------------------------------------------
+**Setup & Requirements:**
 
-How to improve the pattern over time:
+- Minimum requirements
+- Preparation steps
+- Resource needs
 
-- Using delivery feedback
-- Learning from implementation challenges
-- Incorporating successful adaptations
-- Documenting what works and what doesn't
-- Planning future improvements
+**Execution:**
 
----------------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Design considerations
----------------------------------------------------------------
+- Key actions
+- Timing considerations
+- Troubleshooting
 
-Additional design factors:
+**Evaluation:**
 
-- Trade-offs
-- Constraints
-- Dependencies
-- Risks
-- Opportunities
+- Success indicators
+- Common challenges and pitfalls
+- Feedback mechanisms
+
+-------------------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Additional Design Factors
+-------------------------------------------------------------------  
+
+**Implementation Considerations:**
+
+- Trade-offs and compromises
+- Constraints and limitations
+- Dependencies and requirements
+- Risks and mitigation strategies
+- Opportunities for enhancement
+
+**Design Evolution:**
+
+- Potential future developments
+- Scalability considerations
+- Adaptation possibilities
+- Integration opportunities
+- Maintenance requirements
+
+-----------------------------------------------------
+:material-outlined:`sync;1.8rem` Improvement Process
+-----------------------------------------------------
+
+**Continuous Improvement Cycle:**
+
+1. **Collect & Analyze**
+
+   - Use structured observation templates
+   - Gather implementation data
+   - Identify recurring issues
+   - Map dependencies
+
+2. **Plan & Prioritize**
+
+   - Evaluate impact vs effort
+   - Set implementation roadmap
+   - Allocate resources
+
+3. **Implement & Validate**
+
+   - Test changes in controlled environment
+   - Document outcomes
+   - Share results
 
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
 
-- Related design patterns
-- Related delivery patterns
-- Learning theory foundations
-- Research basis
+- :ref:`Related design patterns <design-patterns>`
+- :ref:`Related delivery patterns <delivery-patterns>`
+- :doc:`Technical documentation </documentation/index>`
 - Further reading

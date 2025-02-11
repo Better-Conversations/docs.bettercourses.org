@@ -3,19 +3,14 @@
 =========================
 Delivery Pattern Template
 =========================
-
-Add an introduction to the pattern here. This should explain:
-
-- What the pattern is
-- Why it matters in course delivery
-- How it supports facilitation
-- Any alternative names for the pattern
+.. note::
+    Delivery patterns are core, reusable solutions to common problems in the delivery of the Better Conversations course concerned mainly with facilitation, production, and managing session flow.
 
 -----------------------------------------------------------
 :material-outlined:`construction;1.8rem` Using this pattern
 -----------------------------------------------------------
 
-Explain when and why to use this pattern in course delivery:
+Explain the pattern's purpose and value in course delivery:
 
 - What delivery challenges does it solve?
 - How does it support session flow?
@@ -60,36 +55,34 @@ Describe the delivery process:
 - Success indicators
 - Common challenges
 
-------------------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Practical examples
-------------------------------------------------------------
+--------------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Examples & Resources
+--------------------------------------------------------------
 
-Provide specific examples of:
+**Practical Examples:**
 
 - Real-world applications
-- Common variations
-- Success stories
+- Case studies
 - Lessons learned
 
--------------------------------------------
-:material-outlined:`science;1.8rem` Testing
--------------------------------------------
+**Delivery Materials:**
 
-How to evaluate delivery effectiveness:
+- Session templates
+- Facilitation guides
+- Production checklists
+- Participant materials
 
-- Session flow indicators
-- Participant engagement measures
-- Technical success metrics
-- Quality checks
-- Feedback collection
+**Reference Materials:**
+
+- Example session plans
+- Video demonstrations
+- Troubleshooting guides
 
 ----------------------------------------------------
 :material-outlined:`touch_app;1.8rem` Implementation
 ----------------------------------------------------
 
-Practical delivery guidelines:
-
-**Setup:**
+**Setup & Requirements:**
 
 - Technical requirements
 - Preparation steps
@@ -103,35 +96,19 @@ Practical delivery guidelines:
 - Troubleshooting steps
 - Quality management
 
--------------------------------------------------------
-:material-outlined:`architecture;1.8rem` Design context
--------------------------------------------------------
+**Evaluation:**
 
-Understanding the design:
+- Session flow indicators
+- Participant engagement measures
+- Technical success metrics
+- Quality checks
+- Feedback collection
 
-- Key design principles
-- Important constraints
-- Critical dependencies
-- Design rationale
-- Pattern relationships
+---------------------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Additional Delivery Factors
+---------------------------------------------------------------------
 
------------------------------------------------------
-:material-outlined:`sync;1.8rem` Improvement feedback
------------------------------------------------------
-
-Contributing to pattern evolution:
-
-- Documenting issues
-- Suggesting improvements
-- Sharing adaptations
-- Success stories
-- Lesson learned
-
--------------------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Additional considerations
--------------------------------------------------------------------  
-
-Other delivery factors:
+**Delivery Considerations:**
 
 - Special cases
 - Common challenges
@@ -139,12 +116,44 @@ Other delivery factors:
 - Risk management
 - Support needs
 
+**Process Evolution:**
+
+- Adaptation strategies
+- Scaling approaches
+- Integration methods
+- Support requirements
+
+----------------------------------------------------
+:material-outlined:`sync;1.8rem` Improvement Process
+----------------------------------------------------
+
+**Continuous Improvement Cycle:**
+
+1. **Collect & Analyze**
+
+   - Session observations
+   - Participant feedback
+   - Technical metrics
+   - Identify patterns
+
+2. **Plan & Prioritize**
+
+   - Evaluate improvements
+   - Set implementation plan
+   - Allocate resources
+
+3. **Implement & Validate**
+
+   - Test changes
+   - Document outcomes
+   - Share results
+
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
 
-- Related delivery patterns
-- Related design patterns
-- Technical documentation
+- :ref:`Related delivery patterns <delivery-patterns>`
+- :ref:`Related design patterns <design-patterns>`
+- :doc:`Technical documentation </documentation/index>`
 - Best practices
 - Further reading 

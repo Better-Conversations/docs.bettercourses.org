@@ -5,9 +5,7 @@ Design Patterns
 As we develop this course, we spot things that are helpful to know. We call
 these "design patterns", a term borrowed from the world of software.
 
-Design patterns are core, reusable solutions to common problems in the design of the 
-Better Conversations course concerned mainly with course structure, content, learning 
-activities.
+Design patterns are core, reusable solutions to common problems in the design of the Better Conversations course concerned mainly with course structure, content, and learning activities.
 
 You might be wondering why we're sharing these design patterns. We want to be
 transparent about how we've designed the course, and to help you understand why
@@ -40,3 +38,4 @@ additional patterns, please let us know.
    group-size-design-pattern
    observations-design-pattern
    role-design-pattern
+   design-pattern-template
