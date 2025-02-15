@@ -11,6 +11,8 @@ This is particularly useful if you want to put the site into
 tool to ask it questions, perhaps in the context
 of other material as well. 
 
+Unfortunately due to technical limitations the PDF does not
+contain blog posts. 
 
 .. image:: /_static/images/PDF_32.png
    :width: 32px
