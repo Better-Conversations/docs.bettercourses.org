@@ -31,21 +31,29 @@ extensions = [
      'myst_parser', 
      'sphinx.ext.todo', 
      'sphinx_last_updated_by_git', 
-     'ablog',
      'sphinx.ext.intersphinx',
+    #  'ablog', - note we conditionally add this in the following block
      # 'sphinx_external_toc',
-     'sphinx_design',
      'sphinx_sitemap',
      'sphinx_reredirects',
      "sphinx_design",
      "sphinx_design_elements",
-     "sphinx.ext.intersphinx",
      "qms_header",
      ]
 myst_enable_extensions = [
      "colon_fence",
      "html_image"
     ]
+
+# Only include ablog extension for HTML builds 
+if 'latexpdf' not in sys.argv:
+    print("+++++++++++++ Adding ablog ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+    extensions.append('ablog')
+else:
+    # Remove ablog from extensions if it's there
+    if 'ablog' in extensions:
+        print("+++++++++++++ Removing ablog ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        extensions.remove('ablog')
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -60,6 +68,7 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.git', 
                     'README.md', 'robots.txt', '_site'
                     'serve.sh', 'pyproject.toml', '_ignore', 'requirements.txt']
+
 
 # Make the sitemap work see https://pypi.org/project/sphinx-sitemap/
 # Ensure that PDFs are copied to the site by specifying the directories containing PDFs in the html_extra_path.
@@ -237,9 +246,9 @@ latex_elements = {
 
 
 latex_documents = [
-    ('about/governance/articles/index',  # Source start file (without .rst extension)
-     'articles.tex',  # Output .tex file name
-     'Articles of Association',  # Document title
+    ('index',  # Source start file (without .rst extension)
+     'betterconversations-foundation.tex',  # Output .tex file name
+     'About Better Conversations Foundation',  # Document title
      'The Better Conversations Foundation',    # Author name
      'report'),        # Document type (manual, howto, etc.)
 ]
