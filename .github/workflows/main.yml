@@ -26,9 +26,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # We need to install texlive-full to build the PDF
-      - name: Install texlive-full
-        run: sudo apt-get update && sudo apt-get install -y texlive-full
-        
+      # We can't do this using GitHub Actions because they run as a user
+      # So I've installed the texlive-full package on the self-hosted runners
+      # - name: Install texlive-full
+      #   run: sudo apt-get update && sudo apt-get install -y texlive-full
+
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
