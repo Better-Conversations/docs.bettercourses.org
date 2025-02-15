@@ -54,5 +54,6 @@ Please note that:
    course-design/index  
    course-materials/index
    design-patterns/index
+   fullsite-pdf
    
    
