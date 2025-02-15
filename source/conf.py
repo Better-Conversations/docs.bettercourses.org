@@ -248,7 +248,7 @@ latex_elements = {
 latex_documents = [
     ('index',  # Source start file (without .rst extension)
      'betterconversations-foundation.tex',  # Output .tex file name
-     'About Better Conversations Foundation',  # Document title
+     'The Better Conversations Foundation',  # Document title
      'The Better Conversations Foundation',    # Author name
      'report'),        # Document type (manual, howto, etc.)
 ]
