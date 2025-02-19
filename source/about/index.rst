@@ -56,3 +56,5 @@ The Foundation is a not-for-profit organisation, founded by Simon Coles and Chan
    our-story
    behind-the-scenes/index
    governance/index
+   community/index
+   
