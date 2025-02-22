@@ -30,5 +30,5 @@ additional patterns, please let us know.
    # early-engagement-delivery-pattern
    # facilitator-state-delivery-pattern
    # latecomers-delivery-pattern
-   delivery-pattern-template
+   writing-delivery-pattern
 

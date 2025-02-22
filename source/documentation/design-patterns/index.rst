@@ -39,4 +39,4 @@ additional patterns, please let us know.
    continuous-improvement-pattern
    observations-design-pattern
    role-design-pattern
-   design-pattern-template
+   writing-design-pattern
