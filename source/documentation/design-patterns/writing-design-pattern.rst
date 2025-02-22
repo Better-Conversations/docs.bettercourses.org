@@ -1,4 +1,4 @@
-.. _design-pattern-template:
+.. _writing-design-pattern:
 
 ========================
 Writing a Design Pattern

@@ -1,4 +1,4 @@
-.. _delivery-pattern-template:
+.. _writing-delivery-pattern:
 
 ==========================
 Writing a Delivery Pattern
