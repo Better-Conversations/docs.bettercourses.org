@@ -65,98 +65,88 @@ Describe the delivery process:
 :material-outlined:`content_paste;1.8rem` Examples and resources
 ----------------------------------------------------------------
 
-**Practical Examples:**
+Provide practical delivery adaptations that have been learned from applying it within different contexts. Consider the following:
 
-- What are some real-world applications?
-- What are some case studies?
-- What are some lessons learned?
+Delivery Materials
+------------------
 
-**Delivery Materials:**
+- What session templates are there?
+- What delivery guides are there?
+- What checklists are there?
+- What participant materials are there?
+- What observation forms are there?
+- What feedback collection tools are there?
 
-- What are some session templates?
-- What are some facilitation guides?
-- What are some production checklists?
-- What are some participant materials?
+Practical Examples
+------------------
 
-**Reference Materials:**
-
-- What are some example session plans?
-- What are some video demonstrations?
-- What are some troubleshooting guides?
+- What real-world anecdotes or examples are there 
+relevant to delivery?
+- What are some lessons learned specific to delivery?
 
 ----------------------------------------------------
 :material-outlined:`touch_app;1.8rem` Implementation
 ----------------------------------------------------
 
-**Setup & Requirements:**
+- What technical requirements are there?
+- What preparation steps are needed?
+- What checks are needed?
+- What resources are needed?
+- What timing considerations are needed?
+- What quality management responsibilities are needed?
 
-- What are the technical requirements?
-- What are the preparation steps?
-- What are the pre-session checks?
-- What are the resource needs?
+-------------------------------------------------
+:material-outlined:`checklist;1.8rem` Evaluation
+-------------------------------------------------
 
-**Execution:**
-
-- What are the key actions?
-- What are the timing considerations?
-- What are the troubleshooting steps?
-- What are the quality management responsibilities?
-
-**Evaluation:**
-
-- What are the session flow indicators?
-- What are the participant engagement measures?
-- What are the technical success metrics?
-- What are the quality checks?
-- What are the feedback collection mechanisms?
+- What indicators are there for success?
+- How can you check the quality of the delivery?
+- What feedback collection mechanisms are there?
 
 ---------------------------------------------------------------------
 :material-outlined:`sticky_note_2;1.8rem` Additional delivery factors
 ---------------------------------------------------------------------
 
-**Delivery Considerations:**
-
-- What are some special cases?
-- What are some common challenges?
-- What are some enhancement opportunities?
-- What are some risk management considerations?
-- What are some support needs?
-
-**Process Evolution:**
-
-- What are some adaptation strategies?
-- What are some scaling approaches?
-- What are some integration methods?
+- What special cases are known?
+- What are scaling approaches can be used?
+- What are some common challenges and pitfalls, and how can they be avoided?
+- What risks must be managed?
 - What are some support requirements?
 
 ----------------------------------------------------
 :material-outlined:`sync;1.8rem` Improvement process
 ----------------------------------------------------
 
-**Continuous Improvement Cycle:**
+Consider the following process for improving the pattern:
 
-1. **Collect & Analyze**
+1. **Collect and analyze**
 
-   - Collect session observations
-   - Collect participant feedback
-   - Collect technical metrics
-   - Identify patterns
+   - Use structured observation templates
+   - Gather implementation data
+   - Identify recurring issues
+   - Map dependencies
 
-2. **Plan & Prioritize**
+2. **Plan and prioritize**
 
-   - Evaluate improvements
-   - Set implementation plan
+   - Evaluate impact vs effort
+   - Set implementation roadmap
    - Allocate resources
 
-3. **Implement & Validate**
+3. **Implement and validate**
 
-   - Test changes
+   - Test changes in a controlled environment
    - Document outcomes
    - Share results
+
+.. to do::
+
+   TODO Compare this to the continuous improvement pattern.
 
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
+
+Any useful and related patterns, documentation, and resources.
 
 - :ref:`Related delivery patterns <delivery-patterns>`
 - :ref:`Related design patterns <design-patterns>`

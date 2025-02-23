@@ -91,3 +91,23 @@ a different context. For example, if you are delivering a session to a small
 group, you may not need two facilitators. If you are using the flight plans to
 coach someone one-to-one, you will not need a producer. If you are delivering a
 session to a very large group, you may need more than one producer.
+
+Execution process:
+------------------
+
+The delivery process follows three key phases:
+
+1. **Pre-session coordination:**
+   - Team preparation meetings
+   - Resource and environment setup
+   - Role clarity alignment
+
+2. **During-session management:**
+   - Following the structured timeline
+   - Managing state and transitions
+   - Adapting to group needs
+
+3. **Post-session review:**
+   - Collecting feedback
+   - Documenting observations
+   - Planning improvements

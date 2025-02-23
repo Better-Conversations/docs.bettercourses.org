@@ -48,64 +48,57 @@ Note that the design process is iterative and that the roles may overlap.
 :material-outlined:`content_paste;1.8rem` Examples and resources
 ----------------------------------------------------------------
 
-Provide practical adaptions that have been learned from applying it within different contexts. Consider the following:
+Provide practical design adaptations that have been learned from applying it within different contexts. Consider the following:
 
-**Common variations:**
+Common variations
+-----------------
 
 - What are some different timings that have been used?
 - What happens if you use different technologies?
 - What different audiences have been considered?
 
-**Templates and materials:**
+Templates and materials
+-----------------------
 
-- What are some implementation checklists?
-- What are some observation forms?
-- What are some feedback collection tools?
+- What session templates are there?
+- What delivery guides are there?
+- What checklists are there?
+- What participant materials are there?
+- What observation forms are there?
+- What feedback collection tools are there?
 
-**Practical examples:**
+Practical examples
+------------------
 
-- What are some real-world applications?
-- What are some case studies?
-- What are some lessons learned?
+- What real-world applications have led to improved designs?
+- What are some lessons learned specific to design?
 
-----------------------------------------------------
-:material-outlined:`touch_app;1.8rem` Implementation
-----------------------------------------------------
+------------------------------------------------------------
+:material-outlined:`touch_app;1.8rem` Setup and requirements
+------------------------------------------------------------
 
-**Setup and requirements:**
-
-- What are the minimum requirements?
-- What are the preparation steps?
-- What are the resource needs?
-
-**Execution:**
-
-- What are the key actions?
-- What are the timing considerations?
-- What are the troubleshooting steps?
-
-**Evaluation:**
-
-- What are the success indicators?
-- What are some common challenges and pitfalls?
-- What are some feedback mechanisms?
+- What minimum requirements are there?
+- What preparation is needed?
+- What resources are needed?
 
 -------------------------------------------------------------------
 :material-outlined:`sticky_note_2;1.8rem` Additional design factors
 -------------------------------------------------------------------  
 
-**Implementation considerations:**
+Implementation considerations
+-----------------------------
 
 - What are the trade-offs and compromises?
+- What are the scalability considerations?
 - What are the constraints and limitations?
 - What are the dependencies and requirements?
 - What are the risks and mitigation strategies?
 - What are the opportunities for enhancement?
 
-**Design evolution:**
+Design evolution
+----------------
 
 - What are the potential future developments?
-- What are the scalability considerations?
 - What are the adaptation possibilities?
 - What are the integration opportunities?
 - What are the maintenance requirements?
