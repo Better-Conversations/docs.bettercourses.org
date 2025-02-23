@@ -30,13 +30,13 @@ additional patterns, please let us know.
    :hidden:
 
    accessibilty-design-pattern
-   breakout-design-pattern
-   checklist-design-pattern
-   exercises-design-pattern
-   flipchart-design-pattern
+   # breakout-design-pattern
+   # checklist-design-pattern
+   # exercises-design-pattern
+   # flipchart-design-pattern
    flight-plan-design-pattern
-   group-size-design-pattern
-   continuous-improvement-pattern
+   # group-size-design-pattern
+   # continuous-improvement-pattern
    observations-design-pattern
-   role-design-pattern
+   # role-design-pattern
    writing-design-pattern
