@@ -23,9 +23,9 @@ Explain the pattern's purpose and value:
 - What are the key benefits?
 - What alternatives might be considered?
 
---------------------------------------
+------------------------------------------------   
 :material-outlined:`design_services;1.8rem` Form
---------------------------------------
+------------------------------------------------
 
 Describe the pattern's structure:
 
@@ -48,31 +48,31 @@ Note that the design process is iterative and that the roles may overlap.
 :material-outlined:`content_paste;1.8rem` Examples and resources
 ----------------------------------------------------------------
 
-Provide concrete examples, including what has been learned from applying it within different contexts.
+Provide practical adaptions that have been learned from applying it within different contexts. Consider the following:
 
-**Practical Examples:**
+**Common variations:**
 
-- What are some real-world applications?
-- What are some case studies?
-- What are some lessons learned?
+- What are some different timings that have been used?
+- What happens if you use different technologies?
+- What different audiences have been considered?
 
-**Templates & Materials:**
+**Templates and materials:**
 
 - What are some implementation checklists?
 - What are some observation forms?
 - What are some feedback collection tools?
 
-**Reference Materials:**
+**Practical examples:**
 
-- What are some sample completed patterns?
-- What are some best practice guides?
-- What are some design process documentation?
+- What are some real-world applications?
+- What are some case studies?
+- What are some lessons learned?
 
 ----------------------------------------------------
 :material-outlined:`touch_app;1.8rem` Implementation
 ----------------------------------------------------
 
-**Setup & Requirements:**
+**Setup and requirements:**
 
 - What are the minimum requirements?
 - What are the preparation steps?
@@ -94,7 +94,7 @@ Provide concrete examples, including what has been learned from applying it with
 :material-outlined:`sticky_note_2;1.8rem` Additional design factors
 -------------------------------------------------------------------  
 
-**Implementation Considerations:**
+**Implementation considerations:**
 
 - What are the trade-offs and compromises?
 - What are the constraints and limitations?
@@ -102,7 +102,7 @@ Provide concrete examples, including what has been learned from applying it with
 - What are the risks and mitigation strategies?
 - What are the opportunities for enhancement?
 
-**Design Evolution:**
+**Design evolution:**
 
 - What are the potential future developments?
 - What are the scalability considerations?
@@ -110,36 +110,43 @@ Provide concrete examples, including what has been learned from applying it with
 - What are the integration opportunities?
 - What are the maintenance requirements?
 
------------------------------------------------------
+----------------------------------------------------
 :material-outlined:`sync;1.8rem` Improvement process
------------------------------------------------------
+----------------------------------------------------
 
-**Continuous Improvement Cycle:**
+Consider the following process for improving the pattern:
 
-1. **Collect & Analyze**
+1. **Collect and analyze**
 
    - Use structured observation templates
    - Gather implementation data
    - Identify recurring issues
    - Map dependencies
 
-2. **Plan & Prioritize**
+2. **Plan and prioritize**
 
    - Evaluate impact vs effort
    - Set implementation roadmap
    - Allocate resources
 
-3. **Implement & Validate**
+3. **Implement and validate**
 
-   - Test changes in controlled environment
+   - Test changes in a controlled environment
    - Document outcomes
    - Share results
+
+.. to do::
+
+   TODO Compare this to the continuous improvement pattern.
+
 
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
 
-- :ref:`Related design patterns <design-patterns>`
-- :ref:`Related delivery patterns <delivery-patterns>`
+Any useful and related patterns, documentation, and resources.
+
+- :doc:`Related design patterns </documentation/design-patterns/index>`
+- :doc:`Related delivery patterns </documentation/delivery-patterns/index>`
 - :doc:`Technical documentation </documentation/index>`
-- Further reading
+- Further reading and resources

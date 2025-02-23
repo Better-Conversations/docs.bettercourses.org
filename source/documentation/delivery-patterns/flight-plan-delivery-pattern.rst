@@ -24,27 +24,64 @@ continuous improvement.
 :material-outlined:`groups;1.8rem` Delivery roles
 -------------------------------------------------
 
-Currently, there are a number of roles described in the flight plans:
+The successful delivery of a flight plan requires clear role definition and coordination:
 
-**Facilitators**: The people leading the session. We often have two 
-facilitators to provide cover for each other, and to allow for the development
-of new facilitators.
+**Facilitators:**
 
-**Producers**: The people running the Zoom session, and who are 
-responsible for the technical aspects of the session. If we have two producers, 
-it is generally one lead and one trainee.
+Lead the learning experience through:
 
-**Observers**: The people observing the session, usually in preparation for 
-delivering the course, and/or training as a facilitator or producer.
+- Guiding participants through the learning journey
+- Managing group dynamics and energy
+- Adapting delivery to meet participant needs
+- Ensuring learning objectives are met
+- Providing feedback for continuous improvement
 
-**Participants**: The people who are attending the session.
+We often work with two facilitators to:
+- Provide mutual support and coverage
+- Enable development of new facilitators
+- Offer different perspectives and styles
+- Handle larger groups effectively
 
-**Sponsor**: Responsible for the outcomes of the session, in terms of 
-"Why are we doing this?" and "What are we trying to achieve?". 
+**Producers:**
 
-For the Foundation, the Sponsor is generally one of the directors or a 
-Foundation Ambassador. When a course is delivered in a company it will 
-be the person who comissioned the course, or their delegate. 
+Manage the technical environment to ensure smooth delivery:
+
+- Running the virtual platform (e.g., Zoom)
+- Managing breakout rooms and technical setup
+- Supporting participants with technical issues
+- Monitoring chat and engagement
+- Coordinating with facilitators
+
+**Observers:**
+
+Support quality and development through:
+
+- Documenting session delivery
+- Providing structured feedback
+- Learning delivery approaches
+- Training for future roles
+- Contributing to continuous improvement
+
+**Participants:**
+
+Active learners who:
+
+- Engage in the learning experience
+- Contribute to discussions and activities
+- Provide feedback on their experience
+- Apply learning in their context
+
+**Sponsor:**
+
+Provides strategic direction through:
+
+- Setting session objectives and context
+- Defining success criteria
+- Supporting participant engagement
+- Evaluating outcomes
+- Providing organizational context
+
+For information about the roles involved in designing flight plans, see the :ref:`flight-plan-design-pattern`.
 
 One thing we have learned is to be very aware of the role(s) we are in, and to
 be clear about what we are doing in each moment and why. 
