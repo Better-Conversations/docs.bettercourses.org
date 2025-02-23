@@ -18,11 +18,12 @@ additional patterns, please let us know.
 
 .. todo:: Potential patterns
 
-   breaks-design-pattern
-   timing-design-pattern
-   delivery-team-design-pattern
-   google-calendar-design-pattern
-   zoom-captions-design-pattern
+   TODO 
+   - breaks-design-pattern
+   - timing-design-pattern
+   - delivery-team-design-pattern
+   - google-calendar-design-pattern
+   - zoom-captions-design-pattern
 
 .. toctree::
    :maxdepth: 2
@@ -32,11 +33,11 @@ additional patterns, please let us know.
    # accessibilty-design-pattern
    # breakout-design-pattern
    # checklist-design-pattern
+   # continuous-improvement-pattern
    # exercises-design-pattern
    # flipchart-design-pattern
    flight-plan-design-pattern
    # group-size-design-pattern
-   # continuous-improvement-pattern
    # observations-design-pattern
-   # role-design-pattern
+   roles-design-pattern
    writing-design-pattern

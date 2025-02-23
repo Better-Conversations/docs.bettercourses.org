@@ -82,6 +82,7 @@ Supporting tools and processes
 .. todo::
 
     TODO Move pattern layering concept to a higher-level design patterns page:
+
     - How patterns build on each other
     - Examples of pattern reuse across different contexts
     - Guidelines for pattern adaptation
@@ -101,100 +102,15 @@ We encourage you to do the same and adapt the flight plans to your needs using y
 :material-outlined:`groups;1.8rem` Design roles
 -----------------------------------------------
 
-Each of these roles may be performed by a single person, or a team of people.
+Flight plans require coordination between several key roles that may be performed by a single person, or a team of people. See the 
+:ref:`roles-design-pattern` for detailed descriptions of:
 
-.. todo::
+- **Sponsor/Client:** Defines requirements and success criteria
+- **Course Designer:** Creates the learning journey
+- **Content Developer:** Develops and maintains materials
 
-    TODO Create a comprehensive roles documentation page:
-    - Detailed role descriptions and responsibilities
-    - Role interactions and dependencies
-    - Required skills and experience levels
-    - Training and development paths
-    - Common challenges and solutions
-    Link to this page from all relevant pattern documentation.
-
-**Sponsor:**
-
-Understanding the Sponsor's role is key to designing and adapting a flight plan that meets the needs of the commissioning organisation.
-
-The Sponsor represents the stakeholder(s) commissioning the course delivery. This can be:
-
-- An organization funding the training
-- A department within a larger organization
-- Multiple stakeholders with shared interests
-
-Key responsibilities include:
-
-- Strategic oversight and funding
-- Defining business outcomes and success metrics
-- Setting organizational constraints (budget, timeline, participant numbers)
-- Approving course design and delivery approach
-- Providing domain expertise and context
-- Ensuring alignment with organizational goals
-
-In larger organizations, Sponsors often delegate operational responsibilities to a designated manager (the Client) who:
-
-- Acts as the primary point of contact
-- Coordinates logistics and scheduling
-- Manages participant enrollment
-- Provides ongoing feedback
-- Ensures delivery meets organizational needs
-
-The Sponsor(s) and Client(s) are the people who determine whether the course delivery is successful (or not).
-
-**Course Designer:**
-
-The Course Designer shapes the learning journey by crafting an effective and engaging experience that meets both participant needs and organizational goals.
-
-Core responsibilities include:
-
-- Defining clear learning objectives and outcomes
-- Selecting and sequencing appropriate design patterns
-- Creating a coherent learning journey that builds progressively
-- Establishing measurable success criteria
-
-The Designer ensures effective learning through careful attention to:
-
-- Active participation strategies
-- Clear and concise instructions
-- Appropriate session pacing
-- Strategic knowledge checks
-- Meaningful practice opportunities
-- Regular reflection points
-
-While our courses are primarily experiential and self-directed, the Designer must:
-
-- Review and improve patterns based on delivery feedback
-- Maintain consistent design standards across courses
-- Document design decisions and rationale
-- Balance structure with flexibility
-
-We intentionally avoid formal assessments to maintain focus on experiential learning. However, the design includes opportunities for self-reflection and peer feedback, and educators can adapt the materials to include their own assessment activities if desired.
-
-**Content Developer:**
-
-The Content Developer brings the course design to life by creating and maintaining the materials that support the learning experience. Their work ensures that participants and delivery teams have everything they need for successful sessions.
-
-Core responsibilities include:
-
-- Creates learning materials and activities
-- Writes instructions and guides
-- Develops supporting resources
-- Ensures consistency across materials
-
-Quality assurance is central to their role:
-
-- Implements quality standards
-- Maintains content accuracy
-- Reviews pattern implementations
-- Validates learning approaches
-
-The Content Developer also plays a crucial coordination role:
-
-- Coordinates with other courses
-- Ensures alignment between materials
-- Maintains documentation standards
-- Supports the evolution of shared patterns
+Each role contributes specific expertise to the flight plan development process,
+ensuring both quality and practicality in the final design.
 
 ----------------------------------------------------------------
 :material-outlined:`content_paste;1.8rem` Examples and resources
@@ -219,6 +135,7 @@ You can find the latest published flight plans `here
 .. todo::
 
     TODO Create templates section:
+
     - Pre-session preparation checklist
     - Technical setup verification list
     - Session observation form template
@@ -229,6 +146,7 @@ You can find the latest published flight plans `here
 .. todo::
 
     TODO Add practical implementation examples:
+
     - Case study: Scaling from small to large group delivery
     - Case study: Adapting for different technical environments
     - Case study: Supporting new facilitator development
@@ -267,12 +185,6 @@ A good metaphor for the way the delivery team works is that of a group of musici
 
 Managing these trade-offs is an ongoing process rather than a one-time decision. We encourage regular review and adjustment based on delivery feedback and outcomes. By documenting our design decisions and their rationale, we create a foundation for continuous improvement while maintaining the integrity of the learning experience. This documentation also helps other course designers make informed adaptations when needed.
 
------------------------------------------------------
-:material-outlined:`sync;1.8rem` Improvement process
------------------------------------------------------
-
-We maintain a systematic approach to evolving our flight plans. key aspects are pattern development, version management and documentation.
-
 Pattern development
 -------------------
 
@@ -286,7 +198,13 @@ We maintain master versions of flight plans with controlled access. For each liv
 - Clear documentation trails
 - Version control
 - Flexibility for session-specific needs
-- Quality consistency
+- Quality and consistency
+
+-----------------------------------------------------
+:material-outlined:`sync;1.8rem` Improvement process
+-----------------------------------------------------
+
+We use a continuous improvement process, to evolve our flight plans.
 
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
@@ -294,21 +212,22 @@ We maintain master versions of flight plans with controlled access. For each liv
 
 Participant lists, flipchart examples, breakout room configurations, chat logs and detailed observations have been moved ourside of our originalflight plans to better manage data protection requirements and support our work with external clients.
 
-Related Patterns:
+**Related patterns**
 
-Core patterns:
-- :ref:`observations-design-pattern`
-- :ref:`flipchart-design-pattern`
+- :ref:`roles-design-pattern`
 
-Data and quality patterns:
-- :ref:`flight-plan-data-pattern`
-- :ref:`flight-plan-quality-pattern`
+.. todo::
 
-Implementation patterns:
-- :ref:`design-patterns`
-- :ref:`delivery-patterns`
+    TODO Add links to related patterns
 
-Further Reading:
+    - flipchart-design-pattern
+    - flight-plan-data-pattern
+    - flight-plan-quality-pattern
+    - continuous-improvement-pattern
+    - observations-design-pattern
+    - flight-plan-delivery-pattern
+
+**Further reading**
 
 - :doc:`Course Materials </documentation/course-materials/index>`
 - :doc:`Technical Documentation </documentation/index>`

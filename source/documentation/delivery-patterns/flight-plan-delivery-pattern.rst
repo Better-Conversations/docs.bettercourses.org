@@ -9,105 +9,133 @@ Using Flight Plans
 .. warning:: 
     This page is under construction
 
-Flight plans are a structured approach to course delivery that ensures consistent, 
-high-quality learning experiences. This pattern describes how we deliver the course 
-using flight plans to support learning objectives, manage state, and enable 
-continuous improvement.
+-----------------------------------------------------------
+:material-outlined:`construction;1.8rem` Using this pattern
+-----------------------------------------------------------
 
-.. todo::
+Flight plans are a structured approach to course delivery that ensures consistent, high-quality learning experiences. This pattern addresses these challenges:
 
-   - as we do this more and more, we realise it doesn't matter what happened in the session
-   - follow the patterns and it'll be fine 
-   - we don't need to document every single thing that happens in the session 
+- How to maintain consistent delivery quality across sessions
+- How to manage session state and transitions effectively
+- How to support learning objectives systematically
+- How to enable continuous improvement of delivery
+- How to coordinate multiple delivery roles efficiently
+
+Our experience has shown that following the flight plan patterns consistently leads to successful outcomes, regardless of minor session variations or small mistakes. It can feel strange to follow a plan so closely, but it is a great way to ensure that we are on track and that we are making the most of the time available. It creates a kind of safety net for the delivery team.
+
+--------------------------------------
+:material-outlined:`route;1.8rem` Flow
+--------------------------------------
+
+Session delivery follows three key phases:
+
+1. **Briefing:**
+
+We meet 30 minutes before the session to review the flight plan and to make any small changes. We also use this time to lightly contract as a team, ensure that everyone is clear about their role and responsibilities and check the delivery team can be seen and heard. 
+
+We expect that the delivery team members will have prepared their own resources (e.g. flipcharts, A/V equipment) prior to the briefing. There should be no surprises from delivery team members about what they will be doing - there are no prizes for being a diva here!
+
+Over time, we have developed a checklist for this briefing, which helps us to ensure that we cover all the important points, support each other and settle our state as a team.
+
+2. **In-session management:**
+
+This is the main session delivery phase. The flight plan provides a structured time plan for this which we follow closely. Because we have clarified the roles, we can focus on a good learning experience for the participants, trainee delivery team members and observers.
+
+3. **Afterparty and review:**
+
+Once the main part of the session is over, we invite the particpants to stay on to ask any questions and share their insights. This allows us to get to know them better and to understand how the session went from their perspective.
+
+After the participants have left (usually after 15 minutes), we review the session as a team. We look at what went well and what we could improve. 
+
+We record our observations about how the session went in a standard format. This is used in our continuous improvement process.
 
 -------------------------------------------------
 :material-outlined:`groups;1.8rem` Delivery roles
 -------------------------------------------------
 
-The successful delivery of a flight plan requires clear role definition and coordination:
+Clear role definition and coordination are essential for successful flight plan delivery. For information about the design roles, see the :ref:`flight-plan-design-pattern`.
 
-**Facilitators:**
+One key learning for us is to be very aware of the role(s) we are in, and to be clear about what we are doing in each moment and why.
 
-Lead the learning experience through:
+Role requirements vary by context:
 
-- Guiding participants through the learning journey
-- Managing group dynamics and energy
-- Adapting delivery to meet participant needs
-- Ensuring learning objectives are met
-- Providing feedback for continuous improvement
+- Small groups may need only one facilitator and one producer
+- Large groups may require multiple producers
+- Training new delivery team members may require a more experienced facilitator and/or producer to support the trainee.
+- Facilitators and observers may pair up with a participant to ensure breakout exercises are well supported. This allows the facilitators to remind themselves of the experience of being a participant.
 
-We often work with two facilitators to:
-- Provide mutual support and coverage
-- Enable development of new facilitators
-- Offer different perspectives and styles
-- Handle larger groups effectively
+The flight plans can also be used to guide a one-to-one coaching session.
 
-**Producers:**
+----------------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Examples and resources
+----------------------------------------------------------------
 
-Manage the technical environment to ensure smooth delivery:
+You can find the latest published flight plans `here
+<https://betterconversations.foundation/documentation/course-materials/flight_plans.html>`_.
 
-- Running the virtual platform (e.g., Zoom)
-- Managing breakout rooms and technical setup
-- Supporting participants with technical issues
-- Monitoring chat and engagement
-- Coordinating with facilitators
+----------------------------------------------------
+:material-outlined:`touch_app;1.8rem` Implementation
+----------------------------------------------------
 
-**Observers:**
+Key implementation considerations:
 
-Support quality and development through:
+- Technical environment setup
+- Communication channels
+- Timing management
+- Resource preparation
+- Role coordination
+- Quality assurance methods
 
-- Documenting session delivery
-- Providing structured feedback
-- Learning delivery approaches
-- Training for future roles
-- Contributing to continuous improvement
+-------------------------------------------------
+:material-outlined:`checklist;1.8rem` Evaluation
+-------------------------------------------------
 
-**Participants:**
+We know that the session went well if the:
 
-Active learners who:
+- Participants share their insights or learnings
+- Delivery team has followed the flight plan closely
+- Session finished on or ahead of time
+- Delivery team worked together to address any unexpected issues
+- We had fun!
 
-- Engage in the learning experience
-- Contribute to discussions and activities
-- Provide feedback on their experience
-- Apply learning in their context
+---------------------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Additional delivery factors
+---------------------------------------------------------------------
 
-**Sponsor:**
+Common variations:
 
-Provides strategic direction through:
+- Small group adaptations
+- One-to-one coaching modifications
+- Large group scaling approaches
+- Virtual vs in-person delivery adjustments
 
-- Setting session objectives and context
-- Defining success criteria
-- Supporting participant engagement
-- Evaluating outcomes
-- Providing organizational context
+----------------------------------------------------
+:material-outlined:`sync;1.8rem` Improvement process
+----------------------------------------------------
 
-For information about the roles involved in designing flight plans, see the :ref:`flight-plan-design-pattern`.
+The flight plan improvement cycle:
 
-One thing we have learned is to be very aware of the role(s) we are in, and to
-be clear about what we are doing in each moment and why. 
+1. **Session observation**
 
-Of course, not all these roles will apply if you are delivering the session in
-a different context. For example, if you are delivering a session to a small
-group, you may not need two facilitators. If you are using the flight plans to
-coach someone one-to-one, you will not need a producer. If you are delivering a
-session to a very large group, you may need more than one producer.
+   - Track pattern effectiveness
+   - Note adaptation points
+   - Document challenges
 
-Execution process:
-------------------
+2. **Pattern refinement**
 
-The delivery process follows three key phases:
+   - Update based on observations
+   - Incorporate feedback
+   - Test modifications
 
-1. **Pre-session coordination:**
-   - Team preparation meetings
-   - Resource and environment setup
-   - Role clarity alignment
+3. **Implementation**
 
-2. **During-session management:**
-   - Following the structured timeline
-   - Managing state and transitions
-   - Adapting to group needs
+   - Roll out updates
+   - Monitor results
+   - Gather new feedback
 
-3. **Post-session review:**
-   - Collecting feedback
-   - Documenting observations
-   - Planning improvements
+-------------------------------------------
+:material-outlined:`book;1.8rem` References
+-------------------------------------------
+
+- :ref:`flight-plan-design-pattern`
+- :ref:`roles-design-pattern`
