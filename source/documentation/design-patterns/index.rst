@@ -29,7 +29,7 @@ additional patterns, please let us know.
    :caption: Contents
    :hidden:
 
-   accessibilty-design-pattern
+   # accessibilty-design-pattern
    # breakout-design-pattern
    # checklist-design-pattern
    # exercises-design-pattern
@@ -37,6 +37,6 @@ additional patterns, please let us know.
    flight-plan-design-pattern
    # group-size-design-pattern
    # continuous-improvement-pattern
-   observations-design-pattern
+   # observations-design-pattern
    # role-design-pattern
    writing-design-pattern

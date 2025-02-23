@@ -81,7 +81,11 @@ Supporting tools and processes
 
 .. todo::
 
-    TODO Is this a generalised comment that can be moved to a higher level page?
+    TODO Move pattern layering concept to a higher-level design patterns page:
+    - How patterns build on each other
+    - Examples of pattern reuse across different contexts
+    - Guidelines for pattern adaptation
+    - Benefits of the modular approach
 
 The flight plans themselves are based on further design patterns.  For example each repeating component of the flight plan might be based on a pattern, such as the time plan structure, the script, the articulation of learning objectives.  Within the time plan, the State Check-In activity is a recurring pattern and the way we introduce breakout rooms is based on a pattern.
 
@@ -101,7 +105,13 @@ Each of these roles may be performed by a single person, or a team of people.
 
 .. todo::
 
-    TODO Add a page for all the roles and link here.
+    TODO Create a comprehensive roles documentation page:
+    - Detailed role descriptions and responsibilities
+    - Role interactions and dependencies
+    - Required skills and experience levels
+    - Training and development paths
+    - Common challenges and solutions
+    Link to this page from all relevant pattern documentation.
 
 **Sponsor:**
 
@@ -207,17 +217,24 @@ You can find the latest published flight plans `here
 <https://betterconversations.foundation/documentation/course-materials/flight_plans.html>`_.
 
 .. todo::
-    TODO Add examples of implementation checklists, observation forms, and feedback collection tools.
+
+    TODO Create templates section:
+    - Pre-session preparation checklist
+    - Technical setup verification list
+    - Session observation form template
+    - Participant feedback questionnaire
+    - Team retrospective guide
+    - Quality assurance checklist
 
 .. todo::
-    Practical examples:
-    -------------------
 
-    - What are some real-world applications?
-    - What are some case studies?
-    - What are some lessons learned?
-
-    Maybe link to community examples?
+    TODO Add practical implementation examples:
+    - Case study: Scaling from small to large group delivery
+    - Case study: Adapting for different technical environments
+    - Case study: Supporting new facilitator development
+    - Lessons learned from challenging deliveries
+    - Success stories from different organizational contexts
+    - Community contributions and adaptations
 
 ------------------------------------------------------------
 :material-outlined:`touch_app;1.8rem` Setup and requirements
