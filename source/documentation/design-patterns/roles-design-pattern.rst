@@ -13,131 +13,111 @@ Design Team Roles
 :material-outlined:`construction;1.8rem` Using this pattern
 -----------------------------------------------------------
 
-This pattern addresses these challenges:
+Course design is fundamentally collaborative work that benefits from clear role definition. This pattern defines the key roles in course design and establishes how they interact to create effective learning experiences. By clarifying who does what in the design process, teams can collaborate more efficiently and produce higher quality results.
 
-- How to define clear responsibilities across the design team
-- How to ensure effective collaboration
-- When and how to transition work between different roles
-- How to maintain consistency in course materials and delivery
-- How to scale the team structure for different course sizes
-- How to ensure quality across all course components
-- How to align course design with organizational goals and participant needs
+When developing or adapting courses, teams often struggle with coordination, consistency, and quality control. These challenges intensify as the scale of delivery grows or when working with new team members. Clear role definition helps address these challenges by establishing boundaries, responsibilities, and communication pathways.
+
+This pattern is particularly valuable for:
+
+- HR and L&D teams implementing the course within their organizations
+- Delivery teams seeking to understand the design background
+- Teams adapting materials for their specific contexts
+- Quality assurance and governance processes
+- Scaling delivery while maintaining consistency
 
 ------------------------------------------------   
 :material-outlined:`groups;1.8rem` Design roles
 ------------------------------------------------
 
-Each role may be performed by a single person or shared across a team, depending on the context. Note that some of these roles also appear in the :ref:`roles-delivery-pattern`.
+The course design process typically involves three primary roles, though these may be performed by a single person or distributed across a team depending on the project's scope and complexity.
 
 Sponsor
 -------
 
-Understanding the Sponsor's role is key to designing and adapting courses that 
-meet organizational needs.
+The Sponsor represents the stakeholder(s) commissioning the course development. They provide strategic direction, resource allocation, and organizational context. More than just a funding source, an effective Sponsor actively engages with the design process to ensure alignment with organizational goals.
 
-The Sponsor represents the stakeholder(s) commissioning the course delivery. 
-This can be:
+In practice, the Sponsor's responsibilities include:
 
-- An organization funding the training
-- A department within a larger organization
-- Multiple stakeholders with shared interests
+- Articulating business outcomes and success metrics
+- Establishing constraints (budget, timeline, participant numbers)
+- Approving major design decisions and approaches
+- Providing domain expertise and organizational context
+- Ensuring alignment with strategic objectives
 
-Key responsibilities include:
+Larger organizations often designate a Client role that handles day-to-day coordination while representing the Sponsor's interests. This Client typically:
 
-- Strategic oversight and funding
-- Defining business outcomes and success metrics
-- Setting organizational constraints (budget, timeline, participant numbers)
-- Approving course design and delivery approach
-- Providing domain expertise and context
-- Ensuring alignment with organizational goals
-
-In larger organizations, Sponsors often delegate operational responsibilities to a designated manager (the Client) who:
-
-- Acts as the primary point of contact
+- Acts as the primary point of contact for the design team
 - Coordinates logistics and scheduling
-- Manages participant enrollment
-- Provides ongoing feedback
-- Ensures delivery meets organizational needs
+- Manages participant enrollment and communications
+- Provides ongoing feedback and guidance
+- Ensures delivery meets organizational requirements
 
 Course Designer
 ---------------
 
-The Course Designer shapes the learning journey by crafting an effective and 
-engaging experience that meets both participant needs and organizational goals.
-Their responsibilities include:
+The Course Designer crafts the learning journey, translating organizational needs and learning objectives into a coherent experience. Their work bridges the gap between what participants need to learn and how they'll best learn it.
 
-- Defining clear learning objectives and outcomes
-- Selecting and sequencing appropriate design patterns
-- Creating a coherent learning journey that builds progressively
-- Establishing measurable success criteria
+Effective Course Designers consider both content and delivery, selecting and sequencing design patterns to create a progressive learning experience. Their key activities include:
 
-The Designer ensures effective learning through careful attention to:
+- Defining clear learning objectives aligned with organizational needs
+- Creating a coherent journey that builds knowledge progressively
+- Selecting appropriate design patterns for different learning contexts
+- Establishing measurable success criteria for the learning experience
+- Balancing structure with flexibility to accommodate different groups
 
-- Active participation strategies
-- Clear and concise instructions
-- Appropriate session pacing
-- Checking for understanding
-- Meaningful practice opportunities
-- Regular reflection points
-
-Our courses are designed to be experiential, with opportunities for participants to apply what they've learned in the course. We don't formally assess participants, but we do check for understanding throughout the course. Educators who want to include assessment might consider adding activities around each session, or extening the length of the sessions to allow for more time for reflection and application.
+While our courses emphasize experiential learning rather than formal assessment, designers incorporate various ways to check understanding throughout the experience, including reflection activities, application exercises, and peer discussions.
 
 Content Developer
 -----------------
 
-The Content Developer brings the course design to life by creating and maintaining the materials that support the learning experience. Their responsibilities include:
+While Course Designers focus on the learning journey, Content Developers bring it to life through tangible materials. They create learning activities, write instructions, develop resources, and ensure consistency across all course components.
 
-- Creating learning materials and activities
-- Writing instructions and guides
-- Developing supporting resources
-- Ensuring consistency across materials
-- Maintaining content quality
-- Reviewing pattern implementations
-- Validating learning approaches
+The Content Developer role requires both creativity and precision, combining an understanding of learning objectives with practical implementation skills. They serve as the bridge between design concepts and delivery reality, often refining materials based on facilitator feedback.
+
+Their work typically involves:
+
+- Creating participant guides and reference materials
+- Developing facilitator and producer instructions
+- Crafting effective visual aids and presentations
+- Ensuring consistent language and formatting
+- Maintaining materials through regular updates
+- Validating that content supports learning objectives
 
 ----------------------------------------------------------------
 :material-outlined:`content_paste;1.8rem` Examples and resources
 ----------------------------------------------------------------
 
-Common variations
------------------
+Teams organize these roles differently depending on their context and needs. In smaller projects, one person might fulfill multiple roles, while larger initiatives might distribute responsibilities across specialized team members.
 
-Templates and materials
------------------------
-We have prepared a range of templates and materials to support the design process. These are available in the :ref:`course-materials` section.
+We have developed the course through rapid prototyping with deep collaboration between roles. The team creates initial versions quickly, then refines based on feedback. This approach adapts well to emerging needs.
 
-In particular, :ref:`course_overview` is a useful template for the Course Designer to record the learning objectives, design patterns, and other relevant information.
-
-
-------------------------------------------------------------
-:material-outlined:`touch_app;1.8rem` Setup and requirements
-------------------------------------------------------------
-
-We share all our templates and materials under a Creative Commons license so you don't need to start from scratch. These are available in the :ref:`course-materials` section. 
-
-We suggest that any adaptations you might make are tracked to ensure that any future updates from us can be applied easily.
-
-Our Community is a great place to ask questions and share your learning with others. You automatically get access to the Community when you attend our Experience courses.
+We provide various resources on this site to support course design work, available in the :ref:`course-materials` section. The :ref:`course_overview` is particularly useful for designers to document learning objectives and design patterns. These materials are shared under a Creative Commons license, giving you a foundation to build upon rather than starting from scratch.
 
 -------------------------------------------------------------------
 :material-outlined:`sticky_note_2;1.8rem` Additional design factors
 -------------------------------------------------------------------  
 
-Implementation considerations
------------------------------
+As teams gain experience with course design, they often discover that role boundaries evolve based on project needs. Initial designs typically require more Sponsor involvement, while established courses shift focus to refinement and adaptation.
 
-Piloting and initial design and rollout of the course to a small group needs a smaller team where roles may be shared. This enables the team to focus on learning and adapting the course design.
+When scaling from pilot to full implementation, teams should consider:
 
-Large scale rollouts will need to consider how the content is adapted to local contexts, including languages.
+- How content adapts to different contexts and languages
+- Decision-making authority and escalation paths
+- Documentation standards for consistent delivery
+- Quality assurance processes across multiple deliveries
+- Training needs for expanded delivery teams
 
-More experienced facilitators might advise on content development to ensure that the materials are of a high quality and consistent with the course design. We have some highly skilled facilitators in our Community who support and help develop the course materials.
+In our experience, ambiguous role definition often leads to confusion and delays. Explicitly discussing who has final approval authority and how decisions are made prevents many common frustrations. Particularly important is clarifying responsibility for final sign-off on course materials.
 
-We have found it useful to clarify who is responsible for different elements of the course design and delivery. Ambiguous roles can lead to confusion and delays in the design process, and less effective conversations (which can be frustrating for everyone). It is especially important to talk about who is responsible for things like final sign off on the course materials.
+Common challenges we've observed include:
 
-Design evolution
-----------------
+- Role boundaries becoming blurred during development
+- Handover issues between design and delivery teams
+- Balancing stakeholder requirements with participant needs
+- Maintaining quality when scaling to multiple deliveries
+- Managing course evolution while preserving core elements
 
-As the course evolves, and it is used in different contexts, we may need to revisit design roles and responsibilities. Please let us know if you have any feedback or suggestions for improvement.
+As courses mature and reach different audiences, role responsibilities naturally evolve. Content Developers may take on greater autonomy as patterns stabilize, and feedback mechanisms become more formalized. Regardless of how roles are structured, maintaining open communication about responsibilities helps teams adapt to changing needs.
 
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
@@ -147,3 +127,7 @@ Related Patterns:
 
 - :ref:`flight-plan-design-pattern`
 - :ref:`roles-delivery-pattern`
+- :ref:`course-materials-pattern`
+- :ref:`learning-objectives-pattern`
+
+For additional support, please consider asking a question on our Community forum. 
