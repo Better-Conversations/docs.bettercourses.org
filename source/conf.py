@@ -126,14 +126,24 @@ if 'BUILD_TYPE' in os.environ:
         print("Disabling TODO warnings and content as this is production")
         todo_include_todos = False
         todo_emit_warnings = False
+        build_env = "production"  # html variable
+
     else:
         print("Allowing TODO warnings and content as this is not Production")
         todo_include_todos = True
         todo_emit_warnings = True
+        build_env = "development"  # html variable
+
 else:
         print("Allowing TODO warnings and content as there's no environment setting")
         todo_include_todos = True
         todo_emit_warnings = True
+        build_env = "development"  # html variable
+
+# Pass build_env to templates
+html_context = {
+    "build_env": build_env  # Now accessible in Jinja templates
+}
 
 # This was for https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
 # Now we're using https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/configuring.html

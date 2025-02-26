@@ -5,7 +5,7 @@
 
 <!-- This adds GetClicky and Posthog analytics if consent is given -->
 <script type="module" src="{{ pathto('_static/javascript/cookieconsent-config.js', 1) }}"></script>
-{% if 'BUILD_TYPE' in env and env['BUILD_TYPE'] == 'Development' %}
+{% if build_env == 'development' %}
 <!-- Development mode no analytics -->
 {% else %}
 <script type="text/plain"
@@ -14,5 +14,6 @@
   posthog.init('phc_6ETwQ2vV5TXk0VbKDqnbfhLtYvQdDx1RrcYoMSkLxiY',{api_host:'https://ph.betterconversations.foundation', person_profiles: 'identified_only' // or 'always' to create profiles for anonymous users as well
       })
 </script>
-<script data-category="analytics" defer src="https://umami.betterconversations.foundation/script.js" data-website-id="94c4c3aa-2f1b-43d5-b1b3-92a6a39daaee"></script>{% endif %}
+<script defer src="https://umami.betterconversations.foundation/script.js" data-website-id="e30416f6-b5f1-47ea-a616-b2fb67ac6752"></script>
+{% endif %}
 {% endblock %}
