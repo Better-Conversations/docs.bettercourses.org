@@ -18,4 +18,5 @@
     "esbonio.sphinx.confDir": "${workspaceFolder}",
     "editor.tabCompletion": "on",
     "diffEditor.codeLens": true,
+    "makefile.configureOnOpen": false,
 }
