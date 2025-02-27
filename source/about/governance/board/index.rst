@@ -14,7 +14,7 @@ This meets the requirement of the articles that "The directors must ensure that 
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Minutes of Board Meetings
 
-   minutes-2025-02-19
+   minutes-2025-02-27
