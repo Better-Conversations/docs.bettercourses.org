@@ -7,7 +7,7 @@ Introduction
 
 This document outlines the Code of Conduct for the Better Conversations community.
 Following a `consultation with the community <https://community.betterconversations.foundation/t/seeking-thoughts-on-a-code-of-conduct/557>`_, 
-the following Code of Conduct was adopted by the Board of Directors of the Foundation.
+the following Code of Conduct was adopted by the Board of Directors of the Foundation at `their meeting of 27th February 2025 </about/governance/board/minutes-2025-02-27.html>`_.
 
 
 The Better Conversations team and community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the mission - including mentorship, teaching, and connecting people.
@@ -18,7 +18,7 @@ This isn’t an exhaustive list of things that you can’t do. Rather, take it i
 
 This code of conduct applies to all spaces managed by the Better Conversations Foundation. This includes the `Community <https://community.betterconversations.foundation>`_, Foundation events, and any other forums created by the project team which the community uses for communication. In addition, violations of this code outside these spaces may affect a person's ability to participate within them.
 
-If you believe someone is violating the code of conduct, we ask that you report it by emailing conduct@djangoproject.com. For more details please see our Reporting Guidelines
+If you believe someone is violating the code of conduct, we ask that you report it by emailing `contacting us here </about/contact.html>`_. For more details please see our `Reporting Guidelines </about/community/coc-reporting.rst>`_.
 
 * Be friendly and patient.
 
