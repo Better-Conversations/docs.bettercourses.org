@@ -20,5 +20,6 @@ processes, and have more severe penalties.
    :maxdepth: 2
    :caption: Contents:
 
-   coc coc-reporting
+   coc 
+   coc-reporting
    
