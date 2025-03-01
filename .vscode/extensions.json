@@ -1,7 +1,8 @@
 {
     "recommendations": [
         "trond-snekvik.simple-rst",
-        "github.copilot"
+        "github.copilot",
+        "dnut.rewrap-revived"
     ]
 }
 
