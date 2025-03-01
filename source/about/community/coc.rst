@@ -60,8 +60,8 @@ details please see our `Reporting Guidelines
   some frustration now and then, but we cannot allow that frustration to
   turn into a personal attack. It's important to remember that a community
   where people feel uncomfortable or threatened is not a productive one.
-  Members of the Django community should be respectful when dealing with
-  other members as well as with people outside the Django community.
+  Members of the Better Conversations community should be respectful when dealing with
+  other members as well as with people outside the Better Conversations community.
 
 * Be careful in the words that you choose. We are a community of
   professionals, and we conduct ourselves professionally. Be kind to
