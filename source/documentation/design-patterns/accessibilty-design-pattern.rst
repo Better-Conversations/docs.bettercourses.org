@@ -27,49 +27,49 @@ This pattern addresses these learning challenges:
 
 The pattern is particularly valuable when:
 
-- Context
-- -------
-- This pattern is most useful at the start of any module where you want to be respectful and welcome to everyone who joins the session.
-- 
-- Problem
-- -------
-- How to cater for potential accessiblity limitations of attendees.
-- 
-- Solution
-- --------
-- Create a habit of building alternative methods of access into the session
-- 
-- Forces
-- ------
-- *   Recognising participant challenges
-- *   Ensuring the design is open to all
-- 
-- Implementation
-- ----------------
-- 1.  **Be Inclusive:** Don't make assumptions that everything will work
-- 2.  **Consider different modes of access:** Consider alternative means to communicate. Use large text, read out items.
-- 3.  **Offer Choice:** Give participants a choice of what they can do.
-- 
-- Examples
-- --------
-- People joining on an iPad have chat view
-- 
-- *   Observation from CSV: "People with cameras off - hard to know if they are engaging "
-- *  Observation from CSV: "Ieva said the same thing, it was useful for her and Simina to do it together and can use this knowledge and incorporate it into their work life."
-- 
-- Rationale
-- ---------
-- Participants may otherwise be excluded.
-- 
-- Related Patterns
-- ----------------
-- *   :ref:`effective-chat-usage`
-- *   :ref:`welcome-latecomers`
-- 
-- Consequences
-- ------------
-- *   **Positive:** More engagement, improved sense of connection.
-- *   **Negative:** None expected.
+Context
+-------
+This pattern is most useful at the start of any module where you want to be respectful and welcome to everyone who joins the session.
+ 
+Problem
+-------
+How to cater for potential accessiblity limitations of attendees.
+
+Solution
+--------
+Create a habit of building alternative methods of access into the session
+
+Forces
+------
+- Recognising participant challenges
+- Ensuring the design is open to all
+
+Implementation
+--------------
+1.  **Be Inclusive:** Don't make assumptions that everything will work
+2.  **Consider different modes of access:** Consider alternative means to communicate. Use large text, read out items.
+3.  **Offer Choice:** Give participants a choice of what they can do.
+
+Examples
+--------
+People joining on an iPad have chat view
+
+- Observation from CSV: "People with cameras off - hard to know if they are engaging "
+- Observation from CSV: "Ieva said the same thing, it was useful for her and Simina to do it together and can use this knowledge and incorporate it into their work life."
+
+Rationale
+---------
+Participants may otherwise be excluded.
+
+Related Patterns
+----------------
+- :ref:`effective-chat-usage`
+- :ref:`welcome-latecomers`
+
+Consequences
+------------
+- **Positive:** More engagement, improved sense of connection.
+- **Negative:** None expected.
 
 - Starting new modules or courses
 - Onboarding diverse participants
@@ -84,6 +84,7 @@ The pattern is particularly valuable when:
 Core components:
 
 **Access Considerations:**
+
 - Visual accessibility
 - Audio accessibility
 - Technical accessibility
@@ -91,6 +92,7 @@ Core components:
 - Physical accessibility
 
 **Alternative Pathways:**
+
 - Multiple engagement methods
 - Backup communication channels
 - Alternative activity formats
@@ -102,6 +104,7 @@ Core components:
 -----------------------------------------------
 
 **Course Designer:**
+
 - Identifies potential barriers
 - Plans alternative approaches
 - Ensures inclusive design
@@ -109,6 +112,7 @@ Core components:
 - Reviews accommodation needs
 
 **Content Developer:**
+
 - Creates accessible materials
 - Provides alternative formats
 - Implements accessibility standards
@@ -120,12 +124,14 @@ Core components:
 ---------------------------------------------------------
 
 **Basic Implementation:**
+
 - Standard accessibility features
 - Common accommodations
 - Essential alternatives
 - Basic support options
 
 **Common Variations:**
+
 - Different access needs
 - Technical adaptations
 - Format alternatives
@@ -160,6 +166,7 @@ How to improve the pattern over time:
 ---------------------------------------------------------------
 
 **Critical Factors:**
+
 - Inclusive design principles
 - Technical constraints
 - Resource requirements
@@ -173,47 +180,3 @@ How to improve the pattern over time:
 Related Patterns:
 - :ref:`effective-chat-usage`
 - :ref:`welcome-latecomers`
-
-.. note:: Legacy Content Below
-
-The following content is from the previous version of this pattern and is kept for reference:
-
-Context
--------
-This pattern is most useful at the start of any module where you want to be respectful and welcome to everyone who joins the session.
-
-Problem
--------
-How to cater for potential accessiblity limitations of attendees.
-
-Solution
---------
-Create a habit of building alternative methods of access into the session
-
-Forces
-------
-*   Recognising participant challenges
-*   Ensuring the design is open to all
-
-Implementation
-----------------
-1.  **Be Inclusive:** Don't make assumptions that everything will work
-2.  **Consider different modes of access:** Consider alternative means to communicate. Use large text, read out items.
-3.  **Offer Choice:** Give participants a choice of what they can do.
-
-Examples
---------
-People joining on an iPad have chat view
-
-*   Observation from CSV: "People with cameras off - hard to know if they are engaging "
-*   Observation from CSV: "Ieva said the same thing, it was useful for her and Simina to do it together and can use this knowledge and incorporate it into their work life."
-
-Rationale
----------
-Participants may otherwise be excluded.
-
-Consequences
-------------
-*   **Positive:** More engagement, improved sense of connection.
-*   **Negative:** None expected.
-
