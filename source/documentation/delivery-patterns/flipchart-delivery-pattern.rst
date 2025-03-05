@@ -4,18 +4,10 @@
 Using Flipcharts in Online Sessions
 ===================================
 
-.. tags:: flipcharts, facilitation, production, visibility, legibility, cognitive load, engagement, online course, visual aids
+.. tags:: flipcharts, facilitation, production, visibility, legibility, cognitive-load, engagement, online-delivery, visual-aids, accessibility
 
 .. warning:: 
     This page is under construction
-
-.. todo::
-
-    Note that the facilitator standing up and writing on the flipchart means
-
-    - They can put more energy into the group just by standing up and moving
-    - They can control the pace of the group by writing slowly or quickly
-    - They can let someone know their contribution has been heard by writing it down, and it is time to stop by turning around and putting the cap on their pen
 
 Flipchart management is key to delivering Better Conversations online. This pattern provides 
 practical guidance for using flipcharts effectively in virtual environments where traditional 
@@ -69,7 +61,7 @@ Essential for:
 4. Share learnings
 
 -------------------------------------------------
-:material-outlined:`groups;1.8rem` Delivery Roles
+:material-outlined:`groups;1.8rem` Delivery roles
 -------------------------------------------------
 
 **Facilitators:**
@@ -99,14 +91,26 @@ can see them (this is covered in the Module 1 flight plan).
 - Use chat for accessibility
 - Adjust views as needed
 
-Note that we advise the particopants it is not necessary to be 
-able to read all of the  text on the flipchart, but they should be 
+Note that we advise the participants it is not necessary to be 
+able to read all of the text on the flipchart, but they should be 
 able to see the facilitator writing. This is because the writing is 
 what engages people and shows that they are being listened to.
 
-------------------------------------------------------------
-:material-outlined:`content_paste;1.8rem` Practical Examples
-------------------------------------------------------------
+----------------------------------------------------------------
+:material-outlined:`content_paste;1.8rem` Examples and resources
+----------------------------------------------------------------
+
+Delivery Materials
+------------------
+
+- Flipchart visibility guidelines
+- Camera setup guide
+- Lighting recommendations
+- Marker type and color recommendations
+- Writing style checklist
+
+Practical Examples
+------------------
 
 **Physical Setup:**
 
@@ -124,6 +128,40 @@ what engages people and shows that they are being listened to.
 - Consistent symbols
 - Clear structure (examples are provided)
 
+Note that we do not recommend using a physical whiteboard due to glare issues.
+
+----------------------------------------------------
+:material-outlined:`touch_app;1.8rem` Implementation
+----------------------------------------------------
+
+- Pre-session technical checks
+- Camera angle testing
+- Lighting setup verification
+- Backup options preparation
+- Facilitation techniques:
+  - Standing up for energy
+  - Using writing pace deliberately
+  - Signaling through pen gestures
+  - Balancing detail vs visibility
+  - Making regular eye contact with participants
+
+-------------------------------------------------
+:material-outlined:`checklist;1.8rem` Evaluation
+-------------------------------------------------
+
+- Participant feedback on visibility
+- Engagement monitoring metrics
+- Producer-facilitator debrief checklist
+- Success indicators:
+  - Participant contributions
+  - Visual flow maintenance
+  - Information retention
+  - Session pacing effectiveness
+
+---------------------------------------------------------------------
+:material-outlined:`sticky_note_2;1.8rem` Additional delivery factors
+---------------------------------------------------------------------  
+
 **Common Challenges & Solutions:**
 
 - Glare issues → Adjust lighting angle
@@ -132,80 +170,51 @@ what engages people and shows that they are being listened to.
 - Visibility problems → Regular checks
 - Engagement drops → Use movement/energy
 
-Note that we do not recommend using a physical whiteboard due to glare issues.
-
--------------------------------------------
-:material-outlined:`science;1.8rem` Testing
--------------------------------------------
-
-Check effectiveness through:
-
-- Pre-session technical checks
-- Participant feedback on visibility
-- Montioring engagement monitoring
-- Producer-facilitator debriefs
-
-----------------------------------------------------
-:material-outlined:`touch_app;1.8rem` Implementation
-----------------------------------------------------
-
-**Technical Setup:**
-
-- Test camera angles
-- Set up lighting
-- Prepare backup options
-
-**Facilitation Techniques:**
-
-- Stand up for energy
-- Use writing pace deliberately
-- Signal through pen gestures
-- Balance detail vs visibility
-- Regular eye contact with participants from time to time
-
--------------------------------------------------------
-:material-outlined:`architecture;1.8rem` Design Context
--------------------------------------------------------
-
-Key design principles:
-
-- Clear visual hierarchies
-- Consistent layouts
-- Color contrast guidelines
-- Space management rules
-- Accessibility requirements
-
------------------------------------------------------
-:material-outlined:`sync;1.8rem` Improvement Feedback
------------------------------------------------------
-
-Share with the community:
-
-- Technical setup improvements
-- Visibility solutions
-- Engagement techniques
-- Producer coordination tips
-- Accessibility insights
-
--------------------------------------------------------------------
-:material-outlined:`sticky_note_2;1.8rem` Additional Considerations
--------------------------------------------------------------------  
-
 **Accessibility Focus:**
 
-- Support neurodiverse participants
-- Provide alternative formats
-- Consider visual processing needs
-- Balance learning styles
-- Enable individual adjustments
+- Support for neurodiverse participants
+- Alternative format availability
+- Visual processing considerations
+- Learning style balancing
+- Individual adjustment options
 
-**Technical Needs:**
+**Technical Requirements:**
 
 - Reliable camera setup
 - Good lighting
 - Quality markers
 - Stable mounting
 - Backup systems
+
+----------------------------------------------------
+:material-outlined:`sync;1.8rem` Improvement process
+----------------------------------------------------
+
+Consider the following process for improving the pattern:
+
+1. **Collect and analyze**
+
+   - Use structured observation templates
+   - Gather technical setup feedback
+   - Identify recurring visibility issues
+   - Map participant engagement patterns
+
+2. **Plan and prioritize**
+
+   - Evaluate impact vs effort
+   - Set implementation roadmap
+   - Allocate resources
+
+3. **Implement and validate**
+
+   - Test changes in a controlled environment
+   - Document outcomes
+   - Share results with the community:
+     - Technical setup improvements
+     - Visibility solutions
+     - Engagement techniques
+     - Producer coordination tips
+     - Accessibility insights
 
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
@@ -214,6 +223,10 @@ Share with the community:
 Related Patterns:
 
 - :ref:`flipchart-design-pattern`
-- :ref:`facilitator-producer-roles`
-
-
+- :ref:`flight-plan-delivery-pattern`
+- :ref:`observations-delivery-pattern`
+- :ref:`roles-delivery-pattern`
+- :ref:`continuous-improvement-pattern`
+- :doc:`Technical documentation </documentation/index>`
+- Best practices
+- Further reading

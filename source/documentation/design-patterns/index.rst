@@ -35,7 +35,7 @@ additional patterns, please let us know.
    # checklist-design-pattern
    # continuous-improvement-pattern
    # exercises-design-pattern
-   # flipchart-design-pattern
+   flipchart-design-pattern
    flight-plan-design-pattern
    # group-size-design-pattern
    # observations-design-pattern

@@ -60,10 +60,12 @@ The Course Designer crafts the learning journey, translating organizational need
 Effective Course Designers consider both content and delivery, selecting and sequencing design patterns to create a progressive learning experience. Their key activities include:
 
 - Defining clear learning objectives aligned with organizational needs
-- Creating a coherent journey that builds knowledge progressively
-- Selecting appropriate design patterns for different learning contexts
+- Creating a coherent sequence of activities to build knowledge and skills
+- Selecting appropriate patterns and standards for different learning contexts
 - Establishing measurable success criteria for the learning experience
 - Balancing structure with flexibility to accommodate different groups
+- Reviewing and improving course design based on feedback
+- Developing templates and patterns to support consistent design
 
 While our courses emphasize experiential learning rather than formal assessment, designers incorporate various ways to check understanding throughout the experience, including reflection activities, application exercises, and peer discussions.
 
@@ -76,12 +78,13 @@ The Content Developer role requires both creativity and precision, combining an 
 
 Their work typically involves:
 
-- Creating participant guides and reference materials
-- Developing facilitator and producer instructions
-- Crafting effective visual aids and presentations
+- Creating course materials and guides
+- Developing flightplans
+- Crafting effective visual aids for delivery e.g. flipcharts
 - Ensuring consistent language and formatting
 - Maintaining materials through regular updates
 - Validating that content supports learning objectives
+- Developing templates and patterns to support consistent delivery
 
 ----------------------------------------------------------------
 :material-outlined:`content_paste;1.8rem` Examples and resources

@@ -206,6 +206,11 @@ We maintain master versions of flight plans with controlled access. For each liv
 
 We use a continuous improvement process, to evolve our flight plans.
 
+.. todo::
+
+    TO DO Add a link to CI pattern
+
+
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
 -------------------------------------------
