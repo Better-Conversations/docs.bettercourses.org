@@ -1,34 +1,33 @@
 .. _observations-design-pattern:
 
-=========================================
-Updating Course Content from Observations
-=========================================
+========================================
+Using Observations to Improve the Course
+========================================
 
-.. tags:: continuous improvement, feedback, data, iterative, enhancement
+.. tags:: continuous-improvement, feedback, data, iterative, enhancement, course-design, documentation, quality-assurance
 
 .. warning:: 
     This page is under development.
-
-The Collecting Observations pattern establishes a systematic approach for 
-continuous improvement through structured feedback collection and analysis. 
-It creates a data-driven framework for iterative enhancement of course delivery and design.
-
 
 -----------------------------------------------------------
 :material-outlined:`construction;1.8rem` Using this pattern
 -----------------------------------------------------------
 
-This pattern addresses several key learning challenges:
+The Collecting Observations pattern establishes a systematic approach for 
+continuous improvement through structured feedback collection and analysis. 
+It creates a data-driven framework for iterative enhancement of course delivery and design.
+
+This pattern addresses several key challenges:
 
 - How to systematically capture and analyze course delivery effectiveness
 - When to implement improvements based on collected feedback
-- How to ensure consistent quality across different facilitators
+- How to ensure consistent quality across different facilitators and producers
 - Ways to maintain course relevance over time
 
 The pattern is particularly valuable when:
 
 - Launching new course content
-- Training new facilitators
+- Training new facilitators and producers
 - Adapting content for different audiences
 - Identifying areas for improvement
 - Validating learning effectiveness
@@ -110,50 +109,42 @@ The observation pattern follows a streamlined four-phase cycle based on the OODA
 :material-outlined:`content_paste;1.8rem` Examples and resources
 ----------------------------------------------------------------
 
-**Practical Examples:**
+Common variations
+-----------------
 
-- Participant engagement levels
-- Time management effectiveness
-- Activity completion rates
-- Learning outcome achievement
-- Technical challenges
-- Group dynamics
-- Question patterns
-- Energy levels
+- Participant engagement level tracking
+- Time management effectiveness monitoring
+- Activity completion rate documentation
+- Learning outcome achievement assessment
+- Technical challenge reporting
 
-**Templates & Materials:**
+Templates and materials
+-----------------------
 
 - Standard observation forms
 - Feedback collection templates
 - Analysis frameworks
-
-**Reference Materials:**
-
 - Sample completed patterns
 - Best practice guides
-- Design process documentation
 
-----------------------------------------------------
-:material-outlined:`touch_app;1.8rem` Implementation
-----------------------------------------------------
+Practical examples
+------------------
 
-**Setup & Requirements:**
+- Group dynamics observation methods
+- Question pattern documentation
+- Energy level tracking approaches
+- Design process documentation examples
+
+------------------------------------------------------------
+:material-outlined:`touch_app;1.8rem` Setup and requirements
+------------------------------------------------------------
 
 - Template preparation
 - Documentation tools setup
 - Review cycle establishment
-
-**Execution:**
-
 - Observation collection process
 - Documentation methods
 - Analysis procedures
-
-**Evaluation:**
-
-- Template effectiveness
-- Documentation quality
-- Pattern identification success
 
 -------------------------------------------------------------------
 :material-outlined:`sticky_note_2;1.8rem` Additional design factors
@@ -179,12 +170,7 @@ The observation pattern follows a streamlined four-phase cycle based on the OODA
 :material-outlined:`sync;1.8rem` Improvement process
 -----------------------------------------------------
 
-See :ref:`continuous-improvement-pattern` for details on:
-
-- How observations feed into improvements
-- How changes are implemented
-- How effectiveness is measured
-- How learnings are shared
+See :ref:`continuous-improvement-pattern` for additional details.
 
 -------------------------------------------
 :material-outlined:`book;1.8rem` References
@@ -193,5 +179,7 @@ See :ref:`continuous-improvement-pattern` for details on:
 Related Patterns:
 
 - :ref:`observations-delivery-pattern`
+- :ref:`continuous-improvement-pattern`
 - :ref:`flight-plan-design-pattern`
-
+- :ref:`roles-design-pattern`
+- :doc:`Technical documentation </documentation/index>`

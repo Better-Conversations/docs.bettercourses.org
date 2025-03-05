@@ -4,7 +4,7 @@
 Collecting Observations
 ==========================
 
-.. tags:: continuous improvement, feedback, observations, delivery quality, documentation
+.. tags:: continuous-improvement, feedback, observations, delivery-quality, documentation, facilitation, production, quality-assurance
 
 .. warning:: 
     This page is under development.
@@ -16,24 +16,25 @@ sessions to support continuous improvement and enhance learning effectiveness.
 :material-outlined:`construction;1.8rem` Using this pattern
 -----------------------------------------------------------
 
-This pattern helps facilitators:
+This patterns sets out guidance for collecting and documenting observations during Better Conversations sessions to support continuous improvement and enhance learning effectiveness.
+
+This pattern helps the delivery team:
 
 - Monitor learning effectiveness
 - Assess participant engagement
 - Capture meaningful observations
 - Document feedback effectively
-- Balance observation with participation
-- Identify comprehension gaps
+- Identify gaps or areas for improvement
 - Adapt delivery in real-time
 
-Essential for:
+It supports:
 
-- Session debriefs
+- Session briefs and debriefs
 - Facilitator development
 - Producer development
 - Course improvements
 - Quality assurance
-- Team learning
+- Delivery team relationships
 
 --------------------------------------
 :material-outlined:`route;1.8rem` Flow
@@ -89,84 +90,83 @@ Essential for:
 :material-outlined:`content_paste;1.8rem` Examples and resources
 ----------------------------------------------------------------
 
-**Practical Examples:**
-
-- Session timing variances
-- Learning progress
-- Concept understanding
-- Skill application
-- Group interaction
-- Question patterns
-- Technical challenges
-- Content effectiveness
-- Delivery improvements
-
-**Delivery Materials:**
+Delivery Materials
+------------------
 
 - Observation templates
 - Facilitation guides
 - Production checklists
 - Participant materials
-
-**Reference Materials:**
-
-- Example session plans
+- Session plan examples
 - Video demonstrations
-- Troubleshooting guides
-- Quality assurance checklists
+
+Practical Examples
+------------------
+
+- Session timing variances documentation
+- Learning progress tracking methods
+- Concept understanding assessment approaches
+- Skill application observation techniques
+- Group interaction monitoring strategies
+- Question pattern documentation methods
+- Technical challenge reporting processes
+- Content effectiveness evaluation techniques
+- Delivery improvement documentation examples
 
 ----------------------------------------------------
 :material-outlined:`touch_app;1.8rem` Implementation
 ----------------------------------------------------
 
-**Setup & Requirements:**
+- Prepare templates before sessions
+- Brief observers on focus areas
+- Check documentation tools
+- Assign specific observation responsibilities
+- Plan documentation approach
+- Use structured observation methods
+- Stay focused on key areas
+- Note specific examples and details
+- Track timing against session plan
+- Document observations clearly
 
-- Prepare templates
-- Brief observers
-- Check tools
-- Assign focus areas
-- Plan documentation
+-------------------------------------------------
+:material-outlined:`checklist;1.8rem` Evaluation
+-------------------------------------------------
 
-**Execution:**
+- Learning checks completion
+- Exercise completion rates
+- Template completion quality
+- Observation specificity
+- Follow-up action implementation
+- Documentation clarity
+- Insight usefulness
+- Improvement implementation
 
-- Use structured approach
-- Stay focused
-- Note specifics
-- Track timing
-- Document clearly
-
-**Evaluation:**
-
-- Learning checks
-- Exercise completion
-- Template completion rates
-- Observation quality
-- Follow-up actions
-
--------------------------------------------------------------------
+---------------------------------------------------------------------
 :material-outlined:`sticky_note_2;1.8rem` Additional delivery factors
--------------------------------------------------------------------  
+---------------------------------------------------------------------  
 
 **Delivery Considerations:**
 
-- Observer capacity
-- Documentation load
-- Follow-up timing
-- Team coordination
-- Information sharing
+- Observer capacity limitations
+- Documentation load management
+- Follow-up timing requirements
+- Team coordination needs
+- Information sharing methods
+- Observer bias mitigation
 
 **Process Evolution:**
 
-- Adaptation strategies
-- Scaling approaches
-- Integration methods
-- Support requirements
+- Adaptation strategies for different contexts
+- Scaling approaches for larger groups
+- Integration methods with other patterns
+- Support requirements for effective implementation
 
 -----------------------------------------------------
 :material-outlined:`sync;1.8rem` Improvement process
 -----------------------------------------------------
 
 See :ref:`continuous-improvement-pattern` for details on:
+
 - How observations feed into improvements
 - How changes are implemented
 - How effectiveness is measured
@@ -180,3 +180,6 @@ Related Patterns:
 
 - :ref:`observations-design-pattern`
 - :ref:`continuous-improvement-pattern`
+- :ref:`flight-plan-delivery-pattern`
+- :ref:`roles-delivery-pattern`
+- :doc:`Technical documentation </documentation/index>`

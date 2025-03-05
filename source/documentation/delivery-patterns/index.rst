@@ -18,8 +18,8 @@ additional patterns, please let us know.
    :hidden:
 
    flight-plan-delivery-pattern
-   # flipchart-delivery-pattern
-   # observations-delivery-pattern
+   flipchart-delivery-pattern
+   observations-delivery-pattern
    # breakout-rooms-delivery-pattern
    # chat-delivery-pattern
    # demo-delivery-pattern
