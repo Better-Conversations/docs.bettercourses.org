@@ -26,11 +26,11 @@ additional patterns, please let us know.
    # chat-delivery-pattern
    # demo-delivery-pattern
    # discussions-delivery-pattern
-   # discussions-delivery-pattern
    # breakouts-delivery-pattern
    # single-attendee-delivery-pattern
    # early-engagement-delivery-pattern
    # facilitator-state-delivery-pattern
    # latecomers-delivery-pattern
+   roles-delivery-pattern
    writing-delivery-pattern
 
