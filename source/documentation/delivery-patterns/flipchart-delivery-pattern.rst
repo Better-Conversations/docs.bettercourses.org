@@ -28,6 +28,7 @@ This pattern helps facilitators to:
 - **Leverage Gesture for Enhanced Communication and Cognition:**  Incorporate deliberate gestures to amplify explanations, improve clarity, and facilitate deeper cognitive processing for both facilitators and participants.
 
 This pattern is essential for:
+
 - **All Better Conversations modules** where flipcharts are integral to the learning design.
 - **Facilitating Group Discussions** requiring real-time visual capture of key points and agreements.
 - **Explaining Complex Concepts** in a visually accessible and memorable manner.

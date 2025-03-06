@@ -18,3 +18,4 @@ ablog
 sphinx-reredirects
 sphinx_design_elements
 sphinx-tags
+sphinxcontrib-mermaid

@@ -1,3 +1,5 @@
+.. _course-materials:
+================
 Course Materials
 ================
 

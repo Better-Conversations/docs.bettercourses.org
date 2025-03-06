@@ -1,3 +1,5 @@
+.. _delivery-patterns:
+=================
 Delivery Patterns
 =================
 

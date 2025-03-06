@@ -41,6 +41,7 @@ extensions = [
      "sphinx_design_elements",
      "sphinx.ext.intersphinx",
      "sphinx_tags",
+     "sphinxcontrib.mermaid",
      "qms_header",
      "llms",
      ]
