@@ -42,6 +42,7 @@ extensions = [
      "sphinx.ext.intersphinx",
      "sphinx_tags",
      "sphinxcontrib.mermaid",
+     "sphinx.ext.graphviz",
      "qms_header",
      "llms",
      ]
@@ -216,6 +217,9 @@ redirects = {
     "https://betterconversations.foundation/2023/05/02/modelling-sales.html": "https://betterconversations.foundation/blog/2023-05-02-modelling-sales.html",
     "https://betterconversations.foundation/thanks/index.html": "https://betterconversations.foundation/about/appreciation.html",
 }
+# -- Graphviz ---------------------------------------------------------------
+
+graphviz_output_format = 'svg'  # Clearer than PNG, scales better
 
 # -- LaTeX ----------------------------------------------------------------
 # For exporting to PDF
