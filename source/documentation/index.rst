@@ -53,6 +53,7 @@ Please note that:
    stable-links
    course-design/index  
    course-materials/index
+   checklists/index
    design-patterns/index
    fullsite-pdf
    

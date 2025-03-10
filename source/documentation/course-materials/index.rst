@@ -33,7 +33,6 @@ These stable links will need authentication, but will always point to the most r
    :hidden:
 
    course_overview
-   checklist 
    flight_plans
    handbook
    email_templates
