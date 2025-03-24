@@ -210,6 +210,8 @@ rst_prolog = """
 
 .. _current-handbook: https://betterconversations.foundation/downloads/BC%20Course%20Handbook.pdf
 
+.. _current-flipcharts: https://betterconversations.foundation/downloads/BC%20Course%20Flipcharts.pdf
+
 """
 
 # rst_epilog = """
