@@ -29,7 +29,7 @@ jobs:
         uses: tailscale/github-action@v2 # Use the latest version
         with:
           oauth-client-id: ${{ secrets.TAILSCALE_CLIENT_ID }}
-          oauth-client-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
+          oauth-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
           # Optional: Configure tags for this node
           tags: tag:github-content
       
