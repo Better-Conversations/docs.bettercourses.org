@@ -21,7 +21,7 @@ jobs:
     # The type of runner that the job will run on
     # runs-on: ubuntu-latest
     runs-on: ubuntu-latest
-    container: texlive/texlive:latest
+    container: ghcr.io/better-conversations/documentation-base-container:latest
     environment: deploy
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -34,23 +34,9 @@ jobs:
           # Optional: Configure tags for this node
           tags: tag:github-content
       
-      # We need to install texlive-full to build the PDF
-      - name: Install TeX Live
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y texlive-full texlive-latex-extra --no-install-recommends
-
-
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.11
-      # - name: Install Python
-      #   run: |
-      #     sudo pip3 install --upgrade setuptools
       - name: Install Sphinx
         run: |
           pip3 install -r requirements.txt
