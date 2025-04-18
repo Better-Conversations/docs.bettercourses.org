@@ -25,8 +25,15 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # We need to install texlive-full to build the PDF
+      - name: Setup Tailscale
+        uses: tailscale/github-action@v2 # Use the latest version
+        with:
+          oauth-client-id: ${{ secrets.TAILSCALE_CLIENT_ID }}
+          oauth-client-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
+          # Optional: Configure tags for this node
+          tags: tag:github-content
       
+      # We need to install texlive-full to build the PDF
       - name: Install TeX Live
         run: |
           sudo apt-get update
@@ -57,12 +64,6 @@ jobs:
           ls 
           sh ./production_build.sh
 
-      - name: Setup Tailscale
-        uses: tailscale/github-action@v2 # Use the latest version
-        with:
-          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
-          # Optional: Add tags or specify a hostname
-          # args: "--advertise-tags=tag:ci --hostname=gh-action-${{ github.run_id }}"
 
       - name: Deploy Site
         if: github.ref == 'refs/heads/main'
