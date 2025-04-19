@@ -53,6 +53,7 @@ jobs:
 
       # Build the documentation and then check the links
       - name: Build Sphinx site
+        shell: bash
         run: |
           source .venv/bin/activate
           ls
