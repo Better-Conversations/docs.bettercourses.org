@@ -22,15 +22,17 @@ jobs:
     # runs-on: ubuntu-latest
     runs-on: ubuntu-latest
     container: ghcr.io/better-conversations/documentation-base-container:latest
-    # container: 
-      # image: ghcr.io/better-conversations/documentation-base-container:latest
-      # credentials:
-      #   username: ${{ github.actor }}
-      #   password: ${{ secrets.GITHUB_TOKEN }}
     environment: deploy
 
+
+    
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Install curl
+        run: |
+          apt-get update
+          apt-get install -y curl
+
       - name: Setup Tailscale
         uses: tailscale/github-action@v2 # Use the latest version
         with:
