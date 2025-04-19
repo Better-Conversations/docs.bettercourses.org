@@ -29,13 +29,12 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Setup Tailscale
-        uses: tailscale/github-action@v2 # Use the latest version
+        uses: tailscale/github-action@v2
         with:
           oauth-client-id: ${{ secrets.TAILSCALE_CLIENT_ID }}
           oauth-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
-          # Optional: Configure tags for this node
-          tags: tag:github-content
-      
+          tags: tag:github-content    
+
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
