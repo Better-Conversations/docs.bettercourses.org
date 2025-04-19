@@ -19,4 +19,4 @@ cp source/robots.txt build/html/
 cp source/404.html build/html/404.html
 
 # Copy the resulting PDF to the build directory
-cp build/latex/betterconversations-foundation.pdf build/html/documentation/
+# cp build/latex/betterconversations-foundation.pdf build/html/documentation/
