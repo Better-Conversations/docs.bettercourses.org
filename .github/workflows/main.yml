@@ -40,6 +40,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Install Sphinx
+        shell: bash
         run: |
           uv venv
           source .venv/bin/activate
