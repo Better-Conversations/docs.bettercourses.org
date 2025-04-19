@@ -54,7 +54,8 @@ jobs:
       # Build the documentation and then check the links
       - name: Build Sphinx site
         run: |
-          ls 
+          source .venv/bin/activate
+          ls
           sh ./production_build.sh
 
 
