@@ -46,11 +46,10 @@ jobs:
           source .venv/bin/activate
           uv python install 3.11
           uv python pin 3.11
-          uv pip install --system -r requirements.txt
+          uv pip install -r requirements.txt
 
       # - name: Version office files
       #   run: |
-      #     python _ext/office_versioning.py
 
       # Build the documentation and then check the links
       - name: Build Sphinx site
