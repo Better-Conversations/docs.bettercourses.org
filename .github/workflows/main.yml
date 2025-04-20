@@ -59,6 +59,10 @@ jobs:
           ls
           sh ./production_build.sh
 
+      - name: Check Tailscale Status
+        shell: bash
+        run: |
+          tailscale status
 
       - name: Deploy Site
         if: github.ref == 'refs/heads/main'
