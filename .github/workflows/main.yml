@@ -70,6 +70,12 @@ jobs:
           tags: tag:github-content    
           # tailscaled-args: --tun=userspace-networking --socks5-server=localhost:1055
 
+      - name: Set up SSH key for Tailscale
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
       - name: Check Tailscale Status
         shell: bash
         run: |
@@ -77,11 +83,6 @@ jobs:
           tailscale ping 100.66.190.17
           ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
 
-      - name: Set up SSH key for Tailscale
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
           
       - name: Deploy Site
         run: |
