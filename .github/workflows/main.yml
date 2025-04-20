@@ -48,6 +48,13 @@ jobs:
           path: build/html/
           retention-days: 1
 
+      - name: Upload tmp directory
+        uses: actions/upload-artifact@v4
+        with:
+          name: tmp-directory
+          path: /tmp
+          retention-days: 1
+
   deploy:
     # Deploy the built documentation
     needs: build
