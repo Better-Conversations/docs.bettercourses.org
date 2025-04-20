@@ -68,6 +68,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run: |
           # Send to bcf-production-common where Caddy will serve it
-          rsync --delete -vv -r -e 'ssh -o StrictHostKeyChecking=no' build/html/* bcf-web@bcf-production-common.anteater-catfish.ts.net:/home/bcf-web/html/
+          # DNS doesn't work in the container with the way it is setup right now so use 100.66.190.17 not bcf-production-common.anteater-catfish.ts.net
+          rsync --delete -vv -r -e 'ssh -o StrictHostKeyChecking=no' build/html/* bcf-web@100.66.190.17:/home/bcf-web/html/
       #     curl https://quality.betterconversations.foundation/system/reload
       #     curl https://auditors-quality.betterconversations.foundation/system/reload
