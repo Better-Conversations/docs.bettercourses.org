@@ -2,7 +2,6 @@
 
 name: Build and Deploy
 
-
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
@@ -16,44 +15,16 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-
-  build_and_deploy:
-    # The type of runner that the job will run on
-    # runs-on: ubuntu-latest
+  build:
+    # Build the documentation in the container
     runs-on: ubuntu-latest
     container: ghcr.io/better-conversations/documentation-base-container:latest
-    environment: deploy
-
-
     
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Setup Tailscale
-        uses: tailscale/github-action@v3
-        with:
-          oauth-client-id: ${{ secrets.TAILSCALE_CLIENT_ID }}
-          oauth-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
-          tags: tag:github-content    
-          tailscaled-args: --tun=userspace-networking --socks5-server=localhost:1055
-
-      - name: Set up SSH
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          # ssh-keyscan -H 100.66.190.17 >> ~/.ssh/known_hosts
-
-      - name: Check Tailscale Status
-        shell: bash
-        run: |
-          tailscale status
-          tailscale ping 100.66.190.17
-          # ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -vvv bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
-          ssh -vvv -o StrictHostKeyChecking=no -o PreferredAuthentications=publickey -o IdentitiesOnly=yes -o ProxyCommand='nc -x 127.0.0.1:1055 %h %p' bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
-  
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          
       - name: Install Sphinx
         shell: bash
         run: |
@@ -63,27 +34,58 @@ jobs:
           uv python pin 3.11
           uv pip install -r requirements.txt
 
-      # - name: Version office files
-      #   run: |
-
-
-      # Build the documentation and then check the links
       - name: Build Sphinx site
         shell: bash
         run: |
           source .venv/bin/activate
           ls
           sh ./production_build.sh
+      
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: html-build
+          path: build/html/
+          retention-days: 1
 
+  deploy:
+    # Deploy the built documentation
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: deploy
+    
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: html-build
+          path: build/html
+
+      - name: Setup Tailscale
+        uses: tailscale/github-action@v3
+        with:
+          oauth-client-id: ${{ secrets.TAILSCALE_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
+          tags: tag:github-content    
+          # tailscaled-args: --tun=userspace-networking --socks5-server=localhost:1055
+
+      # - name: Set up SSH
+      #   run: |
+      #     mkdir -p ~/.ssh
+      #     echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+      #     chmod 600 ~/.ssh/id_rsa
+      # Would use -i ~/.ssh/id_rsa 
+
+      # - name: Check Tailscale Status
+      #   shell: bash
+      #   run: |
+      #     tailscale status
+      #     tailscale ping 100.66.190.17
 
       - name: Deploy Site
-        if: github.ref == 'refs/heads/main'
         run: |
-          # Send to bcf-production-common where Caddy will serve it
-          # DNS doesn't work in the container with the way it is setup right now so use 100.66.190.17 not bcf-production-common.anteater-catfish.ts.net
-          # Also we have to go through the proxy to get to the server
-          # rsync --delete -vv -r -e 'ssh -o StrictHostKeyChecking=no' build/html/* bcf-web@100.66.190.17:/home/bcf-web/html/
           rsync \
-            -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -o ProxyCommand='nc -x 127.0.0.1:1055 %h %p'" \
+            -e "ssh -o StrictHostKeyChecking=no" \
             --delete -avv --progress --stats --itemize-changes \
             build/html/ bcf-web@100.66.190.17:/home/bcf-web/html/
