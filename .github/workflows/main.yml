@@ -88,9 +88,9 @@ jobs:
           oauth-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
           tags: tag:github-content    
 
-      # - name: Deploy Site
-      #   run: |
-      #     rsync \
-      #       -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" \
-      #       --delete -avv --progress --stats --itemize-changes \
-      #       build/html/* bcf-web@100.66.190.17:/home/bcf-web/html/
+      - name: Deploy Site
+        run: |
+          rsync \
+            -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" \
+            --delete -avv --progress --stats --itemize-changes \
+            build/html/* bcf-web@100.66.190.17:/home/bcf-web/html/
