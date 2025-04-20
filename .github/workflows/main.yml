@@ -48,8 +48,8 @@ jobs:
         run: |
           tailscale status
           tailscale ping 100.66.190.17
-          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -vvv bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
-          # tailscale ssh -vvv -o StrictHostKeyChecking=no -o ProxyCommand='nc -x 127.0.0.1:1055 %h %p' bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
+          # ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -vvv bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
+          ssh -vvv -o StrictHostKeyChecking=no -o ProxyCommand='nc -x 127.0.0.1:1055 %h %p' bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
   
       - uses: actions/checkout@v2
         with:
