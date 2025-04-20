@@ -63,6 +63,7 @@ jobs:
         shell: bash
         run: |
           tailscale status
+          tailscale ping 100.66.190.17
 
       - name: Deploy Site
         if: github.ref == 'refs/heads/main'
