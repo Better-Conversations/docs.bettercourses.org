@@ -74,6 +74,5 @@ jobs:
           # rsync --delete -vv -r -e 'ssh -o StrictHostKeyChecking=no' build/html/* bcf-web@100.66.190.17:/home/bcf-web/html/
           rsync \
             -e "ssh -o StrictHostKeyChecking=no -o ProxyCommand='nc -x 127.0.0.1:1055 %h %p'" \
-            --delete -avv build/html/ bcf-web@100.66.190.17:/home/bcf-web/html/
-          #     curl https://quality.betterconversations.foundation/system/reload
-      #     curl https://auditors-quality.betterconversations.foundation/system/reload
+            --delete -avv --progress --stats --itemize-changes \
+            build/html/ bcf-web@100.66.190.17:/home/bcf-web/html/
