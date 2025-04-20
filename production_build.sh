@@ -5,7 +5,7 @@ export BUILD_TYPE="Production"
 
 # Build the HTML and LaTeX PDF versions
 make html 
-make latexpdf
+# make latexpdf
 
 # Copy the resulting PDF to the build directory
 
