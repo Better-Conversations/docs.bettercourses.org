@@ -74,4 +74,4 @@ jobs:
           rsync \
             -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" \
             --delete -avv --progress --stats --itemize-changes \
-            build/html/ bcf-web@100.66.190.17:/home/bcf-web/html/
+            build/html/* bcf-web@100.66.190.17:/home/bcf-web/html/
