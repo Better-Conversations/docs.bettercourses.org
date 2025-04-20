@@ -82,7 +82,7 @@ jobs:
           tailscale status
           tailscale ping 100.66.190.17
           # ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
-          tailscale ssh -o StrictHostKeyChecking=no bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
+          tailscale ssh bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
 
           
       - name: Deploy Site
