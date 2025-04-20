@@ -29,7 +29,7 @@ jobs:
         shell: bash
         run: |
           echo "Workspace contents:"
-          ls -la
+          ls -la source/
           
       - name: Install Sphinx
         shell: bash
