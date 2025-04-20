@@ -5,6 +5,7 @@ from datetime import datetime
 import dateutil
 from docutils.parsers.rst import Directive
 from docutils import nodes
+import os
 
 gh_repo_url = "https://github.com/Better-Conversations/betterconversations.foundation"
 
@@ -62,46 +63,67 @@ class QMSHeader(Directive):
     def run(self):
         path = self.state.document.current_source
 
+        # Convert absolute path to relative path within the repository
+        # This is needed for GitHub Actions where paths include the full workspace path
+        try:
+            # First try to make the path relative to the current working directory
+            repo_path = subprocess.check_output(["git", "rev-parse", "--show-toplevel"], text=True).strip()
+            relative_path = os.path.relpath(path, repo_path) if os.path.isabs(path) else path
+        except (subprocess.SubprocessError, FileNotFoundError):
+            # If that fails, just use the filename which might work in simple cases
+            relative_path = os.path.basename(path)
+
         # Note that git information will be for the last commit that touched
         # this file, if the file is changed but not committed, this will not
         # be reflected in the header.
 
-        # Get latest commit sha for this file
-        last_relevant_git_sha = subprocess.check_output([
-            "git",
-            "log",
-            "-n", "1",
-            "--format=%h",
-            "--",
-            path
-        ], text=True).strip()
+        try:
+            # Get latest commit sha for this file
+            last_relevant_git_sha = subprocess.check_output([
+                "git",
+                "log",
+                "-n", "1",
+                "--format=%h",
+                "--",
+                relative_path
+            ], text=True).strip()
 
-        # Get last updated date for this file
-        last_updated_date = subprocess.check_output([
-            "git",
-            "log",
-            "-n", "1",
-            "--format=%cI",
-            "--",
-            path
-        ], text=True).strip()
+            # Get last updated date for this file
+            last_updated_date = subprocess.check_output([
+                "git",
+                "log",
+                "-n", "1",
+                "--format=%cI",
+                "--",
+                relative_path
+            ], text=True).strip()
 
-        # Get last author for this file, named by their git settings
-        last_author = subprocess.check_output([
-            "git",
-            "log",
-            "-n", "1",
-            "--format=%cN",
-            "--",
-            path
-        ], text=True).strip()
+            # Get last author for this file, named by their git settings
+            last_author = subprocess.check_output([
+                "git",
+                "log",
+                "-n", "1",
+                "--format=%cN",
+                "--",
+                relative_path
+            ], text=True).strip()
+        except subprocess.CalledProcessError:
+            # Fallback if git commands fail
+            last_relevant_git_sha = "unknown"
+            last_updated_date = datetime.now().isoformat()
+            last_author = "unknown"
 
         # Remove the file extension from the file name to get the document reference
         document_reference = pathlib.Path(self.state.document.current_source).stem
 
+        if last_updated_date != "unknown":
+            formatted_date = format_date(dateutil.parser.isoparse(last_updated_date))
+        else:
+            formatted_date = "unknown"
+
         return [create_header(
             document_reference,
-            format_date(dateutil.parser.isoparse(last_updated_date)),
+            formatted_date,
             last_relevant_git_sha,
             last_author
         )]
