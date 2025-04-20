@@ -41,7 +41,3 @@ We expect you to:
 
 
 
-.. dropdown::
-    Controlled Document Details
-
-    .. qms_header::
