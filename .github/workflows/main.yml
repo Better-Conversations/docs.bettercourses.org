@@ -64,6 +64,7 @@ jobs:
         run: |
           tailscale status
           tailscale ping 100.66.190.17
+          ssh -o ProxyCommand='nc -x 127.0.0.1:1055 %h %p' bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
 
       - name: Deploy Site
         if: github.ref == 'refs/heads/main'
