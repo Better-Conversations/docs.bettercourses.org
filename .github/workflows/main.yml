@@ -68,23 +68,7 @@ jobs:
           oauth-client-id: ${{ secrets.TAILSCALE_CLIENT_ID }}
           oauth-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
           tags: tag:github-content    
-          # tailscaled-args: --tun=userspace-networking --socks5-server=localhost:1055
 
-      - name: Set up SSH key for Tailscale
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-
-      - name: Check Tailscale Status
-        shell: bash
-        run: |
-          tailscale status
-          tailscale ping 100.66.190.17
-          # ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
-          tailscale ssh bcf-web@100.66.190.17 ls -l /home/bcf-web/html/
-
-          
       - name: Deploy Site
         run: |
           rsync \
