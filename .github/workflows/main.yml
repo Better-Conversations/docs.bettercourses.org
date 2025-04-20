@@ -25,12 +25,6 @@ jobs:
         with:
           fetch-depth: 0
           
-      # - name: Verify checkout results
-      #   shell: bash
-      #   run: |
-      #     echo "Workspace contents:"
-      #     ls -la source/
-
       # Configure Git safe directory
       - name: Configure Git safe directory
         shell: bash
