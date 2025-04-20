@@ -34,7 +34,7 @@ jobs:
           oauth-client-id: ${{ secrets.TAILSCALE_CLIENT_ID }}
           oauth-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
           tags: tag:github-content    
-          tailscaled-args:  --tun=userspace-networking
+          tailscaled-args: --tun=userspace-networking --socks5-server=localhost:1055
 
       - uses: actions/checkout@v2
         with:
@@ -70,6 +70,10 @@ jobs:
         run: |
           # Send to bcf-production-common where Caddy will serve it
           # DNS doesn't work in the container with the way it is setup right now so use 100.66.190.17 not bcf-production-common.anteater-catfish.ts.net
-          rsync --delete -vv -r -e 'ssh -o StrictHostKeyChecking=no' build/html/* bcf-web@100.66.190.17:/home/bcf-web/html/
-      #     curl https://quality.betterconversations.foundation/system/reload
+          # Also we have to go through the proxy to get to the server
+          # rsync --delete -vv -r -e 'ssh -o StrictHostKeyChecking=no' build/html/* bcf-web@100.66.190.17:/home/bcf-web/html/
+          rsync \
+            -e "ssh -o ProxyCommand='nc -x 127.0.0.1:1055 %h %p'" \
+            --delete -av build/html/ bcf-web@100.66.190.17:/home/bcf-web/html/
+          #     curl https://quality.betterconversations.foundation/system/reload
       #     curl https://auditors-quality.betterconversations.foundation/system/reload
