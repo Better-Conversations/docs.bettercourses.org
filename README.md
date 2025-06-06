@@ -12,13 +12,9 @@ This is in the `source/course/handbook` directory. Add new pages as Markdown and
 
 TODO make this build a PDF for download and put it in the right place e.g. source/downloads/BC Course Handbook.pdf
 
-## Building the PDF of the Articles of Association
+## Building the PDF of the Site
 
-We need a PDF of the articles of association for Companies House and B-Corp certification. 
-
-To build the PDF, run `make latexpdf` in the root of the repository. 
-
-This requires a local installation of LaTeX. 
+This is done as part of the main build and can be downloaded in source/documentation/fullsite-pdf.rst
 
 
 ## Controlled Document Details

@@ -2,7 +2,6 @@
 
 name: Build and Deploy
 
-
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
@@ -16,45 +15,76 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-
-  build_and_deploy:
-    # The type of runner that the job will run on
-    # runs-on: ubuntu-latest
-    runs-on: self-hosted
-    environment: deploy
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+  build:
+    # Build the documentation in the container
+    runs-on: ubuntu-latest
+    container: ghcr.io/better-conversations/documentation-base-container:latest
+    
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          
+      # Configure Git safe directory
+      - name: Configure Git safe directory
+        shell: bash
+        run: |
+          git config --global --add safe.directory /__w/betterconversations.foundation/betterconversations.foundation
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.11
-      # - name: Install Python
-      #   run: |
-      #     sudo pip3 install --upgrade setuptools
       - name: Install Sphinx
+        shell: bash
         run: |
-          pip3 install -r requirements.txt
+          uv venv
+          source .venv/bin/activate
+          uv python install 3.11
+          uv python pin 3.11
+          uv pip install -r requirements.txt
 
-      # - name: Version office files
-      #   run: |
-      #     python _ext/office_versioning.py
-
-      # Build the documentation and then check the links
       - name: Build Sphinx site
+        shell: bash
         run: |
-          ls 
+          source .venv/bin/activate
+          ls
           sh ./production_build.sh
+      
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: html-build
+          path: build/html/
+          retention-days: 1
+
+      - name: Upload tmp directory
+        uses: actions/upload-artifact@v4
+        with:
+          name: tmp-directory
+          path: /tmp
+          retention-days: 1
+
+  deploy:
+    # Deploy the built documentation
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: deploy
+    
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: html-build
+          path: build/html
+
+      - name: Setup Tailscale
+        uses: tailscale/github-action@v3
+        with:
+          oauth-client-id: ${{ secrets.TAILSCALE_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
+          tags: tag:github-content    
 
       - name: Deploy Site
-        if: github.ref == 'refs/heads/main'
         run: |
-          # Send to bcf-production-common where Caddy will serve it
-          rsync --delete -vv -r -e 'ssh -o StrictHostKeyChecking=no' build/html/* bcf-web@bcf-production-common.anteater-catfish.ts.net:/home/bcf-web/html/
-      #     curl https://quality.betterconversations.foundation/system/reload
-      #     curl https://auditors-quality.betterconversations.foundation/system/reload
+          rsync \
+            -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" \
+            --delete -avv --progress --stats --itemize-changes \
+            build/html/* bcf-web@100.66.190.17:/home/bcf-web/html/

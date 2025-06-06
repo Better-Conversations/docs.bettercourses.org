@@ -22,8 +22,6 @@ Articles of Association
       4. `Various administrative arrangements <part4.html>`_
       5. `The B-Corp requirements for what Directors must consider when making decisions <part5.html>`_
 
-.. only:: latexpdf
-
     .. toctree::
         :maxdepth: 2
         :caption: Contents

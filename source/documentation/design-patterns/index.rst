@@ -34,11 +34,11 @@ additional patterns, please let us know.
    # accessibilty-design-pattern
    # breakout-design-pattern
    # checklist-design-pattern
-   continuous-improvement-pattern
    # exercises-design-pattern
-   flipchart-design-pattern
-   flight-plan-design-pattern
+   # flipchart-design-pattern
+   # flight-plan-design-pattern
    # group-size-design-pattern
-   observations-design-pattern
-   roles-design-pattern
-   writing-design-pattern
+   # observations-design-pattern
+   # role-design-pattern
+   # timing-design-pattern
+   flight-plan-pattern

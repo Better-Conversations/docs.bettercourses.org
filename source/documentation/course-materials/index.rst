@@ -36,5 +36,6 @@ These stable links will need authentication, but will always point to the most r
 
    course_overview
    flight_plans
+   flipcharts
    handbook
    email_templates

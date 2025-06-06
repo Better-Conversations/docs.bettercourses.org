@@ -53,8 +53,10 @@ Please note that:
    stable-links
    course-materials/index
    course-design/index  
+   checklists/index
    design-patterns/index
    delivery-patterns/index
    delivery-guidance/index
+   fullsite-pdf
    
    

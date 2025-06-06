@@ -31,15 +31,13 @@ extensions = [
      'myst_parser', 
      'sphinx.ext.todo', 
      'sphinx_last_updated_by_git', 
-     'ablog',
      'sphinx.ext.intersphinx',
+    #  'ablog', - note we conditionally add this in the following block
      # 'sphinx_external_toc',
-     'sphinx_design',
      'sphinx_sitemap',
      'sphinx_reredirects',
      "sphinx_design",
      "sphinx_design_elements",
-     "sphinx.ext.intersphinx",
      "sphinx_tags",
      "sphinxcontrib.mermaid",
      "sphinx.ext.graphviz",
@@ -50,6 +48,16 @@ myst_enable_extensions = [
      "colon_fence",
      "html_image"
     ]
+
+# Only include ablog extension for HTML builds 
+if 'latexpdf' not in sys.argv:
+    print("+++++++++++++ Adding ablog ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+    extensions.append('ablog')
+else:
+    # Remove ablog from extensions if it's there
+    if 'ablog' in extensions:
+        print("+++++++++++++ Removing ablog ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        extensions.remove('ablog')
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -64,6 +72,7 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.git', 
                     'README.md', 'robots.txt', '_site'
                     'serve.sh', 'pyproject.toml', '_ignore', 'requirements.txt']
+
 
 # Make the sitemap work see https://pypi.org/project/sphinx-sitemap/
 # Ensure that PDFs are copied to the site by specifying the directories containing PDFs in the html_extra_path.
@@ -121,14 +130,24 @@ if 'BUILD_TYPE' in os.environ:
         print("Disabling TODO warnings and content as this is production")
         todo_include_todos = False
         todo_emit_warnings = False
+        build_env = "production"  # html variable
+
     else:
         print("Allowing TODO warnings and content as this is not Production")
         todo_include_todos = True
         todo_emit_warnings = True
+        build_env = "development"  # html variable
+
 else:
         print("Allowing TODO warnings and content as there's no environment setting")
         todo_include_todos = True
         todo_emit_warnings = True
+        build_env = "development"  # html variable
+
+# Pass build_env to templates
+html_context = {
+    "build_env": build_env  # Now accessible in Jinja templates
+}
 
 # This was for https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
 # Now we're using https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/configuring.html
@@ -195,6 +214,8 @@ rst_prolog = """
 
 .. _current-handbook: https://betterconversations.foundation/downloads/BC%20Course%20Handbook.pdf
 
+.. _current-flipcharts: https://betterconversations.foundation/downloads/BC%20Course%20Flipcharts.pdf
+
 """
 
 # rst_epilog = """
@@ -212,10 +233,10 @@ rst_prolog = """
 # -- Redirects ----------------------------------------------------------------
 
 redirects = {
-    "https://betterconversations.foundation/documentation/200-the_course.index.html": "https://betterconversations.foundation/course/index.html",
-    "https://betterconversations.foundation/documentation/800-resources/email-templates.html": "https://betterconversations.foundation/documentation/course-materials/email_templates.html",
-    "https://betterconversations.foundation/2023/05/02/modelling-sales.html": "https://betterconversations.foundation/blog/2023-05-02-modelling-sales.html",
-    "https://betterconversations.foundation/thanks/index.html": "https://betterconversations.foundation/about/appreciation.html",
+    "documentation/200-the_course.index.html": "https://betterconversations.foundation/course/index.html",
+    "documentation/800-resources/email-templates.html": "https://betterconversations.foundation/documentation/course-materials/email_templates.html",
+    "2023/05/02/modelling-sales.html": "https://betterconversations.foundation/blog/2023-05-02-modelling-sales.html",
+    "thanks/index.html": "https://betterconversations.foundation/about/appreciation.html",
 }
 # -- Graphviz ---------------------------------------------------------------
 
@@ -256,9 +277,9 @@ latex_elements = {
 }
 
 latex_documents = [
-    ('about/governance/articles/index',  # Source start file (without .rst extension)
-     'articles.tex',  # Output .tex file name
-     'Articles of Association',  # Document title
+    ('index',  # Source start file (without .rst extension)
+     'betterconversations-foundation.tex',  # Output .tex file name
+     'The Better Conversations Foundation',  # Document title
      'The Better Conversations Foundation',    # Author name
      'report',     # Document type (simple article format)
      True),          # Generate TOC
