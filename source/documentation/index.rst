@@ -46,7 +46,6 @@ Please note that:
 .. toctree::
    :maxdepth: 2
    :caption: Contents
-   :hidden:
 
    assumptions
    badges
@@ -54,7 +53,10 @@ Please note that:
    course-materials/index
    course-design/index  
    checklists/index
-   patterns-and-guidance/index
+   course-improvement/index
+   patterns/index
+   guidance/index
+   insights/index
    fullsite-pdf
    
    

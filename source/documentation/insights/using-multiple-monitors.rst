@@ -6,8 +6,9 @@ Multiple Monitors Transform Delivery
 
 .. tags:: insights, technical setup, producer, facilitator, equipment
 
-**Context:** Discovered through remote delivery challenges in 2020-2021
-**Key Learning:** Two monitors dramatically reduce cognitive load for delivery teams
+Key Learning
+------------
+Two monitors dramatically reduce cognitive load and increase effectivenessfor delivery teams
 
 What we discovered
 ------------------
