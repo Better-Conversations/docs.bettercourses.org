@@ -54,9 +54,7 @@ Please note that:
    course-materials/index
    course-design/index  
    checklists/index
-   design-patterns/index
-   delivery-patterns/index
-   delivery-guidance/index
+   patterns-and-guidance/index
    fullsite-pdf
    
    
