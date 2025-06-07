@@ -6,20 +6,15 @@ Multiple Monitors Transform Delivery
 
 .. tags:: insights, technical setup, producer, facilitator, equipment
 
-Key Learning
-------------
-Two monitors dramatically reduce cognitive load and increase effectivenessfor delivery teams
+Key insight
+-----------
+Two monitors dramatically reduce cognitive load and increase effectivenessfor delivery teams.
 
 What we discovered
 ------------------
-Initially, facilitators and producers struggled to manage Zoom, flight plans, and 
-private chat on single screens. Constant window-switching created stress, missed 
-cues, and disrupted flow. When team members upgraded to dual monitor setups, we 
-saw immediate improvements in delivery smoothness and team coordination.
+Initially, facilitators and producers struggled to manage Zoom, flight plans, and private chat on single laptop screens. Constant window-switching created stress, missed cues, and disrupted flow. When team members used dual monitor setups (a monitor alongside a laptop screen) or a large screen to allow multiple windows to be displayed side-by-side, we saw immediate improvements in delivery smoothness and team coordination.
 
-The difference was particularly notable for producers, who need to simultaneously 
-monitor participant gallery view, manage breakout rooms, prepare chat messages, 
-and follow the flight plan. What felt like juggling became orchestration.
+The difference was particularly notable for producers, who need to simultaneously monitor participants, manage breakout rooms, prepare chat messages, and follow the flight plan. What felt like juggling became orchestration.
 
 Why it matters
 --------------
@@ -34,9 +29,9 @@ Practical implications
 ----------------------
 Based on this learning:
 
-- We now list dual monitors as "strongly recommended" for all delivery roles
+- We now advise dual monitors as "strongly recommended" for all delivery roles
 - We recommend specific screen layouts (Zoom on one screen, flight plan on other)
-- We avoid assuming single-screen setups in our instructions
+- We avoid using single-screen setups in our delivery of sessions
 
 Related resources
 -----------------
@@ -47,4 +42,4 @@ Related resources
 .. note::
    This insight emerged from 200+ sessions delivered between March 2022 and 
    March 2025. Your experience may vary based on screen size, technical 
-   comfort, and role complexity.
+   configuration, and role complexity.
