@@ -65,3 +65,4 @@ Whether you're delivering our course or designing your own, these patterns provi
    insights/index
    quick-reference/index
    pattern-template
+   insight-template
