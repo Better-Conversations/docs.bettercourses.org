@@ -1,15 +1,15 @@
 ============
-[Topic/Area]
+[Guide Name]
 ============
 
-.. tags:: guidance, [specific area tags]
+.. tags:: guides, [specific area tags]
 
 .. note::
     This guidance reflects different approaches we've seen work well. 
     Your style and context will influence which approach fits best.
 
-About this guidance
--------------------
+About this guide
+----------------
 [Brief description of what this guidance covers and why different valid approaches exist]
 
 When to consider this

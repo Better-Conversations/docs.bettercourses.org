@@ -1,6 +1,6 @@
-======================
-[Topic/Discovery Name]
-======================
+==============
+[Insight Name]
+==============
 
 .. tags:: insights,[relevant tags]
 

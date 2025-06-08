@@ -4,14 +4,14 @@
 Managing Session Timing
 =======================
 
-.. tags:: guidance, facilitation, timing, module delivery
+.. tags:: guides, facilitation, timing, module delivery
 
 .. note::
    This guidance reflects different approaches we've seen work well. 
    Your style and context will influence which approach fits best.
 
-About this guidance
--------------------
+About this guide
+----------------
 Managing time during module delivery is both an art and a science. While our flight plans provide minute-by-minute structure, how you work within that structure varies based on your facilitation style, group dynamics, and comfort with pacing. This guidance shares approaches that experienced facilitators have found helpful.
 
 When to consider this

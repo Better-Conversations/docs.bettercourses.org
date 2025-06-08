@@ -4,14 +4,14 @@
 Managing Breakout Rooms
 =======================
 
-.. tags:: guidance, production, breakout rooms, zoom, timing
+.. tags:: guides, production, breakout rooms, zoom, timing
 
 .. note::
    This guidance reflects different approaches we've seen work well. 
    Your style and context will influence which approach fits best.
 
-About this guidance
--------------------
+About this guide
+----------------
 Breakout rooms are central to the Better Conversations experience. While the technical setup is standardized, how producers manage timing, communication, and coordination varies based on their style, the facilitator's approach, and group dynamics. This guidance shares approaches that experienced producers have found effective.
 
 When to consider this
