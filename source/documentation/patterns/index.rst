@@ -8,7 +8,8 @@ Patterns are the processes and techniques that we have found to be effective in 
 
 .. todo:: Potential patterns
 
-   TODO 
+   TODO
+
    - breaks-design-pattern
    - timing-design-pattern
    - delivery-team-design-pattern
@@ -18,7 +19,6 @@ Patterns are the processes and techniques that we have found to be effective in 
 .. toctree::
    :maxdepth: 2
    :caption: Contents
-   :hidden:
 
    core-delivery/index
    exercises/index

@@ -32,7 +32,6 @@ These stable links will need authentication, but will always point to the most r
 .. toctree::
    :maxdepth: 2
    :caption: Contents
-   :hidden:
 
    course_overview
    flight_plans

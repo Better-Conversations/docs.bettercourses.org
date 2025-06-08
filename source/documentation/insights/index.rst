@@ -9,12 +9,10 @@ These are a collection of learnings from our own experience over delivering many
 They are specific to the context we are in - your experience and perspective may be different. These are not patterns or guidance per se, but you might want to dip in to these to get a sense of what you might do in your own delivery.
 
 .. toctree::
-   :maxdepth: 2
+   :titlesonly:
    :caption: Contents
-   :hidden:
 
-   using-multiple-monitors
+   flight-plan-usability-insight
    preparation-insights
-   documentation-evolution
-   technical-setup-lessons
-   delivery-team-insights
+   teams-vs-groups-insight
+   multiple-monitors-insight
