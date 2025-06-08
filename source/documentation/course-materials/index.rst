@@ -1,3 +1,5 @@
+.. _course-materials:
+================
 Course Materials
 ================
 
@@ -28,9 +30,9 @@ These stable links will need authentication, but will always point to the most r
    - online meeting guidelines
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
    :caption: Contents
-   :hidden:
 
    course_overview
    flight_plans

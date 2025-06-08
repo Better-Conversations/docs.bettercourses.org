@@ -1,0 +1,8 @@
+---
+description: Creating new design patterns
+globs: 
+---
+
+# Your rule content
+
+- use this file @design-pattern-template.rst as a template when creating or updating design pattern files in the source/documentation/design-patterns directory

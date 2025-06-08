@@ -1,3 +1,5 @@
+.. _technical-stack:
+
 ===============
 Technical Stack
 ===============

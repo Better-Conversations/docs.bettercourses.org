@@ -38,7 +38,11 @@ extensions = [
      'sphinx_reredirects',
      "sphinx_design",
      "sphinx_design_elements",
+     "sphinx_tags",
+     "sphinxcontrib.mermaid",
+     "sphinx.ext.graphviz",
      "qms_header",
+     "llms",
      ]
 myst_enable_extensions = [
      "colon_fence",
@@ -182,13 +186,13 @@ html_baseurl = "https://betterconversations.foundation/"
 html_copy_source = False
 
 # -- Ablog -----------------------------------------------------------
-# See here https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html
+# See here https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html
 skip_injecting_base_ablog_templates = False
 
 blog_title = "News from the BCF"
 blog_baseurl = "https://betterconversations.foundation/blog"
 post_date_format_short = "%b %d, %Y"
-post_auto_image = 1 # Don't automatically add images, set to 1 to return the first image in the post
+post_auto_image = 1 # Don't automatically add images, set to 1 to return the first image in the post
 templates_path = ['_templates']
 
 # -- Link Checking -----------------------------------------------------------
@@ -217,9 +221,7 @@ rst_prolog = """
 # rst_epilog = """
 # .. raw:: html
 #    <div>__GDPR__</div>
-
 #    <p></p>
-
 # """
 
 
@@ -236,32 +238,88 @@ redirects = {
     "2023/05/02/modelling-sales.html": "https://betterconversations.foundation/blog/2023-05-02-modelling-sales.html",
     "thanks/index.html": "https://betterconversations.foundation/about/appreciation.html",
 }
+# -- Graphviz ---------------------------------------------------------------
+
+graphviz_output_format = 'svg'  # Clearer than PNG, scales better
 
 # -- LaTeX ----------------------------------------------------------------
 # For exporting to PDF
 
 latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
     'papersize': 'a4paper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
+    'pointsize': '11pt',
+    'geometry': r'\usepackage[margin=1in]{geometry}',
+    
     'preamble': r'''
-\setcounter{secnumdepth}{0}
-''',
+        % Add page numbers
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        % For UK date format
+        \usepackage{datetime}
+        \renewcommand{\dateseparator}{~}  % Space between day and month
+        \newcommand{\uktoday}{\the\day~\monthname[\month]~\the\year}
+        \renewcommand{\familydefault}{\sfdefault}
+    ''',
 
-    # Figure alignment
-    'figure_align': 'htbp',
+    'maketitle': r'''
+        \makeatletter
+        \begin{titlepage}
+            \centering
+            \vspace*{40mm}
+            {\huge\textbf{\@title}} 
+            \vspace{15mm}\par
+            {\Large \textit{\@author}}
+            \vspace{15mm}\par
+            {\large \uktoday}
+        \end{titlepage}
+        \makeatother
+    ''',
 }
-
 
 latex_documents = [
     ('index',  # Source start file (without .rst extension)
      'betterconversations-foundation.tex',  # Output .tex file name
      'The Better Conversations Foundation',  # Document title
      'The Better Conversations Foundation',    # Author name
-     'report'),        # Document type (manual, howto, etc.)
+     'report',     # Document type (simple article format)
+     True),          # Generate TOC
+    ('documentation/design-patterns/index',  # Source start file for design patterns
+     'design-patterns.tex',  # Output filename 
+     'Better Conversations Design Patterns',  # Document title
+     'The Better Conversations Foundation',  # Author
+     'report',     # Document type (full report format)
+     True),         # Generate TOC
+    ('documentation/delivery-patterns/index',  # Source start file for delivery patterns
+     'delivery-patterns.tex',  # Output filename
+     'Better Conversations Delivery Patterns',  # Document title
+     'The Better Conversations Foundation',  # Author
+     'report',      # Document type
+     True),        # Generate TOC
+    ('documentation/delivery-guidance/index',  # Source start file for delivery guidance
+     'delivery-guidance.tex',  # Output filename
+     'Better Conversations Delivery Guidance',  # Document title
+     'The Better Conversations Foundation',  # Author
+     'report',     # Document type
+     True)        # Generate TOC
 ]
 
+# Document class options
+latex_docclass = {
+    'manual': 'report',
+    'article': 'article'  # Use article class for Articles of Association
+}
+
+# Add specific article settings
+latex_elements.update({
+    'extraclassoptions': 'openany',
+    'papersize': 'a4paper',
+    'pointsize': '10pt',  # Smaller text for legal documents
+    'babel': '\\usepackage[english]{babel}',
+    'figure_align': 'htbp',
+})
+
+# Make tags work
+tags_create_tags = True
+tags_intro_text = "Tags"
+tags_page_title = "Tag"
+tags_create_badges = True

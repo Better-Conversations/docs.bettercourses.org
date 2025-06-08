@@ -70,12 +70,13 @@ If you want to know more, or if you want to get involved, please get in touch wi
 
     Get in touch
 
+# Note that the :numbered: option for the toctree is set to 3 to display 'patterns' sections appropriately
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents
    :hidden:
-   :numbered:
+   :numbered: 3
 
    about/index
    course/index

@@ -1,10 +1,10 @@
+.. _course_overview:
+
 ===============
 Course Overview
 ===============
 
-We're prepared a detailed overview of the course to explain some of the 
-patterns we use to design the course. You can download the latest version 
-as a PDF `here <current-overview_>`_. 
+We're prepared a detailed overview of the course to explain in detail how we designed the course. You can download the latest version as a PDF `here <current-overview_>`_. 
 
 .. list-table::
     :widths: 40, 80, 20

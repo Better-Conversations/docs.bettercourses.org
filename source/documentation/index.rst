@@ -46,15 +46,17 @@ Please note that:
 .. toctree::
    :maxdepth: 2
    :caption: Contents
-   :hidden:
 
    assumptions
    badges
    stable-links
-   course-design/index  
    course-materials/index
-   checklists/index
-   design-patterns/index
+   course-design/index  
+   delivery-checklists/index
+   course-improvement/index
+   patterns/index
+   guides/index
+   insights/index
    fullsite-pdf
    
    

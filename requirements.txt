@@ -17,3 +17,6 @@ pydata-sphinx-theme==0.16.1
 ablog==0.11.12
 sphinx-reredirects==0.1.6
 sphinx_design_elements==0.4.0
+sphinx-tags
+sphinxcontrib-mermaid
+graphviz
