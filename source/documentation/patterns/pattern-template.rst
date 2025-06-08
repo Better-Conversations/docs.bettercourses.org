@@ -1,6 +1,6 @@
-=================
-[Name of Pattern]
-=================
+==============
+[Pattern Name]
+==============
 
 .. tags:: patterns, [tags]
 
