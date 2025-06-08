@@ -2,20 +2,15 @@
 Flight Plans
 ============
 
-Designed to be used by the course delivery team, our "Flight Plans" are the detailed 
-instructions for running the course. We use them every time we run the course and
-consider them to be the most important part of the material we are making available.
+Designed to be used by the course delivery team, Flight Plans are the detailed instructions for running the course. We use them every time we run the course and consider them to be the most important part of the material we are making available.
 
-We are also constantly improving them based on feedback from the course delivery teams.
-You'll see that the flight plans are versioned. You can find the change log at the bottom
-of this page. 
+We are also constantly improving them based on feedback from the course delivery teams. You'll see that the flight plans are versioned. You can find the change log at the bottom of this page. 
 
 Don't feel you need to update to every version. Check the change notes to see
 if you want to update your version. Most of the time the changes are small and
 we hope helpful.
 
-If you're delivering a course for the Foundation you'll be using the latest versions
-of the flight plans.
+If you're delivering a course for the Foundation you'll be using the latest versions of the flight plans.
 
 .. todo::
 
@@ -30,12 +25,13 @@ of the flight plans.
 Using the Flight Plans
 ----------------------
 
-We distribute the flight plans as PDFs. If you want to edit them you can just open 
-the PDF in Word.
+We distribute the flight plans as PDFs. If you want to edit them you can just open the PDF in Word.
 
-The Foundation has historically used Word files stored on Sharepoint, which allows
-the delivery team to all work off the same copy. We are phasing this out and moving
-to the Delivery Console.
+The Foundation has historically used Word files stored on Sharepoint, which allowed the delivery team to all work off the same copy. We've phased this out and are using our dedicated app, Active Flight Plans, to provide different views of the same data to different members of the delivery team. This also allows us to edit and track changes to the flight plans.
+
+If you're delivering on your own, there's no need to worry about all this, just use Word or Google Docs (we've tried spreadsheets and slide decks and they don't work as well).
+
+If you're working as part of a team use Sharepoint or Google Drive to give you a real-time collaborative document.
 
 ------------------------
 Getting the Flight Plans

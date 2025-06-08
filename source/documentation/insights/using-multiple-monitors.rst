@@ -24,6 +24,7 @@ This discovery affects how we:
 - Set minimum technical requirements  
 - Troubleshoot delivery issues
 - Design flight plan layouts
+- Prioritize equipment investments
 
 Practical implications
 ----------------------

@@ -36,7 +36,3 @@ Related resources
 - See pattern: [Link to related pattern if applicable]
 - See guidance: [Link to related guidance if applicable]
 - Other insights: [Link to related insights]
-
-.. note::
-   This insight emerged from [approximate number] of sessions delivered between
-   [timeframe]. Your experience may vary based on [relevant factors].
