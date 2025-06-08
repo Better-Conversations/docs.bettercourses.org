@@ -7,9 +7,8 @@ Exercises Patterns
 These patterns are about how to run the breakout exercises in the course.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents
-   :hidden:
+   :caption: Patterns in this section
+   :titlesonly:
    
 .. todo::
     - BCOBS-1116: Document patterns for facilitators around breakout groups (works consistently)

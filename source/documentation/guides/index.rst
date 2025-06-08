@@ -13,7 +13,7 @@ course to your wider context. If you aren't already a member you can get in touc
 .. toctree::
    :hidden:
    :maxdepth: 2
-   :caption: Contents
+   :caption: Guides in this section
 
    facilitator-guides/index
    producer-guides/index

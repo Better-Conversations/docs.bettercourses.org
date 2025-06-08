@@ -1,13 +1,12 @@
 .. _facilitator-guides:
 
-====================
-Facilitator Guidance
-====================
+==================
+Facilitator Guides
+==================
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents
-   :hidden:
+   :titlesonly:
+   :caption: Guides in this section
 
    facilitator-session-timing

@@ -1,13 +1,12 @@
 .. _producer-guides:
 
-====================
-Producer Guidance
-====================
+===============
+Producer Guides
+===============
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents
-   :hidden:
-   
+   :titlesonly:
+   :caption: Resources in this section
+
    producer-breakout-rooms

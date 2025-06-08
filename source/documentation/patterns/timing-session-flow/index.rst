@@ -7,9 +7,8 @@ Timing and Session Flow Patterns
 These patterns are about how to manage the timing and flow of the session.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents
-   :hidden:
+   :caption: Patterns in this section
+   :titlesonly:
    
 .. todo::
     - BCOBS-1120: Document patterns for facilitators on managing timings (reliable pacing)

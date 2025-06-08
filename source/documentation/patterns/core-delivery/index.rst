@@ -7,9 +7,8 @@ Core Delivery Patterns
 These patterns are the key patterns for how to deliver the course.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents
-   :hidden:
+   :caption: Patterns in this section
+   :titlesonly:
 
    flight-plan-pattern
    
