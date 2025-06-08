@@ -99,9 +99,8 @@ Related resources
 .. todo::
    Add links to the relevant patterns and insights.
 
-   - See pattern: :ref:`flight-plans` (for structured timing framework)
-   - See pattern: :ref:`managing-breakout-rooms` (for group size considerations)  
-   - Other guidance: :ref:`reading-group-energy`
-   - Insights: :ref:`preparation-before-briefing-is-critical`
+   - See flight plans
+   - See pattern: :ref:`breakout-room-pattern` (for group size considerations)  
+   - Insights: :ref:`preparation-insights`
 
    This will need splitting out into several guides

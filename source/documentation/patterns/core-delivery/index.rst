@@ -11,6 +11,7 @@ These patterns are the key patterns for how to deliver the course.
    :titlesonly:
 
    flight-plan-pattern
+   breakout-room-pattern
    
 .. todo::
 

@@ -106,6 +106,5 @@ Related resources
 
    Split into several guides
 
-   - See pattern: :ref:`flight-plans` (for breakout timing structures)
-   - Other guidance: :ref:`facilitator-producer-coordination`
-   - Insights: :ref:`technical-setup-lessons`
+   - See flight plans
+   - See pattern: :ref:`breakout-room-pattern` (for breakout timing structures)

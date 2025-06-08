@@ -26,7 +26,7 @@ We suggest you download the flight plans from this site each time you deliver a 
 
 The pattern
 -----------
-Through thousands of hours of design and delivery, we've developed a comprehensive approach:
+This is our comprehensive approach, developed over thousands of hours of design and delivery:
 
 1. **Design with layered patterns**
 
@@ -58,17 +58,17 @@ What makes this pattern reliable
    * - Key Element
      - How it creates the "safety net" effect
    * - Detailed time planning
-     - * Minute-by-minute structure prevents drift while highlighting flexibility points
+     - Minute-by-minute structure prevents drift while highlighting flexibility points
    * - Role clarity
-     - * Each team member knows their responsibilities - no surprises, no divas
+     - Each team member knows their responsibilities - no surprises, no divas
    * - Pre-session alignment
-     - * 30-minute briefing catches issues before they affect participants
+     - 30-minute briefing catches issues before they affect participants
    * - Script guidelines
-     - * Ensures consistent key messages while allowing personal style
+     - Ensures consistent key messages while allowing personal style
    * - Built-in reflection
-     - * Afterparty format captures learning while experiences are fresh
+     - Afterparty format captures learning while experiences are fresh
    * - Modular design
-     - * Individual patterns can be improved without breaking the whole
+     - Individual patterns can be improved without breaking the whole
 
 Variations we've tested
 -----------------------
@@ -80,22 +80,19 @@ Variations we've tested
    * - Variation
      - How it works
    * - Standard approach
-     - * Two co-facilitators with a producer, which is great for 6-20 participants
+     - Two co-facilitators with a producer, which is great for 6-20 participants
    * - Small groups (under 6)
-     - * Single facilitator possible, though we prefer paired facilitation for development
+     - Single facilitator possible, though we prefer paired facilitation for development
    * - Large groups (20+)
-     - * May need multiple producers depending on the anticipated technical difficulties
+     - May need multiple producers depending on the anticipated technical difficulties
    * - Training contexts
-     - * Experienced facilitator explicitly supports trainee with planned handoffs
-       * The actual division of segments is agreed in advance to meet the needs of the trainee
-   * - Odd numbers of participants
-     - * One facilitator joins the breakouts, getting valuable participant perspectives
+     - Experienced facilitator explicitly supports trainee with planned handoffs. The actual division of segments is agreed in advance to meet the needs of the trainee
    * - One-to-one coaching
-     - * Flight plan becomes conversation guide rather than strict timeline
+     - Flight plan becomes conversation guide rather than strict timeline
    * - In-person delivery
-     - * Adapt technical elements, breakout instructions, and movement patterns
+     - Adapt technical elements, breakout instructions, and movement patterns
    * - Time-compressed
-     - * 45-minute versions for in-person demonstration workshops focus on core exercises, trimming discussions
+     - 45-minute versions for in-person demonstration workshops focus on core exercises, trimming discussions
 
 Evidence this pattern works
 ---------------------------
@@ -104,6 +101,7 @@ Evidence this pattern works
 
 - Participants consistently report feeling supported regardless of facilitator style
 - Quality and consistency across hundreds of sessions - people are able to come back, observe and learn how to deliver that session because of this
+- Participants also say the hour flies past. They report/anticipate being in a better (mental) state by the end of the session.
 
 **Facilitator Development** 
 

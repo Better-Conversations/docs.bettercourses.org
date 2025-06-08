@@ -27,6 +27,8 @@ reflecting on what they've done. We've designed the course to be delivered in a
 way that encourages participants to engage with the material, with each other,
 and with the facilitator.
 
+.. _magic-in-conversations:
+
 **The magic happens in the conversations**: We've designed the course to focus
 on the conversations that participants have with each other, and with the
 facilitator. We've designed the course to be delivered in a way that encourages
