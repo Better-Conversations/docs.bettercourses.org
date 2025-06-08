@@ -46,45 +46,82 @@ Through thousands of hours of design and delivery, we've developed a comprehensi
 
 5. **Maintain version control**
 
-  Keep controlled master versions of the flight plans while creating working copies for each session. This preserves quality standards and traceability while allowing session-specific adjustments. 
+   Keep controlled master versions of the flight plans while creating working copies for each session. This preserves quality standards and traceability while allowing session-specific adjustments. 
 
 What makes this pattern reliable
 --------------------------------
-Key elements that create the "safety net" effect:
 
-- **Detailed time planning**: Minute-by-minute structure prevents drift while highlighting flexibility points
-- **Role clarity**: Each team member knows their responsibilities - no surprises, no divas
-- **Pre-session alignment**: 30-minute briefing catches issues before they affect participants
-- **Script guidelines**: Ensures consistent key messages while allowing personal style
-- **Built-in reflection**: Afterparty format captures learning while experiences are fresh
-- **Modular design**: Individual patterns can be improved without breaking the whole
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Key Element
+     - How it creates the "safety net" effect
+   * - Detailed time planning
+     - * Minute-by-minute structure prevents drift while highlighting flexibility points
+   * - Role clarity
+     - * Each team member knows their responsibilities - no surprises, no divas
+   * - Pre-session alignment
+     - * 30-minute briefing catches issues before they affect participants
+   * - Script guidelines
+     - * Ensures consistent key messages while allowing personal style
+   * - Built-in reflection
+     - * Afterparty format captures learning while experiences are fresh
+   * - Modular design
+     - * Individual patterns can be improved without breaking the whole
 
 Variations we've tested
 -----------------------
-- **Standard approach:** Two co-facilitators with a producer, which is great for 6-20 participants
-- **Small groups (under 6):** Single facilitator possible, though we prefer paired facilitation for development
-- **Large groups (20+):** May need multiple producers depending on the anticipated teachnical difficulties.
-- **Training contexts:** Experienced facilitator explicitly supports trainee with planned handoffs. The actual division of segments is agreed in advance to meet the needs of the trainee.
-- **Odd numbers of participants:** One facilitator joins the breakouts, getting valuable participant perspectives
-- **One-to-one coaching:** Flight plan becomes conversation guide rather than strict timeline.
-- **In-person delivery:** Adapt technical elements, breakout instructions, and movement patterns
-- **Time-compressed:** 45-minute versions for in-person demonstration workshops focus on core exercises, trimming discussions. 
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Variation
+     - How it works
+   * - Standard approach
+     - * Two co-facilitators with a producer, which is great for 6-20 participants
+   * - Small groups (under 6)
+     - * Single facilitator possible, though we prefer paired facilitation for development
+   * - Large groups (20+)
+     - * May need multiple producers depending on the anticipated technical difficulties
+   * - Training contexts
+     - * Experienced facilitator explicitly supports trainee with planned handoffs
+       * The actual division of segments is agreed in advance to meet the needs of the trainee
+   * - Odd numbers of participants
+     - * One facilitator joins the breakouts, getting valuable participant perspectives
+   * - One-to-one coaching
+     - * Flight plan becomes conversation guide rather than strict timeline
+   * - In-person delivery
+     - * Adapt technical elements, breakout instructions, and movement patterns
+   * - Time-compressed
+     - * 45-minute versions for in-person demonstration workshops focus on core exercises, trimming discussions
 
 Evidence this pattern works
 ---------------------------
-- Participants consistently report feeling supported regardless of facilitator style.
-- Novice facilitators feel ready to deliver after 2-3 observed sessions.
-- Quality scores remain high (4.5+ out of 5) across hundreds of sessions.
-- Sessions finish on time or early in 99.9%+ of cases (we had one session that ran 1.5 minutes over time).
-- Delivery teams report feeling confident and prepared.
+
+**Participant Experience**
+
+- Participants consistently report feeling supported regardless of facilitator style
+- Quality and consistency across hundreds of sessions - people are able to come back, observe and learn how to deliver that session because of this
+
+**Facilitator Development** 
+
+- Novice facilitators feel ready to deliver after 2-3 observed sessions
+- Delivery teams report feeling confident and prepared
+
+**Operational Reliability**
+
+- Sessions finish on time or early in 99.9%+ of cases (we only had one session that ran 1.5 minutes over time!)
 - Minor mistakes don't derail sessions - the structure provides resilience
-- Facilitators even say "we had fun!" despite challenging situations like participants or co-facilitators who "fell off" the Zoom call unexpectedly.
 
 Building on this pattern
 ------------------------
 We've found it is quick to create new modules from existing flight plans - the smaller reusable patterns are easy to copy and paste into a new module (and you know they work).
 
-See also: State Check-in Pattern, Breakout Room Pattern, Co-facilitation Pattern
+.. todo::
+    - Add links to the relevant patterns and insights.
+    - See also: State Check-in Pattern, Breakout Room Pattern, Co-facilitation Pattern
 
 Reflections on our experience to date
 -------------------------------------
@@ -98,4 +135,5 @@ We learned to be explicit that "there are no prizes for being a diva" after sess
 
 .. todo::
     - Add a section on how to use the flight plan to create a new module.
-    - Add links to checklists
+    - Add links to other patterns, guides and insights.
+    - Think about visual flow and how to use style elements e.g. cards, images, etc.

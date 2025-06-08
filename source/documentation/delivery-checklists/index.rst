@@ -12,29 +12,6 @@ These checklists are very BCF-specific. Whilst we hope it is useful, you may wan
 The Better Conversations Community is a place where you can discuss and learn from others how you use this checklist to reinforce the relevance of the
 course to your wider context. If you aren't already a member you can get in touch here: `hello@betterconversations.foundation <mailto:hello@betterconversations.foundation>`_
 
-.. todo 
-
-    Move the notes to insights and guidance
-
-
-For facilitators:
-
-*   For a 2-breakout session, aim for teaching model at ~10 minutes, and
-    breakouts at ~20 and ~40 minutes as concentration levels will start to
-    drop after 20 minutes. We chunk the time to keep people engaged.
-*   Minimise the number of things to remember – most people can only
-    remember 3-4 things in their working memory.
-*   Keep instructions and language as simple as you can.
-*   The questions that will be asked are usually put into the chat by the
-    producer.
-*   Extend the breakout timings when you have a group of three
-*   Unpack from each group rather than each person if time is tight. As a
-    rule, allow 1 minute for each person who talks (2 minutes if they are
-    chatty).
-*   Start on time. The first 5 minutes and last 5 minutes are designed to
-    allow people to be late/leave early.
-*   Bank as much time as possible in the first 30 minutes.
-
 For producers
 
 *   Breakouts for threes will need longer – check with facilitator if three-

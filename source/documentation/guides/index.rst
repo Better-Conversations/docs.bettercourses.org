@@ -10,6 +10,6 @@ Guidance
    :caption: Contents
    :hidden:
 
-   facilitator-guidance/index
-   producer-guidance/index
-   guidance-template
+   facilitator-guides/index
+   producer-guides/index
+   guides-template

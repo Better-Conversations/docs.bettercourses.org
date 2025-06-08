@@ -1,4 +1,4 @@
-.. _facilitator-guidance:
+.. _facilitator-guides:
 
 ====================
 Facilitator Guidance
@@ -9,4 +9,5 @@ Facilitator Guidance
    :maxdepth: 2
    :caption: Contents
    :hidden:
-   
+
+   facilitator-delivery-timing

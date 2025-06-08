@@ -55,7 +55,7 @@ Please note that:
    delivery-checklists/index
    course-improvement/index
    patterns/index
-   guidance/index
+   guides/index
    insights/index
    fullsite-pdf
    

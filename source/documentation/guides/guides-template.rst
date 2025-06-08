@@ -1,6 +1,6 @@
-========================
-Guidance: [Topic/Area]
-========================
+============
+[Topic/Area]
+============
 
 .. tags:: guidance, [specific area tags]
 
@@ -23,33 +23,29 @@ This guidance is particularly relevant when:
 Approaches we've seen work
 --------------------------
 
-Approach A: [Descriptive name]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Works well for:** [Type of facilitator/context]
+.. list-table::
+   :header-rows: 1
+   :widths: auto
 
-[Description of the approach]
-
-**Why some prefer this:**
-- [Benefit for their style]
-- [Alignment with certain contexts]
-
-**Considerations:**
-- [Things to be aware of]
-- [Potential trade-offs]
-
-Approach B: [Descriptive name]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Works well for:** [Type of facilitator/context]
-
-[Description of the approach]
-
-**Why some prefer this:**
-- [Benefit for their style]
-- [Alignment with certain contexts]
-
-**Considerations:**
-- [Things to be aware of]
-- [Potential trade-offs]
+   * - Approach
+     - Works well for
+     - What to do
+     - Why it works
+     - Considerations
+   * - [Descriptive name A]
+     - [Type of facilitator/context]
+     - [Description of the approach]
+     - * [Benefit for their style]
+       * [Alignment with certain contexts]
+     - * [Things to be aware of]
+       * [Potential trade-offs]
+   * - [Descriptive name B]
+     - [Type of facilitator/context]
+     - [Description of the approach]
+     - * [Benefit for their style]
+       * [Alignment with certain contexts]
+     - * [Things to be aware of]
+       * [Potential trade-offs]
 
 Finding your style
 ------------------
@@ -60,6 +56,7 @@ Questions to help you choose:
 - [Question about your context]
 
 Things to experiment with:
+
 - [Suggestion for trying different approaches]
 - [Way to test what works for you]
 
@@ -71,14 +68,10 @@ Community experiences
 ---------------------
 [1-2 examples of how different facilitators have successfully used different approaches]
 
-> "[Quote from facilitator about their approach]" - [Name/context]
+- [Tips from experienced facilitators]
 
 Related resources
 -----------------
 - See pattern: [Related reliable pattern]
 - Other guidance: [Related style considerations]
 - Insights: [Relevant experience notes]
-
-.. note::
-   This guidance is based on observing [number] facilitators across [timeframe].
-   The "best" approach depends on your authentic style and specific context.
