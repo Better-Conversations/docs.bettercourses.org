@@ -155,3 +155,25 @@ text to the right */
 .postlist .read-more {
   margin-top: 0.5rem;
 }
+
+/* Quick spacing improvements */
+article.bd-article {
+    padding: 3rem 5rem;
+    line-height: 1.8;
+}
+
+.bd-article h2,
+.bd-article h3 {
+    margin-top: 3rem;
+}
+
+.bd-article p,
+.bd-article ul,
+.bd-article ol {
+    margin-bottom: 2rem;
+}
+
+.admonition {
+    margin: 3rem 0;
+    padding: 2rem;
+}
