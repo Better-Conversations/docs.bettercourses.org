@@ -30,7 +30,7 @@ These stable links will need authentication, but will always point to the most r
    - online meeting guidelines
 
 .. toctree::
-   :maxdepth: 2
+   :titlesonly:
    :caption: Contents
 
    course_overview
