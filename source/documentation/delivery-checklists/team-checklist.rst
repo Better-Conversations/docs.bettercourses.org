@@ -1,11 +1,15 @@
------------------------------------
-Delivery Team Pre-Flight Checklist
------------------------------------
+.. _team-checklist:
+
+=======================
+Delivery Team Checklist
+=======================
 
 This is what we expect the delivery team to do once they are all together
 in the session. You should aim to do this as soon as possible after you've
 all assembled and ideally have completedl it with 15 minutes to spare
 before the Participants arrive. 
+
+:abbr:`BOR` = breakout rooms, :abbr:`Fx` = facilitator, :abbr:`Px` = producer
 
 .. list-table::
     :header-rows: 1

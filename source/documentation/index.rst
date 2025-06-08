@@ -52,7 +52,7 @@ Please note that:
    stable-links
    course-materials/index
    course-design/index  
-   checklists/index
+   delivery-checklists/index
    course-improvement/index
    patterns/index
    guidance/index

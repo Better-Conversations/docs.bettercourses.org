@@ -12,3 +12,4 @@ Guidance
 
    facilitator-guidance/index
    producer-guidance/index
+   guidance-template

@@ -1,34 +1,21 @@
-=========================
-Delivery Team Checklists
-=========================
+.. _delivery-checklists:
+
+===================
+Delivery Checklists
+===================
 
 These are the checklists that the Foundation run before every session. They are specific to how the Foundation run courses and are a collection of lessons
 learned. We've included it with the flight plans so you can get some idea of what we do and can decide if you want to do something similar.
 
-Abbreviations
--------------
-
-:abbr:`BOR` = breakout rooms, :abbr:`Fx` = facilitator, :abbr:`Px` = producer
-
-.. attention::
-
-    These checklists are very BCF-specific. Whilst we hope it is useful, you may want to adapt this to your own needs and then delete this warning.
+These checklists are very BCF-specific. Whilst we hope it is useful, you may want to adapt this to your own needs for your own sessions.
 
 The Better Conversations Community is a place where you can discuss and learn from others how you use this checklist to reinforce the relevance of the
-course to your wider context. If you aren't already a member you can join here `<https://bettercourses.org/community/signup-from-flightplans>`_
+course to your wider context. If you aren't already a member you can get in touch here: `hello@betterconversations.foundation <mailto:hello@betterconversations.foundation>`_
 
+.. todo 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents
-   :hidden:
+    Move the notes to insights and guidance
 
-   pre
-   start
-
-
-Notes
------
 
 For facilitators:
 
@@ -83,4 +70,9 @@ For more information on Breakout Rooms in Better Conversations, see
 here `<https://betterconversations.foundation/l/zoombor>`_
 
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
 
+   individual-checklist
+   team-checklist
