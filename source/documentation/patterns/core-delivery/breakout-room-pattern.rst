@@ -59,6 +59,7 @@ What makes this pattern reliable
 
 Variations we've tested
 -----------------------
+
 .. list-table::
    :header-rows: 1
    :widths: auto
@@ -68,13 +69,13 @@ Variations we've tested
    * - Standard approach
      - Flight plans detail the standard instructions for the breakout room, the messages copied into the Zoom chat, the time allocation and the questions for unpacking.
    * - Making up pairs
-     - One facilitator joins the breakouts to make up a pair. This is also a good way to remind yourself of the particpant experience. Remember to allow time for the facilitator to pick up their place on the flight plan and remember what they were doing before the breakout. Sometimes they forget and the second facilitaotr can adjust around that.
+     - One facilitator joins the breakouts to make up a pair. This is also a good way to remind yourself of the particpant experience. Remember to allow time for the facilitator to pick up their place on the flight plan and remember what they were doing before the breakout. Sometimes they forget and the second facilitator can adjust around that.
    * - Brekouts of two and three particpants
-      - Adding a thrid person to a breakout increases the time it takes to do the exercise well by about 30-50% (which is a lot when the session is 1 hour long). Extending the time of the breakout room is often necessary (and you need to find that time from elsewhere). Unpacking from each of the breakout pairs/threes instead of individually is a good way to gain time back.
+     - Adding a third person to a breakout increases the time it takes to do the exercise well by about 30-50% (which is a lot when the session is 1 hour long). Extending the time of the breakout room is often necessary (and you need to find that time from elsewhere). Unpacking from each of the breakout pairs/threes instead of individually is a good way to gain time back.
    * - For smaller groups
      - Sometimes the group is small enough that you can ask everyone to share their insights. This is generally fine for 2-3 people, however timing is tight for 4 or more (so you need to sample).
    * - For larger groups
-     - It becomes harder to thoughtfully pair people with larger groups. Also, sampling is essential when there 4 or more people. This is where one facilitator watching the chat and the other facilitating verbal discussion is a good idea.
+     - It becomes harder to thoughtfully pair people within larger groups. Also, sampling is essential when there 4 or more people. This is where one facilitator watching the chat and the other facilitating verbal discussion is a good idea.
    * - When timing is tight
      - Reduce the time allocated for the breakout if possible. Unpack by asking people to write their answers in the chat and then pick out 1 or 2 examples to discuss. 
 
