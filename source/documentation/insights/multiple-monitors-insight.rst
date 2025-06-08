@@ -1,7 +1,7 @@
 .. _using-multiple-monitors-insight:
 
 ====================================
-Multiple Monitors Transform Delivery
+Multiple monitors transform delivery
 ====================================
 
 .. tags:: insights, technical setup, producer, facilitator, equipment

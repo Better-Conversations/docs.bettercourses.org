@@ -1,5 +1,5 @@
 ==================================
-Individual Preparation is Crucial
+Individual preparation is crucial
 ==================================
 
 .. tags:: insights, preparation, briefing, delivery team, timing

@@ -21,7 +21,7 @@ Patterns are the processes and techniques that we have found to be effective in 
    :caption: Contents
 
    core-delivery/index
-   exercises/index
-   timing-session-flow/index
-   visual-technical/index
-   roles/index
+   # exercises/index
+   # timing-session-flow/index
+   # visual-technical/index
+   # roles/index

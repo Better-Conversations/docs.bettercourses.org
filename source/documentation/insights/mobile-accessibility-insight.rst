@@ -1,7 +1,7 @@
 .. _mobile-accessibility-insight:
 
 ==============================
-Allowing for Mobile Device Use
+Allowing for mobile device use
 ==============================
 
 .. tags:: insights, accessibility, mobile devices, participant experience, design

@@ -4,6 +4,9 @@
 
 .. tags:: insights,[relevant tags]
 
+.. todo::
+   Style tip: Note that the titles of insights are better using lower case, as they are more phrases than titles.
+
 .. tip::
    
    [One-sentence summary of the insight]

@@ -1,7 +1,7 @@
 .. _teams-vs-groups-insight:
 
 ======================================
-Intact Teams Need Different Approaches
+Intact teams need different approaches
 ======================================
 
 .. tags:: insights, team delivery, psychological safety, group dynamics, adaptation
@@ -12,7 +12,7 @@ Intact Teams Need Different Approaches
 
 What we learned
 ------------------
-When delivering Better Conversations to intact organisational teams, are very aware of the team dynamics compared to open course sessions (where participants are part of a group rather than a team). 
+When delivering Better Conversations to intact organisational teams (i.e. teams that exist before and continue to work together after we have delivered the course), we are very aware of the team dynamics. This requires a different approach to open course sessions (where we are generally working with a group of individuals who may not have worked together before, and may not continue to meet after the course).
 
 Why it matters
 --------------

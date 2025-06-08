@@ -1,8 +1,8 @@
 .. _flight-plan-usability-insight:
 
-==================================
-Improving Usability of Flight Plans
-==================================
+===============================
+Improving flight plan usability
+===============================
 
 .. tags:: insights, documentation, data protection, continuous improvement, version control
 
