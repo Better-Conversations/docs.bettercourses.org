@@ -10,4 +10,4 @@ Facilitator Guidance
    :caption: Contents
    :hidden:
 
-   facilitator-delivery-timing
+   facilitator-session-timing

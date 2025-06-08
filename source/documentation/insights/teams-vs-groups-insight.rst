@@ -1,16 +1,16 @@
 .. _teams-vs-groups-insight:
 
-================================================
+======================================
 Intact Teams Need Different Approaches
-================================================
+======================================
 
 .. tags:: insights, team delivery, psychological safety, group dynamics, adaptation
 
-Key insight
------------
-Existing relationships and hierarchies significantly affect session dynamics and require adapted delivery approaches.
+.. tip::
+   
+   Existing relationships and hierarchies significantly affect session dynamics and require different approaches.
 
-What we discovered
+What we learned
 ------------------
 When delivering Better Conversations to intact organisational teams, are very aware of the team dynamics compared to open course sessions (where participants are part of a group rather than a team). 
 

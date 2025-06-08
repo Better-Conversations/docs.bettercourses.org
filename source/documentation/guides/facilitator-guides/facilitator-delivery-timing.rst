@@ -1,8 +1,8 @@
-.. _facilitator-delivery-timing:
+.. _facilitator-session-timing:
 
-======================
-Module Delivery Timing
-======================
+=======================
+Managing Session Timing
+=======================
 
 .. tags:: guidance, facilitation, timing, module delivery
 

@@ -6,11 +6,11 @@ Allowing for Mobile Device Use
 
 .. tags:: insights, accessibility, mobile devices, participant experience, design
 
-Key insight
------------
-Participants may join from mobile devices, requiring inclusive design approaches.
+.. tip:: 
 
-What we discovered
+   Participants may join from mobile devices, requiring inclusive approaches.
+
+What we learned
 ------------------
 
 We designed Better Conversations assuming participants would join from laptop computers with full Zoom functionality. However, we learned that participants joined from phones and tablets. Some were travelling, others lacked computer access, and some simply preferred mobile devices.

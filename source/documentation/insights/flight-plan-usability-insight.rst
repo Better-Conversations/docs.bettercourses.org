@@ -6,12 +6,11 @@ Improving Usability of Flight Plans
 
 .. tags:: insights, documentation, data protection, continuous improvement, version control
 
-Key insight
------------
-Separating operational data from instructional content improves both documentation quality and usability.
+.. tip::
+   Separating operational data from instructional content improves both documentation quality and usability.
 
-What we discovered
-------------------
+What we learned
+---------------
 The flight plans have changed significantly since we started working on the course.
 
 Our original flight plans tried to be everything: participant roster, observation notes, chat logs, and delivery guide all in one document. This created multiple problems. Documents became unwieldy to read and update. Data protection requirements meant we couldn't share examples freely. 
@@ -40,6 +39,6 @@ Based on this learning, we:
 
 Related resources
 -----------------
-- See pattern: Flight Plans (current clean structure)
+- See pattern: :ref:`flight-plan-pattern`
 - See pattern: Continuous Improvement Process
 - Other insights: Documentation Version Control

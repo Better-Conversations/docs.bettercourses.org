@@ -1,14 +1,14 @@
 ==================================
-Individual Preparation is Critical
+Individual Preparation is Crucial
 ==================================
 
 .. tags:: insights, preparation, briefing, delivery team, timing
 
-Key insight
------------
-What happens *before* the 30-minute briefing also determines session success.
+.. tip::
+   
+   What happens *before* the 30-minute briefing also determines session success.
 
-What we discovered
+What we learned
 ------------------
 Sometimes the best preparation is done by the individual facilitator and producer. We've all had issues with audio, video and internet connection (and continue to do so from time to time)so we advise people that deliver with us to check their equipment before the delivery team briefing. 
 

@@ -4,14 +4,13 @@
 
 .. tags:: insights,[relevant tags]
 
-Key insight
------------
-[One-sentence summary of the insight]
+.. tip::
+   
+   [One-sentence summary of the insight]
 
-What we discovered
-------------------
-[When/where this learning emerged]
-
+What we learned
+---------------
+[When/where this learning emerged, and what we learned]
 
 [2-3 paragraphs about the experience and what we learned]
 
