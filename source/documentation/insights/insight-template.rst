@@ -2,7 +2,7 @@
 [Insight Name]
 ==============
 
-.. tags:: insights,[relevant tags]
+.. tags:: insights,[tags]
 
 .. todo::
    Style tip: Note that the titles of insights are better using lower case, as they are more phrases than titles.

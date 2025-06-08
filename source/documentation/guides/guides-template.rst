@@ -2,7 +2,7 @@
 [Guide Name]
 ============
 
-.. tags:: guides, [specific area tags]
+.. tags:: guides, [tags]
 
 .. note::
     This guidance reflects different approaches we've seen work well. 
