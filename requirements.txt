@@ -2,7 +2,7 @@ setuptools>=68.0.0
 pyyaml==6.0.2
 sphinx==7.1.2
 docutils==0.20.1
-requests==2.32.3
+requests==2.32.4
 rstcheck==6.2.4
 doc8==1.1.2
 sphinx_sitemap==2.6.0
