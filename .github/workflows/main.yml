@@ -61,30 +61,48 @@ jobs:
           path: /tmp
           retention-days: 1
 
+  # Deployment to github pages
   deploy:
-    # Deploy the built documentation
-    needs: build
-    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    environment: deploy
-    
+    needs: build
     steps:
       - name: Download build artifact
         uses: actions/download-artifact@v4
         with:
           name: html-build
-          path: build/html
+          path: .
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
-      - name: Setup Tailscale
-        uses: tailscale/github-action@v3
-        with:
-          oauth-client-id: ${{ secrets.TAILSCALE_CLIENT_ID }}
-          oauth-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
-          tags: tag:github-content    
+# Old deployment to bcf-production-common via Tailscale
+  # deploy:
+  #   # Deploy the built documentation
+  #   needs: build
+  #   if: github.ref == 'refs/heads/main'
+  #   runs-on: ubuntu-latest
+  #   environment: deploy
+    
+  #   steps:
+  #     - name: Download build artifact
+  #       uses: actions/download-artifact@v4
+  #       with:
+  #         name: html-build
+  #         path: build/html
 
-      - name: Deploy Site
-        run: |
-          rsync \
-            -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" \
-            --delete -avv --progress --stats --itemize-changes \
-            build/html/* bcf-web@100.66.190.17:/home/bcf-web/html/
+  #     - name: Setup Tailscale
+  #       uses: tailscale/github-action@v3
+  #       with:
+  #         oauth-client-id: ${{ secrets.TAILSCALE_CLIENT_ID }}
+  #         oauth-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
+  #         tags: tag:github-content    
+
+  #     - name: Deploy Site
+  #       run: |
+  #         rsync \
+  #           -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" \
+  #           --delete -avv --progress --stats --itemize-changes \
+  #           build/html/* bcf-web@100.66.190.17:/home/bcf-web/html/
