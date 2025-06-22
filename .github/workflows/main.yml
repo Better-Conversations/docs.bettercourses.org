@@ -53,13 +53,21 @@ jobs:
           ls
           sh ./production_build.sh
       
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      # This is GitHub Pages stuff which is not used anymore
+      # - name: Setup Pages
+      #   uses: actions/configure-pages@v5
         
+      # - name: Upload build artifact
+      #   uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     path: build/html/
+
       - name: Upload build artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
+          name: html-build
           path: build/html/
+          retention-days: 1
 
       - name: Upload tmp directory
         uses: actions/upload-artifact@v4
