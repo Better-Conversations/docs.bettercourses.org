@@ -1,0 +1,45 @@
+{
+  "index_name": "bcf-content",
+  "start_urls": [
+    {
+      "url": "https://betterconversations.foundation/",
+      "selectors_key": "default"
+    }
+  ],
+  "stop_urls": [
+    "https://betterconversations.foundation/_",
+    "https://betterconversations.foundation/genindex",
+    "https://betterconversations.foundation/search.html",
+    "https://betterconversations.foundation/blog.html"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".bd-article h1",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".bd-article h2",
+      "lvl2": ".bd-article h3",
+      "lvl3": ".bd-article h4",
+      "lvl4": ".bd-article h5",
+      "text": ".bd-article p, .bd-article li, .bd-article td, .bd-article th"
+    }
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "type"
+    ],
+    "attributesToSnippet": ["content:50"],
+    "attributesToHighlight": ["hierarchy", "content"],
+    "minWordSizefor1Typo": 3,
+    "minWordSizefor2Typos": 7
+  },
+  "scrape_start_urls": false,
+  "nb_hits": "OUTPUT"
+}

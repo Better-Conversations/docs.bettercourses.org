@@ -18,3 +18,6 @@ llms.text
 document_list.txt
 
 /source/_tags
+
+# Typesense configuration
+.env.typesense

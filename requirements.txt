@@ -20,3 +20,8 @@ sphinx_design_elements==0.4.0
 sphinx-tags
 sphinxcontrib-mermaid
 graphviz
+
+# Typesense search integration (optional)
+typesense==0.21.0
+beautifulsoup4==4.12.3
+python-dotenv==1.0.1
