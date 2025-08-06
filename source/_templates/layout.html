@@ -3,6 +3,11 @@
 {% block extrahead %}
 {{ super() }}
 
+<!-- Typesense Search Integration -->
+<script src="https://cdn.jsdelivr.net/npm/typesense@1.8.2/dist/typesense.min.js"></script>
+<link rel="stylesheet" href="{{ pathto('_static/css/typesense-search.css', 1) }}">
+<script defer src="{{ pathto('_static/javascript/typesense-search.js', 1) }}"></script>
+
 <!-- This adds Umami analytics if consent is given -->
 <script type="module" src="{{ pathto('_static/javascript/cookieconsent-config.js', 1) }}"></script>
 {% if build_env == 'development' %}
