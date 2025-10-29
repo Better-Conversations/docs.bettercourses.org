@@ -22,6 +22,7 @@ Our current Faculty includes:
 .. grid:: 1 2 3 3
 
     .. grid-item:: `Lyndsay Conklin <https://www.linkedin.com/in/lyndsay-conklin-00670b290/>`_
+    .. grid-item:: `Beth Hughes <https://www.linkedin.com/in/bethhughes1/>`_
     .. grid-item:: `Evelina De Lain <https://www.linkedin.com/in/evelina-de-lain/>`_
     .. grid-item:: `Antonia Mann <https://www.linkedin.com/in/antoniamann/>`_
     .. grid-item:: `Sara-Amina Mbegu <https://www.linkedin.com/in/sara-amina-mbegu-05ba7a24b/>`_
