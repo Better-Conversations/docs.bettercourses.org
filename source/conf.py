@@ -18,7 +18,8 @@ sys.path.insert(0, os.path.abspath('./_ext'))
 # -- Project information -----------------------------------------------------
 
 project = 'The Better Conversations Foundation'
-copyright = '2020-2024, The Better Conversations Foundation Ltd.'
+from datetime import datetime
+copyright = f"2020-{datetime.now().year}, The Better Conversations Foundation Ltd."
 author = 'The Better Conversations Foundation'
 
 
