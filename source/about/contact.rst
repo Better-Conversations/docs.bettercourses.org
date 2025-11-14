@@ -2,33 +2,14 @@
 Contact Us
 ==========
 
-You can contact our support team by clicking the button below.
+You can contact our support team by clicking on the little blue chat icon at the bottom right of this screen. Any 
+message you send there will be sent direct to our support team.
 
-.. raw:: html
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <button id="zammad-feedback-form">Submit a request to our support team</button>
-
-    <script id="zammad_form_script" src="https://support.betterconversations.foundation/assets/form/form.js"></script>
-
-    <script>
-    $(function() {
-      $('#zammad-feedback-form').ZammadForm({
-        messageTitle: 'Contact Us',
-        messageSubmit: 'Submit',
-        messageThankYou: 'Thank you for your inquiry (#%s)! We\'ll contact you as soon as possible.',
-        showTitle: true,
-        modal: true,
-        attachmentSupport: true
-      });
-    });
-    </script>
 
 -----
 Email
 -----
 
-Alternatively, you can email us at hello@betterconversations.foundation. 
-But the form above is more reliable as it won't get lost in spam filters. 
+Alternatively, you can email us at hello@betterconversations.foundation. That'll end up in the same place as the chat icon,
+but the chat icon is more reliable as it won't get lost in spam filters. 
 
