@@ -8,5 +8,5 @@ Fancy a look behind the scenes? Here's how we work.
    :maxdepth: 2
    :caption: Contents
 
-   stack
+   technical-stack
    ai
