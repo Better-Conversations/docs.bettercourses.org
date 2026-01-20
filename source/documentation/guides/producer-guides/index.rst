@@ -6,7 +6,7 @@ Producer Guides
 
 
 .. toctree::
-   :titlesonly:
+   :maxdepth: 1
    :caption: Resources in this section
 
    producer-breakout-rooms
