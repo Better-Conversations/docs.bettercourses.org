@@ -33,50 +33,53 @@ This guidance is particularly relevant when you:
 Approaches we've seen work
 --------------------------
 
-Front-loading
-^^^^^^^^^^^^^
+.. grid:: 1 2 2 2
+    :gutter: 3
 
-**Works well for:** Facilitators who like buffer time, and groups that warm up quickly.
+    .. grid-item-card::
 
-**What to do:**
+        **Front-loading**
 
-- Start punctually and move briskly through the first 30 minutes
-- Bank time for later use - aim to reach the 30-minute mark about 5 minutes ahead
+        Works well for facilitators who like buffer time, and groups that warm up quickly. Suits an energetic style.
 
-**Why it works:**
+        *What to do:*
 
-- Creates breathing room for rich discussions later
-- Reduces anxiety about running over
-- Gives you flexibility when groups get deeply engaged
+        - Start punctually and move briskly through the first 30 minutes
+        - Bank time for later - aim to be 5 minutes ahead at the 30-minute mark
 
-**Things to keep in mind:**
+        *Why it works:*
 
-- May feel rushed initially to participants
-- Requires confidence to move groups along early
-- Works well with a fast, energetic style
-- Let participants know what's coming: "We'll have more time to explore this shortly"
+        - Creates breathing room for rich discussions later
+        - Reduces anxiety about running over
+        - Gives flexibility when groups get deeply engaged
 
-Steady rhythm
-^^^^^^^^^^^^^
+        *Keep in mind:*
 
-**Works well for:** Facilitators who prefer consistency, and groups that need predictability.
+        - May feel rushed initially to participants
+        - Let participants know: "We'll have more time to explore this shortly"
 
-**What to do:**
+    .. grid-item-card::
 
-- Maintain even pacing throughout, hitting each timing mark within 30 seconds
-- Use the first and last 5 minutes as buffers for latecomers and early leavers
+        **Steady rhythm**
 
-**Why it works:**
+        Works well for facilitators who prefer consistency, and groups that need predictability. Suits a calmer style.
 
-- Creates a reliable rhythm participants can feel
-- Easier to maintain energy levels
-- Reduces decision-making about when to speed up or slow down
+        *What to do:*
 
-**Things to keep in mind:**
+        - Maintain even pacing, hitting each timing mark within 30 seconds
+        - Use the first and last 5 minutes as buffers for latecomers/early leavers
 
-- Less flexibility for spontaneous deep dives
-- Requires good time awareness throughout
-- You may need to gently interrupt rich discussions
+        *Why it works:*
+
+        - Creates a reliable rhythm participants can feel
+        - Easier to maintain energy levels
+        - Reduces decision-making about when to speed up or slow down
+
+        *Keep in mind:*
+
+        - Less flexibility for spontaneous deep dives
+        - Requires good time awareness throughout
+        - You may need to gently interrupt rich discussions
 
 Finding your style
 ------------------
