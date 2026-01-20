@@ -7,12 +7,19 @@ Managing Session Timing
 .. tags:: guides, facilitation, timing, module delivery
 
 .. note::
-   This guidance reflects different approaches we've seen work well. 
+   This guidance reflects different approaches we've seen work well.
    Your style and context will influence which approach fits best.
+
+In brief
+--------
+
+- **Two main approaches:** Front-load time early, or keep a steady rhythm throughout
+- **Groups of three need more time:** Plan for 30-50% extra in breakouts
+- **20-minute chunks work:** Concentration dips after 20 minutes, so we schedule breakouts at roughly 20 and 40 minutes
 
 About this guide
 ----------------
-Managing time during module delivery is both an art and a science. While our flight plans provide minute-by-minute structure, how you work within that structure varies based on your facilitation style, group dynamics, and comfort with pacing. This guidance shares approaches that experienced facilitators have found helpful.
+Managing time during module delivery is both an art and a science. Our flight plans give you minute-by-minute structure, but how you work within that structure is up to you. It depends on your style, your group, and how comfortable you are with pacing. This guide shares approaches that experienced facilitators have found helpful.
 
 When to consider this
 ---------------------
@@ -26,44 +33,58 @@ This guidance is particularly relevant when you:
 Approaches we've seen work
 --------------------------
 
-.. list-table::
-   :header-rows: 1
-   :widths: auto
+Front-loading
+^^^^^^^^^^^^^
 
-   * - Approach
-     - Works well for
-     - What to do
-     - Why it works
-     - Considerations
-   * - Front-loading
-     - Facilitators who like buffer time and groups that warm up quickly
-     - * Start punctually and move briskly through the first 30 minutes, banking time for later use
-       * Aim to reach the 30-minute mark about 5 minutes ahead of schedule
-     - * Creates breathing room for rich discussions later
-       * Reduces anxiety about running over
-       * Allows flexibility when groups get deeply engaged
-     - * May feel rushed initially to participants
-       * Requires confidence to move groups along early
-       * Works well with a fast verbal/energetic style
-       * Works best with clear signposting: "We'll have more time to explore this shortly"
-   * - Steady rhythm
-     - Facilitators who prefer consistency and groups that need predictability
-     - * Maintain even pacing throughout, hitting each timing mark within 30 seconds
-       * The first and last 5 minutes are designed as buffers for latecomers/early leavers, so take advantage of that time to build energy and momentum
-     - * Creates a reliable rhythm participants can feel
-       * Easier to maintain energy levels
-       * Reduces decision-making about when to speed up/slow down
-     - * Less flexibility for spontaneous deep dives
-       * Requires good time awareness throughout
-       * May need to gently interrupt rich discussions
+**Works well for:** Facilitators who like buffer time, and groups that warm up quickly.
+
+**What to do:**
+
+- Start punctually and move briskly through the first 30 minutes
+- Bank time for later use - aim to reach the 30-minute mark about 5 minutes ahead
+
+**Why it works:**
+
+- Creates breathing room for rich discussions later
+- Reduces anxiety about running over
+- Gives you flexibility when groups get deeply engaged
+
+**Things to keep in mind:**
+
+- May feel rushed initially to participants
+- Requires confidence to move groups along early
+- Works well with a fast, energetic style
+- Let participants know what's coming: "We'll have more time to explore this shortly"
+
+Steady rhythm
+^^^^^^^^^^^^^
+
+**Works well for:** Facilitators who prefer consistency, and groups that need predictability.
+
+**What to do:**
+
+- Maintain even pacing throughout, hitting each timing mark within 30 seconds
+- Use the first and last 5 minutes as buffers for latecomers and early leavers
+
+**Why it works:**
+
+- Creates a reliable rhythm participants can feel
+- Easier to maintain energy levels
+- Reduces decision-making about when to speed up or slow down
+
+**Things to keep in mind:**
+
+- Less flexibility for spontaneous deep dives
+- Requires good time awareness throughout
+- You may need to gently interrupt rich discussions
 
 Finding your style
 ------------------
 Questions to help you choose:
 
-- Do you naturally keep an eye on the clock, or do you tend to lose track of time when engaged? What support do your need from the delivery team and/or technology to help you stay on track?
-- Does having buffer time make you feel secure or tempted to over-extend discussions? How do you manage this?
-- How comfortable are you moving groups along when they're engaged but time is short? What strategies do you use to manage this?
+- Do you naturally keep an eye on the clock, or do you lose track of time when engaged? What support do you need to stay on track?
+- Does having buffer time make you feel secure, or tempted to over-extend discussions?
+- How comfortable are you moving groups along when they're engaged but time is short?
 
 Things to experiment with:
 
@@ -73,13 +94,13 @@ Things to experiment with:
 
 What we've learned
 ------------------
-Concentration typically dips after 20 minutes, which is why we structure breakouts at roughly 20 and 40 minutes in each module. This natural rhythm becomes familiar to participants as they attend more sessions, which helps engagement and managing expectations.
+Concentration typically dips after 20 minutes. That's why we schedule breakouts at roughly 20 and 40 minutes in each module. Participants get used to this rhythm over time, which helps with engagement.
 
-The "chunking" principle (keeping segments under 20 minutes) works across all facilitation styles. How you transition between chunks is where personal style shows: some use energy and pace, others use pause and reflection.
+Keeping segments under 20 minutes works for all facilitation styles. How you transition between segments is where your personal style shows - some use energy and pace, others use pause and reflection.
 
-Groups of three in breakouts nearly always need extra time - about 30-50% more. Experienced facilitators build this expectation into their mental timing rather than being surprised each time. We always pair up participants in breakouts to help manage this, sending a facilitator into a breakout if there are odd numbers of participants. 
+Groups of three in breakouts nearly always need extra time - about 30-50% more. Experienced facilitators expect this rather than being surprised each time. We always pair up participants in breakouts, sending a facilitator into a breakout room if there are odd numbers.
 
-We also deliver with two facilitators to help vary the pace and energy of the session. Participants are often surprised by this, but we've had feedback that it helps them feel more engaged and supported.
+We deliver with two facilitators to vary the pace and energy. Participants are often surprised by this, but feedback tells us it helps them feel more engaged and supported.
 
 Community experiences
 ---------------------
@@ -96,12 +117,5 @@ Different facilitators use different strategies for unpacking discussions:
 Related resources
 -----------------
 
-.. todo::
-   Add links to the relevant patterns and insights.
-
-   - See pattern: :ref:`flight-plans` (for structured timing framework)
-   - See pattern: :ref:`managing-breakout-rooms` (for group size considerations)  
-   - Other guidance: :ref:`reading-group-energy`
-   - Insights: :ref:`preparation-before-briefing-is-critical`
-
-   This will need splitting out into several guides
+- :ref:`producer-breakout-rooms` - How producers manage breakout room timing
+- :ref:`flight-plan-pattern` - The structured timing framework we use
