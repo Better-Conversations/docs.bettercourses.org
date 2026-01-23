@@ -22,7 +22,7 @@ def normalize_author_name(name: str) -> str:
     return AUTHOR_NAME_MAP.get(name, name)
 
 
-def create_header(document_reference, git_commit_datetime, git_sha, last_author):
+def create_header(document_reference, author_datetime, commit_datetime, git_sha, last_author):
     """Create the QMS header as a collapsible details element."""
     # Create a collapsible details element
     details_open = nodes.raw('', '<details class="qms-header"><summary>Document Information</summary>', format='html')
@@ -36,8 +36,11 @@ def create_header(document_reference, git_commit_datetime, git_sha, last_author)
     # Last Edited By
     header_list += create_item("Last Edited By", last_author)
 
-    # Effective from (when this version became active)
-    header_list += create_item("Effective from", git_commit_datetime)
+    # Last Edited (author date - when changes were made)
+    header_list += create_item("Last Edited", author_datetime)
+
+    # Effective from (commit date - when this version was approved/merged)
+    header_list += create_item("Effective from", commit_datetime)
 
     # Git Commit with link to commit on GitHub
     commit_link = nodes.reference(refuri=f"{gh_repo_url}/commit/{git_sha}")
@@ -109,26 +112,28 @@ def get_git_info_for_file(path):
     # this file, if the file is changed but not committed, this will not
     # be reflected in the header.
     try:
-        # Single git call with combined format: sha|author_date|author_name
+        # Single git call with combined format: sha|author_date|commit_date|author_name
+        # Author date (%aI) = when the author made the changes
+        # Commit date (%cI) = when the commit was applied (e.g., merged/rebased)
         git_output = subprocess.check_output([
-            "git", "log", "-n", "1", "--format=%h|%aI|%aN", "--", relative_path
+            "git", "log", "-n", "1", "--format=%h|%aI|%cI|%aN", "--", relative_path
         ], text=True, stderr=subprocess.STDOUT).strip()
 
         # Handle case where file has no git history (empty output)
         if not git_output:
-            return "unknown", None, "unknown"
+            return "unknown", None, None, "unknown"
 
         parts = git_output.split("|")
-        if len(parts) != 3:
-            return "unknown", None, "unknown"
+        if len(parts) != 4:
+            return "unknown", None, None, "unknown"
 
-        git_sha, author_date, author_name = parts
+        git_sha, author_date, commit_date, author_name = parts
         # Normalize the author name for consistent display
         author_name = normalize_author_name(author_name)
 
-        return git_sha, author_date, author_name
+        return git_sha, author_date, commit_date, author_name
     except subprocess.CalledProcessError:
-        return "unknown", None, "unknown"
+        return "unknown", None, None, "unknown"
 
 
 def add_qms_header_to_doctree(app, doctree, docname):
@@ -136,22 +141,31 @@ def add_qms_header_to_doctree(app, doctree, docname):
     # Get the source file path
     source_path = app.env.doc2path(docname)
 
-    git_sha, author_date, author_name = get_git_info_for_file(source_path)
+    git_sha, author_date, commit_date, author_name = get_git_info_for_file(source_path)
 
     # Document reference is the docname path with source file extension
     # e.g., "about/index.rst" or "documentation/guide.md"
     source_file = pathlib.Path(source_path)
     document_reference = f"{docname}{source_file.suffix}"
 
+    # Format author date (when changes were made)
     if author_date:
-        parsed_date = dateutil.parser.isoparse(author_date)
-        git_commit_datetime = format_datetime(parsed_date)
+        parsed_author_date = dateutil.parser.isoparse(author_date)
+        author_datetime = format_datetime(parsed_author_date)
     else:
-        git_commit_datetime = "unknown"
+        author_datetime = "unknown"
+
+    # Format commit date (when changes were approved/merged)
+    if commit_date:
+        parsed_commit_date = dateutil.parser.isoparse(commit_date)
+        commit_datetime = format_datetime(parsed_commit_date)
+    else:
+        commit_datetime = "unknown"
 
     header = create_header(
         document_reference,
-        git_commit_datetime,
+        author_datetime,
+        commit_datetime,
         git_sha,
         author_name
     )
@@ -165,7 +179,7 @@ def setup(app):
     app.connect('doctree-resolved', add_qms_header_to_doctree)
 
     return {
-        'version': '0.3',
+        'version': '0.4',
         'parallel_read_safe': True,
         'parallel_write_safe': True,
     }
