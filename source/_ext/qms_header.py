@@ -2,7 +2,6 @@ import pathlib
 import subprocess
 from datetime import datetime
 import dateutil
-from docutils.parsers.rst import Directive
 from docutils import nodes
 import os
 
@@ -132,29 +131,6 @@ def get_git_info_for_file(path):
         return "unknown", None, "unknown"
 
 
-class QMSHeader(Directive):
-    """Directive for manually inserting QMS header (kept for backwards compatibility)."""
-    def run(self):
-        path = self.state.document.current_source
-        git_sha, author_date, author_name = get_git_info_for_file(path)
-
-        # Document reference is the filename with extension
-        document_reference = pathlib.Path(path).name
-
-        if author_date:
-            parsed_date = dateutil.parser.isoparse(author_date)
-            git_commit_datetime = format_datetime(parsed_date)
-        else:
-            git_commit_datetime = "unknown"
-
-        return [create_header(
-            document_reference,
-            git_commit_datetime,
-            git_sha,
-            author_name
-        )]
-
-
 def add_qms_header_to_doctree(app, doctree, docname):
     """Add QMS header to every page automatically during doctree-resolved."""
     # Get the source file path
@@ -185,14 +161,11 @@ def add_qms_header_to_doctree(app, doctree, docname):
 
 
 def setup(app):
-    # Keep the directive for backwards compatibility
-    app.add_directive('qms_header', QMSHeader)
-
     # Auto-inject QMS header at the bottom of every page
     app.connect('doctree-resolved', add_qms_header_to_doctree)
 
     return {
-        'version': '0.2',
+        'version': '0.3',
         'parallel_read_safe': True,
         'parallel_write_safe': True,
     }
