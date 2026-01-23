@@ -163,8 +163,8 @@ html_theme_options = {
     "show_nav_level": 2,
     "header_links_before_dropdown": 5,
     "show_prev_next": True,
-    "secondary_sidebar_items": [],
-    "content_footer_items": ["last-updated"]   
+    "secondary_sidebar_items": []
+    # "content_footer_items": ["last-updated"]
     # "content_footer_items": ["last-updated", "utterances"]   
    # "logo": {
     #    "alt_text": "Better Conversations Foundation",
