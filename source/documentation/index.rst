@@ -28,15 +28,15 @@ Please note that:
   information you need to deliver each module, along with the Course Handbook.
 
 
-.. todo:: 
-    Add 
+.. todo::
+    Add
     guides/index
     our-processes/index
     tips/index
     course-improvement/index
     quick-reference
     booking/index
-    
+
     - Add links to glossary, handbook, overview and community
     - If we are using icons, add a key here
     - Add glossary
@@ -45,18 +45,10 @@ Please note that:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents
+   :hidden:
 
    assumptions
    badges
    stable-links
-   course-materials/index
-   course-design/index  
-   delivery-checklists/index
    course-improvement/index
-   patterns/index
-   guides/index
-   insights/index
    fullsite-pdf
-   
-   

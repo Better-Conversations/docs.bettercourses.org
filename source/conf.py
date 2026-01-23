@@ -50,15 +50,7 @@ myst_enable_extensions = [
      "html_image"
     ]
 
-# Only include ablog extension for HTML builds 
-if 'latexpdf' not in sys.argv:
-    print("+++++++++++++ Adding ablog ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-    extensions.append('ablog')
-else:
-    # Remove ablog from extensions if it's there
-    if 'ablog' in extensions:
-        print("+++++++++++++ Removing ablog ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-        extensions.remove('ablog')
+# Blog removed - ablog extension no longer needed
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -112,9 +104,9 @@ html_show_sourcelink = False
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-# Add the favicon and default logo
-html_favicon = "_static/images/BCF-favicon.png"
-html_logo = "_static/images/BCF-logo-light-no-border.png"
+# Add the favicon and default logo (using new BCF branding files)
+html_favicon = "_static/images/bcf-symbol.png"
+html_logo = "_static/images/bcf-logo.png"
 
 # See https://docs.readthedocs.io/en/latest/guides/adding-custom-css.html
 html_css_files = [
@@ -153,47 +145,50 @@ html_context = {
 # This was for https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
 # Now we're using https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/configuring.html
 html_theme_options = {
-    # "navbar_start": ["navbar-logo"],
-    # "navbar_center": ["navbar-nav"],
-    # "navbar_end": ["navbar-icon-links"],
-    # "navbar_persistent": ["search-button"],
-    # "content_footer_items": ["last-updated"],
-    "github_url": "https://github.com/Better-Conversations/docs.bettercourses.org",
-    # "use_edit_page_button": True,
-    "show_nav_level": 2,
-    "header_links_before_dropdown": 5,
+    # Remove top nav, use left sidebar for navigation (docs site pattern)
+    "navbar_start": ["navbar-logo"],
+    "navbar_center": [],  # Empty - no top nav links
+    # Header right side: BCF link, GitHub, then search (rightmost)
+    "navbar_end": ["navbar-icon-links", "search-button"],
+    "navbar_persistent": [],  # Empty - search moved to navbar_end
+    # External links in header (order: BCF site first, then GitHub)
+    "icon_links": [
+        {
+            "name": "BCF",
+            "url": "https://betterconversations.foundation",
+            "icon": "fa-solid fa-arrow-up-right-from-square",
+            "attributes": {"title": "BCF main site"},
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/Better-Conversations/docs.bettercourses.org",
+            "icon": "fa-brands fa-github",
+        },
+    ],
+    "show_nav_level": 1,  # Show only first level initially, expand current section
+    "navigation_depth": 4,  # Allow deep navigation tree
+    "collapse_navigation": False,  # Allow collapsible sections (click to expand)
     "show_prev_next": True,
+    # Secondary sidebar (right side) - empty
     "secondary_sidebar_items": [],
-    # "content_footer_items": ["last-updated"]
-    # "content_footer_items": ["last-updated", "utterances"]   
-   # "logo": {
-    #    "alt_text": "Better Conversations Foundation",
-    #    "image_light": "_static/images/BCF-logo-light-non-border.png",
-    #    "image_dark": "_static/images/BCF-logo-dark-no-border.png",
-    #},
+    # Primary sidebar configuration
+    "primary_sidebar_end": [],
+    # Show toc tree in primary sidebar
+    "show_toc_level": 2,
 }
 
-# Sidebars will pick up Ablog features
-# Global pattern should be first on the list, however doesn't seem to work
-# We don't want a sidebar on the home page
-
+# Sidebars configuration for pydata theme
+# Using custom sidebar-nav for full navigation tree on all pages
 html_sidebars = {
-    'blog/*': ['ablog/recentposts.html', 'ablog/tagcloud.html', 'ablog/categories.html', 'ablog/archives.html']
+    "**": ["sidebar-nav.html"],
 }
 
 html_baseurl = "https://docs.bettercourses.org/"
 
-# Don't share the source 
+# Don't share the source
 html_copy_source = False
 
-# -- Ablog -----------------------------------------------------------
-# See here https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html
-skip_injecting_base_ablog_templates = False
-
-blog_title = "News from the BCF"
-blog_baseurl = "https://docs.bettercourses.org/blog"
-post_date_format_short = "%b %d, %Y"
-post_auto_image = 1 # Don't automatically add images, set to 1 to return the first image in the post
+# Templates path
 templates_path = ['_templates']
 
 # -- Link Checking -----------------------------------------------------------

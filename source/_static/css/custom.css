@@ -1,5 +1,96 @@
 /* Custom CSS for the Sphinx theme */
 
+/* BCF Brand Colors */
+:root {
+    --bcf-teal: #54c4b6;
+    --bcf-teal-dark: #1c8d7f;
+    --bcf-gray-border: #e5e7eb;
+}
+
+/* ============================================
+   Header / Navbar Styling
+   ============================================ */
+
+/* Header container - clean white background matching BCF site */
+header.bd-header {
+    background-color: #ffffff;
+    border-bottom: none;
+    box-shadow: none;
+    padding: 1rem 0;
+    min-height: 6rem;
+}
+
+/* Logo size to match BCF site */
+.navbar-brand.logo {
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.navbar-brand.logo .logo__image {
+    height: 4rem;
+    width: auto;
+}
+
+/* Align nav items vertically with logo */
+.bd-header__inner {
+    align-items: center;
+}
+
+.navbar-header-items__center {
+    display: flex;
+    align-items: center;
+}
+
+/* Push header icons to the right */
+.navbar-header-items {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-header-items__end {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 0.5rem;
+}
+
+/* Nav links styling - match BCF site spacing */
+.bd-navbar-elements .nav-link {
+    font-weight: 500;
+    color: #374151;
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+}
+
+.bd-navbar-elements .nav-link:hover {
+    color: var(--bcf-teal-dark);
+}
+
+/* Active nav link */
+.bd-navbar-elements .nav-link.active,
+.bd-navbar-elements .nav-item.current > .nav-link {
+    color: var(--bcf-teal-dark);
+}
+
+/* Search button styling */
+.pst-navbar-icon {
+    color: #374151;
+}
+
+.pst-navbar-icon:hover {
+    color: var(--bcf-teal-dark);
+}
+
+/* GitHub icon in header */
+.navbar-icon-links a {
+    color: #374151;
+}
+
+.navbar-icon-links a:hover {
+    color: var(--bcf-teal-dark);
+}
+
 /* Remove bold from footnote backrefs and labels */
 
 aside.footnote span.backrefs,
@@ -77,9 +168,37 @@ seem to work here. Set in the markup file */
 /* Colour buttons for call to action */
 
 a.class-button-1 {
-    background-color: #1c8d7f;
+    background-color: var(--bcf-teal);
     color: white;
     border-radius: 0.4rem;
+}
+
+/* Card styling for sphinx_design cards */
+
+/* Override sphinx-design card styles with high specificity */
+div.sd-card.sd-sphinx-override {
+    border-radius: 0.75rem !important;
+    border: 1px solid var(--bcf-gray-border) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+}
+
+div.sd-card.sd-sphinx-override:hover {
+    border-color: var(--bcf-teal) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    transform: none !important;
+}
+
+/* Also target cards without sphinx-override class */
+.sd-col .sd-card {
+    border-radius: 0.75rem !important;
+    overflow: hidden;
+}
+
+/* Card title color */
+.sd-card-title {
+    color: var(--bcf-teal-dark);
 }
 
 /* add a divider between posts in the blog post list and align the expander
@@ -175,4 +294,169 @@ article.bd-article {
 .admonition {
     margin: 3rem 0;
     padding: 2rem;
+}
+
+/* ============================================
+   Primary Sidebar - ensure visibility on all pages
+   ============================================ */
+
+/* Force primary sidebar to show on landing page */
+.bd-sidebar-primary {
+    display: flex !important;
+}
+
+/* Align sidebar top with main content heading */
+.bd-sidebar-primary .sidebar-primary-items__start {
+    padding-top: 0;
+}
+
+/* Documentation Home link styling */
+.sidebar-home-link {
+    padding: 0.75rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--bcf-gray-border);
+}
+
+.sidebar-home-link a {
+    color: var(--bcf-teal-dark);
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sidebar-home-link a:hover {
+    color: var(--bcf-teal);
+}
+
+.sidebar-home-link i {
+    font-size: 0.9rem;
+}
+
+/* Sidebar caption styling */
+.bd-sidebar-primary .caption-text {
+    font-weight: 600;
+    color: var(--bcf-teal-dark);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Sidebar link styling */
+.bd-sidebar-primary .toctree-l1 > a {
+    color: #374151;
+    font-weight: 500;
+}
+
+.bd-sidebar-primary .toctree-l1 > a:hover {
+    color: var(--bcf-teal-dark);
+}
+
+/* Active sidebar link */
+.bd-sidebar-primary .current > a {
+    color: var(--bcf-teal-dark);
+    font-weight: 600;
+}
+
+/* Remove indent from level 1 menu items */
+.bd-sidebar-primary .bd-toc-item ul {
+    padding-left: 0;
+}
+
+.bd-sidebar-primary .toctree-l1 {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* Keep indentation for nested levels */
+.bd-sidebar-primary .toctree-l2 {
+    padding-left: 1rem;
+}
+
+.bd-sidebar-primary .toctree-l3 {
+    padding-left: 2rem;
+}
+
+/* Align sidebar content with main content area */
+.bd-sidebar-primary .sidebar-primary-item {
+    padding-top: 1.5rem;
+}
+
+/* ============================================
+   Landing Page Spacing Improvements
+   ============================================ */
+
+/* Hero section - main title and intro */
+section#documentation-resources > h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+}
+
+section#documentation-resources > p:first-of-type {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #4b5563;
+    margin-bottom: 1rem;
+}
+
+/* Link to main BCF site */
+section#documentation-resources > p:nth-of-type(2) {
+    margin-bottom: 2.5rem;
+    font-size: 0.95rem;
+}
+
+/* Bookshelf image - add breathing room */
+section#documentation-resources > img {
+    margin: 2rem auto 3rem auto;
+    max-width: 80%;
+    border-radius: 0.5rem;
+}
+
+/* Quick Links section heading */
+section#quick-links {
+    margin-top: 1rem;
+}
+
+section#quick-links > h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #374151;
+}
+
+/* Card grid - better spacing */
+.sd-container-fluid {
+    margin-top: 1rem;
+}
+
+/* Individual cards - improve internal padding */
+div.sd-card.sd-sphinx-override .sd-card-body {
+    padding: 1.25rem 1.5rem;
+}
+
+/* Card title styling */
+div.sd-card.sd-sphinx-override .sd-card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* Card description text */
+div.sd-card.sd-sphinx-override .sd-card-text {
+    font-size: 0.9rem;
+    color: #6b7280;
+    line-height: 1.5;
+}
+
+/* Reduce overall article padding on landing page for better proportions */
+section#documentation-resources {
+    max-width: 900px;
+}
+
+/* Better spacing for content pages (not landing) */
+.bd-article section:not(#documentation-resources) {
+    max-width: 100%;
 }

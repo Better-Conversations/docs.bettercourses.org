@@ -6,6 +6,7 @@ Producer Guides
 
 
 .. toctree::
+   :hidden:
    :titlesonly:
    :caption: Resources in this section
 

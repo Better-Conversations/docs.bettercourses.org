@@ -1,10 +1,10 @@
-================================================
-Better Conversations Foundation - Documentation
-================================================
+===========================
+Documentation & Resources
+===========================
 
-Resources for facilitators delivering the Better Conversations course. Here you'll find flight plans, facilitator guides, course design rationale, and practitioner guidelines.
+Detailed resources for those working with Better Conversations — whether you're delivering the course within your organisation, integrating it into educational programmes, or conducting research. Here you'll find delivery guides, course materials, design rationale, and partnership guidelines.
 
-Looking for information about the Foundation, attending a course, or joining our community? Visit `betterconversations.foundation <https://betterconversations.foundation>`_.
+Looking for an overview of the Foundation or how to get started? Visit `betterconversations.foundation <https://betterconversations.foundation>`_.
 
 .. image:: _static/images/martin-adams-bookshelf.png
     :alt: Bookshelves filled with books
@@ -21,17 +21,17 @@ Quick Links
     .. grid-item-card:: Flight Plans
         :link: https://betterconversations.foundation/l/flightplans
 
-        Download the course flight plans
+        Session-by-session delivery scripts
 
     .. grid-item-card:: Course Handbook
         :link: documentation/course-materials/handbook.html
 
-        Participant handbook and versioning
+        Participant materials and resources
 
-    .. grid-item-card:: Facilitator Guides
+    .. grid-item-card:: Delivery Guides
         :link: documentation/guides/index.html
 
-        Guides for delivering the course
+        Guidance for delivering the course
 
     .. grid-item-card:: Patterns
         :link: documentation/patterns/index.html
@@ -46,10 +46,8 @@ Quick Links
     .. grid-item-card:: Working with Us
         :link: work-with-us/index.html
 
-        Guidelines for practitioners
+        Partnership guidelines and expectations
 
-
-.. The :numbered: 3 option displays section numbers for patterns
 
 .. toctree::
    :maxdepth: 2
@@ -57,7 +55,12 @@ Quick Links
    :hidden:
    :numbered: 3
 
-   documentation/index
    course/index
+   documentation/index
+   documentation/course-materials/index
+   documentation/course-design/index
+   documentation/patterns/index
+   documentation/guides/index
+   documentation/delivery-checklists/index
+   documentation/insights/index
    work-with-us/index
-   about/index
