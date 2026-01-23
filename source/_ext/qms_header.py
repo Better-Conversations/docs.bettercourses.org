@@ -9,6 +9,19 @@ import os
 
 gh_repo_url = "https://github.com/Better-Conversations/betterconversations.foundation"
 
+# Mapping of git author names/usernames to consistent display names
+AUTHOR_NAME_MAP = {
+    "chandima-d": "Chandima Dutton",
+    "chandimad": "Chandima Dutton",
+    "alexjcoles": "Alex Coles",
+    "shivamphora": "Shivam Phora",
+}
+
+
+def normalize_author_name(name: str) -> str:
+    """Normalize git author names to consistent display names."""
+    return AUTHOR_NAME_MAP.get(name, name)
+
 
 def create_header(document_reference, git_commit_datetime, git_sha, last_author):
     """Create the QMS header as a collapsible details element."""
@@ -117,6 +130,9 @@ def get_git_info_for_file(path):
             last_relevant_git_sha = "unknown"
             last_updated_date = None
             last_author = "unknown"
+        else:
+            # Normalize the author name for consistent display
+            last_author = normalize_author_name(last_author)
     except subprocess.CalledProcessError:
         last_relevant_git_sha = "unknown"
         last_updated_date = None
