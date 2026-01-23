@@ -10,7 +10,7 @@ import os
 gh_repo_url = "https://github.com/Better-Conversations/betterconversations.foundation"
 
 
-def create_header(document_reference, date, git_sha, git_commit_datetime, last_author):
+def create_header(document_reference, git_commit_datetime, git_sha, last_author):
     """Create the QMS header as a collapsible details element."""
     # Create a collapsible details element
     details_open = nodes.raw('', '<details class="qms-header"><summary>Document Information</summary>', format='html')
@@ -20,18 +20,17 @@ def create_header(document_reference, date, git_sha, git_commit_datetime, last_a
 
     # Document reference
     header_list += create_item("Reference", document_reference)
-    header_list += create_item("Last Changed Date", date)
 
-    # Git Commit Date with link to commit on GitHub and timestamp
-    commit_para = nodes.paragraph()
+    # Last Edited By (moved to second position)
+    header_list += create_item("Last Edited By", last_author)
+
+    # Last Edited Date with full date/time stamp
+    header_list += create_item("Last Edited Date", git_commit_datetime)
+
+    # Git Commit with link to commit on GitHub
     commit_link = nodes.reference(refuri=f"{gh_repo_url}/commit/{git_sha}")
     commit_link += nodes.Text(git_sha)
-    commit_para += commit_link
-    commit_para += nodes.Text(f" ({git_commit_datetime})")
-    header_list += create_item("Git Commit Date", commit_para)
-
-    # Last Edited By
-    header_list += create_item("Last Edited By", last_author)
+    header_list += create_item("Git Commit", commit_link)
 
     # Only valid online - create a paragraph with mixed text and link
     note_para = nodes.paragraph()
@@ -69,17 +68,6 @@ def create_item(label, value: str | nodes.Node):
 
     item += para
     return item
-
-
-def format_date(date: datetime) -> str:
-    """Format date as '23rd January 2026'."""
-    day = date.day
-    if 11 <= day <= 13:
-        suffix = 'th'
-    else:
-        suffix = ['th', 'st', 'nd', 'rd', 'th'][min(day % 10, 4)]
-
-    return f"{day}{suffix} {date.strftime('%B %Y')}"
 
 
 def format_datetime(date: datetime) -> str:
@@ -143,17 +131,14 @@ class QMSHeader(Directive):
 
         if last_updated_date:
             parsed_date = dateutil.parser.isoparse(last_updated_date)
-            formatted_date = format_date(parsed_date)
             git_commit_datetime = format_datetime(parsed_date)
         else:
-            formatted_date = "unknown"
             git_commit_datetime = "unknown"
 
         return [create_header(
             document_reference,
-            formatted_date,
-            git_sha,
             git_commit_datetime,
+            git_sha,
             last_author
         )]
 
@@ -168,17 +153,14 @@ def add_qms_header_to_doctree(app, doctree, docname):
 
     if last_updated_date:
         parsed_date = dateutil.parser.isoparse(last_updated_date)
-        formatted_date = format_date(parsed_date)
         git_commit_datetime = format_datetime(parsed_date)
     else:
-        formatted_date = "unknown"
         git_commit_datetime = "unknown"
 
     header = create_header(
         document_reference,
-        formatted_date,
-        git_sha,
         git_commit_datetime,
+        git_sha,
         last_author
     )
 
