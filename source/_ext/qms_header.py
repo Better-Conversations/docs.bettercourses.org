@@ -24,8 +24,8 @@ def normalize_author_name(name: str) -> str:
 
 def create_header(document_reference, author_datetime, commit_datetime, git_sha, last_author):
     """Create the QMS header as a collapsible details element."""
-    # Create a collapsible details element
-    details_open = nodes.raw('', '<details class="qms-header"><summary>Document Information</summary>', format='html')
+    # Create a collapsible details element with accessibility attributes
+    details_open = nodes.raw('', '<details class="qms-header" role="group" aria-label="Document information"><summary aria-expanded="false">Document Information</summary>', format='html')
     details_close = nodes.raw('', '</details>', format='html')
 
     header_list = nodes.bullet_list()
@@ -183,7 +183,7 @@ def setup(app):
     app.connect('doctree-resolved', add_qms_header_to_doctree)
 
     return {
-        'version': '0.4',
+        'version': '0.5',
         'parallel_read_safe': True,
         'parallel_write_safe': True,
     }
