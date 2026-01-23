@@ -1,76 +1,55 @@
-===================================
-The Better Conversations Foundation
-===================================
+================================================
+Better Conversations Foundation - Documentation
+================================================
 
-.. image:: _static/images/getty-people-collaborating@0.3x.png
-    :alt: people collaborating
+Resources for facilitators delivering the Better Conversations course. Here you'll find flight plans, facilitator guides, course design rationale, and practitioner guidelines.
+
+Looking for information about the Foundation, attending a course, or joining our community? Visit `betterconversations.foundation <https://betterconversations.foundation>`_.
+
+.. image:: _static/images/martin-adams-bookshelf.png
+    :alt: Bookshelves filled with books
     :align: center
 
 
--------------------------------------
-Open the door to better communication
--------------------------------------
+-----------
+Quick Links
+-----------
 
-Nice to meet you. We are the Better Conversations Foundation. We help people connect on a human level.
+.. grid:: 2 2 3 3
+    :gutter: 3
 
-The BCF is dedicated to helping people around the world have Better 
-Conversations in their professional and private lives. It doesn't
-take much to make a big difference in the quality of your life. 
+    .. grid-item-card:: Flight Plans
+        :link: https://betterconversations.foundation/l/flightplans
 
-We have created the Better Conversations course which trainers, 
-coaches, managers, and L&D professionals can freely download and 
-incorporate into their work. 
+        Download the course flight plans
 
-You can `download the flight plans for the course here <https://betterconversations.foundation/l/flightplans>`_
-and use them under the Creative Commons license.
+    .. grid-item-card:: Course Handbook
+        :link: documentation/course-materials/handbook.html
 
-If you are a member of the Foundation, `you can see the Course documentation here </documentation/index.html>`_,
-and `access the private community here <https://community.betterconversations.foundation/>`_.
+        Participant handbook and versioning
 
+    .. grid-item-card:: Facilitator Guides
+        :link: documentation/guides/index.html
 
-----------------------
-Joining the Foundation
-----------------------
+        Guides for delivering the course
 
-Our community of fellow professionals support each other delivering the 
-course, and also the use of Clean Language and Emergent Knowledge in 
-business settings. 
+    .. grid-item-card:: Patterns
+        :link: documentation/patterns/index.html
 
-If you would like to be considered for membership, please either:
+        Conversational patterns reference
 
-- Ask an existing member to sponsor you. They can do that in the `bettercourses.org application <https://bettercourses.org>`_.
-- `Arrange a call here </booking/get-to-know-you.html>`_, so we can have a conversation and decide if we’re a good fit for each other
+    .. grid-item-card:: Course Design
+        :link: documentation/course-design/index.html
 
+        Design decisions and rationale
 
-------------------
-Attending a Course
-------------------
+    .. grid-item-card:: Working with Us
+        :link: work-with-us/index.html
 
-If you would like to attend Better Conversations, there are many people 
-providing both private and public courses.
-
-We also work in partnership with other nonprofits whose members can
-attend the course for free and are pre-approved for membership. 
-You'll have a referral link via those organisations, if you can't find it
-get in touch with us using the little support icon at the bottom right of 
-this screen. 
+        Guidelines for practitioners
 
 
-.. raw:: html
-
-    <div>
-        <br>
-    </div>
-
-If you want to know more, or if you want to get involved, please get in touch with us.
-
-.. button-link:: mailto: hello@betterconversations.foundation
-    :class: class-button-1
-    :align: center
-
-    Get in touch
-
-# Note that the :numbered: option for the toctree is set to 3 to display 'patterns' sections appropriately
+.. The :numbered: 3 option displays section numbers for patterns
 
 .. toctree::
    :maxdepth: 2
@@ -78,8 +57,7 @@ If you want to know more, or if you want to get involved, please get in touch wi
    :hidden:
    :numbered: 3
 
-   about/index
-   course/index
    documentation/index
+   course/index
    work-with-us/index
-   blog/index
+   about/index
