@@ -27,7 +27,7 @@ https://github.com/Better-Conversations/betterconversations.foundation,
 served by Caddy on one of our servers.
 
 The documentation website is built using Sphinx, GitHub repository here
-https://github.com/Better-Conversations/betterconversations.foundation,
+https://github.com/Better-Conversations/docs.bettercourses.org,
 served by Caddy on one of our servers.
 
 The web site bettercourses.org makes everything work. It does all the scheduling, enrolment, delivery console, certificates, etc.

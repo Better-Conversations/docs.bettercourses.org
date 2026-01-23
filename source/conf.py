@@ -158,13 +158,13 @@ html_theme_options = {
     # "navbar_end": ["navbar-icon-links"],
     # "navbar_persistent": ["search-button"],
     # "content_footer_items": ["last-updated"],
-    "github_url": "https://github.com/Better-Conversations/betterconversations.foundation",
+    "github_url": "https://github.com/Better-Conversations/docs.bettercourses.org",
     # "use_edit_page_button": True,
     "show_nav_level": 2,
     "header_links_before_dropdown": 5,
     "show_prev_next": True,
     "secondary_sidebar_items": [],
-    "content_footer_items": ["last-updated"]   
+    # "content_footer_items": ["last-updated"]
     # "content_footer_items": ["last-updated", "utterances"]   
    # "logo": {
     #    "alt_text": "Better Conversations Foundation",
@@ -181,7 +181,7 @@ html_sidebars = {
     'blog/*': ['ablog/recentposts.html', 'ablog/tagcloud.html', 'ablog/categories.html', 'ablog/archives.html']
 }
 
-html_baseurl = "https://betterconversations.foundation/"
+html_baseurl = "https://docs.bettercourses.org/"
 
 # Don't share the source 
 html_copy_source = False
@@ -191,7 +191,7 @@ html_copy_source = False
 skip_injecting_base_ablog_templates = False
 
 blog_title = "News from the BCF"
-blog_baseurl = "https://betterconversations.foundation/blog"
+blog_baseurl = "https://docs.bettercourses.org/blog"
 post_date_format_short = "%b %d, %Y"
 post_auto_image = 1 # Don't automatically add images, set to 1 to return the first image in the post
 templates_path = ['_templates']

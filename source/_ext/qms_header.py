@@ -1,34 +1,68 @@
 import pathlib
 import subprocess
-import sys
 from datetime import datetime
 import dateutil
-from docutils.parsers.rst import Directive
 from docutils import nodes
 import os
 
-gh_repo_url = "https://github.com/Better-Conversations/betterconversations.foundation"
+gh_repo_url = "https://github.com/Better-Conversations/docs.bettercourses.org"
+docs_site_url = "https://docs.bettercourses.org"
+
+# Mapping of git author names/usernames to consistent display names
+AUTHOR_NAME_MAP = {
+    "chandima-d": "Chandima Dutton",
+    "chandimad": "Chandima Dutton",
+    "alexjcoles": "Alex Coles",
+    "shivamphora": "Shivani Patel",
+}
 
 
-def create_header(document_reference, date, git_sha, last_author):
+def normalize_author_name(name: str) -> str:
+    """Normalize git author names to consistent display names."""
+    return AUTHOR_NAME_MAP.get(name, name)
+
+
+def create_header(document_reference, author_datetime, commit_datetime, git_sha, last_author):
+    """Create the QMS header as a collapsible details element."""
+    # Create a collapsible details element with accessibility attributes
+    details_open = nodes.raw('', '<details class="qms-header" role="group" aria-label="Document information"><summary aria-expanded="false">Document Information</summary>', format='html')
+    details_close = nodes.raw('', '</details>', format='html')
+
     header_list = nodes.bullet_list()
 
-    # Document reference
+    # Document reference (file path)
     header_list += create_item("Reference", document_reference)
-    header_list += create_item("Last Changed Date", date)
 
-    # Revision (in form of git sha) with link to commit on GitHub
-    rev_link = nodes.reference(refuri=f"{gh_repo_url}/commit/{git_sha}")
-    rev_link += nodes.Text(git_sha)
-    header_list += create_item("Git Version", rev_link)
-
-    # Approved by
+    # Last Edited By
     header_list += create_item("Last Edited By", last_author)
 
-    # Only valid online
-    header_list += create_item("Note", "Document is only valid online at https://betterconversations.foundation.")
+    # Last Edited (author date - when changes were made)
+    header_list += create_item("Last Edited", author_datetime)
 
-    return header_list
+    # Effective from (commit date - when this version was approved/merged)
+    header_list += create_item("Effective from", commit_datetime)
+
+    # Git Commit with link to commit on GitHub
+    commit_link = nodes.reference(refuri=f"{gh_repo_url}/commit/{git_sha}")
+    commit_link += nodes.Text(git_sha)
+    header_list += create_item("Git Commit", commit_link)
+
+    # Document status note - deployed = approved
+    note_para = nodes.paragraph()
+    note_para += nodes.Text("This is the current approved version. Printed or downloaded copies may be superseded; refer to ")
+    docs_link = nodes.reference(refuri=docs_site_url)
+    docs_link += nodes.Text("docs.bettercourses.org")
+    note_para += docs_link
+    note_para += nodes.Text(" for the authoritative version.")
+    header_list += create_item("Note", note_para)
+
+    # Return wrapped in details element
+    container = nodes.container()
+    container += details_open
+    container += header_list
+    container += details_close
+
+    return container
 
 
 def create_item(label, value: str | nodes.Node):
@@ -38,116 +72,133 @@ def create_item(label, value: str | nodes.Node):
     item = nodes.list_item()
     para = nodes.paragraph()
     strong = nodes.strong(text=f"{label}: ")
-    text = value
     para += strong
-    para += text
+
+    # If value is a paragraph, extract its children to avoid nested paragraphs
+    if isinstance(value, nodes.paragraph):
+        for child in value.children:
+            para += child
+    else:
+        para += value
+
     item += para
     return item
 
 
-def format_date(date: datetime) -> str:
-    # Get the day with the appropriate suffix (e.g., 1st, 2nd, 3rd, 4th)
+def format_datetime(date: datetime) -> str:
+    """Format datetime as '23rd January 2026 at 13:14 UTC'."""
     day = date.day
     if 11 <= day <= 13:
         suffix = 'th'
     else:
         suffix = ['th', 'st', 'nd', 'rd', 'th'][min(day % 10, 4)]
 
-    # Format the date as desired
-    formatted_date = f"{day}{suffix} {date.strftime('%B %Y')}"
+    # Get timezone abbreviation if available, otherwise show UTC offset
+    if date.tzinfo:
+        tz_name = date.strftime('%Z')
+        if not tz_name:
+            # Fall back to UTC offset format if no name available
+            tz_name = date.strftime('%z')
+            # Format +0000 as UTC, otherwise show offset like +01:00
+            if tz_name == '+0000':
+                tz_name = 'UTC'
+            elif tz_name:
+                tz_name = f"{tz_name[:3]}:{tz_name[3:]}"
+    else:
+        tz_name = ''
 
-    return formatted_date
+    tz_suffix = f" {tz_name}" if tz_name else ""
+    return f"{day}{suffix} {date.strftime('%B %Y')} at {date.strftime('%H:%M')}{tz_suffix}"
 
 
-class QMSHeader(Directive):
-    def run(self):
-        path = self.state.document.current_source
-        # print(f"QMSHeader Debug: Initial path = {path}") # Debug print
+def get_git_info_for_file(path):
+    """Get git information for a specific file."""
+    # Convert absolute path to relative path within the repository
+    try:
+        repo_path = subprocess.check_output(
+            ["git", "rev-parse", "--show-toplevel"],
+            text=True
+        ).strip()
+        relative_path = os.path.relpath(path, repo_path) if os.path.isabs(path) else path
+    except (subprocess.SubprocessError, FileNotFoundError):
+        relative_path = os.path.basename(path)
 
-        # Convert absolute path to relative path within the repository
-        # This is needed for GitHub Actions where paths include the full workspace path
-        try:
-            # First try to make the path relative to the current working directory
-            # print("QMSHeader Debug: Running 'git rev-parse --show-toplevel'") # Debug print
-            repo_path = subprocess.check_output(["git", "rev-parse", "--show-toplevel"], text=True).strip()
-            # print(f"QMSHeader Debug: repo_path = {repo_path}") # Debug print
-            relative_path = os.path.relpath(path, repo_path) if os.path.isabs(path) else path
-            # print(f"QMSHeader Debug: Calculated relative_path = {relative_path}") # Debug print
-        except (subprocess.SubprocessError, FileNotFoundError) as e:
-            # print(f"QMSHeader Debug: Error getting repo path: {e}") # Debug print
-            # If that fails, just use the filename which might work in simple cases
-            relative_path = os.path.basename(path)
-            # print(f"QMSHeader Debug: Fallback relative_path = {relative_path}") # Debug print
+    # Note that git information will be for the last commit that touched
+    # this file, if the file is changed but not committed, this will not
+    # be reflected in the header.
+    try:
+        # Single git call with combined format: sha|author_date|commit_date|author_name
+        # Author date (%aI) = when the author made the changes
+        # Commit date (%cI) = when the commit was applied (e.g., merged/rebased)
+        git_output = subprocess.check_output([
+            "git", "log", "-n", "1", "--format=%h|%aI|%cI|%aN", "--", relative_path
+        ], text=True, stderr=subprocess.STDOUT).strip()
 
-        # Note that git information will be for the last commit that touched
-        # this file, if the file is changed but not committed, this will not
-        # be reflected in the header.
+        # Handle case where file has no git history (empty output)
+        if not git_output:
+            return "unknown", None, None, "unknown"
 
-        try:
-            # Get latest commit sha for this file
-            # print(f"QMSHeader Debug: Running git log for sha on {relative_path}") # Debug print
-            last_relevant_git_sha = subprocess.check_output([
-                "git",
-                "log",
-                "-n", "1",
-                "--format=%h",
-                "--",
-                relative_path
-            ], text=True, stderr=subprocess.STDOUT).strip() # Capture stderr
-            # print(f"QMSHeader Debug: last_relevant_git_sha = {last_relevant_git_sha}") # Debug print
+        parts = git_output.split("|")
+        if len(parts) != 4:
+            return "unknown", None, None, "unknown"
 
-            # Get last updated date for this file
-            # print(f"QMSHeader Debug: Running git log for date on {relative_path}") # Debug print
-            last_updated_date = subprocess.check_output([
-                "git",
-                "log",
-                "-n", "1",
-                "--format=%cI",
-                "--",
-                relative_path
-            ], text=True, stderr=subprocess.STDOUT).strip() # Capture stderr
-            # print(f"QMSHeader Debug: last_updated_date = {last_updated_date}") # Debug print
+        git_sha, author_date, commit_date, author_name = parts
+        # Normalize the author name for consistent display
+        author_name = normalize_author_name(author_name)
 
-            # Get last author for this file, named by their git settings
-            # print(f"QMSHeader Debug: Running git log for author on {relative_path}") # Debug print
-            last_author = subprocess.check_output([
-                "git",
-                "log",
-                "-n", "1",
-                "--format=%cN",
-                "--",
-                relative_path
-            ], text=True, stderr=subprocess.STDOUT).strip() # Capture stderr
-            # print(f"QMSHeader Debug: last_author = {last_author}") # Debug print
-        except subprocess.CalledProcessError as e:
-            # print(f"QMSHeader Debug: Error running git log: {e}") # Debug print
-            # print(f"QMSHeader Debug: Command output: {e.output}") # Print command output on error
-            # Fallback if git commands fail
-            last_relevant_git_sha = "unknown"
-            last_updated_date = datetime.now().isoformat()
-            last_author = "unknown"
+        return git_sha, author_date, commit_date, author_name
+    except subprocess.CalledProcessError:
+        return "unknown", None, None, "unknown"
 
-        # Remove the file extension from the file name to get the document reference
-        document_reference = pathlib.Path(self.state.document.current_source).stem
 
-        if last_updated_date != "unknown":
-            formatted_date = format_date(dateutil.parser.isoparse(last_updated_date))
-        else:
-            formatted_date = "unknown"
+def add_qms_header_to_doctree(app, doctree, docname):
+    """Add QMS header to every page automatically during doctree-resolved."""
+    # Only inject the header for HTML builds to avoid issues with PDF and other formats
+    if app.builder.format != 'html':
+        return
+    
+    # Get the source file path
+    source_path = app.env.doc2path(docname)
 
-        return [create_header(
-            document_reference,
-            formatted_date,
-            last_relevant_git_sha,
-            last_author
-        )]
+    git_sha, author_date, commit_date, author_name = get_git_info_for_file(source_path)
+
+    # Document reference is the docname path with source file extension
+    # e.g., "about/index.rst" or "documentation/guide.md"
+    source_file = pathlib.Path(source_path)
+    document_reference = f"{docname}{source_file.suffix}"
+
+    # Format author date (when changes were made)
+    if author_date:
+        parsed_author_date = dateutil.parser.isoparse(author_date)
+        author_datetime = format_datetime(parsed_author_date)
+    else:
+        author_datetime = "unknown"
+
+    # Format commit date (when changes were approved/merged)
+    if commit_date:
+        parsed_commit_date = dateutil.parser.isoparse(commit_date)
+        commit_datetime = format_datetime(parsed_commit_date)
+    else:
+        commit_datetime = "unknown"
+
+    header = create_header(
+        document_reference,
+        author_datetime,
+        commit_datetime,
+        git_sha,
+        author_name
+    )
+
+    # Append the header to the end of the document
+    doctree.append(header)
 
 
 def setup(app):
-    app.add_directive('qms_header', QMSHeader)
+    # Auto-inject QMS header at the bottom of every page
+    app.connect('doctree-resolved', add_qms_header_to_doctree)
 
     return {
-        'version': '0.1',
+        'version': '0.6',
         'parallel_read_safe': True,
         'parallel_write_safe': True,
     }
