@@ -14,7 +14,7 @@ AUTHOR_NAME_MAP = {
     "chandima-d": "Chandima Dutton",
     "chandimad": "Chandima Dutton",
     "alexjcoles": "Alex Coles",
-    "shivamphora": "Shivam Phora",
+    "shivamphora": "Shivani Patel",
 }
 
 
