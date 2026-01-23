@@ -5,6 +5,28 @@
     --bcf-teal: #54c4b6;
     --bcf-teal-dark: #1c8d7f;
     --bcf-gray-border: #e5e7eb;
+
+}
+
+/* Fix Font Awesome 6 icon codes (pydata-sphinx-theme uses FA5 codes) */
+/* Direct override of admonition icons using FA6 unicode */
+div.admonition.admonition-todo > .admonition-title::after {
+    content: "\f303" !important;  /* fa-pencil in FA6 */
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+}
+
+div.admonition.note > .admonition-title::after,
+div.admonition.seealso > .admonition-title::after {
+    content: "\f05a" !important;  /* fa-circle-info in FA6 */
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+}
+
+/* Hide broken icons in breadcrumbs if present */
+.bd-breadcrumbs .breadcrumb-item:not(.breadcrumb-home)::before {
+    content: "/" !important;
+    font-family: inherit !important;
 }
 
 /* ============================================
