@@ -1,6 +1,5 @@
 import pathlib
 import subprocess
-import sys
 from datetime import datetime
 import dateutil
 from docutils.parsers.rst import Directive
@@ -8,6 +7,7 @@ from docutils import nodes
 import os
 
 gh_repo_url = "https://github.com/Better-Conversations/docs.bettercourses.org"
+docs_base_url = "https://docs.bettercourses.org"
 
 # Mapping of git author names/usernames to consistent display names
 AUTHOR_NAME_MAP = {
@@ -23,7 +23,7 @@ def normalize_author_name(name: str) -> str:
     return AUTHOR_NAME_MAP.get(name, name)
 
 
-def create_header(document_reference, git_commit_datetime, git_sha, last_author):
+def create_header(document_reference, document_url, git_commit_datetime, git_sha, last_author):
     """Create the QMS header as a collapsible details element."""
     # Create a collapsible details element
     details_open = nodes.raw('', '<details class="qms-header"><summary>Document Information</summary>', format='html')
@@ -31,27 +31,29 @@ def create_header(document_reference, git_commit_datetime, git_sha, last_author)
 
     header_list = nodes.bullet_list()
 
-    # Document reference
-    header_list += create_item("Reference", document_reference)
+    # Document reference with link to the document URL
+    ref_link = nodes.reference(refuri=document_url)
+    ref_link += nodes.Text(document_reference)
+    header_list += create_item("Reference", ref_link)
 
-    # Last Edited By (moved to second position)
+    # Last Edited By
     header_list += create_item("Last Edited By", last_author)
 
-    # Last Edited Date with full date/time stamp
-    header_list += create_item("Last Edited Date", git_commit_datetime)
+    # Effective from (when this version became active)
+    header_list += create_item("Effective from", git_commit_datetime)
 
     # Git Commit with link to commit on GitHub
     commit_link = nodes.reference(refuri=f"{gh_repo_url}/commit/{git_sha}")
     commit_link += nodes.Text(git_sha)
     header_list += create_item("Git Commit", commit_link)
 
-    # Only valid online - create a paragraph with mixed text and link
+    # Document status note - deployed = approved
     note_para = nodes.paragraph()
-    note_para += nodes.Text("Please refer to ")
-    docs_link = nodes.reference(refuri="https://docs.bettercourses.org")
+    note_para += nodes.Text("This is the current approved version. Printed or downloaded copies may be superseded; refer to ")
+    docs_link = nodes.reference(refuri=docs_base_url)
     docs_link += nodes.Text("docs.bettercourses.org")
     note_para += docs_link
-    note_para += nodes.Text(" for valid technical documentation. Printed or downloaded copies may not reflect the current BCF documentation.")
+    note_para += nodes.Text(" for the authoritative version.")
     header_list += create_item("Note", note_para)
 
     # Return wrapped in details element
@@ -110,55 +112,54 @@ def get_git_info_for_file(path):
     # this file, if the file is changed but not committed, this will not
     # be reflected in the header.
     try:
-        last_relevant_git_sha = subprocess.check_output([
-            "git", "log", "-n", "1", "--format=%h", "--", relative_path
-        ], text=True, stderr=subprocess.STDOUT).strip()
-
-        # Use author date (%aI) - when changes were originally written
-        # (not committer date which can differ with rebases/cherry-picks)
-        last_updated_date = subprocess.check_output([
-            "git", "log", "-n", "1", "--format=%aI", "--", relative_path
-        ], text=True, stderr=subprocess.STDOUT).strip()
-
-        # Use author name (%aN) to match the author date
-        last_author = subprocess.check_output([
-            "git", "log", "-n", "1", "--format=%aN", "--", relative_path
+        # Single git call with combined format: sha|author_date|author_name
+        git_output = subprocess.check_output([
+            "git", "log", "-n", "1", "--format=%h|%aI|%aN", "--", relative_path
         ], text=True, stderr=subprocess.STDOUT).strip()
 
         # Handle case where file has no git history (empty output)
-        if not last_relevant_git_sha or not last_updated_date:
-            last_relevant_git_sha = "unknown"
-            last_updated_date = None
-            last_author = "unknown"
-        else:
-            # Normalize the author name for consistent display
-            last_author = normalize_author_name(last_author)
-    except subprocess.CalledProcessError:
-        last_relevant_git_sha = "unknown"
-        last_updated_date = None
-        last_author = "unknown"
+        if not git_output:
+            return "unknown", None, "unknown"
 
-    return last_relevant_git_sha, last_updated_date, last_author
+        parts = git_output.split("|")
+        if len(parts) != 3:
+            return "unknown", None, "unknown"
+
+        git_sha, author_date, author_name = parts
+        # Normalize the author name for consistent display
+        author_name = normalize_author_name(author_name)
+
+        return git_sha, author_date, author_name
+    except subprocess.CalledProcessError:
+        return "unknown", None, "unknown"
 
 
 class QMSHeader(Directive):
     """Directive for manually inserting QMS header (kept for backwards compatibility)."""
     def run(self):
         path = self.state.document.current_source
-        git_sha, last_updated_date, last_author = get_git_info_for_file(path)
-        document_reference = pathlib.Path(path).stem
+        git_sha, author_date, author_name = get_git_info_for_file(path)
 
-        if last_updated_date:
-            parsed_date = dateutil.parser.isoparse(last_updated_date)
+        # Get the relative path from source directory for the reference
+        source_path = pathlib.Path(path)
+        # Document reference is the relative path with extension
+        document_reference = source_path.name
+
+        # Build the document URL (docname would be better but not available here)
+        document_url = f"{docs_base_url}/{source_path.stem}.html"
+
+        if author_date:
+            parsed_date = dateutil.parser.isoparse(author_date)
             git_commit_datetime = format_datetime(parsed_date)
         else:
             git_commit_datetime = "unknown"
 
         return [create_header(
             document_reference,
+            document_url,
             git_commit_datetime,
             git_sha,
-            last_author
+            author_name
         )]
 
 
@@ -167,20 +168,26 @@ def add_qms_header_to_doctree(app, doctree, docname):
     # Get the source file path
     source_path = app.env.doc2path(docname)
 
-    git_sha, last_updated_date, last_author = get_git_info_for_file(source_path)
-    document_reference = pathlib.Path(source_path).stem
+    git_sha, author_date, author_name = get_git_info_for_file(source_path)
 
-    if last_updated_date:
-        parsed_date = dateutil.parser.isoparse(last_updated_date)
+    # Document reference is the source filename with extension
+    document_reference = pathlib.Path(source_path).name
+
+    # Build the full document URL from docname
+    document_url = f"{docs_base_url}/{docname}.html"
+
+    if author_date:
+        parsed_date = dateutil.parser.isoparse(author_date)
         git_commit_datetime = format_datetime(parsed_date)
     else:
         git_commit_datetime = "unknown"
 
     header = create_header(
         document_reference,
+        document_url,
         git_commit_datetime,
         git_sha,
-        last_author
+        author_name
     )
 
     # Append the header to the end of the document
