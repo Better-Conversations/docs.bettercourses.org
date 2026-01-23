@@ -101,12 +101,15 @@ def get_git_info_for_file(path):
             "git", "log", "-n", "1", "--format=%h", "--", relative_path
         ], text=True, stderr=subprocess.STDOUT).strip()
 
+        # Use author date (%aI) - when changes were originally written
+        # (not committer date which can differ with rebases/cherry-picks)
         last_updated_date = subprocess.check_output([
-            "git", "log", "-n", "1", "--format=%cI", "--", relative_path
+            "git", "log", "-n", "1", "--format=%aI", "--", relative_path
         ], text=True, stderr=subprocess.STDOUT).strip()
 
+        # Use author name (%aN) to match the author date
         last_author = subprocess.check_output([
-            "git", "log", "-n", "1", "--format=%cN", "--", relative_path
+            "git", "log", "-n", "1", "--format=%aN", "--", relative_path
         ], text=True, stderr=subprocess.STDOUT).strip()
 
         # Handle case where file has no git history (empty output)
