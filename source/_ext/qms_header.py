@@ -7,7 +7,7 @@ from docutils.parsers.rst import Directive
 from docutils import nodes
 import os
 
-gh_repo_url = "https://github.com/Better-Conversations/betterconversations.foundation"
+gh_repo_url = "https://github.com/Better-Conversations/docs.bettercourses.org"
 
 # Mapping of git author names/usernames to consistent display names
 AUTHOR_NAME_MAP = {
