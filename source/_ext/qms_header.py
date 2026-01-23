@@ -7,7 +7,7 @@ from docutils import nodes
 import os
 
 gh_repo_url = "https://github.com/Better-Conversations/docs.bettercourses.org"
-docs_base_url = "https://docs.bettercourses.org"
+docs_site_url = "https://docs.bettercourses.org"
 
 # Mapping of git author names/usernames to consistent display names
 AUTHOR_NAME_MAP = {
@@ -23,7 +23,7 @@ def normalize_author_name(name: str) -> str:
     return AUTHOR_NAME_MAP.get(name, name)
 
 
-def create_header(document_reference, document_url, git_commit_datetime, git_sha, last_author):
+def create_header(document_reference, git_commit_datetime, git_sha, last_author):
     """Create the QMS header as a collapsible details element."""
     # Create a collapsible details element
     details_open = nodes.raw('', '<details class="qms-header"><summary>Document Information</summary>', format='html')
@@ -31,10 +31,8 @@ def create_header(document_reference, document_url, git_commit_datetime, git_sha
 
     header_list = nodes.bullet_list()
 
-    # Document reference with link to the document URL
-    ref_link = nodes.reference(refuri=document_url)
-    ref_link += nodes.Text(document_reference)
-    header_list += create_item("Reference", ref_link)
+    # Document reference (file path)
+    header_list += create_item("Reference", document_reference)
 
     # Last Edited By
     header_list += create_item("Last Edited By", last_author)
@@ -50,7 +48,7 @@ def create_header(document_reference, document_url, git_commit_datetime, git_sha
     # Document status note - deployed = approved
     note_para = nodes.paragraph()
     note_para += nodes.Text("This is the current approved version. Printed or downloaded copies may be superseded; refer to ")
-    docs_link = nodes.reference(refuri=docs_base_url)
+    docs_link = nodes.reference(refuri=docs_site_url)
     docs_link += nodes.Text("docs.bettercourses.org")
     note_para += docs_link
     note_para += nodes.Text(" for the authoritative version.")
@@ -140,13 +138,8 @@ class QMSHeader(Directive):
         path = self.state.document.current_source
         git_sha, author_date, author_name = get_git_info_for_file(path)
 
-        # Get the relative path from source directory for the reference
-        source_path = pathlib.Path(path)
-        # Document reference is the relative path with extension
-        document_reference = source_path.name
-
-        # Build the document URL (docname would be better but not available here)
-        document_url = f"{docs_base_url}/{source_path.stem}.html"
+        # Document reference is the filename with extension
+        document_reference = pathlib.Path(path).name
 
         if author_date:
             parsed_date = dateutil.parser.isoparse(author_date)
@@ -156,7 +149,6 @@ class QMSHeader(Directive):
 
         return [create_header(
             document_reference,
-            document_url,
             git_commit_datetime,
             git_sha,
             author_name
@@ -170,11 +162,10 @@ def add_qms_header_to_doctree(app, doctree, docname):
 
     git_sha, author_date, author_name = get_git_info_for_file(source_path)
 
-    # Document reference is the source filename with extension
-    document_reference = pathlib.Path(source_path).name
-
-    # Build the full document URL from docname
-    document_url = f"{docs_base_url}/{docname}.html"
+    # Document reference is the docname path with source file extension
+    # e.g., "about/index.rst" or "documentation/guide.md"
+    source_file = pathlib.Path(source_path)
+    document_reference = f"{docname}{source_file.suffix}"
 
     if author_date:
         parsed_date = dateutil.parser.isoparse(author_date)
@@ -184,7 +175,6 @@ def add_qms_header_to_doctree(app, doctree, docname):
 
     header = create_header(
         document_reference,
-        document_url,
         git_commit_datetime,
         git_sha,
         author_name
