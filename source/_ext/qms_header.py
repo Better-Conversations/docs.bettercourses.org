@@ -86,14 +86,29 @@ def create_item(label, value: str | nodes.Node):
 
 
 def format_datetime(date: datetime) -> str:
-    """Format datetime as '23rd January 2026 at 13:14'."""
+    """Format datetime as '23rd January 2026 at 13:14 UTC'."""
     day = date.day
     if 11 <= day <= 13:
         suffix = 'th'
     else:
         suffix = ['th', 'st', 'nd', 'rd', 'th'][min(day % 10, 4)]
 
-    return f"{day}{suffix} {date.strftime('%B %Y')} at {date.strftime('%H:%M')}"
+    # Get timezone abbreviation if available, otherwise show UTC offset
+    if date.tzinfo:
+        tz_name = date.strftime('%Z')
+        if not tz_name:
+            # Fall back to UTC offset format if no name available
+            tz_name = date.strftime('%z')
+            # Format +0000 as UTC, otherwise show offset like +01:00
+            if tz_name == '+0000':
+                tz_name = 'UTC'
+            elif tz_name:
+                tz_name = f"{tz_name[:3]}:{tz_name[3:]}"
+    else:
+        tz_name = ''
+
+    tz_suffix = f" {tz_name}" if tz_name else ""
+    return f"{day}{suffix} {date.strftime('%B %Y')} at {date.strftime('%H:%M')}{tz_suffix}"
 
 
 def get_git_info_for_file(path):
@@ -183,7 +198,7 @@ def setup(app):
     app.connect('doctree-resolved', add_qms_header_to_doctree)
 
     return {
-        'version': '0.5',
+        'version': '0.6',
         'parallel_read_safe': True,
         'parallel_write_safe': True,
     }
