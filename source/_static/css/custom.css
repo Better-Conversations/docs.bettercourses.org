@@ -10,15 +10,44 @@
 
 /* Fix Font Awesome 6 icon codes (pydata-sphinx-theme uses FA5 codes) */
 /* Direct override of admonition icons using FA6 unicode */
+
+/* Todo - pencil icon */
 div.admonition.admonition-todo > .admonition-title::after {
-    content: "\f303" !important;  /* fa-pencil in FA6 */
+    content: "\f303" !important;  /* fa-pencil */
     font-family: "Font Awesome 6 Free" !important;
     font-weight: 900 !important;
 }
 
+/* Note, Important, Attention - circle-info icon */
 div.admonition.note > .admonition-title::after,
+div.admonition.important > .admonition-title::after,
+div.admonition.attention > .admonition-title::after {
+    content: "\f05a" !important;  /* fa-circle-info */
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+}
+
+/* Tip, Hint, Seealso - lightbulb icon */
+div.admonition.tip > .admonition-title::after,
+div.admonition.hint > .admonition-title::after,
 div.admonition.seealso > .admonition-title::after {
-    content: "\f05a" !important;  /* fa-circle-info in FA6 */
+    content: "\f0eb" !important;  /* fa-lightbulb */
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+}
+
+/* Warning, Caution - triangle-exclamation icon */
+div.admonition.warning > .admonition-title::after,
+div.admonition.caution > .admonition-title::after {
+    content: "\f071" !important;  /* fa-triangle-exclamation */
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+}
+
+/* Danger, Error - circle-exclamation icon */
+div.admonition.danger > .admonition-title::after,
+div.admonition.error > .admonition-title::after {
+    content: "\f06a" !important;  /* fa-circle-exclamation */
     font-family: "Font Awesome 6 Free" !important;
     font-weight: 900 !important;
 }
