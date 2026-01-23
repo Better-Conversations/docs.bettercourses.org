@@ -138,6 +138,10 @@ def get_git_info_for_file(path):
 
 def add_qms_header_to_doctree(app, doctree, docname):
     """Add QMS header to every page automatically during doctree-resolved."""
+    # Only inject the header for HTML builds to avoid issues with PDF and other formats
+    if app.builder.format != 'html':
+        return
+    
     # Get the source file path
     source_path = app.env.doc2path(docname)
 
