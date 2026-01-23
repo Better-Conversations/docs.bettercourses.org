@@ -1,3 +1,9 @@
+.. raw:: html
+
+   <div class="hero-banner">
+     <img src="_static/images/books-colorful.jpg" alt="Stack of colorful books">
+   </div>
+
 ===========================
 Documentation & Resources
 ===========================
@@ -5,11 +11,6 @@ Documentation & Resources
 Detailed resources for those working with Better Conversations — whether you're delivering the course within your organisation, integrating it into educational programmes, or conducting research. Here you'll find delivery guides, course materials, design rationale, and partnership guidelines.
 
 Looking for an overview of the Foundation or how to get started? Visit `betterconversations.foundation <https://betterconversations.foundation>`_.
-
-.. image:: _static/images/martin-adams-bookshelf.png
-    :alt: Bookshelves filled with books
-    :align: center
-
 
 -----------
 Quick Links
@@ -64,3 +65,4 @@ Quick Links
    documentation/delivery-checklists/index
    documentation/insights/index
    work-with-us/index
+   attributions
