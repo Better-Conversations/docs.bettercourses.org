@@ -35,7 +35,7 @@ jobs:
       - name: Configure Git safe directory
         shell: bash
         run: |
-          git config --global --add safe.directory /__w/betterconversations.foundation/betterconversations.foundation
+          git config --global --add safe.directory /__w/docs.bettercourses.org/docs.bettercourses.org
 
       - name: Install Sphinx
         shell: bash
