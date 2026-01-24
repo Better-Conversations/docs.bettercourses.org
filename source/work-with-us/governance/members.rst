@@ -16,5 +16,5 @@ Foundation to operate.
 So the "Member" of the Foundation is Pithos Ltd, which is the holding company that owns Amphora Research Systems Ltd.
 The Foundation can't pay dividends, so any profits it makes will be used to further its objectives.
 
-Note that generally when we talk about "members" we are referring to the members of the `Better Conversations community </about/community/index.html>`_.
+Note that generally when we talk about "members" we are referring to the members of the `Better Conversations community </work-with-us/community/index.html>`_.
 It is only in the legal articles that the word "member" is used where you might normally expect "shareholder" in a for-profit company.

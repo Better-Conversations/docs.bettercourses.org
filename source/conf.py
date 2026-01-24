@@ -206,11 +206,11 @@ html_last_updated_fmt = ""
 
 rst_prolog = """
 
-.. _current-overview: https://betterconversations.foundation/downloads/BC%20Course%20Overview.pdf
+.. _current-overview: /downloads/BC%20Course%20Overview.pdf
 
-.. _current-handbook: https://betterconversations.foundation/downloads/BC%20Course%20Handbook.pdf
+.. _current-handbook: /downloads/BC%20Course%20Handbook.pdf
 
-.. _current-flipcharts: https://betterconversations.foundation/downloads/BC%20Course%20Flipcharts.pdf
+.. _current-flipcharts: /downloads/BC%20Course%20Flipcharts.pdf
 
 .. raw:: html
 
@@ -234,10 +234,13 @@ rst_prolog = """
 # -- Redirects ----------------------------------------------------------------
 
 redirects = {
-    "documentation/200-the_course.index.html": "https://betterconversations.foundation/course/index.html",
-    "documentation/800-resources/email-templates.html": "https://betterconversations.foundation/documentation/course-materials/email_templates.html",
-    "2023/05/02/modelling-sales.html": "https://betterconversations.foundation/blog/2023-05-02-modelling-sales.html",
-    "thanks/index.html": "https://betterconversations.foundation/about/appreciation.html",
+    # Old docs site paths → new locations
+    "documentation/200-the_course.index.html": "/course/index.html",
+    "documentation/800-resources/email-templates.html": "/documentation/course-materials/email_templates.html",
+    # Old blog paths → BCF main site blog
+    "2023/05/02/modelling-sales.html": "https://betterconversations.foundation/blog/modelling-sales",
+    # Thanks/appreciation → BCF main site
+    "thanks/index.html": "https://betterconversations.foundation/about/thanks",
 }
 # -- Graphviz ---------------------------------------------------------------
 
