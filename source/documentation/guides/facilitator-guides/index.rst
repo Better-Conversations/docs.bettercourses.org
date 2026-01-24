@@ -10,4 +10,3 @@ Facilitator Guides
    :caption: Guides in this section
 
    facilitator-session-timing
-   facilitator-flipcharts
