@@ -47,11 +47,8 @@ The Foundation is a not-for-profit organisation, founded by Simon Coles and Chan
    :maxdepth: 2
    :caption: Contents
    :hidden:
-   
+
    commercial
-   contact
-   our-mission
-   our-story
    behind-the-scenes/index
    governance/index
    community/index

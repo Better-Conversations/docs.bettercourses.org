@@ -1,0 +1,13 @@
+{# Custom sidebar navigation showing full site tree #}
+<div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links" aria-label="Main navigation">
+  <div class="sidebar-home-link">
+    <a href="{{ pathto('index') }}">
+      <i class="fa-solid fa-house"></i> Documentation Home
+    </a>
+  </div>
+  <div class="bd-toc-item navbar-nav">
+    {{ toctree(maxdepth=3, collapse=True, includehidden=True, titles_only=True) }}
+  </div>
+</nav>
+</div>

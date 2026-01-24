@@ -6,7 +6,7 @@ Facilitator Guides
 
 
 .. toctree::
-   :titlesonly:
+   :maxdepth: 1
    :caption: Guides in this section
 
    facilitator-session-timing

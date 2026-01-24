@@ -17,6 +17,7 @@ Patterns are the processes and techniques that we have found to be effective in 
    - zoom-captions-design-pattern
 
 .. toctree::
+   :hidden:
    :titlesonly:
    :caption: Patterns in this section
 

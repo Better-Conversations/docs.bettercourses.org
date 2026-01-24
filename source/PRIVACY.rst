@@ -90,7 +90,7 @@ Your Legal Rights
 .. todo::
     contact form needs updating
 
-You can contact us `here </contact/>`_ to request what data we have about
+You can contact us `here <https://betterconversations.foundation/about/contact>`_ to request what data we have about
 you, to ask us to erase applicable data, correct mistakes etc. When you
 make a Data Subject Access Request we will ask you for additional
 information to confirm your identity.

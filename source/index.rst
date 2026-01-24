@@ -1,76 +1,54 @@
-===================================
-The Better Conversations Foundation
-===================================
-
-.. image:: _static/images/getty-people-collaborating@0.3x.png
-    :alt: people collaborating
-    :align: center
-
-
--------------------------------------
-Open the door to better communication
--------------------------------------
-
-Nice to meet you. We are the Better Conversations Foundation. We help people connect on a human level.
-
-The BCF is dedicated to helping people around the world have Better 
-Conversations in their professional and private lives. It doesn't
-take much to make a big difference in the quality of your life. 
-
-We have created the Better Conversations course which trainers, 
-coaches, managers, and L&D professionals can freely download and 
-incorporate into their work. 
-
-You can `download the flight plans for the course here <https://betterconversations.foundation/l/flightplans>`_
-and use them under the Creative Commons license.
-
-If you are a member of the Foundation, `you can see the Course documentation here </documentation/index.html>`_,
-and `access the private community here <https://community.betterconversations.foundation/>`_.
-
-
-----------------------
-Joining the Foundation
-----------------------
-
-Our community of fellow professionals support each other delivering the 
-course, and also the use of Clean Language and Emergent Knowledge in 
-business settings. 
-
-If you would like to be considered for membership, please either:
-
-- Ask an existing member to sponsor you. They can do that in the `bettercourses.org application <https://bettercourses.org>`_.
-- `Arrange a call here </booking/get-to-know-you.html>`_, so we can have a conversation and decide if we’re a good fit for each other
-
-
-------------------
-Attending a Course
-------------------
-
-If you would like to attend Better Conversations, there are many people 
-providing both private and public courses.
-
-We also work in partnership with other nonprofits whose members can
-attend the course for free and are pre-approved for membership. 
-You'll have a referral link via those organisations, if you can't find it
-get in touch with us using the little support icon at the bottom right of 
-this screen. 
-
-
 .. raw:: html
 
-    <div>
-        <br>
-    </div>
+   <div class="hero-banner">
+     <img src="_static/images/books-colorful.jpg" alt="Stack of colorful books">
+   </div>
 
-If you want to know more, or if you want to get involved, please get in touch with us.
+===========================
+Documentation & Resources
+===========================
 
-.. button-link:: mailto: hello@betterconversations.foundation
-    :class: class-button-1
-    :align: center
+Detailed resources for those working with Better Conversations — whether you're delivering the course within your organisation, integrating it into educational programmes, or conducting research. Here you'll find delivery guides, course materials, design rationale, and partnership guidelines.
 
-    Get in touch
+Looking for an overview of the Foundation or how to get started? Visit `betterconversations.foundation <https://betterconversations.foundation>`_.
 
-# Note that the :numbered: option for the toctree is set to 3 to display 'patterns' sections appropriately
+-----------
+Quick Links
+-----------
+
+.. grid:: 2 2 3 3
+    :gutter: 3
+
+    .. grid-item-card:: Flight Plans
+        :link: https://betterconversations.foundation/l/flightplans
+
+        Session-by-session delivery scripts
+
+    .. grid-item-card:: Course Handbook
+        :link: documentation/course-materials/handbook.html
+
+        Participant materials and resources
+
+    .. grid-item-card:: Delivery Guides
+        :link: documentation/guides/index.html
+
+        Guidance for delivering the course
+
+    .. grid-item-card:: Patterns
+        :link: documentation/patterns/index.html
+
+        Conversational patterns reference
+
+    .. grid-item-card:: Course Design
+        :link: documentation/course-design/index.html
+
+        Design decisions and rationale
+
+    .. grid-item-card:: Working with Us
+        :link: work-with-us/index.html
+
+        Partnership guidelines and expectations
+
 
 .. toctree::
    :maxdepth: 2
@@ -78,8 +56,13 @@ If you want to know more, or if you want to get involved, please get in touch wi
    :hidden:
    :numbered: 3
 
-   about/index
    course/index
    documentation/index
+   documentation/course-materials/index
+   documentation/course-design/index
+   documentation/patterns/index
+   documentation/guides/index
+   documentation/delivery-checklists/index
+   documentation/insights/index
    work-with-us/index
-   blog/index
+   attributions

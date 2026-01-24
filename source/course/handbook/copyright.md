@@ -21,7 +21,7 @@ More information about copyright, attributions, etc. can be found [here](https:/
 
 ## Master version and further information 
 
-The Master of this document together with other supporting information is available at [better conversations masters](https://betterconversations.foundation/l/masters. )
+The Master of this document together with other supporting information is available at [better conversations masters](https://betterconversations.foundation/l/masters).
 
 This handbook is intended to support participants on a Better Conversations course. If you are reading this outside of a course, we hope you find it useful and will consider attending a course!
 

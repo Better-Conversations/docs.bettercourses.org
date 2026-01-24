@@ -3,7 +3,7 @@ Code of Conduct - Reporting Guide
 =================================
 
 If you believe someone is violating the code of conduct we ask that you
-report it to the Foundation by `contacting us here </about/contact.html>`_.
+report it to the Foundation by `contacting us here <https://betterconversations.foundation/about/contact>`_.
 All reports will be kept confidential. In some cases we may determine that
 a public statement will need to be made. If that's the case, the identities
 of all victims and reporters will remain confidential unless those
@@ -99,7 +99,7 @@ Reconsideration
 
 Any of the parties directly involved or affected can request
 reconsideration of the Board's decision. To make such a request, `contact
-the Board </about/contact.html>`_ with your request and motivation and the
+the Board <https://betterconversations.foundation/about/contact>`_ with your request and motivation and the
 Board will review the case.
 
 
