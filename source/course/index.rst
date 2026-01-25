@@ -163,10 +163,14 @@ address.
 
 ----
 
+.. Navigation pattern: Each section index page ends with "Next Steps" or "Related Resources"
+   offering three paths: one revision/back path + two forward paths. This creates connected
+   navigation through the documentation. Keep descriptions short (2-4 words after the dash).
+
 Next Steps
 ----------
 
 - **Understand the design**: :doc:`/documentation/course-design/index` - why the course is designed this way
 - **Get the materials**: :doc:`/documentation/course-materials/index` - handbook, flight plans, and more
-- **Prepare to deliver**: :doc:`/documentation/guides/index` - practical how-to guidance
+- **Learn to deliver**: :doc:`/documentation/guides/index` - practical how-to guidance
 

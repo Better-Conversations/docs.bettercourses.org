@@ -1,33 +1,33 @@
 .. _course-materials:
+
 ================
 Course Materials
 ================
 
-.. These are generally documents and other artefacts. They can be considered as structural design patterns.
+This section contains the documents and resources you need to deliver Better Conversations. Download what you need in PDF, Word, or PowerPoint format.
 
-This section contains the course materials for you to download. 
-These are the documents and communications that you will need to run the course. 
-They are generally in the form of PDFs, Word and PowerPoint documents.
+**What's available:**
 
-There are public URLs which allow people to download materials without having to log in. 
-These are not versioned, you'll just get the most recent version.
+- :doc:`course_overview` - comprehensive guide to the course structure and design (31 pages)
+- :doc:`flight_plans` - detailed session-by-session delivery scripts
+- :doc:`flipcharts` - visual aids and agenda templates
+- :doc:`handbook` - participant handbook with course content
+- :doc:`email_templates` - invitation and follow-up email wording
 
-- Course Handbook can be referred to as https://betterconversations.foundation/l/handbook
+For shareable URLs that always point to the latest versions, see :doc:`/stable-links`.
 
-These stable links will need authentication, but will always point to the most recent version.
+----
 
-- Flight plans https://betterconversations.foundation/l/masters
-- Course overview https://betterconversations.foundation/l/overview
+.. Navigation pattern: Each section index page ends with "Next Steps" or "Related Resources"
+   offering three paths: one revision/back path + two forward paths. This creates connected
+   navigation through the documentation. Keep descriptions short (2-4 words after the dash).
 
+Related Resources
+-----------------
 
-.. todo::
-
-   Add
-   - handbook
-   - overview
-   - flight-plans
-   - email-templates
-   - online meeting guidelines
+- **Understand the design**: :doc:`/documentation/course-design/index` - why the course is designed this way
+- **Learn to deliver**: :doc:`/documentation/guides/index` - practical how-to guidance
+- **See what works**: :doc:`/documentation/patterns/index` - proven techniques
 
 .. toctree::
    :hidden:

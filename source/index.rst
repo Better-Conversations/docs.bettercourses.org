@@ -119,7 +119,6 @@ For organisations exploring partnership with the Foundation.
    documentation/course-materials/index
    documentation/guides/index
    documentation/patterns/index
-   documentation/delivery-checklists/index
    documentation/insights/index
 
 .. toctree::
@@ -136,5 +135,6 @@ For organisations exploring partnership with the Foundation.
    :hidden:
 
    glossary
+   stable-links
    fullsite-pdf
    attributions

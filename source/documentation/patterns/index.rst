@@ -63,3 +63,16 @@ Patterns are the processes and techniques that we have found to be effective in 
    # timing-session-flow/index
    # visual-technical/index
    # roles/index
+
+----
+
+.. Navigation pattern: Each section index page ends with "Next Steps" or "Related Resources"
+   offering three paths: one revision/back path + two forward paths. This creates connected
+   navigation through the documentation. Keep descriptions short (2-4 words after the dash).
+
+Related Resources
+-----------------
+
+- **Review the guides**: :doc:`/documentation/guides/index` - practical how-to guidance
+- **Learn from experience**: :doc:`/documentation/insights/index` - learnings from hundreds of sessions
+- **Share your discoveries**: :doc:`/work-with-us/improvements-and-suggestions` - contribute your patterns

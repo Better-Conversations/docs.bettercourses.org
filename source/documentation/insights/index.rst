@@ -23,9 +23,13 @@ They are specific to the context we are in - your experience and perspective may
 
 ----
 
+.. Navigation pattern: Each section index page ends with "Next Steps" or "Related Resources"
+   offering three paths: one revision/back path + two forward paths. This creates connected
+   navigation through the documentation. Keep descriptions short (2-4 words after the dash).
+
 Related Resources
 -----------------
 
-- **Apply what you've learned**: :doc:`/documentation/guides/index` - practical how-to guidance
-- **Proven techniques**: :doc:`/documentation/patterns/index` - approaches refined through experience
-- **Share your insights**: :doc:`/work-with-us/improvements-and-suggestions` - contribute your learnings
+- **Review the guides**: :doc:`/documentation/guides/index` - practical how-to guidance
+- **See what works**: :doc:`/documentation/patterns/index` - proven techniques
+- **Share your learnings**: :doc:`/work-with-us/improvements-and-suggestions` - contribute your insights
