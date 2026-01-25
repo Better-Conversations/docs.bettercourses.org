@@ -17,3 +17,12 @@ course to your wider context. If you aren't already a member you can get in touc
    facilitator-guides/index
    producer-guides/index
    # guides-template
+
+----
+
+Related Resources
+-----------------
+
+- **Proven techniques**: :doc:`/documentation/patterns/index` - approaches that work reliably across many deliveries
+- **Lessons learned**: :doc:`/documentation/insights/index` - learnings from hundreds of sessions
+- **Before you deliver**: :doc:`/documentation/delivery-checklists/index` - preparation checklists

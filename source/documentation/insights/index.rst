@@ -20,3 +20,12 @@ They are specific to the context we are in - your experience and perspective may
 
 .. todo::
    As we add more insights, include a folder for each section. This means the toctree will show the folder names
+
+----
+
+Related Resources
+-----------------
+
+- **Apply what you've learned**: :doc:`/documentation/guides/index` - practical how-to guidance
+- **Proven techniques**: :doc:`/documentation/patterns/index` - approaches refined through experience
+- **Share your insights**: :doc:`/work-with-us/improvements-and-suggestions` - contribute your learnings

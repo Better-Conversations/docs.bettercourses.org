@@ -4,13 +4,13 @@
      <img src="_static/images/books-colorful.jpg" alt="Stack of colorful books">
    </div>
 
-===========================
-Documentation & Resources
-===========================
+==============================
+Documentation and Resources
+==============================
 
-Detailed resources for those working with Better Conversations — whether you're delivering the course within your organisation, integrating it into educational programmes, or conducting research. Here you'll find delivery guides, course materials, design rationale, and partnership guidelines.
+This site provides detailed resources for those working with Better Conversations. Whether you're delivering the course within your organisation, integrating it into educational programmes, or conducting research, you'll find delivery guides, course materials, design rationale, and partnership guidelines here.
 
-Looking for an overview of the Foundation or how to get started? Visit `betterconversations.foundation <https://betterconversations.foundation>`_.
+If you want an overview of the Foundation, to join the community, to book a discovery call, or to learn about our Ambassadors, visit `betterconversations.foundation <https://betterconversations.foundation>`_.
 
 ---------------
 Getting Started
@@ -28,59 +28,84 @@ to sign in with your email address for some content.
 - **Questions?** Check the :doc:`glossary` for terminology, or post in the
   `Community forum <https://community.betterconversations.foundation>`_ (login required).
 
------------
-Quick Links
------------
+---------------------
+Delivering the Course
+---------------------
 
-.. grid:: 2 2 3 3
+.. grid:: 2 2 4 4
     :gutter: 3
+
+    .. grid-item-card:: The Course
+        :link: course/index.html
+
+        Overview, modules, and structure
 
     .. grid-item-card:: Flight Plans
         :link: https://betterconversations.foundation/l/flightplans
 
         Session-by-session delivery scripts
 
-    .. grid-item-card:: Course Handbook
-        :link: documentation/course-materials/handbook.html
-
-        Participant materials and resources
-
     .. grid-item-card:: Delivery Guides
         :link: documentation/guides/index.html
 
-        Guidance for delivering the course
+        Practical how-to guidance
 
     .. grid-item-card:: Patterns
         :link: documentation/patterns/index.html
 
-        Conversational patterns reference
+        Proven delivery techniques
 
-    .. grid-item-card:: Course Design
-        :link: documentation/course-design/index.html
+--------------
+Working with Us
+--------------
 
-        Design decisions and rationale
+.. grid:: 2 2 3 3
+    :gutter: 3
 
-    .. grid-item-card:: Working with Us
+    .. grid-item-card:: Partnership
         :link: work-with-us/index.html
 
-        Partnership guidelines and expectations
+        Working with the Foundation
 
+    .. grid-item-card:: Governance
+        :link: work-with-us/governance/index.html
+
+        Structure, policies, and board
+
+    .. grid-item-card:: Community
+        :link: work-with-us/community/index.html
+
+        Code of conduct and guidelines
+
+
+.. TODO: Add Research track toctree when content ready
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents
+   :caption: Delivering the Course
    :hidden:
    :numbered: 3
 
    course/index
-   documentation/course-materials/index
    documentation/course-design/index
-   documentation/patterns/index
+   documentation/course-materials/index
    documentation/guides/index
+   documentation/patterns/index
    documentation/delivery-checklists/index
    documentation/insights/index
-   documentation/course-improvement/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Working with Us
+   :hidden:
+
    work-with-us/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Reference
+   :hidden:
+
    glossary
    fullsite-pdf
    attributions

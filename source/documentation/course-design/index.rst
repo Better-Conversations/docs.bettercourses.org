@@ -119,6 +119,17 @@ to be actionable, so that participants are motivated to use what they've
 learned immediately. We know people apply new skills when they are relevant to
 their circumstances.
 
+----
+
+Next Steps
+----------
+
+Now that you understand the design philosophy, you might want to:
+
+- **See the course in action**: :doc:`/course/index` - understand the modules and structure
+- **Get practical**: :doc:`/documentation/guides/index` - how-to guidance for delivery
+- **Learn proven techniques**: :doc:`/documentation/patterns/index` - approaches that work reliably
+
 .. todo::
 
     Add:

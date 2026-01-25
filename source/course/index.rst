@@ -7,6 +7,9 @@ The Course
 
    This page is currently under review. The copy needs to be updated.
 
+.. TODO: Add 'For Educators' section - curriculum integration, age adaptations, academic calendar considerations
+.. TODO: Add 'For Researchers' section - link to future Research track, methodology, evidence base, collaboration
+
 `Better Conversations <https://betterconversations.foundation>`_ is at its heart, a
 course to teach people to have better conversations in everyday contexts using
 Clean Language.
@@ -157,6 +160,15 @@ delivering the course that are outlined in the :doc:`/work-with-us/index` sectio
 
 Note that accessing the course content requires you to log in with your email
 address.
+
+----
+
+Next Steps
+----------
+
+- **Understand the design**: :doc:`/documentation/course-design/index` - why the course is designed this way
+- **Get the materials**: :doc:`/documentation/course-materials/index` - handbook, flight plans, and more
+- **Prepare to deliver**: :doc:`/documentation/guides/index` - practical how-to guidance
 
 .. toctree::
    :maxdepth: 1
