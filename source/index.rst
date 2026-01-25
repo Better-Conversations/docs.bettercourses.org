@@ -34,16 +34,19 @@ For practitioners, educators, and L&D teams learning to deliver Better Conversat
 
     .. grid-item-card:: :fas:`book-open` The Course
         :link: course/index.html
+        :text-align: center
 
-        Get an overiew of the course modules, structure, and content
+        Get an overview of the course modules, structure, and content
 
     .. grid-item-card:: :fas:`lightbulb` Course Design
         :link: documentation/course-design/index.html
+        :text-align: center
 
-        Understand the design philosophy and principles behind the course
+        Understand the design principles behind the course
 
     .. grid-item-card:: :fas:`tools` Delivery Resources
         :link: documentation/guides/index.html
+        :text-align: center
 
         Guides, patterns, checklists, and insights for delivering the course
 
@@ -77,16 +80,19 @@ For organisations exploring partnership with the Foundation.
 
     .. grid-item-card:: :fas:`handshake` Partnership
         :link: work-with-us/index.html
+        :text-align: center
 
         Why work with the Foundation
 
     .. grid-item-card:: :fas:`file-contract` Expectations
         :link: work-with-us/expectations.html
+        :text-align: center
 
         Understand what working with the Foundation means
 
     .. grid-item-card:: :fas:`sitemap` Governance
         :link: work-with-us/governance/index.html
+        :text-align: center
 
         Learn how we are organised and structured, and our policies
 
@@ -96,7 +102,7 @@ For organisations exploring partnership with the Foundation.
 
 - **What can you expect from us?** Read our :doc:`work-with-us/expectations` for mutual commitments.
 
-- **Questions?** Contact us at hello@betterconversations.foundation or post in the
+- **Questions?** `Contact us <https://betterconversations.foundation/about/contact>`_ or post in the
   `Community forum <https://community.betterconversations.foundation>`_ (login required).
 
 
