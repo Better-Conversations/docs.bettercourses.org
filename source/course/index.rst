@@ -5,7 +5,7 @@ The Course
 .. admonition:: Under Review
    :class: warning
 
-   This page is currently under review. The copy needs to be updated.
+   This page is currently under review.
 
 .. TODO: Add 'For Educators' section - curriculum integration, age adaptations, academic calendar considerations
 .. TODO: Add 'For Researchers' section - link to future Research track, methodology, evidence base, collaboration
@@ -170,10 +170,3 @@ Next Steps
 - **Get the materials**: :doc:`/documentation/course-materials/index` - handbook, flight plans, and more
 - **Prepare to deliver**: :doc:`/documentation/guides/index` - practical how-to guidance
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Course Resources
-   :hidden:
-
-   60-Handbook-and-emails
-   70-Versioning

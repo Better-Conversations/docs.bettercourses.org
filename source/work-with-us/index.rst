@@ -38,6 +38,7 @@ Key Information
    what-you-get
    expectations
    service-levels
+   versioning
    improvements-and-suggestions
    crediting
    course-definition
