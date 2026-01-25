@@ -65,4 +65,6 @@ Quick Links
    documentation/delivery-checklists/index
    documentation/insights/index
    work-with-us/index
+   glossary
+   fullsite-pdf
    attributions

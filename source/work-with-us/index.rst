@@ -28,6 +28,8 @@ We'd especially like to hear from you if you are a non-profit, charity or social
    improvements-and-suggestions
    crediting
    course-definition
+   assumptions
+   badges
    commercial
    behind-the-scenes/index
    governance/index
