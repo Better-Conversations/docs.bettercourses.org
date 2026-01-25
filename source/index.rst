@@ -12,6 +12,22 @@ Detailed resources for those working with Better Conversations — whether you'r
 
 Looking for an overview of the Foundation or how to get started? Visit `betterconversations.foundation <https://betterconversations.foundation>`_.
 
+---------------
+Getting Started
+---------------
+
+We add content to this site regularly, so please check back often. You may need
+to sign in with your email address for some content.
+
+- **New to the course?** Start with the `Course Overview <https://betterconversations.foundation/l/overview>`_
+  to understand the course structure and what's involved.
+
+- **Ready to deliver?** Go straight to the `Flight Plans <https://betterconversations.foundation/l/flightplans>`_
+  for detailed session-by-session delivery scripts (login required).
+
+- **Questions?** Check the :doc:`glossary` for terminology, or post in the
+  `Community forum <https://community.betterconversations.foundation>`_ (login required).
+
 -----------
 Quick Links
 -----------
@@ -57,13 +73,13 @@ Quick Links
    :numbered: 3
 
    course/index
-   documentation/index
    documentation/course-materials/index
    documentation/course-design/index
    documentation/patterns/index
    documentation/guides/index
    documentation/delivery-checklists/index
    documentation/insights/index
+   documentation/course-improvement/index
    work-with-us/index
    glossary
    fullsite-pdf
