@@ -24,8 +24,6 @@ Summary
 - We don’t give it to other people to use
 - We delete it as soon as we can
 
-.. todo::
-    This is outdated
 
 The Data we Collect and why
 ---------------------------
@@ -56,8 +54,8 @@ Where we Process your Data
 --------------------------
 
 In all cases we have confirmed our suppliers are GDPR compliant and if they
-are not storing your data in the EEA, then either the EU-US Privacy Shield
-or other controls are in place.
+are not storing your data in the EEA, then the EU-US Data Privacy Framework
+or other appropriate safeguards are in place.
 
 We use a variety of different services to run our business, and they store
 your data in different countries.
@@ -87,9 +85,6 @@ reporting requirements.
 Your Legal Rights
 -----------------
 
-.. todo::
-    contact form needs updating
-
 You can contact us `here <https://betterconversations.foundation/about/contact>`_ to request what data we have about
 you, to ask us to erase applicable data, correct mistakes etc. When you
 make a Data Subject Access Request we will ask you for additional
@@ -109,8 +104,8 @@ Cookies
 
 This is a static web site and doesn't use Cookies to track you. 
 
-We do use Fathom Analytics to track usage of this site but that doesn't
-invade your privacy. 
+We do use Umami Analytics (self-hosted) to track usage of this site but that
+doesn't invade your privacy. 
 
 
 Logging
