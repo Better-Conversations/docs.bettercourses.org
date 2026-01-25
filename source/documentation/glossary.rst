@@ -20,20 +20,20 @@ and communicate effectively with others in the community.
       The person who leads the learning experience during a Better Conversations
       session. The facilitator guides participants through activities, manages
       discussions, and creates a safe space for learning. During delivery, this
-      is a specific role within the :term:`delivery team`.
+      is a specific role within the :term:`Delivery Team`.
 
    Producer
-      A member of the :term:`delivery team` responsible for technical and
+      A member of the :term:`Delivery Team` responsible for technical and
       operational aspects during session delivery. The producer manages the
       video conferencing platform (typically Zoom), handles breakout room
-      setup and timing, monitors chat, and supports the :term:`facilitator`
+      setup and timing, monitors chat, and supports the :term:`Facilitator`
       with logistics. This role draws from theatre and broadcasting
       terminology, reflecting the "crew" metaphor used in our delivery model.
 
    Delivery Team
       The collective group responsible for running a Better Conversations
-      session. Typically includes :term:`facilitators <facilitator>`, a
-      :term:`producer`, and sometimes observers or sponsors. The delivery team
+      session. Typically includes :term:`facilitators <Facilitator>`, a
+      :term:`Producer`, and sometimes observers or sponsors. The delivery team
       works together like a crew, each with defined roles that support a
       seamless participant experience.
 
@@ -87,8 +87,8 @@ and communicate effectively with others in the community.
    Observer
       Someone who attends a Better Conversations session to learn about delivery
       without actively facilitating. Observers are often practitioners in
-      training who watch experienced :term:`facilitators <facilitator>` and
-      :term:`producers <producer>` to develop their own skills.
+      training who watch experienced :term:`facilitators <Facilitator>` and
+      :term:`producers <Producer>` to develop their own skills.
 
    Sponsor
       The person or organisation commissioning a Better Conversations course
@@ -105,12 +105,12 @@ and communicate effectively with others in the community.
 
    Afterparty
       The 30-minute debrief session held immediately after a module delivery.
-      The :term:`delivery team` uses this time to share observations, discuss
+      The :term:`Delivery Team` uses this time to share observations, discuss
       what went well, identify improvements, and capture insights while the
       experience is fresh.
 
    Briefing
       The 30-minute preparation session held before a module delivery. The
-      :term:`delivery team` uses this time to review the :term:`flight plan`,
+      :term:`Delivery Team` uses this time to review the :term:`Flight Plan`,
       confirm roles, check technical setup, and ensure everyone is ready for
       a smooth session.
