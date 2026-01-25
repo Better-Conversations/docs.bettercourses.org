@@ -130,16 +130,17 @@ class SphinxTypesenseIndexer:
         
         html_files = []
         for html_file in self.build_dir.rglob('*.html'):
-            file_path_str = str(html_file)
+            # Use POSIX-style paths for cross-platform compatibility
+            file_path_posix = html_file.as_posix()
 
             # Skip excluded files
-            if any(pattern in file_path_str for pattern in exclude_patterns):
+            if any(pattern in file_path_posix for pattern in exclude_patterns):
                 continue
             if html_file.name.startswith('_'):
                 continue
 
             # Skip files in excluded directories (hidden/WIP content)
-            if any(f'/{excluded_dir}/' in file_path_str for excluded_dir in exclude_directories):
+            if any(f'/{excluded_dir}/' in file_path_posix for excluded_dir in exclude_directories):
                 continue
 
             html_files.append(html_file)
@@ -150,10 +151,12 @@ class SphinxTypesenseIndexer:
         """Create a Typesense document from extracted content"""
         # Generate document ID with 'docs-' prefix
         relative_path = file_path.relative_to(self.build_dir)
-        doc_id = 'docs-' + str(relative_path).replace('.html', '').replace('/', '-')
-        
+        # Use as_posix() for cross-platform compatibility
+        relative_path_posix = relative_path.as_posix()
+        doc_id = 'docs-' + relative_path_posix.replace('.html', '').replace('/', '-')
+
         # Create URL slug
-        slug = '/' + str(relative_path).replace('\\', '/')
+        slug = '/' + relative_path_posix
         full_url = urljoin(self.base_url, slug)
         
         # Get file modification time as timestamp
