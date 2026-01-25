@@ -2,15 +2,18 @@
   "index_name": "bcf-content",
   "start_urls": [
     {
-      "url": "https://betterconversations.foundation/",
+      "url": "https://docs.bettercourses.org/",
       "selectors_key": "default"
     }
   ],
   "stop_urls": [
-    "https://betterconversations.foundation/_",
-    "https://betterconversations.foundation/genindex",
-    "https://betterconversations.foundation/search.html",
-    "https://betterconversations.foundation/blog.html"
+    "https://docs.bettercourses.org/_",
+    "https://docs.bettercourses.org/genindex",
+    "https://docs.bettercourses.org/search.html",
+    "https://docs.bettercourses.org/not_used/",
+    "https://docs.bettercourses.org/documentation/not_used/",
+    "https://docs.bettercourses.org/_ignore/",
+    "https://docs.bettercourses.org/to-develop/"
   ],
   "selectors": {
     "default": {

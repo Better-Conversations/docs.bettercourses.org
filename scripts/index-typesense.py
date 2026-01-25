@@ -32,7 +32,7 @@ load_dotenv('.env.typesense')
 class SphinxTypesenseIndexer:
     def __init__(self):
         """Initialize the Typesense client and configuration"""
-        self.base_url = "https://betterconversations.foundation"
+        self.base_url = "https://docs.bettercourses.org"
         self.build_dir = Path("build/html")
         
         # Initialize Typesense client
@@ -119,27 +119,44 @@ class SphinxTypesenseIndexer:
             '_sources',
             '.doctrees'
         ]
+
+        # Directories containing pages that should not be indexed
+        # These are work-in-progress, deprecated, or hidden content
+        exclude_directories = [
+            'not_used',      # Deprecated/unused content
+            '_ignore',       # Explicitly ignored content
+            'to-develop',    # Work in progress content
+        ]
         
         html_files = []
         for html_file in self.build_dir.rglob('*.html'):
+            # Use POSIX-style paths for cross-platform compatibility
+            file_path_posix = html_file.as_posix()
+
             # Skip excluded files
-            if any(pattern in str(html_file) for pattern in exclude_patterns):
+            if any(pattern in file_path_posix for pattern in exclude_patterns):
                 continue
             if html_file.name.startswith('_'):
                 continue
-                
+
+            # Skip files in excluded directories (hidden/WIP content)
+            if any(f'/{excluded_dir}/' in file_path_posix for excluded_dir in exclude_directories):
+                continue
+
             html_files.append(html_file)
-            
+
         return html_files
     
     def create_document(self, file_path: Path, content_data: Dict[str, Any]) -> Dict[str, Any]:
         """Create a Typesense document from extracted content"""
         # Generate document ID with 'docs-' prefix
         relative_path = file_path.relative_to(self.build_dir)
-        doc_id = 'docs-' + str(relative_path).replace('.html', '').replace('/', '-')
-        
+        # Use as_posix() for cross-platform compatibility
+        relative_path_posix = relative_path.as_posix()
+        doc_id = 'docs-' + relative_path_posix.replace('.html', '').replace('/', '-')
+
         # Create URL slug
-        slug = '/' + str(relative_path).replace('\\', '/')
+        slug = '/' + relative_path_posix
         full_url = urljoin(self.base_url, slug)
         
         # Get file modification time as timestamp
