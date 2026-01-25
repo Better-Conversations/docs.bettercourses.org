@@ -520,3 +520,77 @@ section#documentation-resources {
 .bd-article section:not(#documentation-resources) {
     max-width: 100%;
 }
+
+/* ============================================
+   Dropdown Styling - BCF Branding
+   ============================================ */
+
+/* Dropdown container */
+details.sd-dropdown {
+    border: none !important;
+    border-radius: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    overflow: hidden;
+    box-shadow: none !important;
+}
+
+/* Dropdown summary/header */
+details.sd-dropdown > summary {
+    background-color: #f3f4f6 !important;
+    border: none !important;
+    padding: 0.75rem 1rem !important;
+    font-weight: 500 !important;
+    color: #374151 !important;
+    transition: background-color 0.2s ease, color 0.2s ease !important;
+}
+
+/* Dropdown summary title text */
+details.sd-dropdown > summary .sd-summary-title {
+    color: #374151 !important;
+}
+
+/* Dropdown header hover */
+details.sd-dropdown > summary:hover {
+    background-color: var(--bcf-teal) !important;
+    color: white !important;
+}
+
+details.sd-dropdown > summary:hover .sd-summary-title {
+    color: white !important;
+}
+
+/* Dropdown when open */
+details.sd-dropdown[open] > summary {
+    background-color: var(--bcf-teal) !important;
+    color: white !important;
+    border: none !important;
+}
+
+details.sd-dropdown[open] > summary .sd-summary-title {
+    color: white !important;
+}
+
+/* Dropdown content area */
+details.sd-dropdown > .sd-summary-content {
+    padding: 1rem !important;
+    background-color: #f9fafb !important;
+    border: none !important;
+    color: #374151 !important;
+}
+
+/* Dropdown content text */
+details.sd-dropdown > .sd-summary-content p,
+details.sd-dropdown > .sd-summary-content li,
+details.sd-dropdown > .sd-summary-content strong {
+    color: #374151 !important;
+}
+
+/* Dropdown chevron/marker color */
+details.sd-dropdown > summary .sd-summary-icon {
+    color: #374151 !important;
+}
+
+details.sd-dropdown > summary:hover .sd-summary-icon,
+details.sd-dropdown[open] > summary .sd-summary-icon {
+    color: white !important;
+}

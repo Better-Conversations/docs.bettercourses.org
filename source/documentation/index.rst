@@ -47,6 +47,7 @@ Please note that:
    :maxdepth: 2
    :hidden:
 
+   glossary
    assumptions
    badges
    stable-links
