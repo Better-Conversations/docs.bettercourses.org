@@ -119,17 +119,31 @@ class SphinxTypesenseIndexer:
             '_sources',
             '.doctrees'
         ]
+
+        # Directories containing pages that should not be indexed
+        # These are work-in-progress, deprecated, or hidden content
+        exclude_directories = [
+            'not_used',      # Deprecated/unused content
+            '_ignore',       # Explicitly ignored content
+            'to-develop',    # Work in progress content
+        ]
         
         html_files = []
         for html_file in self.build_dir.rglob('*.html'):
+            file_path_str = str(html_file)
+
             # Skip excluded files
-            if any(pattern in str(html_file) for pattern in exclude_patterns):
+            if any(pattern in file_path_str for pattern in exclude_patterns):
                 continue
             if html_file.name.startswith('_'):
                 continue
-                
+
+            # Skip files in excluded directories (hidden/WIP content)
+            if any(f'/{excluded_dir}/' in file_path_str for excluded_dir in exclude_directories):
+                continue
+
             html_files.append(html_file)
-            
+
         return html_files
     
     def create_document(self, file_path: Path, content_data: Dict[str, Any]) -> Dict[str, Any]:
