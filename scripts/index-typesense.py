@@ -32,7 +32,7 @@ load_dotenv('.env.typesense')
 class SphinxTypesenseIndexer:
     def __init__(self):
         """Initialize the Typesense client and configuration"""
-        self.base_url = "https://betterconversations.foundation"
+        self.base_url = "https://docs.bettercourses.org"
         self.build_dir = Path("build/html")
         
         # Initialize Typesense client
