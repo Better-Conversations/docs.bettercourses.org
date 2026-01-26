@@ -7,7 +7,7 @@ as a PDF `here <current-handbook_>`_.
 It contains information about the course and also the material that's
 taught. 
 
-If you would like this branded with your logos etc. do get in touch. 
+If you would like this branded with your logos etc. do `get in touch <https://betterconversations.foundation/about/contact>`_. 
 Similarly if you want just a section of this with a specific model we
 can do this for you. 
 
