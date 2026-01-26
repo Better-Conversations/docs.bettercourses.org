@@ -27,7 +27,7 @@ def create_header(document_reference, author_datetime, commit_datetime, git_sha,
     # Use the exact same HTML structure as sphinx-design dropdown
     # Match the Related Resources format exactly
 
-    dropdown_html = f'''<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3 qms-header">
+    dropdown_html = f'''<hr class="qms-header-divider"><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3 qms-header">
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">Document Information</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <ul class="simple">
