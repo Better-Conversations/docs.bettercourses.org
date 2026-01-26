@@ -22,12 +22,15 @@ def normalize_author_name(name: str) -> str:
     return AUTHOR_NAME_MAP.get(name, name)
 
 
-def create_header(document_reference, author_datetime, commit_datetime, git_sha, last_author):
+def create_header(document_reference, author_datetime, commit_datetime, git_sha, last_author, include_hr=False):
     """Create the QMS header using sphinx-design dropdown HTML structure."""
     # Use the exact same HTML structure as sphinx-design dropdown
     # Match the Related Resources format exactly
 
-    dropdown_html = f'''<hr class="qms-header-divider"><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3 qms-header">
+    # Add hr before the dropdown if the page doesn't have a Related Resources section
+    hr_html = '<hr class="qms-header-divider">' if include_hr else ''
+
+    dropdown_html = f'''{hr_html}<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3 qms-header">
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">Document Information</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <ul class="simple">
@@ -162,12 +165,22 @@ def add_qms_header_to_doctree(app, doctree, docname):
     else:
         commit_datetime = "unknown"
 
+    # Check if the page has a Related Resources dropdown (preceded by hr)
+    # If not, we need to add an hr before Document Information
+    has_related_resources = False
+
+    # Check the full doctree text content for "Related Resources"
+    doctree_text = doctree.astext()
+    if 'Related Resources' in doctree_text:
+        has_related_resources = True
+
     header = create_header(
         document_reference,
         author_datetime,
         commit_datetime,
         git_sha,
-        author_name
+        author_name,
+        include_hr=not has_related_resources
     )
 
     # Append the header to the end of the document

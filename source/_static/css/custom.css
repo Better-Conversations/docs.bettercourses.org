@@ -525,10 +525,16 @@ section#documentation-resources {
 /* Dropdown container */
 details.sd-dropdown {
     border: none !important;
+    border-left: none !important;
     border-radius: 0.5rem !important;
     margin-bottom: 0.5rem !important;
     overflow: hidden;
     box-shadow: none !important;
+}
+
+/* Remove left border from summary */
+details.sd-dropdown > summary {
+    border-left: none !important;
 }
 
 /* Dropdown summary/header */
@@ -590,4 +596,30 @@ details.sd-dropdown > summary .sd-summary-icon {
 details.sd-dropdown > summary:hover .sd-summary-icon,
 details.sd-dropdown[open] > summary .sd-summary-icon {
     color: white !important;
+}
+
+/* ============================================
+   Footer Section - Related Resources & Document Information
+   ============================================ */
+
+/* Horizontal rule before footer dropdowns - consistent spacing */
+hr + details.sd-dropdown {
+    margin-top: 1.5rem !important;
+}
+
+/* The QMS header divider hr styling */
+hr.qms-header-divider {
+    margin-top: 2rem !important;
+    margin-bottom: 0 !important;
+}
+
+/* When QMS header follows an hr directly (no Related Resources) */
+hr.qms-header-divider + details.sd-dropdown.qms-header {
+    margin-top: 1.5rem !important;
+}
+
+/* Document Information dropdown - minimal gap after Related Resources */
+details.sd-dropdown.qms-header {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0 !important;
 }
