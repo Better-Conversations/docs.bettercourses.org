@@ -156,21 +156,17 @@ making it available under a `Creative Commons license (Attribution-ShareAlike
 this material and build their own work on top of it.
 
 The Foundation undertakes a number of activities to support people in
-delivering the course that are outlined in the :doc:`/work-with-us/index` section.
+delivering the course that are outlined in the :doc:`/documentation/work-with-us/index` section.
 
 Note that accessing the course content requires you to log in with your email
 address.
 
 ----
 
-.. Navigation pattern: Each section index page ends with "Next Steps" or "Related Resources"
-   offering three paths: one revision/back path + two forward paths. This creates connected
-   navigation through the documentation. Keep descriptions short (2-4 words after the dash).
+.. dropdown:: Related Resources
+   :animate: fade-in
 
-Next Steps
-----------
-
-- **Understand the design**: :doc:`/documentation/course-design/index` - why the course is designed this way
-- **Get the materials**: :doc:`/documentation/course-materials/index` - handbook, flight plans, and more
-- **Learn to deliver**: :doc:`/documentation/guides/index` - practical how-to guidance
+   - **Understand the design**: :doc:`/documentation/course-design/index` - why the course is designed this way
+   - **Get the materials**: :doc:`/documentation/course-materials/index` - handbook, flight plans, and more
+   - **Learn to deliver**: :doc:`/documentation/guides/index` - practical how-to guidance
 

@@ -71,13 +71,9 @@ The result is a course designed to be:
 
 ----
 
-.. Navigation pattern: Each section index page ends with "Next Steps" or "Related Resources"
-   offering three paths: one revision/back path + two forward paths. This creates connected
-   navigation through the documentation. Keep descriptions short (2-4 words after the dash).
+.. dropdown:: Related Resources
+   :animate: fade-in
 
-Next Steps
-----------
-
-- **Review the course**: :doc:`/course/index` - revisit modules and structure
-- **Get practical**: :doc:`/documentation/guides/index` - delivery guidance
-- **See what works**: :doc:`/documentation/patterns/index` - proven techniques
+   - **Review the course**: :doc:`/documentation/course/index` - revisit modules and structure
+   - **Get practical**: :doc:`/documentation/guides/index` - delivery guidance
+   - **See what works**: :doc:`/documentation/patterns/index` - proven techniques

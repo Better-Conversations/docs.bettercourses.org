@@ -33,7 +33,7 @@ For practitioners, educators, and L&D teams learning to deliver Better Conversat
     :gutter: 3
 
     .. grid-item-card:: :fas:`book-open` The Course
-        :link: course/index.html
+        :link: documentation/course/index.html
         :text-align: center
 
         Get an overview of the course modules, structure, and content
@@ -79,28 +79,28 @@ For organisations exploring partnership with the Foundation.
     :gutter: 3
 
     .. grid-item-card:: :fas:`handshake` Partnership
-        :link: work-with-us/index.html
+        :link: documentation/work-with-us/index.html
         :text-align: center
 
         Why work with the Foundation
 
     .. grid-item-card:: :fas:`file-contract` Expectations
-        :link: work-with-us/expectations.html
+        :link: documentation/work-with-us/partnership/expectations.html
         :text-align: center
 
         Understand what working with the Foundation means
 
     .. grid-item-card:: :fas:`sitemap` Governance
-        :link: work-with-us/governance/index.html
+        :link: documentation/governance/index.html
         :text-align: center
 
         Learn how we are organised and structured, and our policies
 
 **Quick start:**
 
-- **What support is available?** See :doc:`work-with-us/what-you-get` for how the Foundation helps partners.
+- **What support is available?** See :doc:`documentation/work-with-us/partnership/what-you-get` for how the Foundation helps partners.
 
-- **What can you expect from us?** Read our :doc:`work-with-us/expectations` for mutual commitments.
+- **What can you expect from us?** Read our :doc:`documentation/work-with-us/partnership/expectations` for mutual commitments.
 
 - **Questions?** `Contact us <https://betterconversations.foundation/about/contact>`_ or post in the
   `Community forum <https://community.betterconversations.foundation>`_ (login required).
@@ -114,7 +114,7 @@ For organisations exploring partnership with the Foundation.
    :hidden:
    :numbered: 3
 
-   course/index
+   documentation/course/index
    documentation/course-design/index
    documentation/course-materials/index
    documentation/guides/index
@@ -127,13 +127,17 @@ For organisations exploring partnership with the Foundation.
    :hidden:
    :numbered: 3
 
-   work-with-us/index
+   documentation/work-with-us/index
+   documentation/using-the-course/index
+   documentation/community/index
+   documentation/governance/index
 
 .. toctree::
    :maxdepth: 1
    :caption: Reference
    :hidden:
 
+   documentation/behind-the-scenes/index
    glossary
    stable-links
    fullsite-pdf

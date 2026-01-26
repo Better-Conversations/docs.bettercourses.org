@@ -10,7 +10,7 @@ We encourage people to take what we've done and do their own thing with it; a
 reasonable question is "at what point does it become a different course?". This 
 is particularly important when people want to call their course "Better Conversations" 
 and refer to the Better Conversations Foundation. It also defines who is eligible for
-badges and certification as described in the `badges documentation </documentation/badges.html>`_.
+badges and certification as described in the `badges documentation </documentation/work-with-us/certificates/badges.html>`_.
 
 If you want to call your course “Better Conversations”, and associate yourself with 
 The Foundation, then this is what we need you to do.

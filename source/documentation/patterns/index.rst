@@ -34,7 +34,7 @@ Transparency matters to us. By documenting both our reliable patterns and flexib
 
 These patterns and guidance aren't set in stone. They evolve as we learn. If you discover variations that work well, or if something doesn't work in your context, we want to know! Your experience contributes to the collective learning that makes Better Conversations better for everyone.
 
-Whether you're delivering our course or designing your own, these patterns provide tested starting points. Use what serves you, adapt what needs adapting, and please share what you learn with us. You can do this by `contacting us directly <https://betterconversations.foundation/contact/>`_ or by `posting in our community <https://community.betterconversations.foundation>`_.
+Whether you're delivering our course or designing your own, these patterns provide tested starting points. Use what serves you, adapt what needs adapting, and please share what you learn with us. You can do this by `contacting us directly <https://betterconversations.foundation/about/contact>`_ or by `posting in our community <https://community.betterconversations.foundation>`_.
 
 ----
 
@@ -66,13 +66,9 @@ Patterns are the processes and techniques that we have found to be effective in 
 
 ----
 
-.. Navigation pattern: Each section index page ends with "Next Steps" or "Related Resources"
-   offering three paths: one revision/back path + two forward paths. This creates connected
-   navigation through the documentation. Keep descriptions short (2-4 words after the dash).
+.. dropdown:: Related Resources
+   :animate: fade-in
 
-Related Resources
------------------
-
-- **Review the guides**: :doc:`/documentation/guides/index` - practical how-to guidance
-- **Learn from experience**: :doc:`/documentation/insights/index` - learnings from hundreds of sessions
-- **Share your discoveries**: :doc:`/work-with-us/improvements-and-suggestions` - contribute your patterns
+   - **Review the guides**: :doc:`/documentation/guides/index` - practical how-to guidance
+   - **Learn from experience**: :doc:`/documentation/insights/index` - learnings from hundreds of sessions
+   - **Share your discoveries**: :doc:`/documentation/community/improvements-and-suggestions` - contribute your patterns

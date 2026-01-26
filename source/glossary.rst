@@ -41,7 +41,7 @@ and communicate effectively with others in the community.
       An individual or organisation in a formal relationship with the Better
       Conversations Foundation. Partners are authorised to deliver the Better
       Conversations course commercially and receive ongoing support from the
-      Foundation. See :doc:`/work-with-us/index` for more information.
+      Foundation. See :doc:`/documentation/work-with-us/index` for more information.
 
    Flight Plan
       A detailed design-and-delivery document for running a Better Conversations

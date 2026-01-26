@@ -18,16 +18,12 @@ For shareable URLs that always point to the latest versions, see :doc:`/stable-l
 
 ----
 
-.. Navigation pattern: Each section index page ends with "Next Steps" or "Related Resources"
-   offering three paths: one revision/back path + two forward paths. This creates connected
-   navigation through the documentation. Keep descriptions short (2-4 words after the dash).
+.. dropdown:: Related Resources
+   :animate: fade-in
 
-Related Resources
------------------
-
-- **Understand the design**: :doc:`/documentation/course-design/index` - why the course is designed this way
-- **Learn to deliver**: :doc:`/documentation/guides/index` - practical how-to guidance
-- **See what works**: :doc:`/documentation/patterns/index` - proven techniques
+   - **Understand the design**: :doc:`/documentation/course-design/index` - why the course is designed this way
+   - **Learn to deliver**: :doc:`/documentation/guides/index` - practical how-to guidance
+   - **See what works**: :doc:`/documentation/patterns/index` - proven techniques
 
 .. toctree::
    :hidden:

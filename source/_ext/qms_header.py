@@ -23,45 +23,26 @@ def normalize_author_name(name: str) -> str:
 
 
 def create_header(document_reference, author_datetime, commit_datetime, git_sha, last_author):
-    """Create the QMS header as a collapsible details element."""
-    # Create a collapsible details element with accessibility attributes
-    details_open = nodes.raw('', '<details class="qms-header" role="group" aria-label="Document information"><summary aria-expanded="false">Document Information</summary>', format='html')
-    details_close = nodes.raw('', '</details>', format='html')
+    """Create the QMS header using sphinx-design dropdown HTML structure."""
+    # Use the exact same HTML structure as sphinx-design dropdown
+    # Match the Related Resources format exactly
 
-    header_list = nodes.bullet_list()
+    dropdown_html = f'''<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3 qms-header">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Document Information</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Reference:</strong> {document_reference}</p></li>
+<li><p class="sd-card-text"><strong>Last Edited By:</strong> {last_author}</p></li>
+<li><p class="sd-card-text"><strong>Last Edited:</strong> {author_datetime}</p></li>
+<li><p class="sd-card-text"><strong>Effective from:</strong> {commit_datetime}</p></li>
+<li><p class="sd-card-text"><strong>Git Commit:</strong> <a class="reference external" href="{gh_repo_url}/commit/{git_sha}">{git_sha}</a></p></li>
+<li><p class="sd-card-text"><strong>Note:</strong> This is the current approved version. Printed or downloaded copies may be superseded; refer to <a class="reference external" href="{docs_site_url}">docs.bettercourses.org</a> for the authoritative version.</p></li>
+</ul>
+</div>
+</details>'''
 
-    # Document reference (file path)
-    header_list += create_item("Reference", document_reference)
-
-    # Last Edited By
-    header_list += create_item("Last Edited By", last_author)
-
-    # Last Edited (author date - when changes were made)
-    header_list += create_item("Last Edited", author_datetime)
-
-    # Effective from (commit date - when this version was approved/merged)
-    header_list += create_item("Effective from", commit_datetime)
-
-    # Git Commit with link to commit on GitHub
-    commit_link = nodes.reference(refuri=f"{gh_repo_url}/commit/{git_sha}")
-    commit_link += nodes.Text(git_sha)
-    header_list += create_item("Git Commit", commit_link)
-
-    # Document status note - deployed = approved
-    note_para = nodes.paragraph()
-    note_para += nodes.Text("This is the current approved version. Printed or downloaded copies may be superseded; refer to ")
-    docs_link = nodes.reference(refuri=docs_site_url)
-    docs_link += nodes.Text("docs.bettercourses.org")
-    note_para += docs_link
-    note_para += nodes.Text(" for the authoritative version.")
-    header_list += create_item("Note", note_para)
-
-    # Return wrapped in details element
     container = nodes.container()
-    container += details_open
-    container += header_list
-    container += details_close
-
+    container += nodes.raw('', dropdown_html, format='html')
     return container
 
 

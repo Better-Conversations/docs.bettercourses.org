@@ -30,8 +30,8 @@ Attendee badges can be issued by:
 
 Note that the Foundation reserves the right to withdraw approval for any of the above at any time.
 
-Whilst we don't mind what you call your course, you must give "Better Conversations" as defined 
-[here](/work-with-us/course-definition) which 
+Whilst we don't mind what you call your course, you must give "Better Conversations" as defined
+[here](/documentation/using-the-course/course-definition) which
 includes following the flight plans, and delivering at least modules 1-5.
 
 

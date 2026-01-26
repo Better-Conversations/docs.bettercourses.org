@@ -53,6 +53,6 @@ from people how they've used our work. You can send us fan mail and feedback
 Commercial Support
 ------------------
 
-We offer commercial support for our courses `via our commercial arm </work-with-us/commercial.html>`_.
+We offer commercial support for our courses `via our commercial arm </documentation/work-with-us/commercial.html>`_.
 Please `contact us <https://betterconversations.foundation/about/contact>`_ to discuss your needs.
 

@@ -29,9 +29,9 @@ author = 'The Better Conversations Foundation'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-     'myst_parser', 
-     'sphinx.ext.todo', 
-     'sphinx_last_updated_by_git', 
+     'myst_parser',
+     'sphinx.ext.todo',
+     'sphinx_last_updated_by_git',
      'sphinx.ext.intersphinx',
     #  'ablog', - note we conditionally add this in the following block
      # 'sphinx_external_toc',
@@ -40,6 +40,7 @@ extensions = [
      "sphinx_design",
      "sphinx_design_elements",
      "sphinx_tags",
+     "sphinx_multitoc_numbering",
      "sphinxcontrib.mermaid",
      "sphinx.ext.graphviz",
      "qms_header",
@@ -71,7 +72,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.git',
 # Ensure that PDFs are copied to the site by specifying the directories containing PDFs in the html_extra_path.
 # This will copy the contents of the 'downloads' directory to the root of the build.
 
-html_extra_path = ['robots.txt']
+html_extra_path = ['robots.txt', 'downloads']
 
 
 # Note everything in this folder will be copied to the root of the build
@@ -206,11 +207,11 @@ html_last_updated_fmt = ""
 
 rst_prolog = """
 
-.. _current-overview: /downloads/BC%20Course%20Overview.pdf
+.. _current-overview: /BC%20Course%20Overview.pdf
 
-.. _current-handbook: /downloads/BC%20Course%20Handbook.pdf
+.. _current-handbook: /BC%20Course%20Handbook.pdf
 
-.. _current-flipcharts: /downloads/BC%20Course%20Flipcharts.pdf
+.. _current-flipcharts: /BC%20Course%20Flipcharts.pdf
 
 .. raw:: html
 
@@ -235,7 +236,7 @@ rst_prolog = """
 
 redirects = {
     # Old docs site paths → new locations
-    "documentation/200-the_course.index.html": "/course/index.html",
+    "documentation/200-the_course.index.html": "documentation/course/index.html",
     "documentation/800-resources/email-templates.html": "/documentation/course-materials/email_templates.html",
     # Old blog paths → BCF main site blog
     "2023/05/02/modelling-sales.html": "https://betterconversations.foundation/blog/modelling-sales",
