@@ -14,7 +14,7 @@ of other material as well.
 Unfortunately due to technical limitations the PDF does not
 contain blog posts. 
 
-.. image:: /_static/images/PDF_32.png
+.. image:: _static/images/PDF_32.png
    :width: 32px
    :target: https://betterconversations.foundation/documentation/betterconversations-foundation.pdf
    :alt: Download PDF

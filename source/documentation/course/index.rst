@@ -46,7 +46,7 @@ the Better Conversations course. It covers:
       :link: /downloads/BC%20Course%20Overview.pdf
       :link-type: url
 
-      .. image:: /_static/images/course-overview-page.png
+      .. image:: ../../_static/images/course-overview-page.png
          :alt: BC Course Overview example page
          :align: center
          :width: 500px

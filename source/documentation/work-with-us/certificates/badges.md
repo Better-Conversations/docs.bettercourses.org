@@ -5,7 +5,7 @@ The Foundation is able to issue badges to participants who have completed the co
 You can see an example on [Chandima's LinkedIn profile](https://www.linkedin.com/in/chandimadutton/) which looks like this:
 
 <p align="center">
-  <img src="/_static/images/chandima-certifications.png" alt="Chandima's LinkedIn Badges">
+  <img src="../../../../_static/images/chandima-certifications.png" alt="Chandima's LinkedIn Badges">
 </p>
 
 ## Badges we issue
