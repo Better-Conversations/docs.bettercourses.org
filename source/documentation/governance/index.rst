@@ -10,7 +10,7 @@ anything magnificent sharing this, but it's good to be open about it.)
 
 - :doc:`structure` - how the Foundation is structured
 - :doc:`articles/index` - our articles of association
-- :doc:`board/index` - board meetings and minutes
+- :doc:`board/index` - board members and governance
 - :doc:`members` - Foundation membership
 - :doc:`ip-policy` - intellectual property policy
 

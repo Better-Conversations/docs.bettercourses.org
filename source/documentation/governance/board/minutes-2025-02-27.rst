@@ -1,3 +1,5 @@
+:orphan:
+
 ========================================
 Board Meeting - 27th February 2025
 ========================================
@@ -23,7 +25,6 @@ Minutes
    its invitation to participate in Foundation activities from two individuals. This 
    does not fall within the scope of the Community Code of Coduct. 
 6. The meeting was adjourned at 14:36 PM.
-
 
 
 
