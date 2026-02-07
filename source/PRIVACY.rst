@@ -11,8 +11,7 @@ on this web site.
 
 We don’t share or use your data except as described in this Privacy Notice.
 
-The Data Controller for GDPR purposes is The Better Conversations
-Foundation Ltd.
+The Data Controller for GDPR purposes is Amphora Research Systems Ltd.
 
 
 Summary

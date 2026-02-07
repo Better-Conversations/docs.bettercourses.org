@@ -35,7 +35,7 @@ CookieConsent.run({
                     acceptAllBtn: "Accept all",
                     acceptNecessaryBtn: "Reject all",
                     showPreferencesBtn: "Manage preferences",
-                    footer: "<a href=\"/PRIVACY.html\">Privacy Policy</a>\n<a href=\"#link\">Terms and conditions</a>"
+                    footer: "<a href=\"/PRIVACY.html\">Privacy Policy</a>\n<a href=\"https://betterconversations.foundation/about/contact\">Contact</a>"
                 },
                 preferencesModal: {
                     title: "Consent Preferences Center",
@@ -61,7 +61,7 @@ CookieConsent.run({
                         },
                         {
                             title: "More information",
-                            description: "For any query in relation to my policy on cookies and your choices, please <a class=\"cc__link\" href=\"/about/contact.html\">contact me</a>."
+                            description: "For any query in relation to our policy on cookies and your choices, please <a class=\"cc__link\" href=\"https://betterconversations.foundation/about/contact\">contact us</a>."
                         }
                     ]
                 }
