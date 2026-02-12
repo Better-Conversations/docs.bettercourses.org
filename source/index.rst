@@ -138,6 +138,9 @@ For organisations exploring partnership with the Foundation.
    :hidden:
 
    documentation/behind-the-scenes/index
+   PRIVACY
+   COPYRIGHT
+   download-agreement
    glossary
    stable-links
    fullsite-pdf

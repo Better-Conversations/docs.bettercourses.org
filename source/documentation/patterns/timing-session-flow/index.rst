@@ -1,3 +1,5 @@
+:orphan:
+
 .. _timing-session-flow-patterns:
 
 ================================

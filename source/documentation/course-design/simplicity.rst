@@ -1,3 +1,5 @@
+:orphan:
+
 Simplicity can increase impact
 ==============================
 

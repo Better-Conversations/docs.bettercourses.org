@@ -1,3 +1,5 @@
+:orphan:
+
 Be systemic in your outlook
 ===========================
 

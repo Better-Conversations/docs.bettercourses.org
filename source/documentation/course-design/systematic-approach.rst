@@ -1,3 +1,5 @@
+:orphan:
+
 Be systematic in your approach
 ==============================
 
