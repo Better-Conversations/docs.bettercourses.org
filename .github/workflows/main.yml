@@ -37,6 +37,29 @@ jobs:
         run: |
           git config --global --add safe.directory /__w/docs.bettercourses.org/docs.bettercourses.org
 
+      # Detect local cache server (Squid proxy on 192.168.13.3:3128).
+      # Silently skipped when unreachable (e.g. GitHub-hosted runners).
+      - name: Detect cache server
+        id: cache
+        shell: bash
+        run: |
+          if python3 -c "import socket; socket.create_connection(('192.168.13.3', 3128), timeout=2).close()" 2>/dev/null; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+            echo "Cache server is reachable"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "Cache server not reachable – using direct downloads"
+          fi
+
+      - name: Configure cache proxies
+        if: steps.cache.outputs.available == 'true'
+        shell: bash
+        run: |
+          echo "http_proxy=http://192.168.13.3:3128"   >> "$GITHUB_ENV"
+          echo "https_proxy=http://192.168.13.3:3128"  >> "$GITHUB_ENV"
+          echo "HTTP_PROXY=http://192.168.13.3:3128"   >> "$GITHUB_ENV"
+          echo "HTTPS_PROXY=http://192.168.13.3:3128"  >> "$GITHUB_ENV"
+
       - name: Install Sphinx
         shell: bash
         run: |

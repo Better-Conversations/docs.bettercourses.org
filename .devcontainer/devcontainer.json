@@ -72,6 +72,6 @@
 
 		// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
-	"postCreateCommand": "pip install linkchecker && sh development_autobuild.sh"
+	"postCreateCommand": "if python3 -c 'import socket; socket.create_connection((\"192.168.13.3\", 3128), timeout=2).close()' 2>/dev/null; then export http_proxy=http://192.168.13.3:3128 https_proxy=http://192.168.13.3:3128; echo 'Using Squid proxy'; fi && pip install linkchecker && sh development_autobuild.sh"
 
 }
