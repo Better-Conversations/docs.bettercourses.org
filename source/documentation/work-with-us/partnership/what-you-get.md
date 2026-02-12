@@ -58,7 +58,7 @@ We will update this page with any updates to the support we can provide.
 ## Where can I find out more?
 
 Our intention is to enable others. You can find detailed documentation, guidance and materials in the
-[Course Documentation](/documentation/course/index.html)
+{doc}`Course Documentation </documentation/course/index>`
 section of this site.
 
 Please note that for some of the content you'll need to sign in with your email address.

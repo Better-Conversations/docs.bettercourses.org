@@ -35,8 +35,8 @@ spaces may affect a person's ability to participate within them.
 
 If you believe someone is violating the code of conduct, we ask that you
 report it by emailing `contacting us here <https://betterconversations.foundation/about/contact>`_. For more
-details please see our `Reporting Guidelines
-/documentation/community/coc-reporting.html>`_.
+details please see our
+:doc:`Reporting Guidelines </documentation/community/coc-reporting>`.
 
 * Be friendly and patient.
 
