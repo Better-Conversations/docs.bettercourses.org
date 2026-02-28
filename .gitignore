@@ -22,5 +22,7 @@ document_list.txt
 # Typesense configuration
 .env.typesense
 
-# Claude Code local files
-.claude/
+# Claude Code - local only (not shared)
+.claude/plans/
+.claude/settings.local.json
+CLAUDE.local.md
