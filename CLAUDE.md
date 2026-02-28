@@ -6,8 +6,8 @@ See [AGENTS.md](AGENTS.md) for repository structure, build commands, and authori
 
 There are two levels of plan:
 
-1. **High-level plans** exist as both Linear documents (in the relevant project) and local files in `.claude/plans/`. These must be kept in sync. When starting a session, compare the Linear version and the local version — if they differ, ask the user which one to use before proceeding.
-2. **Branch/task plans** are working plans for specific issues or branches. These live in `.claude/plans/` only and do not need a Linear counterpart.
+1. **High-level plans** exist as both Linear documents (in the relevant project) and local files in this repo's `.claude/plans/` directory (not the global `~/.claude/plans/`). These must be kept in sync. When starting a session, compare the Linear version and the local version — if they differ, ask the user which one to use before proceeding.
+2. **Branch/task plans** are working plans for specific issues or branches. These live in this repo's `.claude/plans/` only and do not need a Linear counterpart.
 
 **Naming convention:** Use descriptive names including the issue ID where relevant, e.g.:
 - `project-review-2026-02-28.md` (high-level)
