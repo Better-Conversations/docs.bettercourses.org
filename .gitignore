@@ -21,3 +21,6 @@ document_list.txt
 
 # Typesense configuration
 .env.typesense
+
+# Claude Code local files
+.claude/
