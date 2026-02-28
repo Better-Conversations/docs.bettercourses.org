@@ -26,8 +26,8 @@ The Pattern
 
    [What works - specific approach and why]
 
-What makes this reliable
-------------------------
+What makes this pattern reliable
+--------------------------------
 [Key elements that our experience shows are important]
 [Consider using a table to list the key elements and their importance]
 
@@ -43,8 +43,8 @@ Variations we've tested
 - **For smaller groups:** [Adjusted approach that maintains effectiveness]
 - **When time is tight:** [Shortened version that preserves key elements]
 
-Evidence this works
--------------------
+Evidence this pattern works
+---------------------------
 
 [Group by evidence type if relevant e.g. participant experience, facilitator development, operational reliability]
 

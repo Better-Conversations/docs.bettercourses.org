@@ -11,7 +11,8 @@ These patterns are the key patterns for how to deliver the course.
    :titlesonly:
 
    flight-plan-pattern
-   
+   breakout-room-pattern
+
 .. todo::
 
     - BCOBS-1126: Document patterns for co-facilitation (proven coordination approach)
