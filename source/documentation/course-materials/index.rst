@@ -12,7 +12,7 @@ This section contains the documents and resources you need to deliver Better Con
 - :doc:`flight_plans` - detailed session-by-session delivery scripts
 - :doc:`flipcharts` - visual aids and agenda templates
 - :doc:`handbook` - participant handbook with course content
-- :doc:`email_templates` - invitation and follow-up email wording
+- :doc:`email_templates` - invitation and follow-up email wording to adapt for your own deliveries
 
 For shareable URLs that always point to the latest versions, see :doc:`/stable-links`.
 
