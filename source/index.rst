@@ -10,7 +10,10 @@ Documentation and Resources
 
 This site provides detailed resources for those working with Better Conversations. Whether you're delivering the course within your organisation, integrating it into educational programmes, or conducting research, you'll find delivery guides, course materials, design rationale, and partnership guidelines here.
 
-If you want an overview of the Foundation, to join the community, to book a discovery call, or to learn about our Ambassadors, visit `betterconversations.foundation <https://betterconversations.foundation>`_.
+If you want an overview of the Foundation, to book a discovery call, or to
+learn about our Ambassadors, visit `betterconversations.foundation
+<https://betterconversations.foundation>`_. You can also `join our community
+on LinkedIn <https://www.linkedin.com/groups/18729037/>`_.
 
 We add content to this site regularly, so please check back often. You may need
 to sign in with your email address for some content.
@@ -59,7 +62,7 @@ For practitioners, educators, and L&D teams learning to deliver Better Conversat
   for detailed session-by-session delivery scripts (login required).
 
 - **Questions?** Check the :doc:`glossary` for terminology, or post in the
-  `Community forum <https://community.betterconversations.foundation>`_ (login required).
+  `LinkedIn community <https://www.linkedin.com/groups/18729037/>`_.
 
 .. raw:: html
 
@@ -103,7 +106,7 @@ For organisations exploring partnership with the Foundation.
 - **What can you expect from us?** Read our :doc:`documentation/work-with-us/partnership/expectations` for mutual commitments.
 
 - **Questions?** `Contact us <https://betterconversations.foundation/about/contact>`_ or post in the
-  `Community forum <https://community.betterconversations.foundation>`_ (login required).
+  `LinkedIn community <https://www.linkedin.com/groups/18729037/>`_.
 
 
 .. TODO: Add Research track toctree when content ready

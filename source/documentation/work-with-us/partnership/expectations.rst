@@ -32,12 +32,13 @@ We expect you to:
 
 - Play nice with everyone, using the Better Conversations skills in 
   your interactions
-- Help us make our community a safe and welcoming place for everyone
+- Help us make our `community
+  <https://www.linkedin.com/groups/18729037/>`_ a safe and welcoming place for
+  everyone
 - Be honest and candid with us and others. Say what you mean but please 
   don't be mean in how you say it.
 - Respect the conditions of the license under which make this available 
   (easy to comply with, as it's a very liberal license)
 - Be responsible in the way you market and use this material. 
-
 
 

@@ -3,7 +3,8 @@ The Better Conversations Community
 ==================================
 
 You might think Better Conversations is a course, perhaps even a set of
-flight plans. In fact, all of that comes from our community.
+flight plans. In fact, all of that comes from our `community
+<https://www.linkedin.com/groups/18729037/>`_.
 
 The Foundation is a not-for-profit organisation that exists to support the
 community.
@@ -39,4 +40,3 @@ processes, and have more severe penalties.
    coc
    coc-reporting
    improvements-and-suggestions
-   

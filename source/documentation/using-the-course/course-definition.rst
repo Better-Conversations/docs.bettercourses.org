@@ -89,7 +89,7 @@ interpreted as described in RFC 2119 which we've referenced below.
 
 - You MAY deliver the course in person. Whilst it is designed to be delivered
   remotely, we recognise that there are contexts where in-person delivery is
-  preferable or necessary. Engaging in `our community <https://community.betterconversations.foundation/>`_ 
+  preferable or necessary. Engaging in `our LinkedIn community <https://www.linkedin.com/groups/18729037/>`_
   will help you adapt the course for your own circumstances. 
 
 ---------------

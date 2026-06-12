@@ -4,7 +4,8 @@ Glossary
 
 This glossary defines key terms used throughout the Better Conversations
 documentation. Understanding these terms will help you navigate our materials
-and communicate effectively with others in the community.
+and communicate effectively with others in the `Better Conversations community
+<https://www.linkedin.com/groups/18729037/>`_.
 
 .. glossary::
    :sorted:

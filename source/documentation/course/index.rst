@@ -130,8 +130,9 @@ Support for Practitioners
 -------------------------
 
 The Foundation focuses on supporting and assisting those working with the
-course material. We provide a community of practice, regular peer support
-sessions, tailored support with marketing materials, and advice on how to
+course material. We provide a `community of practice
+<https://www.linkedin.com/groups/18729037/>`_, regular peer support sessions,
+tailored support with marketing materials, and advice on how to
 deliver the course effectively. Our peer support sessions are a great way for
 practitioners to develop their skills and confidence, and to learn from
 others delivering the course. For more detail on what we offer, see
@@ -170,4 +171,3 @@ address.
    - **Understand the design**: :doc:`/documentation/course-design/index` - why the course is designed this way
    - **Get the materials**: :doc:`/documentation/course-materials/index` - handbook, flight plans, and more
    - **Learn to deliver**: :doc:`/documentation/guides/index` - practical how-to guidance
-
