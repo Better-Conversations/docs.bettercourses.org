@@ -66,7 +66,7 @@ decision as to how to response. Responses may include:
 * An imposed vacation (i.e. asking someone to "take a week off" from the
   forum).
 * A permanent or temporary ban from some or all Better Conversations
-  Foundation spaces (the Community, experience courses, etc.)
+  Foundation spaces (the Community, Foundation events, etc.)
 * A request for a public or private apology.
 
 We'll respond within one week to the person who filed the report with

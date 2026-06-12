@@ -9,8 +9,8 @@
 
 - Anyone is welcome to use the materials and plans regardless of your 
   training experience. 
-- You must have signed up for the course to access the community support, 
-  through an invite from us or through one of our Partners.
+- You must have signed up for the course, through one of our Partners or by
+  arrangement with us, to access the community support.
 - You must credit the Foundation and honour the Creative Commons license conditions. 
 
 ## Using this material yourself
@@ -41,7 +41,7 @@ If you don’t have any prior experience as a trainer or facilitator and would s
 
 ## What kind of marketing and sales support do we offer?
 
-When we ask people who might deliver the course for us what support and resources they need to do that, we often hear that sales and marketing are the most difficult aspects for people. We are currently evolving the way we deliver marketing and sales support to trainers. Our current thinking is along the lines of providing:
+When we ask people who deliver the course what support and resources they need to do that, we often hear that sales and marketing are the most difficult aspects for people. We are currently evolving the way we deliver marketing and sales support to trainers. Our current thinking is along the lines of providing:
 
 **Course listings** If you are delivering public courses, we can list them on our websites - for example this one, that describes the course: https://marketing.betterconversations.foundation
 
