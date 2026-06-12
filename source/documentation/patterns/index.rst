@@ -28,13 +28,13 @@ Transparency matters to us. By documenting both our reliable patterns and flexib
 - Help you understand the thinking behind course design decisions
 - Support your development as a facilitator and/or producer
 - Encourage informed adaptation rather than guesswork
-- Build a community of practice where we all learn together
+- Build a `community of practice <https://www.linkedin.com/groups/18729037/>`_ where we all learn together
 
 **Your experience matters too!**
 
 These patterns and guidance aren't set in stone. They evolve as we learn. If you discover variations that work well, or if something doesn't work in your context, we want to know! Your experience contributes to the collective learning that makes Better Conversations better for everyone.
 
-Whether you're delivering our course or designing your own, these patterns provide tested starting points. Use what serves you, adapt what needs adapting, and please share what you learn with us. You can do this by `contacting us directly <https://betterconversations.foundation/about/contact>`_ or by `posting in our community <https://community.betterconversations.foundation>`_.
+Whether you're delivering our course or designing your own, these patterns provide tested starting points. Use what serves you, adapt what needs adapting, and please share what you learn with us. You can do this by `contacting us directly <https://betterconversations.foundation/about/contact>`_ or by `posting in our LinkedIn community <https://www.linkedin.com/groups/18729037/>`_.
 
 ----
 

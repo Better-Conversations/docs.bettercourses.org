@@ -129,18 +129,20 @@ see the Course Overview document above.
 Support for Practitioners
 -------------------------
 
-The Foundation provides support to practitioners to help them deliver the
-course. This includes a community of practice, tailored support with marketing
-materials and advice on how to deliver the course effectively.
+The Foundation focuses on supporting and assisting those working with the
+course material. We provide a `community of practice
+<https://www.linkedin.com/groups/18729037/>`_, regular peer support sessions,
+tailored support with marketing materials, and advice on how to
+deliver the course effectively. Our peer support sessions are a great way for
+practitioners to develop their skills and confidence, and to learn from
+others delivering the course. For more detail on what we offer, see
+:doc:`/documentation/work-with-us/partnership/what-you-get`.
 
-We run our own 'Experience Courses' and peer support sessions to help
-practitioners develop their skills and confidence. These Experience Courses are
-designed to help practitioners understand the course from the perspective of an
-attendee, and to help them develop their own style of delivery. These are run
-by experienced facilitators and are a great way to learn from others. We do
-this to provide a high quality experience for those learning to deliver the
-course. Our courses are invite-only as we want to ensure our Partners are able
-to offer their own public and bespoke courses on a commercial basis.
+We don't run courses ourselves. If you would like to experience the course as
+an attendee, or have it delivered in your organisation, please `get in touch
+<https://betterconversations.foundation/about/contact>`_ or email
+hello@betterconversations.foundation and we can connect you with expert
+trainers around the world who have experience working with us.
 
 
 Licensing
@@ -169,4 +171,3 @@ address.
    - **Understand the design**: :doc:`/documentation/course-design/index` - why the course is designed this way
    - **Get the materials**: :doc:`/documentation/course-materials/index` - handbook, flight plans, and more
    - **Learn to deliver**: :doc:`/documentation/guides/index` - practical how-to guidance
-

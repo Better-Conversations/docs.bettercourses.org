@@ -6,7 +6,7 @@ Guides
 
 These are the guides that the Foundation find useful in delivering courses - they are not meant to be prescriptive, but rather to be a starting point for you to find and adapt your own style.
 
-The Better Conversations Community is a place where you can discuss and learn from others. If you aren't already a member you can get in touch here: `hello@betterconversations.foundation <mailto:hello@betterconversations.foundation>`_
+The `Better Conversations community <https://www.linkedin.com/groups/18729037/>`_ is a place where you can discuss and learn from others.
 
 **What's available:**
 

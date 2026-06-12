@@ -58,7 +58,7 @@ The flight plans are shipped to you as PDFs, if you want to edit them you can ju
 Other Elements
 --------------
 
-Our community is run on Discourse, https://community.betterconversations.foundation with authentication via bettercourses.org
+Our community is hosted as a `LinkedIn group <https://www.linkedin.com/groups/18729037/>`_.
 
 Our support is run in Help Scout in the same instance as Amphora's. 
 
@@ -69,4 +69,3 @@ Tailscale stitches everything together. GitHub actions deploy the web sites to o
 Our Cloud servers are via Hetzner on their stunningly good value Arm-based VPS. 
 
 Badges etc. for LinkedIn are issued via Open Badge Factory.
-

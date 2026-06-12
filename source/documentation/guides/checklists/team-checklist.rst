@@ -23,7 +23,7 @@ before the Participants arrive.
       - Welcome Facilitators, Producers and Observers and facilitate short intros if needed.
     * - Context
       - Sponsor
-      - Clarify nature of session (e.g. Experience course, public course, private course), attendees, and any guidance around these areas
+      - Clarify nature of session (e.g. public course, private course), attendees, and any guidance around these areas
     * - Roles
       - Sponsor
       - Clarify roles:
@@ -85,7 +85,7 @@ before the Participants arrive.
 
     * - Variations to the flight plan
       - Sponsor
-      - * Confirm the experience courses run to the standard flight plans.
+      - * Confirm the course is running to the standard flight plans.
         * Note any pre-agreed variations to the standard flight plan, including new flight plan releases
         * Ask delivery team about any small-scale experiments or deviations from the standard flight plans
         * Ensure all delivery team members are agreed on these and it is noted in the observations log

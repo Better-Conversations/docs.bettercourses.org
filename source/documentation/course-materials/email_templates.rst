@@ -2,8 +2,9 @@
 Email Templates
 ===============
 
-When we run our "Experience Courses" our system has some standard 
-email templates. We've been asked to share them so here you are...
+From running our own courses we developed a set of standard email templates.
+We've been asked to share them, so here they are for you to adapt for your
+own deliveries...
 
 - The Invite Wording for each Module
 - The follow up Fieldwork Wording for each Module
@@ -50,7 +51,7 @@ Module 5 (Intentional Conversations)
 Fieldwork Wording
 -----------------
 
-After the session we send them an email "As a reminder here's the suggested fieldwork from the session"
+After the session we sent them an email "As a reminder here's the suggested fieldwork from the session"
 
 Module 1 (State)
   - Notice your state, and how and when it changes for you.
@@ -80,13 +81,13 @@ Module 5 (Intentional Conversations)
 Pre- and Post-Session Emails
 ----------------------------
 
-These are the emails we slot this text into. As you can see they
-are very standardised and we've just copy and pasted from 
-the app that runs bettercourses.org so there's still code in there.
+These are the emails we slotted this text into. As you can see they
+are very standardised and we've just copied and pasted from
+the app we used to run our courses, so there's still code in there.
 But hopefully that makes it easier to see how it all fits together.
 
 
-This is the email we send out before the session. It's a reminder of the session details, and the fieldwork from the session before.
+This is the email we sent out before the session. It's a reminder of the session details, and the fieldwork from the session before.
 
 .. code-block:: none
 
@@ -122,7 +123,7 @@ This is the email we send out before the session. It's a reminder of the session
 
 
 
-This is the email we send after the session.
+This is the email we sent after the session.
 
 .. code-block:: none
   
@@ -145,7 +146,9 @@ This is the email we send after the session.
 The Welcome Email
 -----------------
 
-This is our standard welcome email people get when they sign up. 
+This is the standard welcome email people got when they signed up for one of
+our courses. If you use it as a starting point, remember to swap in your own
+booking links and contact details.
 
 .. code-block:: none
 

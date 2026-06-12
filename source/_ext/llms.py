@@ -92,7 +92,7 @@ def generate_llms(docnames: list[str]):
     # Add title and description
     output.append("# Better Conversations Foundation")
     output.append("\n> Helping people connect on a human level")
-    output.append("\nThe Better Conversations Foundation helps people around the world have better conversations in their professional and private lives through training, resources and community.")
+    output.append("\nThe Better Conversations Foundation helps people around the world have better conversations in their professional and private lives through training, resources, and the LinkedIn community: https://www.linkedin.com/groups/18729037/.")
 
     # Group documents by directory
     sections = {}

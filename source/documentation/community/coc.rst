@@ -7,7 +7,7 @@ Introduction
 
 This document outlines the Code of Conduct for the Better Conversations
 community. Following a `consultation with the community
-<https://community.betterconversations.foundation/t/seeking-thoughts-on-a-code-of-conduct/557>`_,
+<https://www.linkedin.com/groups/18729037/>`_,
 the following Code of Conduct was adopted by the Board of Directors of the
 Foundation at their meeting of 27th February 2025.
 
@@ -27,8 +27,8 @@ in the spirit in which it’s intended - a guide to make it easier to enrich
 all of us and the technical communities in which we participate.
 
 This code of conduct applies to all spaces managed by the Better
-Conversations Foundation. This includes the `Community
-<https://community.betterconversations.foundation>`_, Foundation events,
+Conversations Foundation. This includes the `LinkedIn community
+<https://www.linkedin.com/groups/18729037/>`_, Foundation events,
 and any other forums created by the project team which the community uses
 for communication. In addition, violations of this code outside these
 spaces may affect a person's ability to participate within them.
@@ -120,7 +120,6 @@ So this page is unusual on this site in that the underlying Copyright is
 not held by the Foundation, but by the Django Software Foundation and made
 available under a `Creative Commons license
 <https://creativecommons.org/licenses/by/3.0/>`_.
-
 
 
 

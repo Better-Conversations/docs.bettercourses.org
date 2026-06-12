@@ -3,14 +3,14 @@
 - Free course content including participant materials and session plans. 
   No royalty payment is required for any of this.
 - Freedom to adapt the course for your own client work, no questions asked.
-- Free community support.
+- Free [community support](https://www.linkedin.com/groups/18729037/).
 
 ## Getting started
 
 - Anyone is welcome to use the materials and plans regardless of your 
   training experience. 
-- You must have signed up for the course to access the community support, 
-  through an invite from us or through one of our Partners.
+- You must have signed up for the course, through one of our Partners or by
+  arrangement with us, to access the [community support](https://www.linkedin.com/groups/18729037/).
 - You must credit the Foundation and honour the Creative Commons license conditions. 
 
 ## Using this material yourself
@@ -35,13 +35,13 @@ We have designed the Better Conversations course to enable people with prior tra
 - Our app makes it easy to collect participant feedback
 - Our app also generates a certificate of participation so that’s one less thing for a trainer to do
 
-Trainers are welcome to adapt these flight plans for their own use. We’d be delighted if you shared your adaptations and improvements in our community of practitioners so we can learn from each other.
+Trainers are welcome to adapt these flight plans for their own use. We’d be delighted if you shared your adaptations and improvements in our [community of practitioners](https://www.linkedin.com/groups/18729037/) so we can learn from each other.
 
 If you don’t have any prior experience as a trainer or facilitator and would still like to deliver this course, you would need to co-deliver a minimum of three Better Conversations courses with one of our Partners so you have the training you need to deliver the course well.
 
 ## What kind of marketing and sales support do we offer?
 
-When we ask people who might deliver the course for us what support and resources they need to do that, we often hear that sales and marketing are the most difficult aspects for people. We are currently evolving the way we deliver marketing and sales support to trainers. Our current thinking is along the lines of providing:
+When we ask people who deliver the course what support and resources they need to do that, we often hear that sales and marketing are the most difficult aspects for people. We are currently evolving the way we deliver marketing and sales support to trainers. Our current thinking is along the lines of providing:
 
 **Course listings** If you are delivering public courses, we can list them on our websites - for example this one, that describes the course: https://marketing.betterconversations.foundation
 
@@ -51,7 +51,7 @@ When we ask people who might deliver the course for us what support and resource
 
 One thing to note is that if you’ve renamed Better Conversations and claimed it as your own, that’s your right. But we can’t then provide you this marketing support.
 
-If there's other support you think might benefit a community of practitioners, please do get in touch with us.
+If there's other support you think might benefit the [community of practitioners](https://www.linkedin.com/groups/18729037/), please do get in touch with us.
 
 We will update this page with any updates to the support we can provide.
 
@@ -62,4 +62,3 @@ Our intention is to enable others. You can find detailed documentation, guidance
 section of this site.
 
 Please note that for some of the content you'll need to sign in with your email address.
-
