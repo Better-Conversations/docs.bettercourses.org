@@ -43,6 +43,13 @@ interpreted as described in RFC 2119 which we've referenced below.
   attended an Experience Course as an Observer and they MUST have observed the specific
   module that they are facilitating.
 
+  .. todo::
+
+     Review this eligibility rule now that the Foundation no longer runs
+     Experience Courses. Decide how facilitators meet the completion and
+     observation requirements through partner-delivered courses. Review
+     alongside the badge criteria in work-with-us/certificates/badges.md.
+
 - You MUST follow a flight plan. This is the core of the course and the
   foundation of everything we do. It's what we can support, along with the Handbook.
 
@@ -74,8 +81,10 @@ interpreted as described in RFC 2119 which we've referenced below.
   - Better Conversations is an experiential course and we want to encourage people
     to experience it for themselves, whilst also protecting participants' privacy.
 
-  - If people miss a session, they are welcome to attend that module with the
-    Foundation if they are unable to catch up with you, but you MUST NOT record
+  - If people miss a session and are unable to catch up with you, please `get
+    in touch <https://betterconversations.foundation/about/contact>`_ and we
+    can help connect them with another delivery of that module through the
+    expert trainers we work with. Whatever happens, you MUST NOT record
     sessions under any circumstances.
 
 - You MAY deliver the course in person. Whilst it is designed to be delivered

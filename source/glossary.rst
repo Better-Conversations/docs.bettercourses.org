@@ -98,10 +98,11 @@ and communicate effectively with others in the community.
       introduce the course and explain its relevance to participants.
 
    Experience Course
-      A Foundation-run course designed for practitioners who want to experience
-      Better Conversations from the participant perspective. Experience Courses
-      help practitioners understand the learner journey before they begin
-      delivering the course themselves.
+      A course the Foundation formerly ran for practitioners who wanted to
+      experience Better Conversations from the participant perspective before
+      delivering it themselves. The Foundation no longer runs courses; if
+      you'd like to experience the course, get in touch and we can connect
+      you with expert trainers who have experience working with us.
 
    Afterparty
       The 30-minute debrief session held immediately after a module delivery.
