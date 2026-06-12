@@ -10,4 +10,3 @@ Fancy a look behind the scenes? Here's how we work.
 
    technical-stack
    ai
-   stable-links
