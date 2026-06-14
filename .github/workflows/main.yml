@@ -111,14 +111,15 @@ jobs:
   #       id: deployment
   #       uses: actions/deploy-pages@v4
 
-# Old deployment to bcf-production-common via Tailscale
+# Deploy the built documentation to crumpet.amphora.cloud via SSH/rsync.
+# The private key comes from the CRUMPET_ACCOUNT_SSH_KEY secret (deploy environment);
+# the site is mirrored into the docs-bettercourses account's public_html, served by Caddy.
   deploy:
-    # Deploy the built documentation
     needs: build
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment: deploy
-    
+
     steps:
       - name: Download build artifact
         uses: actions/download-artifact@v4
@@ -126,16 +127,17 @@ jobs:
           name: html-build
           path: build/html
 
-      - name: Setup Tailscale
-        uses: tailscale/github-action@v3
-        with:
-          oauth-client-id: ${{ secrets.TAILSCALE_CLIENT_ID }}
-          oauth-secret: ${{ secrets.TAILSCALE_CLIENT_SECRET }}
-          tags: tag:github-content    
+      - name: Configure SSH key
+        env:
+          CRUMPET_ACCOUNT_SSH_KEY: ${{ secrets.CRUMPET_ACCOUNT_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$CRUMPET_ACCOUNT_SSH_KEY" > ~/.ssh/crumpet_key
+          chmod 600 ~/.ssh/crumpet_key
 
       - name: Deploy Site
         run: |
           rsync \
-            -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" \
+            -e "ssh -p 1970 -o StrictHostKeyChecking=no -i ~/.ssh/crumpet_key" \
             --delete -avv --progress --stats --itemize-changes \
-            build/html/ bcf-web@100.66.190.17:/home/bcf-web/html/
+            build/html/ docs-bettercourses@crumpet.amphora.cloud:public_html/

@@ -37,6 +37,18 @@ This repository contains the source for `https://docs.bettercourses.org`, built 
   - `make html`
   - `make linkcheck`
 
+## Deployment
+Deployment is handled by GitHub Actions (`.github/workflows/main.yml`):
+- On push to `main` (or manual `workflow_dispatch`), the `build` job builds the
+  Sphinx site to `build/html/` via `production_build.sh` and uploads it as the
+  `html-build` artifact.
+- The `deploy` job (gated to `main`, runs in the `deploy` environment) downloads
+  that artifact and `rsync`s it over SSH to
+  `docs-bettercourses@crumpet.amphora.cloud:public_html/` on port `1970`.
+- SSH auth uses the private key from the `CRUMPET_ACCOUNT_SSH_KEY` secret (written
+  to `~/.ssh/crumpet_key` at runtime); `StrictHostKeyChecking=no` is set.
+- Caddy on `crumpet.amphora.cloud` serves the site from `public_html`.
+
 ## Authoring Rules
 - Put new content under `source/documentation/...` in the most relevant section.
 - Add new pages to the appropriate `index.rst` `toctree`; otherwise they are easy to orphan.

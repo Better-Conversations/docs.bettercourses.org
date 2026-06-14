@@ -64,7 +64,7 @@ Our support is run in Help Scout in the same instance as Amphora's.
 
 We use Google Workspace for email and calendar, and Calendly for scheduling.
 
-Tailscale stitches everything together. GitHub actions deploy the web sites to our Cloud servers.
+GitHub Actions deploy the web sites to our Cloud servers over SSH (rsync), where Caddy serves them.
 
 Our Cloud servers are via Hetzner on their stunningly good value Arm-based VPS. 
 
