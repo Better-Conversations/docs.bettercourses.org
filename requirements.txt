@@ -10,7 +10,7 @@ sphinx-last-updated-by-git==0.3.8
 sphinx-autobuild==2024.10.3
 # sphinx-external-toc
 sphinx-design==0.6.0
-pylint==3.3.6
+pylint==4.0.9
 myst-parser==4.0.1
 pydata-sphinx-theme==0.16.1
 # sphinxcontrib-bibtex
